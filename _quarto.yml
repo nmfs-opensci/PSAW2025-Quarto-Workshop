@@ -43,8 +43,8 @@ website:
       - section: "Welcome"
         href: index.qmd
         contents:
-          - team.md
-          - schedule.md
+          # - team.md
+          - schedule.qmd
           - section: Set-up - Coming soon!
 #            - text: Git-JupyterLab
 #              href: content/02-git-jupyter.md
@@ -53,10 +53,10 @@ website:
           - coc.md
       - section: "Resources - Coming Soon!"
       - section: "Tutorials - Coming soon!"
-      - text: <img width=100px>
-      - text: <img width=100px>
-      - text: <img src="/images/noaa_emblem_logo-2022.png" width=100px>
-        href: https://fisheries.noaa.gov
+    #  - text: <img width=100px>
+    #  - text: <img width=100px>
+    #  - text: <img src="/images/noaa_emblem_logo-2022.png" width=100px>
+    #    href: https://fisheries.noaa.gov
 format:
   html:
     theme:
