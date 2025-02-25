@@ -1,0 +1,33 @@
+---
+title: "NOAA Fisheries GitHub Clinic"
+---
+
+GitHub is an important platform for many NOAA Fisheries staff and teams to share and collaborate. In 2023, an Authorization To Use for GitHub Enterprise Cloud was signed, which provides a secure, private, access-controlled and managed platform for staff. In 2024, the GitHub Governance Team (GGT) provided a series of workshops to onboard NOAA Fisheries scientists to GitHub Enterprise and provide training in the use of Git and GitHub for NOAA Fisheries. In 2025, NMFS Open Science will be leading a second iteration of these workshops to provide NOAA Fisheries staff with the necessary skills to effectively incorporate Git and GitHub into existing workflows.
+
+The GGT has outlined several use cases for why you may want to incorporate Git and GitHub into your workflows:
+
+-   Development and distribution of scientific products and fundamental research communications.
+
+-   Development of software and statistical packages for data analysis, e.g. stock assessment models.
+
+-   Project/team management using GitHub project boards, issue tracking, task tracking.
+
+-   Collaborative development of reports that combine data, resource intensive analysis, and text.
+
+-   Automated report generation (using connection to online database and continuous integration).
+
+-   Educational resources and learning activities.
+
+## Aims and Objectives of the GitHub Clinic
+
+The GitHub Clinic will consist of several components: - An introductory 2-hour introduction to Git and GitHub virtual workshop, repeated twice weekly for three weeks. These sessions will use a mixture of directed, interactive lessons and GitHub Skills to provide NOAA Fisheries staff with the knowledge required for basic repository management using Git commands, collaboration, and project management - A series of 1-hour standalone skills workshops for deeper dives into several GitHub features including advanced branch management, Git workflows, GitHub pages, and forking - Open Science Office Hours for individual help and coaching
+
+### Schedule
+
+See the [schedule page](schedule.qmd).
+
+-   Intro workshops will be given Mondays at 10am PT/1pm ET and Tuesdays at 1pm PT/4pm ET for 3 weeks starting April 7th
+    -   These are 2 hour introductory sessions to get you started with Git and GitHub
+    -   Intro sessions are identical; attend any that works for your schedule, or repeat sessions if you want to see the material twice
+-   Skills workshops will be given
+-   See the [NMFS Open Science Training Page](https://sites.google.com/noaa.gov/nmfs-hq-st-open-science/trainings) for the training calendar or add the [NMFS Open Science calendar](#0) to your calendar to see all events.
