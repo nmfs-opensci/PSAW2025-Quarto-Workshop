@@ -31,32 +31,32 @@ website:
       - icon: globe
         href: https://github.com/nmfs-opensci
         text: "GH org"
-        sidebar:
-          logo: https://github.com/nmfs-opensci/assets/blob/main/logo/nmfs-opensci-logo2.png?raw=true
-          pinned: true
-          align: center
-          
-          style: "docked"
-          collapse-level: 1
-          toc-expand: false
-          contents:
-            - section: "Welcome"
-              href: index.qmd
-              contents:
-                - team.md
-                - schedule.md
-                - section: Set-up - Coming soon!
-      #            - text: Git-JupyterLab
-      #              href: content/02-git-jupyter.md
-      #            - text: Git-RStudio
-      #              href: content/02-git-rstudio.md
-                - coc.md
-            - section: "Resources - Coming Soon!"
-            - section: "Tutorials - Coming soon!"
-            - text: <img width=100px>
-            - text: <img width=100px>
-            - text: <img src="/images/noaa_emblem_logo-2022.png" width=100px>
-              href: https://fisheries.noaa.gov
+  sidebar:
+    logo: https://github.com/nmfs-opensci/assets/blob/main/logo/nmfs-opensci-logo2.png?raw=true
+    pinned: true
+    align: center
+    
+    style: "docked"
+    collapse-level: 1
+    toc-expand: false
+    contents:
+      - section: "Welcome"
+        href: index.qmd
+        contents:
+          - team.md
+          - schedule.md
+          - section: Set-up - Coming soon!
+#            - text: Git-JupyterLab
+#              href: content/02-git-jupyter.md
+#            - text: Git-RStudio
+#              href: content/02-git-rstudio.md
+          - coc.md
+      - section: "Resources - Coming Soon!"
+      - section: "Tutorials - Coming soon!"
+      - text: <img width=100px>
+      - text: <img width=100px>
+      - text: <img src="/images/noaa_emblem_logo-2022.png" width=100px>
+        href: https://fisheries.noaa.gov
 format:
   html:
     theme:
