@@ -1,28 +1,24 @@
-# NOAAHackHours
+# 2025 NMFS GitHub Clinic - Git and GitHub for Fisheries Scientists
 
-## How to Sign Up
-
-### NOAA staff (any line office)
-
-[Click Here for Video Link](https://docs.google.com/document/d/15Wu28DGDKNsdQmW5yuFd3JJuUSn91HFxCEb3dqPxYcs/edit?usp=sharing) (NOAA only)
-
-### Non-NOAA
-
-Recording of the sessions will be posted to this website and all content is open source in the [NOAAHackDays 2025](https://github.com/nmfs-opensci/NOAAHackDays/tree/main/topics-2025) repo.
+Instructor: Jon Peake 
 
 ## Overview
 
-The the era of big data in the earth sciences is here and learning how to effectively use ocean big data, both in the cloud and on your computer, is a core skill for modern fisheries science and management. Learning how to access cloud-based data, visualize these data, use these data in models, and use the tools of modern reproducible and collaborative science is the main goal of these hackhour events. Through these events, participants will gain experience with assessing ocean big data in the cloud, R and RStudio, Python and Jupyter notebooks, and collaborating with Git and GitHub. 
+GitHub is an important platform for many NOAA Fisheries staff and teams to share and collaborate. In 2023, an Authorization To Use for GitHub Enterprise Cloud was signed, which provides a secure, private, access-controlled and managed platform for staff. In 2024, the GitHub Governance Team (GGT) provided a series of workshops to onboard NOAA Fisheries scientists to GitHub Enterprise and provide training in the use of Git and GitHub for NOAA Fisheries. In 2025, NMFS Open Science will be leading a second iteration of these workshops to provide NOAA Fisheries staff with the necessary skills to effectively incorporate Git and GitHub into existing workflows.
 
-## Aims and Objectives
+The GGT has outlined several use cases for why you may want to incorporate Git and GitHub into your workflows:
+- Development and distribution of scientific products and fundamental research communications.
+- Development of software and statistical packages for data analysis, e.g. stock assessment models.
+- Project/team management using GitHub project boards, issue tracking, task tracking.
+- Collaborative development of reports that combine data, resource intensive analysis, and text.
+- Automated report generation (using connection to online database and continuous integration).
+- Educational resources and learning activities.
 
-* Learn how to discover and use ocean data, esp 'big data' (remote-sensing, acoustics, image, sensor)
-* Familiarize participants with using ocean data in R and Python with code. 
-* Obtain hands-on experience in using ocean data for various science applications.
-* Learn by working together and going through . 
-
-
-
+## Aims and Objectives of the GitHub Clinic
+The GitHub Clinic will consist of several components:
+- An introductory 2-hour introduction to Git and GitHub virtual workshop, repeated twice weekly for three weeks. These sessions will use a mixture of directed, interactive lessons and GitHub Skills to provide NOAA Fisheries staff with the knowledge required for basic repository management using Git commands, collaboration, and project management
+- A series of 1-hour standalone skills workshops for deeper dives into several GitHub features including advanced branch management, Git workflows, GitHub pages, and forking
+- Open Science Office Hours for individual help and coaching
 
 <hr>
 
