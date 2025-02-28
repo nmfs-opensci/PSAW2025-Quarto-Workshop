@@ -1,6 +1,8 @@
 project: 
   type: website
   output-dir: docs
+  render: 
+    - content/
 
 execute:
   freeze: auto
@@ -53,10 +55,13 @@ website:
           - coc.md
       - section: "Resources - Coming Soon!"
       - section: "Tutorials - Coming soon!"
-    #  - text: <img width=100px>
-    #  - text: <img width=100px>
-    #  - text: <img src="/images/noaa_emblem_logo-2022.png" width=100px>
-    #    href: https://fisheries.noaa.gov
+      - section: "In-Person Workshops"
+        contents:
+          - content/cb_genetics.qmd
+      - text: <img width=100px>
+      - text: <img width=100px>
+      - text: <img src="/images/noaa_emblem_logo-2022.png" width=100px>
+        href: https://fisheries.noaa.gov
 format:
   html:
     theme:

@@ -87,5 +87,127 @@
       "JupyterHub",
       "Welcome"
     ]
+  },
+  {
+    "objectID": "content/why_git.html#what-is-git",
+    "href": "content/why_git.html#what-is-git",
+    "title": "What are Git and GitHub?",
+    "section": "What is Git?",
+    "text": "What is Git?\n\nProgram to track file changes and create a history of those changes\nCreates a ‘container’ for a set of files called a repository"
+  },
+  {
+    "objectID": "content/why_git.html#what-is-github",
+    "href": "content/why_git.html#what-is-github",
+    "title": "What are Git and GitHub?",
+    "section": "What is GitHub?",
+    "text": "What is GitHub?\n\nWebsite to host repositories created through Git\nAllows to sync local copies\nCollaborative software designed to organize files and track changes by different people through time\nasd"
+  },
+  {
+    "objectID": "content/cb_genetics.html#agenda",
+    "href": "content/cb_genetics.html#agenda",
+    "title": "GitHub Workshop for CG Genetics and Evolution Program",
+    "section": "Agenda",
+    "text": "Agenda\n\n10:00-10:15 Why Git/GitHub?\n10:15-10:30 GitHub Enterprise\n10:30-11:00 Introduction to GitHub\n11:00-11:30 Pull Requests and Collaboration\n11:30-11:45 Break\n11:45-12:15 Project Management\n12:15-13:00 Putting Everything Together",
+    "crumbs": [
+      "JupyterHub",
+      "In-Person Workshops",
+      "GitHub Workshop for CG Genetics and Evolution Program"
+    ]
+  },
+  {
+    "objectID": "content/cb_genetics.html#why-gitgithub",
+    "href": "content/cb_genetics.html#why-gitgithub",
+    "title": "GitHub Workshop for CG Genetics and Evolution Program",
+    "section": "Why Git/GitHub?",
+    "text": "Why Git/GitHub?",
+    "crumbs": [
+      "JupyterHub",
+      "In-Person Workshops",
+      "GitHub Workshop for CG Genetics and Evolution Program"
+    ]
+  },
+  {
+    "objectID": "content/cb_genetics.html#what-is-git",
+    "href": "content/cb_genetics.html#what-is-git",
+    "title": "What are Git and GitHub?",
+    "section": "What is Git?",
+    "text": "What is Git?\n\nProgram to track file changes and create a history of those changes\nCreates a ‘container’ for a set of files called a repository",
+    "crumbs": [
+      "JupyterHub",
+      "In-Person Workshops",
+      "GitHub Workshop for CG Genetics and Evolution Program"
+    ]
+  },
+  {
+    "objectID": "content/cb_genetics.html#what-is-github",
+    "href": "content/cb_genetics.html#what-is-github",
+    "title": "What are Git and GitHub?",
+    "section": "What is GitHub?",
+    "text": "What is GitHub?\n\nWebsite to host repositories created through Git\nAllows to sync local copies\nCollaborative software designed to organize files and track changes by different people through time",
+    "crumbs": [
+      "JupyterHub",
+      "In-Person Workshops",
+      "GitHub Workshop for CG Genetics and Evolution Program"
+    ]
+  },
+  {
+    "objectID": "content/cb_genetics.html#github-enterprise",
+    "href": "content/cb_genetics.html#github-enterprise",
+    "title": "GitHub Workshop for CG Genetics and Evolution Program",
+    "section": "GitHub Enterprise",
+    "text": "GitHub Enterprise",
+    "crumbs": [
+      "JupyterHub",
+      "In-Person Workshops",
+      "GitHub Workshop for CG Genetics and Evolution Program"
+    ]
+  },
+  {
+    "objectID": "content/cb_genetics.html#introduction-to-github",
+    "href": "content/cb_genetics.html#introduction-to-github",
+    "title": "GitHub Workshop for CG Genetics and Evolution Program",
+    "section": "Introduction to GitHub",
+    "text": "Introduction to GitHub",
+    "crumbs": [
+      "JupyterHub",
+      "In-Person Workshops",
+      "GitHub Workshop for CG Genetics and Evolution Program"
+    ]
+  },
+  {
+    "objectID": "content/cb_genetics.html#pull-requests-and-collaboration",
+    "href": "content/cb_genetics.html#pull-requests-and-collaboration",
+    "title": "GitHub Workshop for CG Genetics and Evolution Program",
+    "section": "Pull Requests and Collaboration",
+    "text": "Pull Requests and Collaboration",
+    "crumbs": [
+      "JupyterHub",
+      "In-Person Workshops",
+      "GitHub Workshop for CG Genetics and Evolution Program"
+    ]
+  },
+  {
+    "objectID": "content/cb_genetics.html#project-management",
+    "href": "content/cb_genetics.html#project-management",
+    "title": "GitHub Workshop for CG Genetics and Evolution Program",
+    "section": "Project Management",
+    "text": "Project Management",
+    "crumbs": [
+      "JupyterHub",
+      "In-Person Workshops",
+      "GitHub Workshop for CG Genetics and Evolution Program"
+    ]
+  },
+  {
+    "objectID": "content/cb_genetics.html#putting-everything-together",
+    "href": "content/cb_genetics.html#putting-everything-together",
+    "title": "GitHub Workshop for CG Genetics and Evolution Program",
+    "section": "Putting Everything Together",
+    "text": "Putting Everything Together",
+    "crumbs": [
+      "JupyterHub",
+      "In-Person Workshops",
+      "GitHub Workshop for CG Genetics and Evolution Program"
+    ]
   }
 ]
