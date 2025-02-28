@@ -1,0 +1,24 @@
+---
+title: "What are Git and GitHub?"
+subtitle: "...and why use them?"
+author: "Jonathan Peake"
+format: 
+    revealjs:
+        theme: dark
+---
+
+## What is Git?
+
+-   Program to track file changes and create a history of those changes
+
+-   Creates a 'container' for a set of files called a **repository**
+
+## What is GitHub?
+
+-   Website to host repositories created through Git
+
+-   Allows to sync local copies
+
+-   Collaborative software designed to organize files and track changes by different people through time
+
+-

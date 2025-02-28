@@ -1,6 +1,8 @@
 project: 
   type: website
   output-dir: docs
+  render: 
+    - content/
 
 execute:
   freeze: auto
@@ -55,12 +57,11 @@ website:
       - section: "Tutorials - Coming soon!"
       - section: "In-Person Workshops"
         contents:
-          - text: CB Genetics and Evolution Program
-            href: content/inperson/cb_genetics.qmd
-    #  - text: <img width=100px>
-    #  - text: <img width=100px>
-    #  - text: <img src="/images/noaa_emblem_logo-2022.png" width=100px>
-    #    href: https://fisheries.noaa.gov
+          - content/cb_genetics.qmd
+      - text: <img width=100px>
+      - text: <img width=100px>
+      - text: <img src="/images/noaa_emblem_logo-2022.png" width=100px>
+        href: https://fisheries.noaa.gov
 format:
   html:
     theme:
