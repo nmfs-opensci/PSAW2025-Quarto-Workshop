@@ -1,5 +1,5 @@
 ---
-title: GitHub Workshop for CG Genetics and Evolution Program
+title: GitHub Workshop for CB Genetics and Evolution Program
 date: '2025-03-05'
 format: html
 ---
@@ -16,9 +16,7 @@ format: html
 
 ## Why Git/GitHub?
 
-```{=html}
 <iframe class="slide-deck" src="why_git.html" width=900 height=600></iframe></iframe>
-```
 
 ## GitHub Enterprise
 
