@@ -1,94 +1,5 @@
 [
   {
-    "objectID": "schedule.html",
-    "href": "schedule.html",
-    "title": "Schedule",
-    "section": "",
-    "text": "All times Pacific. Note material marked * is NOAA access restricted.\n\n\n\n\n\n\n\n\n\n\nDate\nTopic\nDescription\nMaterial\nVideo Links\n\n\n\n\nMon 4/7, 4/14 & 4/21\nTues 4/8, 4/15 & 4/22\nIntroduction to Git and GitHub\nBasics of git commands, repository management, project management, and collaboration using GitHub\nComing soon!",
-    "crumbs": [
-      "JupyterHub",
-      "Welcome",
-      "Schedule"
-    ]
-  },
-  {
-    "objectID": "content/reuse.html",
-    "href": "content/reuse.html",
-    "title": "Reuse Statement",
-    "section": "",
-    "text": "This content is released under CC0 Creative Commons.\nPermissive Re-Mix and No Attribution Needed: You may reuse the content in this repository—excluding the NMFS Open Science logo and any NOAA logos—in any way you like. You do not need permission. You do not need to give attribution, but if you use large parts of tutorials or content it is polite to give acknowledgement of the source. Please check each NMFS Open Science repository for its reuse statement. Some of the content is from Carl Boettiger and from NASA Openscapes. This will be noted and you should check the original content for its reuse statement."
-  },
-  {
-    "objectID": "coc.html",
-    "href": "coc.html",
-    "title": "Code of Conduct",
-    "section": "",
-    "text": "We are dedicated to providing a harassment-free learning experience for everyone. We do not tolerate harassment of participants in any form. Sexual language and imagery is not appropriate either in-person or virtual form, including the Discussion boards and Chats. Participants (including event volunteers and organizers) violating these rules may be sanctioned or expelled from the event at the discretion of the organizers.",
-    "crumbs": [
-      "JupyterHub",
-      "Welcome",
-      "Code of Conduct"
-    ]
-  },
-  {
-    "objectID": "coc.html#definition-of-harassment",
-    "href": "coc.html#definition-of-harassment",
-    "title": "Code of Conduct",
-    "section": "Definition of Harassment",
-    "text": "Definition of Harassment\nHarassment includes, but is not limited to:\n\nVerbal comments that harass based on sexual orientation, disability, physical appearance, body size, race, age, religion.\nSexual images in public spaces\nDeliberate intimidation, stalking, or following\nHarassing photography or recording\nSustained disruption of talks or other events\nInappropriate physical contact\nUnwelcome sexual attention\nAdvocating for, or encouraging, any of the above behavior",
-    "crumbs": [
-      "JupyterHub",
-      "Welcome",
-      "Code of Conduct"
-    ]
-  },
-  {
-    "objectID": "coc.html#expectations",
-    "href": "coc.html#expectations",
-    "title": "Code of Conduct",
-    "section": "Expectations",
-    "text": "Expectations\nParticipants asked to stop any harassing behavior are expected to comply immediately. If a participant engages in harassing behavior, the organizers retain the right to take any actions to keep the event a welcoming environment for all participants. This includes warning the offender or expulsion from the event.\nThe organizers may take action to redress anything designed to, or with the clear impact of, disrupting the event or making the environment hostile for any participants. We expect participants to follow these rules at all the event venues and event-related social activities.",
-    "crumbs": [
-      "JupyterHub",
-      "Welcome",
-      "Code of Conduct"
-    ]
-  },
-  {
-    "objectID": "coc.html#reporting-a-violation",
-    "href": "coc.html#reporting-a-violation",
-    "title": "Code of Conduct",
-    "section": "Reporting a violation",
-    "text": "Reporting a violation\nHarassment and other code of conduct violations reduce the value of the event for everyone. If someone makes you or anyone else feel unsafe or unwelcome, please report it as soon as possible.\nIf you feel comfortable contacting someone associated with our event, you may speak with one of the event organizers in person or contact an organizer on a private channel.",
-    "crumbs": [
-      "JupyterHub",
-      "Welcome",
-      "Code of Conduct"
-    ]
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "NOAA Fisheries GitHub Clinic",
-    "section": "",
-    "text": "GitHub is an important platform for many NOAA Fisheries staff and teams to share and collaborate. In 2023, an Authorization To Use for GitHub Enterprise Cloud was signed, which provides a secure, private, access-controlled and managed platform for staff. In 2024, the GitHub Governance Team (GGT) provided a series of workshops to onboard NOAA Fisheries scientists to GitHub Enterprise and provide training in the use of Git and GitHub for NOAA Fisheries. In 2025, NMFS Open Science will be leading a second iteration of these workshops to provide NOAA Fisheries staff with the necessary skills to effectively incorporate Git and GitHub into existing workflows.\nThe GGT has outlined several use cases for why you may want to incorporate Git and GitHub into your workflows:",
-    "crumbs": [
-      "JupyterHub",
-      "Welcome"
-    ]
-  },
-  {
-    "objectID": "index.html#aims-and-objectives-of-the-github-clinic",
-    "href": "index.html#aims-and-objectives-of-the-github-clinic",
-    "title": "NOAA Fisheries GitHub Clinic",
-    "section": "Aims and Objectives of the GitHub Clinic",
-    "text": "Aims and Objectives of the GitHub Clinic\nThe GitHub Clinic will consist of several components: - An introductory 2-hour introduction to Git and GitHub virtual workshop, repeated twice weekly for three weeks. These sessions will use a mixture of directed, interactive lessons and GitHub Skills to provide NOAA Fisheries staff with the knowledge required for basic repository management using Git commands, collaboration, and project management - A series of 1-hour standalone skills workshops for deeper dives into several GitHub features including advanced branch management, Git workflows, GitHub pages, and forking - Open Science Office Hours for individual help and coaching\n\nSchedule\nSee the schedule page.\n\nIntro workshops will be given Mondays at 10am PT/1pm ET and Tuesdays at 1pm PT/4pm ET for 3 weeks starting April 7th\n\nThese are 2 hour introductory sessions to get you started with Git and GitHub\nIntro sessions are identical; attend any that works for your schedule, or repeat sessions if you want to see the material twice\n\nSkills workshops will be given\nSee the NMFS Open Science Training Page for the training calendar or add the NMFS Open Science calendar to your calendar to see all events.",
-    "crumbs": [
-      "JupyterHub",
-      "Welcome"
-    ]
-  },
-  {
     "objectID": "content/why_git.html#what-is-git",
     "href": "content/why_git.html#what-is-git",
     "title": "What are Git and GitHub?",
@@ -100,7 +11,56 @@
     "href": "content/why_git.html#what-is-github",
     "title": "What are Git and GitHub?",
     "section": "What is GitHub?",
-    "text": "What is GitHub?\n\nWebsite to host repositories created through Git\nAllows to sync local copies\nCollaborative software designed to organize files and track changes by different people through time\nasd"
+    "text": "What is GitHub?\n\nCollaborative software designed to organize files and track changes by different people through time\nBuilt on top of Git\nAllows to sync (clone) Git repositories locally and over the web"
+  },
+  {
+    "objectID": "content/why_git.html#why-use-git-and-github",
+    "href": "content/why_git.html#why-use-git-and-github",
+    "title": "What are Git and GitHub?",
+    "section": "Why use Git and GitHub?",
+    "text": "Why use Git and GitHub?\n\nVersion control - for you and others\nCollaboration - within your team and among colleagues and peers outside of your team\nProject management - collaborative “to-do” lists\nPublishing platform - README files and GitHub Pages"
+  },
+  {
+    "objectID": "content/why_git.html#git-and-github-the-basics",
+    "href": "content/why_git.html#git-and-github-the-basics",
+    "title": "What are Git and GitHub?",
+    "section": "Git and GitHub: The Basics",
+    "text": "Git and GitHub: The Basics\n\nRepositories - the main unit\n\nSets the folder and file structure\nContained and permissioned\nPublic or private\n\nUsers and organizations\nCommits and issues - Contributing through GitHub"
+  },
+  {
+    "objectID": "content/why_git.html#what-is-a-commit",
+    "href": "content/why_git.html#what-is-a-commit",
+    "title": "What are Git and GitHub?",
+    "section": "What is a “commit”?",
+    "text": "What is a “commit”?\n\nA specific “thing” that you want to save and keep a record for\nSnapshot of all the files in the entire project\nCommit messages provide info about the “thing” you’ve done"
+  },
+  {
+    "objectID": "content/why_git.html#forking",
+    "href": "content/why_git.html#forking",
+    "title": "What are Git and GitHub?",
+    "section": "Forking",
+    "text": "Forking\n\nContributing to someone else’s repository\n“Sees” changes from parent repo - allows syncing with parent\nCan be for personal purposes - doesn’t have to be pushed to original repo!"
+  },
+  {
+    "objectID": "content/why_git.html#cloning",
+    "href": "content/why_git.html#cloning",
+    "title": "What are Git and GitHub?",
+    "section": "Cloning",
+    "text": "Cloning\n\nMaking a local copy from GitHub\nAllows local sync within and across devices"
+  },
+  {
+    "objectID": "content/why_git.html#importing",
+    "href": "content/why_git.html#importing",
+    "title": "What are Git and GitHub?",
+    "section": "Importing",
+    "text": "Importing\n\nUse another repo as starting point for your own\nCopy not connected to original"
+  },
+  {
+    "objectID": "content/why_git.html#branching",
+    "href": "content/why_git.html#branching",
+    "title": "What are Git and GitHub?",
+    "section": "Branching",
+    "text": "Branching\n\nCopies of repos housed within the repo structure\nAllow for working on repo without changing main branch\nCan help for more complex collaboration"
   },
   {
     "objectID": "content/cb_genetics.html#agenda",
@@ -120,30 +80,6 @@
     "title": "GitHub Workshop for CG Genetics and Evolution Program",
     "section": "Why Git/GitHub?",
     "text": "Why Git/GitHub?",
-    "crumbs": [
-      "JupyterHub",
-      "In-Person Workshops",
-      "GitHub Workshop for CG Genetics and Evolution Program"
-    ]
-  },
-  {
-    "objectID": "content/cb_genetics.html#what-is-git",
-    "href": "content/cb_genetics.html#what-is-git",
-    "title": "What are Git and GitHub?",
-    "section": "What is Git?",
-    "text": "What is Git?\n\nProgram to track file changes and create a history of those changes\nCreates a ‘container’ for a set of files called a repository",
-    "crumbs": [
-      "JupyterHub",
-      "In-Person Workshops",
-      "GitHub Workshop for CG Genetics and Evolution Program"
-    ]
-  },
-  {
-    "objectID": "content/cb_genetics.html#what-is-github",
-    "href": "content/cb_genetics.html#what-is-github",
-    "title": "What are Git and GitHub?",
-    "section": "What is GitHub?",
-    "text": "What is GitHub?\n\nWebsite to host repositories created through Git\nAllows to sync local copies\nCollaborative software designed to organize files and track changes by different people through time",
     "crumbs": [
       "JupyterHub",
       "In-Person Workshops",
@@ -209,5 +145,12 @@
       "In-Person Workshops",
       "GitHub Workshop for CG Genetics and Evolution Program"
     ]
+  },
+  {
+    "objectID": "content/reuse.html",
+    "href": "content/reuse.html",
+    "title": "Reuse Statement",
+    "section": "",
+    "text": "This content is released under CC0 Creative Commons.\nPermissive Re-Mix and No Attribution Needed: You may reuse the content in this repository—excluding the NMFS Open Science logo and any NOAA logos—in any way you like. You do not need permission. You do not need to give attribution, but if you use large parts of tutorials or content it is polite to give acknowledgement of the source. Please check each NMFS Open Science repository for its reuse statement. Some of the content is from Carl Boettiger and from NASA Openscapes. This will be noted and you should check the original content for its reuse statement."
   }
 ]

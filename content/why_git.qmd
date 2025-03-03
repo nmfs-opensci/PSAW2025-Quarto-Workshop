@@ -4,7 +4,8 @@ subtitle: "...and why use them?"
 author: "Jonathan Peake"
 format: 
     revealjs:
-        theme: dark
+        theme: moon
+        controls: true
 ---
 
 ## What is Git?
@@ -15,10 +16,70 @@ format:
 
 ## What is GitHub?
 
--   Website to host repositories created through Git
-
--   Allows to sync local copies
-
 -   Collaborative software designed to organize files and track changes by different people through time
 
--
+-   Built on top of Git
+
+-   Allows to sync (clone) Git repositories locally and over the web
+
+## Why use Git and GitHub?
+
+-   Version control - for you and others
+
+-   Collaboration - within your team and among colleagues and peers outside of your team
+
+-   Project management - collaborative "to-do" lists
+
+-   Publishing platform - README files and GitHub Pages
+
+## Git and GitHub:  The Basics
+
+-   Repositories - the main unit
+
+    -   Sets the folder and file structure
+
+    -   Contained and permissioned
+
+    -   Public or private
+
+-   Users and organizations
+
+-   Commits and issues - Contributing through GitHub
+
+## What is a "commit"?
+
+-   A specific "thing" that you want to save and keep a record for
+
+-   Snapshot of all the files in the entire project
+
+-   Commit messages provide info about the "thing" you've done
+
+# Forking, Cloning, Importing, and Branching (oh my!)
+
+## Forking
+
+-   Contributing to someone else's repository
+
+-   "Sees" changes from parent repo - allows syncing with parent
+
+-   Can be for personal purposes - doesn't have to be pushed to original repo!
+
+## Cloning
+
+-   Making a local copy from GitHub
+
+-   Allows local sync within and across devices
+
+## Importing
+
+-   Use another repo as starting point for your own
+
+-   Copy not connected to original
+
+## Branching
+
+-   Copies of repos housed within the repo structure
+
+-   Allow for working on repo without changing main branch
+
+-   Can help for more complex collaboration

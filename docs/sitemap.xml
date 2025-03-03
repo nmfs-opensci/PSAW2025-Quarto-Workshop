@@ -1,27 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://nmfs-opensci.github.io/GitHub-Clinic/schedule.html</loc>
-    <lastmod>2025-02-27T17:09:02.574Z</lastmod>
+    <loc>https://nmfs-opensci.github.io/GitHub-Clinic/content/why_git.html</loc>
+    <lastmod>2025-03-03T22:20:43.091Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nmfs-opensci.github.io/GitHub-Clinic/content/cb_genetics.html</loc>
+    <lastmod>2025-02-28T17:47:19.774Z</lastmod>
   </url>
   <url>
     <loc>https://nmfs-opensci.github.io/GitHub-Clinic/content/reuse.html</loc>
     <lastmod>2025-02-25T18:48:07.655Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nmfs-opensci.github.io/GitHub-Clinic/coc.html</loc>
-    <lastmod>2025-02-25T18:48:07.653Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nmfs-opensci.github.io/GitHub-Clinic/index.html</loc>
-    <lastmod>2025-02-27T17:09:02.574Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nmfs-opensci.github.io/GitHub-Clinic/content/why_git.html</loc>
-    <lastmod>2025-02-27T20:41:20.695Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nmfs-opensci.github.io/GitHub-Clinic/content/cb_genetics.html</loc>
-    <lastmod>2025-02-27T20:33:43.288Z</lastmod>
   </url>
 </urlset>
