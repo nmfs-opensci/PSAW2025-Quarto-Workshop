@@ -5,10 +5,10 @@ date: '2025-03-05'
 
 ## Agenda
 
--   10:00-10:15 [Why Git/GitHub?]
--   10:15-10:30 [GitHub Enterprise]
--   10:30-11:00 [Introduction to GitHub]
--   11:00-11:30 [Pull Requests and Collaboration]
+-   10:00-10:10 [Why Git/GitHub?]
+-   10:10-10:20 [GitHub Enterprise]
+-   10:20-10:50 [Introduction to GitHub]
+-   10:50-11:30 [Pull Requests and Collaboration]
 -   11:30-11:45 Break
 -   11:45-12:15 [Project Management]
 -   12:15-13:00 [Putting Everything Together]
