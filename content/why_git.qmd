@@ -32,7 +32,7 @@ format:
 
 -   Publishing platform - README files and GitHub Pages
 
-## Git and GitHub:  The Basics
+## Git and GitHub: The Basics
 
 -   Repositories - the main unit
 

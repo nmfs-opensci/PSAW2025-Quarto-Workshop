@@ -1,0 +1,25 @@
+---
+title: "GitHub for Project Management"
+author: "Jonathan Peake"
+format: 
+    revealjs:
+        theme: moon
+        controls: true
+---
+
+## Why use GitHub for project management?
+
+-   Issues and projects stoke collaboration
+-   Issues act as short-term to-do lists
+-   Projects capture longer-term goals and organize short-term issues
+
+## Issues
+
+-   Tasks for things to do
+-   Place to provide detail
+-   Checklists, labels, tags
+
+## Projects
+
+-   Group issues to view everything together
+-   Work across repositories

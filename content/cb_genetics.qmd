@@ -1,7 +1,6 @@
 ---
 title: GitHub Workshop for CB Genetics and Evolution Program
 date: '2025-03-05'
-format: html
 ---
 
 ## Agenda
@@ -16,14 +15,22 @@ format: html
 
 ## Why Git/GitHub?
 
-<iframe class="slide-deck" src="why_git.html" width=900 height=600></iframe></iframe>
+<iframe class="slide-deck" src="why_git.html" width="900" height="600"></iframe>
 
 ## GitHub Enterprise
 
 ## Introduction to GitHub
 
+[GitHub Skills - Introduction to GitHub](https://github.com/skills/introduction-to-github)
+
 ## Pull Requests and Collaboration
 
+[GitHub Skills - Review Pull Requests](https://github.com/skills/review-pull-requests)
+
+[GitHub Skills - Resolve Merge Conflicts](https://github.com/skills/resolve-merge-conflicts)
+
 ## Project Management
+
+<iframe class="slide-deck" src="project_management.html" width="900" height="600"></iframe>
 
 ## Putting Everything Together
