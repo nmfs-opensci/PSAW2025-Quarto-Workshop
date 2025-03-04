@@ -7,8 +7,8 @@ date: '2025-03-05'
 
 -   10:00-10:10 [Why Git/GitHub?]
 -   10:10-10:20 [GitHub Enterprise]
--   10:20-10:50 [Introduction to GitHub]
--   10:50-11:30 [Pull Requests and Collaboration]
+-   10:20-10:50 [Introduction to GitHub - Tutorial]
+-   10:50-11:30 [Pull Requests and Collaboration - Tutorial]
 -   11:30-11:45 Break
 -   11:45-12:15 [Project Management]
 -   12:15-13:00 [Putting Everything Together]
@@ -22,11 +22,11 @@ date: '2025-03-05'
 <iframe class="slide-deck" src="ghec.html" width="900" height="600"></iframe>
 
 
-## Introduction to GitHub
+## Introduction to GitHub - Tutorial
 
 [GitHub Skills - Introduction to GitHub](https://github.com/skills/introduction-to-github)
 
-## Pull Requests and Collaboration
+## Pull Requests and Collaboration - Tutorial
 
 [GitHub Skills - Review Pull Requests](https://github.com/skills/review-pull-requests)
 
