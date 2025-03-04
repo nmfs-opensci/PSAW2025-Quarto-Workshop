@@ -1,85 +1,164 @@
 ---
-title: "What are Git and GitHub?"
-subtitle: "...and why use them?"
-author: "Jonathan Peake"
+title: "Intro to GitHub Enterprise"
+subtitle: "...and how it is and isn't different"
+author: "Eli Holmes"
 format: 
     revealjs:
         theme: moon
         controls: true
 ---
 
-## What is Git?
+## What is GitHub Enterprise?
 
--   Program to track file changes and create a history of those changes
+-   An account with GitHub organizations (orgs) that has more controls than GitHub Free.
 
--   Creates a 'container' for a set of files called a **repository**
+-   Your personal GitHub account can have repos in GitHub Free orgs or GitHub Enterprise orgs.
 
-## What is GitHub?
+-   Your identity (username) does not change -- as long as your user account uses your noaa.gov email.
 
--   Collaborative software designed to organize files and track changes by different people through time
+## How is GitHub Enterprise different?
 
--   Built on top of Git
+-   It is controlled by work and has more rules
 
--   Allows to sync (clone) Git repositories locally and over the web
+-   It requires CAC sign-in.
 
-## Why use Git and GitHub?
+-   It requires a license.
 
--   Version control - for you and others
+-   Outside (non NOAA) collaborators have to be added by an admin to repos. They use a license if the repo is private or internal.
 
--   Collaboration - within your team and among colleagues and peers outside of your team
+-   GitHub 3rd party applications require approval
 
--   Project management - collaborative "to-do" lists
+## How is GitHub Enterprise different?
 
--   Publishing platform - README files and GitHub Pages
+-   It is more security since it has CAC sign-in
 
-## Git and GitHub: The Basics
+-   It has more features: private and internal GitHub Pages, more GitHub Action minutes, bigger files allowed.
 
--   Repositories - the main unit
+-   Allows internal repositories only visible to NMFS GitHub users across GHEC. See code from other science centers (if they made it internal)
 
-    -   Sets the folder and file structure
+-   Collaborate on repos with any other NMFS GHEC org. You can be on orgs at other centers
 
-    -   Contained and permissioned
+-   Has IT managed automatic backups.
 
-    -   Public or private
+-   NMFS doesn't lose code due to repo owner leaving NOAA
 
--   Users and organizations
+-   FedRAMP approved unlike GitHub free
 
--   Commits and issues - Contributing through GitHub
 
-## What is a "commit"?
+## How is GitHub Enterprise not different?
 
--   A specific "thing" that you want to save and keep a record for
+-   You can create repos just like in GitHub Free
 
--   Snapshot of all the files in the entire project
+-   You have access to the usual collaboration tools: projects, GitHub Actions, GitHub Pages
 
--   Commit messages provide info about the "thing" you've done
+-   You are admin on your own repos and can admin them as usual...except re outside collaborators.
 
-# Forking, Cloning, Importing, and Branching (oh my!)
+## Signing up for GHEC
 
-## Forking
+-   Follow the [instructions](https://sites.google.com/noaa.gov/nmfs-st-github-governance-team/github-users?pli=1) on the GGT website to request access. 
 
--   Contributing to someone else's repository
+-   Wait to be invited to GHEC and accept
 
--   "Sees" changes from parent repo - allows syncing with parent
+-   Then you can sign in to an org like <https://github.com/noaa-nwfsc> with CAC or password+authentication
 
--   Can be for personal purposes - doesn't have to be pushed to original repo!
+## Authenticating to GHEC
 
-## Cloning
+### Using GitHub Desktop
 
--   Making a local copy from GitHub
+1. Go to GitHub Desktop > Settings > Accounts
 
--   Allows local sync within and across devices
+2. Sign into GitHub.com. **Ignore GitHub Enterprise!!**
 
-## Importing
+3. DONE!
 
--   Use another repo as starting point for your own
+## Authenticating to GHEC
 
--   Copy not connected to original
+### Using GitHub Desktop
 
-## Branching
+![](img/g_desktop_signin.png)
 
--   Copies of repos housed within the repo structure
+**Help! I signed up for GitHub Enterprise and GitHub Desktop will not authenticate!!** Log out of GitHub Desktop under GitHub Desktop > Settings (or Options) > Account and log back in.
 
--   Allow for working on repo without changing main branch
+## Authenticating to GHEC: Using RStudio
 
--   Can help for more complex collaboration
+### Tell RStudio about Git
+
+1. In RStudio, Tools > Terminal > New Terminal
+
+2. At the command line (in the new terminal), type `which git` if on a Mac and `where git` if in Windows.
+
+3. Copy that path. 
+
+4. In RStudio, Tools > Global Options > Git/SVN There is a box at top that asks for the location of the Git binary.
+
+5. Paste that path in.
+
+## Authenticating to GHEC: Using RStudio
+
+You have to authenticate to GitHub separately for RStudio even if you are signed in on GitHub Desktop.
+
+If you see anything like this, you have not authenticated.
+
+![](img/no_token_error.png)
+
+## Authenticating to GHEC: Using RStudio
+
+### Set up
+
+1. Install `usethis` R package
+
+2. Run this code:
+
+```
+usethis::use_git_config(user.name = "your username", user.email = "you@noaa.gov")
+```
+
+## Authenticating to GHEC: Using RStudio
+
+### Create Token
+
+```
+usethis::create_github_token(
+  scopes = c("repo", "workflow"),
+  description = "DESCRIBE THE TOKEN'S USE CASE",
+  host = NULL
+)
+```
+
+![](img/new_token.png)
+
+## Authenticating to GHEC: Using RStudio
+
+### Create Token
+
+1. Set the date when the token will expire. 
+
+4. Scroll to bottom and click "Generate token"
+
+5. **Copy the long PAT.**
+
+
+## Authenticating to GHEC: Using RStudio
+
+### Configure PAT for GHEC
+
+1. Next to the PAT, you will see "Configure for SSO".
+
+2. Click that and authenticate to your GHEC org
+
+![](img/configure_sso_token.png)
+
+## Authenticating to GHEC: Using RStudio
+
+### Tell RSTudio about the PAT
+
+Run this code.
+
+```
+credentials::set_github_pat("THE LONG PAT)
+```
+
+
+
+
+
