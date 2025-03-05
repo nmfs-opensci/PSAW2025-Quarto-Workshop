@@ -43,9 +43,8 @@ website:
     toc-expand: false
     contents:
       - section: "Welcome"
-        href: index.qmd
+        href: index.html
         contents:
-          # - team.md
           - schedule.qmd
           - section: Set-up - Coming soon!
 #            - text: Git-JupyterLab
