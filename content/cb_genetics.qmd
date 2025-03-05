@@ -15,12 +15,15 @@ date: '2025-03-05'
 
 ## Why Git/GitHub?
 
-<iframe class="slide-deck" src="why_git.html" width="900" height="600"></iframe>
+<iframe class="slide-deck" src="why_git.html" width="900" height="600">
+
+</iframe>
 
 ## GitHub Enterprise
 
-<iframe class="slide-deck" src="ghec.html" width="900" height="600"></iframe>
+<iframe class="slide-deck" src="ghec.html" width="900" height="600">
 
+</iframe>
 
 ## Introduction to GitHub - Tutorial
 
@@ -34,6 +37,12 @@ date: '2025-03-05'
 
 ## Project Management
 
-<iframe class="slide-deck" src="project_management.html" width="900" height="600"></iframe>
+<iframe class="slide-deck" src="project_management.html" width="900" height="600">
+
+</iframe>
 
 ## Putting Everything Together
+
+<iframe class="slide-deck" src="guided_exercise.html" width="900" height="600">
+
+</iframe>

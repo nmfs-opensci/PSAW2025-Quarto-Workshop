@@ -1,0 +1,31 @@
+---
+title: "Putting Everything Together"
+author: "Jonathan Peake"
+format: 
+    revealjs:
+        theme: default
+        controls: true
+---
+
+## Practice creating a repository for your own project
+
+1.  Open GitHub Desktop
+2.  Login with your GitHub account (if you have not already done so)
+3.  Create a new repository
+4.  Move your code and other project files into your new repository
+5.  Make a commit with your initial files
+6.  Push your commit up to GitHub
+
+## Practice creating a repository for your own project
+
+7.  Open the repository in your browser
+
+8.  Add your teammates as collaborators
+
+9.  Create an issue and tag a teammate
+
+10. Make a change to the README and commit in a new branch
+
+11. Create a pull request
+
+12. Merge the pull request into your main branch

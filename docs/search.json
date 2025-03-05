@@ -1,87 +1,87 @@
 [
   {
-    "objectID": "content/cb_genetics.html#agenda",
-    "href": "content/cb_genetics.html#agenda",
-    "title": "GitHub Workshop for CB Genetics and Evolution Program",
-    "section": "Agenda",
-    "text": "Agenda\n\n10:00-10:15 Why Git/GitHub?\n10:15-10:30 GitHub Enterprise\n10:30-11:00 Introduction to GitHub\n11:00-11:30 Pull Requests and Collaboration\n11:30-11:45 Break\n11:45-12:15 Project Management\n12:15-13:00 Putting Everything Together",
-    "crumbs": [
-      "JupyterHub",
-      "In-Person Workshops",
-      "GitHub Workshop for CB Genetics and Evolution Program"
-    ]
+    "objectID": "content/why_git.html#what-is-git",
+    "href": "content/why_git.html#what-is-git",
+    "title": "What are Git and GitHub?",
+    "section": "What is Git?",
+    "text": "What is Git?\n\nProgram to track file changes and create a history of those changes\nCreates a ‘container’ for a set of files called a repository"
   },
   {
-    "objectID": "content/cb_genetics.html#why-gitgithub",
-    "href": "content/cb_genetics.html#why-gitgithub",
-    "title": "GitHub Workshop for CB Genetics and Evolution Program",
-    "section": "Why Git/GitHub?",
-    "text": "Why Git/GitHub?",
-    "crumbs": [
-      "JupyterHub",
-      "In-Person Workshops",
-      "GitHub Workshop for CB Genetics and Evolution Program"
-    ]
+    "objectID": "content/why_git.html#what-is-github",
+    "href": "content/why_git.html#what-is-github",
+    "title": "What are Git and GitHub?",
+    "section": "What is GitHub?",
+    "text": "What is GitHub?\n\nCollaborative software designed to organize files and track changes by different people through time\nBuilt on top of Git\nAllows to sync (clone) Git repositories locally and over the web"
   },
   {
-    "objectID": "content/cb_genetics.html#github-enterprise",
-    "href": "content/cb_genetics.html#github-enterprise",
-    "title": "GitHub Workshop for CB Genetics and Evolution Program",
-    "section": "GitHub Enterprise",
-    "text": "GitHub Enterprise",
-    "crumbs": [
-      "JupyterHub",
-      "In-Person Workshops",
-      "GitHub Workshop for CB Genetics and Evolution Program"
-    ]
+    "objectID": "content/why_git.html#why-use-git-and-github",
+    "href": "content/why_git.html#why-use-git-and-github",
+    "title": "What are Git and GitHub?",
+    "section": "Why use Git and GitHub?",
+    "text": "Why use Git and GitHub?\n\nVersion control - for you and others\nCollaboration - within your team and among colleagues and peers outside of your team\nProject management - collaborative “to-do” lists\nPublishing platform - README files and GitHub Pages"
   },
   {
-    "objectID": "content/cb_genetics.html#introduction-to-github",
-    "href": "content/cb_genetics.html#introduction-to-github",
-    "title": "GitHub Workshop for CB Genetics and Evolution Program",
-    "section": "Introduction to GitHub",
-    "text": "Introduction to GitHub\nGitHub Skills - Introduction to GitHub",
-    "crumbs": [
-      "JupyterHub",
-      "In-Person Workshops",
-      "GitHub Workshop for CB Genetics and Evolution Program"
-    ]
+    "objectID": "content/why_git.html#git-and-github-the-basics",
+    "href": "content/why_git.html#git-and-github-the-basics",
+    "title": "What are Git and GitHub?",
+    "section": "Git and GitHub: The Basics",
+    "text": "Git and GitHub: The Basics\n\nRepositories - the main unit\n\nSets the folder and file structure\nContained and permissioned\nPublic or private\n\nUsers and organizations\nCommits and issues - Contributing through GitHub"
   },
   {
-    "objectID": "content/cb_genetics.html#pull-requests-and-collaboration",
-    "href": "content/cb_genetics.html#pull-requests-and-collaboration",
-    "title": "GitHub Workshop for CB Genetics and Evolution Program",
-    "section": "Pull Requests and Collaboration",
-    "text": "Pull Requests and Collaboration\nGitHub Skills - Review Pull Requests\nGitHub Skills - Resolve Merge Conflicts",
-    "crumbs": [
-      "JupyterHub",
-      "In-Person Workshops",
-      "GitHub Workshop for CB Genetics and Evolution Program"
-    ]
+    "objectID": "content/why_git.html#what-is-a-commit",
+    "href": "content/why_git.html#what-is-a-commit",
+    "title": "What are Git and GitHub?",
+    "section": "What is a “commit”?",
+    "text": "What is a “commit”?\n\nA specific “thing” that you want to save and keep a record for\nSnapshot of all the files in the entire project\nCommit messages provide info about the “thing” you’ve done"
   },
   {
-    "objectID": "content/cb_genetics.html#project-management",
-    "href": "content/cb_genetics.html#project-management",
-    "title": "GitHub Workshop for CB Genetics and Evolution Program",
-    "section": "Project Management",
-    "text": "Project Management",
-    "crumbs": [
-      "JupyterHub",
-      "In-Person Workshops",
-      "GitHub Workshop for CB Genetics and Evolution Program"
-    ]
+    "objectID": "content/why_git.html#forking",
+    "href": "content/why_git.html#forking",
+    "title": "What are Git and GitHub?",
+    "section": "Forking",
+    "text": "Forking\n\nContributing to someone else’s repository\n“Sees” changes from parent repo - allows syncing with parent\nCan be for personal purposes - doesn’t have to be pushed to original repo!"
   },
   {
-    "objectID": "content/cb_genetics.html#putting-everything-together",
-    "href": "content/cb_genetics.html#putting-everything-together",
-    "title": "GitHub Workshop for CB Genetics and Evolution Program",
-    "section": "Putting Everything Together",
-    "text": "Putting Everything Together",
-    "crumbs": [
-      "JupyterHub",
-      "In-Person Workshops",
-      "GitHub Workshop for CB Genetics and Evolution Program"
-    ]
+    "objectID": "content/why_git.html#cloning",
+    "href": "content/why_git.html#cloning",
+    "title": "What are Git and GitHub?",
+    "section": "Cloning",
+    "text": "Cloning\n\nMaking a local copy from GitHub\nAllows local sync within and across devices"
+  },
+  {
+    "objectID": "content/why_git.html#importing",
+    "href": "content/why_git.html#importing",
+    "title": "What are Git and GitHub?",
+    "section": "Importing",
+    "text": "Importing\n\nUse another repo as starting point for your own\nCopy not connected to original"
+  },
+  {
+    "objectID": "content/why_git.html#branching",
+    "href": "content/why_git.html#branching",
+    "title": "What are Git and GitHub?",
+    "section": "Branching",
+    "text": "Branching\n\nCopies of repos housed within the repo structure\nAllow for working on repo without changing main branch\nCan help for more complex collaboration"
+  },
+  {
+    "objectID": "content/project_management.html#why-use-github-for-project-management",
+    "href": "content/project_management.html#why-use-github-for-project-management",
+    "title": "GitHub for Project Management",
+    "section": "Why use GitHub for project management?",
+    "text": "Why use GitHub for project management?\n\nIssues and projects stoke collaboration\nIssues act as short-term to-do lists\nProjects capture longer-term goals and organize short-term issues"
+  },
+  {
+    "objectID": "content/project_management.html#issues",
+    "href": "content/project_management.html#issues",
+    "title": "GitHub for Project Management",
+    "section": "Issues",
+    "text": "Issues\n\nTasks for things to do\nPlace to provide detail\nChecklists, labels, tags"
+  },
+  {
+    "objectID": "content/project_management.html#projects",
+    "href": "content/project_management.html#projects",
+    "title": "GitHub for Project Management",
+    "section": "Projects",
+    "text": "Projects\n\nGroup issues to view everything together\nWork across repositories"
   },
   {
     "objectID": "content/ghec.html#what-is-github-enterprise",
@@ -158,7 +158,7 @@
     "href": "content/ghec.html#authenticating-to-ghec-using-rstudio-3",
     "title": "Intro to GitHub Enterprise",
     "section": "Authenticating to GHEC: Using RStudio",
-    "text": "Authenticating to GHEC: Using RStudio\nCreate Token\nRun this:\nusethis::create_github_token(\n  scopes = c(\"repo\", \"workflow\"),\n  description = \"DESCRIBE THE TOKEN'S USE CASE\",\n  host = NULL\n)"
+    "text": "Authenticating to GHEC: Using RStudio\nCreate Token\nusethis::create_github_token(\n  scopes = c(\"repo\", \"workflow\"),\n  description = \"DESCRIBE THE TOKEN'S USE CASE\",\n  host = NULL\n)"
   },
   {
     "objectID": "content/ghec.html#authenticating-to-ghec-using-rstudio-4",
@@ -182,94 +182,108 @@
     "text": "Authenticating to GHEC: Using RStudio\nTell RSTudio about the PAT\nRun this code.\ncredentials::set_github_pat(\"THE LONG PAT)"
   },
   {
+    "objectID": "content/cb_genetics.html#agenda",
+    "href": "content/cb_genetics.html#agenda",
+    "title": "GitHub Workshop for CB Genetics and Evolution Program",
+    "section": "Agenda",
+    "text": "Agenda\n\n10:00-10:10 Why Git/GitHub?\n10:10-10:20 GitHub Enterprise\n10:20-10:50 Introduction to GitHub - Tutorial\n10:50-11:30 Pull Requests and Collaboration - Tutorial\n11:30-11:45 Break\n11:45-12:15 Project Management\n12:15-13:00 Putting Everything Together",
+    "crumbs": [
+      "JupyterHub",
+      "In-Person Workshops",
+      "GitHub Workshop for CB Genetics and Evolution Program"
+    ]
+  },
+  {
+    "objectID": "content/cb_genetics.html#why-gitgithub",
+    "href": "content/cb_genetics.html#why-gitgithub",
+    "title": "GitHub Workshop for CB Genetics and Evolution Program",
+    "section": "Why Git/GitHub?",
+    "text": "Why Git/GitHub?",
+    "crumbs": [
+      "JupyterHub",
+      "In-Person Workshops",
+      "GitHub Workshop for CB Genetics and Evolution Program"
+    ]
+  },
+  {
+    "objectID": "content/cb_genetics.html#github-enterprise",
+    "href": "content/cb_genetics.html#github-enterprise",
+    "title": "GitHub Workshop for CB Genetics and Evolution Program",
+    "section": "GitHub Enterprise",
+    "text": "GitHub Enterprise",
+    "crumbs": [
+      "JupyterHub",
+      "In-Person Workshops",
+      "GitHub Workshop for CB Genetics and Evolution Program"
+    ]
+  },
+  {
+    "objectID": "content/cb_genetics.html#introduction-to-github---tutorial",
+    "href": "content/cb_genetics.html#introduction-to-github---tutorial",
+    "title": "GitHub Workshop for CB Genetics and Evolution Program",
+    "section": "Introduction to GitHub - Tutorial",
+    "text": "Introduction to GitHub - Tutorial\nGitHub Skills - Introduction to GitHub",
+    "crumbs": [
+      "JupyterHub",
+      "In-Person Workshops",
+      "GitHub Workshop for CB Genetics and Evolution Program"
+    ]
+  },
+  {
+    "objectID": "content/cb_genetics.html#pull-requests-and-collaboration---tutorial",
+    "href": "content/cb_genetics.html#pull-requests-and-collaboration---tutorial",
+    "title": "GitHub Workshop for CB Genetics and Evolution Program",
+    "section": "Pull Requests and Collaboration - Tutorial",
+    "text": "Pull Requests and Collaboration - Tutorial\nGitHub Skills - Review Pull Requests\nGitHub Skills - Resolve Merge Conflicts",
+    "crumbs": [
+      "JupyterHub",
+      "In-Person Workshops",
+      "GitHub Workshop for CB Genetics and Evolution Program"
+    ]
+  },
+  {
+    "objectID": "content/cb_genetics.html#project-management",
+    "href": "content/cb_genetics.html#project-management",
+    "title": "GitHub Workshop for CB Genetics and Evolution Program",
+    "section": "Project Management",
+    "text": "Project Management",
+    "crumbs": [
+      "JupyterHub",
+      "In-Person Workshops",
+      "GitHub Workshop for CB Genetics and Evolution Program"
+    ]
+  },
+  {
+    "objectID": "content/cb_genetics.html#putting-everything-together",
+    "href": "content/cb_genetics.html#putting-everything-together",
+    "title": "GitHub Workshop for CB Genetics and Evolution Program",
+    "section": "Putting Everything Together",
+    "text": "Putting Everything Together",
+    "crumbs": [
+      "JupyterHub",
+      "In-Person Workshops",
+      "GitHub Workshop for CB Genetics and Evolution Program"
+    ]
+  },
+  {
+    "objectID": "content/guided_exercise.html#practice-creating-a-repository-for-your-own-project",
+    "href": "content/guided_exercise.html#practice-creating-a-repository-for-your-own-project",
+    "title": "Putting Everything Together",
+    "section": "Practice creating a repository for your own project",
+    "text": "Practice creating a repository for your own project\n\nOpen GitHub Desktop\nLogin with your GitHub account (if you have not already done so)\nCreate a new repository\nMove your code and other project files into your new repository\nMake a commit with your initial files\nPush your commit up to GitHub"
+  },
+  {
+    "objectID": "content/guided_exercise.html#practice-creating-a-repository-for-your-own-project-1",
+    "href": "content/guided_exercise.html#practice-creating-a-repository-for-your-own-project-1",
+    "title": "Putting Everything Together",
+    "section": "Practice creating a repository for your own project",
+    "text": "Practice creating a repository for your own project\n\nOpen the repository in your browser\nAdd your teammates as collaborators\nCreate an issue and tag a teammate\nMake a change to the README and commit in a new branch\nCreate a pull request\nMerge the pull request into your main branch"
+  },
+  {
     "objectID": "content/reuse.html",
     "href": "content/reuse.html",
     "title": "Reuse Statement",
     "section": "",
     "text": "This content is released under CC0 Creative Commons.\nPermissive Re-Mix and No Attribution Needed: You may reuse the content in this repository—excluding the NMFS Open Science logo and any NOAA logos—in any way you like. You do not need permission. You do not need to give attribution, but if you use large parts of tutorials or content it is polite to give acknowledgement of the source. Please check each NMFS Open Science repository for its reuse statement. Some of the content is from Carl Boettiger and from NASA Openscapes. This will be noted and you should check the original content for its reuse statement."
-  },
-  {
-    "objectID": "content/project_management.html#why-use-github-for-project-management",
-    "href": "content/project_management.html#why-use-github-for-project-management",
-    "title": "GitHub for Project Management",
-    "section": "Why use GitHub for project management?",
-    "text": "Why use GitHub for project management?\n\nIssues and projects stoke collaboration\nIssues act as short-term to-do lists\nProjects capture longer-term goals and organize short-term issues"
-  },
-  {
-    "objectID": "content/project_management.html#issues",
-    "href": "content/project_management.html#issues",
-    "title": "GitHub for Project Management",
-    "section": "Issues",
-    "text": "Issues\n\nTasks for things to do\nPlace to provide detail\nChecklists, labels, tags"
-  },
-  {
-    "objectID": "content/project_management.html#projects",
-    "href": "content/project_management.html#projects",
-    "title": "GitHub for Project Management",
-    "section": "Projects",
-    "text": "Projects\n\nGroup issues to view everything together\nWork across repositories"
-  },
-  {
-    "objectID": "content/why_git.html#what-is-git",
-    "href": "content/why_git.html#what-is-git",
-    "title": "What are Git and GitHub?",
-    "section": "What is Git?",
-    "text": "What is Git?\n\nProgram to track file changes and create a history of those changes\nCreates a ‘container’ for a set of files called a repository"
-  },
-  {
-    "objectID": "content/why_git.html#what-is-github",
-    "href": "content/why_git.html#what-is-github",
-    "title": "What are Git and GitHub?",
-    "section": "What is GitHub?",
-    "text": "What is GitHub?\n\nCollaborative software designed to organize files and track changes by different people through time\nBuilt on top of Git\nAllows to sync (clone) Git repositories locally and over the web"
-  },
-  {
-    "objectID": "content/why_git.html#why-use-git-and-github",
-    "href": "content/why_git.html#why-use-git-and-github",
-    "title": "What are Git and GitHub?",
-    "section": "Why use Git and GitHub?",
-    "text": "Why use Git and GitHub?\n\nVersion control - for you and others\nCollaboration - within your team and among colleagues and peers outside of your team\nProject management - collaborative “to-do” lists\nPublishing platform - README files and GitHub Pages"
-  },
-  {
-    "objectID": "content/why_git.html#git-and-github-the-basics",
-    "href": "content/why_git.html#git-and-github-the-basics",
-    "title": "What are Git and GitHub?",
-    "section": "Git and GitHub: The Basics",
-    "text": "Git and GitHub: The Basics\n\nRepositories - the main unit\n\nSets the folder and file structure\nContained and permissioned\nPublic or private\n\nUsers and organizations\nCommits and issues - Contributing through GitHub"
-  },
-  {
-    "objectID": "content/why_git.html#what-is-a-commit",
-    "href": "content/why_git.html#what-is-a-commit",
-    "title": "What are Git and GitHub?",
-    "section": "What is a “commit”?",
-    "text": "What is a “commit”?\n\nA specific “thing” that you want to save and keep a record for\nSnapshot of all the files in the entire project\nCommit messages provide info about the “thing” you’ve done"
-  },
-  {
-    "objectID": "content/why_git.html#forking",
-    "href": "content/why_git.html#forking",
-    "title": "What are Git and GitHub?",
-    "section": "Forking",
-    "text": "Forking\n\nContributing to someone else’s repository\n“Sees” changes from parent repo - allows syncing with parent\nCan be for personal purposes - doesn’t have to be pushed to original repo!"
-  },
-  {
-    "objectID": "content/why_git.html#cloning",
-    "href": "content/why_git.html#cloning",
-    "title": "What are Git and GitHub?",
-    "section": "Cloning",
-    "text": "Cloning\n\nMaking a local copy from GitHub\nAllows local sync within and across devices"
-  },
-  {
-    "objectID": "content/why_git.html#importing",
-    "href": "content/why_git.html#importing",
-    "title": "What are Git and GitHub?",
-    "section": "Importing",
-    "text": "Importing\n\nUse another repo as starting point for your own\nCopy not connected to original"
-  },
-  {
-    "objectID": "content/why_git.html#branching",
-    "href": "content/why_git.html#branching",
-    "title": "What are Git and GitHub?",
-    "section": "Branching",
-    "text": "Branching\n\nCopies of repos housed within the repo structure\nAllow for working on repo without changing main branch\nCan help for more complex collaboration"
   }
 ]

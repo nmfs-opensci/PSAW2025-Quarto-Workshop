@@ -4,7 +4,7 @@ subtitle: "...and how it is and isn't different"
 author: "Eli Holmes"
 format: 
     revealjs:
-        theme: moon
+        theme: default
         controls: true
 ---
 
@@ -44,7 +44,6 @@ format:
 
 -   FedRAMP approved unlike GitHub free
 
-
 ## How is GitHub Enterprise not different?
 
 -   You can create repos just like in GitHub Free
@@ -55,7 +54,7 @@ format:
 
 ## Signing up for GHEC
 
--   Follow the [instructions](https://sites.google.com/noaa.gov/nmfs-st-github-governance-team/github-users?pli=1) on the GGT website to request access. 
+-   Follow the [instructions](https://sites.google.com/noaa.gov/nmfs-st-github-governance-team/github-users?pli=1) on the GGT website to request access.
 
 -   Wait to be invited to GHEC and accept
 
@@ -65,11 +64,11 @@ format:
 
 ### Using GitHub Desktop
 
-1. Go to GitHub Desktop > Settings > Accounts
+1.  Go to GitHub Desktop \> Settings \> Accounts
 
-2. Sign into GitHub.com. **Ignore GitHub Enterprise!!**
+2.  Sign into GitHub.com. **Ignore GitHub Enterprise!!**
 
-3. DONE!
+3.  DONE!
 
 ## Authenticating to GHEC
 
@@ -77,21 +76,21 @@ format:
 
 ![](img/g_desktop_signin.png)
 
-**Help! I signed up for GitHub Enterprise and GitHub Desktop will not authenticate!!** Log out of GitHub Desktop under GitHub Desktop > Settings (or Options) > Account and log back in.
+**Help! I signed up for GitHub Enterprise and GitHub Desktop will not authenticate!!** Log out of GitHub Desktop under GitHub Desktop \> Settings (or Options) \> Account and log back in.
 
 ## Authenticating to GHEC: Using RStudio
 
 ### Tell RStudio about Git
 
-1. In RStudio, Tools > Terminal > New Terminal
+1.  In RStudio, Tools \> Terminal \> New Terminal
 
-2. At the command line (in the new terminal), type `which git` if on a Mac and `where git` if in Windows.
+2.  At the command line (in the new terminal), type `which git` if on a Mac and `where git` if in Windows.
 
-3. Copy that path. 
+3.  Copy that path.
 
-4. In RStudio, Tools > Global Options > Git/SVN There is a box at top that asks for the location of the Git binary.
+4.  In RStudio, Tools \> Global Options \> Git/SVN There is a box at top that asks for the location of the Git binary.
 
-5. Paste that path in.
+5.  Paste that path in.
 
 ## Authenticating to GHEC: Using RStudio
 
@@ -105,11 +104,11 @@ If you see anything like this, you have not authenticated.
 
 ### Set up
 
-1. Install `usethis` R package
+1.  Install `usethis` R package
 
-2. Run this code:
+2.  Run this code:
 
-```
+```         
 usethis::use_git_config(user.name = "your username", user.email = "you@noaa.gov")
 ```
 
@@ -117,7 +116,7 @@ usethis::use_git_config(user.name = "your username", user.email = "you@noaa.gov"
 
 ### Create Token
 
-```
+```         
 usethis::create_github_token(
   scopes = c("repo", "workflow"),
   description = "DESCRIBE THE TOKEN'S USE CASE",
@@ -131,20 +130,19 @@ usethis::create_github_token(
 
 ### Create Token
 
-1. Set the date when the token will expire. 
+1.  Set the date when the token will expire.
 
-4. Scroll to bottom and click "Generate token"
+2.  Scroll to bottom and click "Generate token"
 
-5. **Copy the long PAT.**
-
+3.  **Copy the long PAT.**
 
 ## Authenticating to GHEC: Using RStudio
 
 ### Configure PAT for GHEC
 
-1. Next to the PAT, you will see "Configure for SSO".
+1.  Next to the PAT, you will see "Configure for SSO".
 
-2. Click that and authenticate to your GHEC org
+2.  Click that and authenticate to your GHEC org
 
 ![](img/configure_sso_token.png)
 
@@ -154,11 +152,6 @@ usethis::create_github_token(
 
 Run this code.
 
-```
+```         
 credentials::set_github_pat("THE LONG PAT)
 ```
-
-
-
-
-

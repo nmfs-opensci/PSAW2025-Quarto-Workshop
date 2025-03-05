@@ -4,7 +4,7 @@ subtitle: "...and why use them?"
 author: "Jonathan Peake"
 format: 
     revealjs:
-        theme: moon
+        theme: default
         controls: true
 ---
 

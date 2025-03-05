@@ -3,7 +3,7 @@ title: "GitHub for Project Management"
 author: "Jonathan Peake"
 format: 
     revealjs:
-        theme: moon
+        theme: default
         controls: true
 ---
 
@@ -23,3 +23,5 @@ format:
 
 -   Group issues to view everything together
 -   Work across repositories
+
+# Let's Practice!

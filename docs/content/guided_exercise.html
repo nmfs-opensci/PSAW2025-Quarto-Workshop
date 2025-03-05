@@ -10,8 +10,8 @@
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.6.39">
 
-  <meta name="author" content="Eli Holmes">
-  <title>NOAA Fisheries GitHub Clinic – Intro to GitHub Enterprise</title>
+  <meta name="author" content="Jonathan Peake">
+  <title>NOAA Fisheries GitHub Clinic – Putting Everything Together</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -128,138 +128,38 @@
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">Intro to GitHub Enterprise</h1>
-  <p class="subtitle">…and how it is and isn’t different</p>
+  <h1 class="title">Putting Everything Together</h1>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
 <div class="quarto-title-author-name">
-Eli Holmes 
+Jonathan Peake 
 </div>
 </div>
 </div>
 
 </section>
-<section id="what-is-github-enterprise" class="slide level2">
-<h2>What is GitHub Enterprise?</h2>
-<ul>
-<li><p>An account with GitHub organizations (orgs) that has more controls than GitHub Free.</p></li>
-<li><p>Your personal GitHub account can have repos in GitHub Free orgs or GitHub Enterprise orgs.</p></li>
-<li><p>Your identity (username) does not change – as long as your user account uses your noaa.gov email.</p></li>
-</ul>
-</section>
-<section id="how-is-github-enterprise-different" class="slide level2">
-<h2>How is GitHub Enterprise different?</h2>
-<ul>
-<li><p>It is controlled by work and has more rules</p></li>
-<li><p>It requires CAC sign-in.</p></li>
-<li><p>It requires a license.</p></li>
-<li><p>Outside (non NOAA) collaborators have to be added by an admin to repos. They use a license if the repo is private or internal.</p></li>
-<li><p>GitHub 3rd party applications require approval</p></li>
-</ul>
-</section>
-<section id="how-is-github-enterprise-different-1" class="slide level2">
-<h2>How is GitHub Enterprise different?</h2>
-<ul>
-<li><p>It is more security since it has CAC sign-in</p></li>
-<li><p>It has more features: private and internal GitHub Pages, more GitHub Action minutes, bigger files allowed.</p></li>
-<li><p>Allows internal repositories only visible to NMFS GitHub users across GHEC. See code from other science centers (if they made it internal)</p></li>
-<li><p>Collaborate on repos with any other NMFS GHEC org. You can be on orgs at other centers</p></li>
-<li><p>Has IT managed automatic backups.</p></li>
-<li><p>NMFS doesn’t lose code due to repo owner leaving NOAA</p></li>
-<li><p>FedRAMP approved unlike GitHub free</p></li>
-</ul>
-</section>
-<section id="how-is-github-enterprise-not-different" class="slide level2">
-<h2>How is GitHub Enterprise not different?</h2>
-<ul>
-<li><p>You can create repos just like in GitHub Free</p></li>
-<li><p>You have access to the usual collaboration tools: projects, GitHub Actions, GitHub Pages</p></li>
-<li><p>You are admin on your own repos and can admin them as usual…except re outside collaborators.</p></li>
-</ul>
-</section>
-<section id="signing-up-for-ghec" class="slide level2">
-<h2>Signing up for GHEC</h2>
-<ul>
-<li><p>Follow the <a href="https://sites.google.com/noaa.gov/nmfs-st-github-governance-team/github-users?pli=1">instructions</a> on the GGT website to request access.</p></li>
-<li><p>Wait to be invited to GHEC and accept</p></li>
-<li><p>Then you can sign in to an org like <a href="https://github.com/noaa-nwfsc" class="uri">https://github.com/noaa-nwfsc</a> with CAC or password+authentication</p></li>
-</ul>
-</section>
-<section id="authenticating-to-ghec" class="slide level2">
-<h2>Authenticating to GHEC</h2>
-<h3 id="using-github-desktop">Using GitHub Desktop</h3>
+<section id="practice-creating-a-repository-for-your-own-project" class="slide level2">
+<h2>Practice creating a repository for your own project</h2>
 <ol type="1">
-<li><p>Go to GitHub Desktop &gt; Settings &gt; Accounts</p></li>
-<li><p>Sign into GitHub.com. <strong>Ignore GitHub Enterprise!!</strong></p></li>
-<li><p>DONE!</p></li>
+<li>Open GitHub Desktop</li>
+<li>Login with your GitHub account (if you have not already done so)</li>
+<li>Create a new repository</li>
+<li>Move your code and other project files into your new repository</li>
+<li>Make a commit with your initial files</li>
+<li>Push your commit up to GitHub</li>
 </ol>
 </section>
-<section id="authenticating-to-ghec-1" class="slide level2">
-<h2>Authenticating to GHEC</h2>
-<h3 id="using-github-desktop-1">Using GitHub Desktop</h3>
-
-<img data-src="img/g_desktop_signin.png" class="r-stretch"><p><strong>Help! I signed up for GitHub Enterprise and GitHub Desktop will not authenticate!!</strong> Log out of GitHub Desktop under GitHub Desktop &gt; Settings (or Options) &gt; Account and log back in.</p>
-</section>
-<section id="authenticating-to-ghec-using-rstudio" class="slide level2">
-<h2>Authenticating to GHEC: Using RStudio</h2>
-<h3 id="tell-rstudio-about-git">Tell RStudio about Git</h3>
-<ol type="1">
-<li><p>In RStudio, Tools &gt; Terminal &gt; New Terminal</p></li>
-<li><p>At the command line (in the new terminal), type <code>which git</code> if on a Mac and <code>where git</code> if in Windows.</p></li>
-<li><p>Copy that path.</p></li>
-<li><p>In RStudio, Tools &gt; Global Options &gt; Git/SVN There is a box at top that asks for the location of the Git binary.</p></li>
-<li><p>Paste that path in.</p></li>
+<section id="practice-creating-a-repository-for-your-own-project-1" class="slide level2">
+<h2>Practice creating a repository for your own project</h2>
+<ol start="7" type="1">
+<li><p>Open the repository in your browser</p></li>
+<li><p>Add your teammates as collaborators</p></li>
+<li><p>Create an issue and tag a teammate</p></li>
+<li><p>Make a change to the README and commit in a new branch</p></li>
+<li><p>Create a pull request</p></li>
+<li><p>Merge the pull request into your main branch</p></li>
 </ol>
-</section>
-<section id="authenticating-to-ghec-using-rstudio-1" class="slide level2">
-<h2>Authenticating to GHEC: Using RStudio</h2>
-<p>You have to authenticate to GitHub separately for RStudio even if you are signed in on GitHub Desktop.</p>
-<p>If you see anything like this, you have not authenticated.</p>
-
-<img data-src="img/no_token_error.png" class="r-stretch"></section>
-<section id="authenticating-to-ghec-using-rstudio-2" class="slide level2">
-<h2>Authenticating to GHEC: Using RStudio</h2>
-<h3 id="set-up">Set up</h3>
-<ol type="1">
-<li><p>Install <code>usethis</code> R package</p></li>
-<li><p>Run this code:</p></li>
-</ol>
-<pre><code>usethis::use_git_config(user.name = "your username", user.email = "you@noaa.gov")</code></pre>
-</section>
-<section id="authenticating-to-ghec-using-rstudio-3" class="slide level2">
-<h2>Authenticating to GHEC: Using RStudio</h2>
-<h3 id="create-token">Create Token</h3>
-<pre><code>usethis::create_github_token(
-  scopes = c("repo", "workflow"),
-  description = "DESCRIBE THE TOKEN'S USE CASE",
-  host = NULL
-)</code></pre>
-
-<img data-src="img/new_token.png" class="r-stretch"></section>
-<section id="authenticating-to-ghec-using-rstudio-4" class="slide level2">
-<h2>Authenticating to GHEC: Using RStudio</h2>
-<h3 id="create-token-1">Create Token</h3>
-<ol type="1">
-<li><p>Set the date when the token will expire.</p></li>
-<li><p>Scroll to bottom and click “Generate token”</p></li>
-<li><p><strong>Copy the long PAT.</strong></p></li>
-</ol>
-</section>
-<section id="authenticating-to-ghec-using-rstudio-5" class="slide level2">
-<h2>Authenticating to GHEC: Using RStudio</h2>
-<h3 id="configure-pat-for-ghec">Configure PAT for GHEC</h3>
-<ol type="1">
-<li><p>Next to the PAT, you will see “Configure for SSO”.</p></li>
-<li><p>Click that and authenticate to your GHEC org</p></li>
-</ol>
-
-<img data-src="img/configure_sso_token.png" class="r-stretch"></section>
-<section id="authenticating-to-ghec-using-rstudio-6" class="slide level2">
-<h2>Authenticating to GHEC: Using RStudio</h2>
-<h3 id="tell-rstudio-about-the-pat">Tell RSTudio about the PAT</h3>
-<p>Run this code.</p>
-<pre><code>credentials::set_github_pat("THE LONG PAT)</code></pre>
 
 
 </section>
