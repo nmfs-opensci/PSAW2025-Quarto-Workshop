@@ -1,8 +1,8 @@
 project: 
   type: website
   output-dir: docs
-  render: 
-    - content/
+  render:     
+    - "*.*"
 
 execute:
   freeze: auto
@@ -43,7 +43,7 @@ website:
     toc-expand: false
     contents:
       - section: "Welcome"
-        href: index.html
+        href: index.qmd
         contents:
           - schedule.qmd
           - section: Set-up - Coming soon!
