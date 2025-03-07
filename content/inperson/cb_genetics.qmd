@@ -7,14 +7,15 @@ GitHub is an important platform for many NOAA Fisheries staff and teams to share
 
 The GGT has outlined several use cases for why you may want to incorporate Git and GitHub into your workflows:
 
-- Development and distribution of scientific products and fundamental research communications.
-- Development of software and statistical packages for data analysis, e.g. stock assessment models.
-- Project/team management using GitHub project boards, issue tracking, task tracking.
-- Collaborative development of reports that combine data, resource intensive analysis, and text.
-- Automated report generation (using connection to online database and continuous integration).
-- Educational resources and learning activities.
+-   Development and distribution of scientific products and fundamental research communications.
+-   Development of software and statistical packages for data analysis, e.g. stock assessment models.
+-   Project/team management using GitHub project boards, issue tracking, task tracking.
+-   Collaborative development of reports that combine data, resource intensive analysis, and text.
+-   Automated report generation (using connection to online database and continuous integration).
+-   Educational resources and learning activities.
 
 ## Aims and Objectives
+
 This sessions will use a mixture of directed, interactive lessons and GitHub Skills to provide NOAA Fisheries staff within the Conservation Biology Genetics and Evolution Program with the knowledge required for basic repository management using Git commands, collaboration, and project management, as well as dedicated time to put these skills to use in setting up an existing project or workflow with Git and GitHub.
 
 ## Agenda
@@ -57,6 +58,6 @@ This sessions will use a mixture of directed, interactive lessons and GitHub Ski
 
 ## Putting Everything Together
 
-<iframe class="slide-deck" src="guided_exercise.html" width="900" height="600">
+<iframe class="slide-deck" src="inperson/guided_exercise.html" width="900" height="600">
 
 </iframe>

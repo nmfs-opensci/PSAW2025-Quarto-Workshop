@@ -56,7 +56,7 @@ website:
       - section: "Tutorials - Coming soon!"
       - section: "In-Person Workshops"
         contents:
-          - content/cb_genetics.qmd
+          - content/inperson/cb_genetics.qmd
       - text: <img width=100px>
       - text: <img width=100px>
       - text: <img src="/images/noaa_emblem_logo-2022.png" width=100px>
