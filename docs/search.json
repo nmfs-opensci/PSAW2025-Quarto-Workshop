@@ -16,14 +16,14 @@
     "href": "content/why_git.html#what-is-git",
     "title": "What are Git and GitHub?",
     "section": "What is Git?",
-    "text": "What is Git?\n\nProgram to track file changes and create a history of those changes\nCreates a ‘container’ for a set of files called a repository"
+    "text": "What is Git?\n\n\n\nProgram to track file changes and create a history of those changes\nCreates a ‘container’ for a set of files called a repository"
   },
   {
     "objectID": "content/why_git.html#what-is-github",
     "href": "content/why_git.html#what-is-github",
     "title": "What are Git and GitHub?",
     "section": "What is GitHub?",
-    "text": "What is GitHub?\n\nCollaborative software designed to organize files and track changes by different people through time\nBuilt on top of Git\nAllows to sync (clone) Git repositories locally and over the web"
+    "text": "What is GitHub?\n\n\n\nCollaborative software designed to organize files and track changes by different people through time\nBuilt on top of Git\nAllows to sync (clone) Git repositories locally and over the web"
   },
   {
     "objectID": "content/why_git.html#why-use-git-and-github",

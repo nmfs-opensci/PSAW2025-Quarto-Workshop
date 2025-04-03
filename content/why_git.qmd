@@ -10,17 +10,33 @@ format:
 
 ## What is Git?
 
+::::: columns
+::: column
 -   Program to track file changes and create a history of those changes
 
 -   Creates a 'container' for a set of files called a **repository**
+:::
+
+::: column
+![](images/paste-63.png)
+:::
+:::::
 
 ## What is GitHub?
 
+::::: columns
+::: column
 -   Collaborative software designed to organize files and track changes by different people through time
 
 -   Built on top of Git
 
 -   Allows to sync (clone) Git repositories locally and over the web
+:::
+
+::: column
+![](images/paste-60.png)
+:::
+:::::
 
 ## Why use Git and GitHub?
 
@@ -31,3 +47,5 @@ format:
 -   Project management - collaborative "to-do" lists
 
 -   Publishing platform - README files and GitHub Pages
+
+![](images/paste-62.png)
