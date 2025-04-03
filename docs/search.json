@@ -33,48 +33,6 @@
     "text": "Why use Git and GitHub?\n\nVersion control - for you and others\nCollaboration - within your team and among colleagues and peers outside of your team\nProject management - collaborative “to-do” lists\nPublishing platform - README files and GitHub Pages"
   },
   {
-    "objectID": "content/why_git.html#git-and-github-the-basics",
-    "href": "content/why_git.html#git-and-github-the-basics",
-    "title": "What are Git and GitHub?",
-    "section": "Git and GitHub: The Basics",
-    "text": "Git and GitHub: The Basics\n\nRepositories - the main unit\n\nSets the folder and file structure\nContained and permissioned\nPublic or private\n\nUsers and organizations\nCommits and issues - Contributing through GitHub"
-  },
-  {
-    "objectID": "content/why_git.html#what-is-a-commit",
-    "href": "content/why_git.html#what-is-a-commit",
-    "title": "What are Git and GitHub?",
-    "section": "What is a “commit”?",
-    "text": "What is a “commit”?\n\nA specific “thing” that you want to save and keep a record for\nSnapshot of all the files in the entire project\nCommit messages provide info about the “thing” you’ve done"
-  },
-  {
-    "objectID": "content/why_git.html#forking",
-    "href": "content/why_git.html#forking",
-    "title": "What are Git and GitHub?",
-    "section": "Forking",
-    "text": "Forking\n\nContributing to someone else’s repository\n“Sees” changes from parent repo - allows syncing with parent\nCan be for personal purposes - doesn’t have to be pushed to original repo!"
-  },
-  {
-    "objectID": "content/why_git.html#cloning",
-    "href": "content/why_git.html#cloning",
-    "title": "What are Git and GitHub?",
-    "section": "Cloning",
-    "text": "Cloning\n\nMaking a local copy from GitHub\nAllows local sync within and across devices"
-  },
-  {
-    "objectID": "content/why_git.html#importing",
-    "href": "content/why_git.html#importing",
-    "title": "What are Git and GitHub?",
-    "section": "Importing",
-    "text": "Importing\n\nUse another repo as starting point for your own\nCopy not connected to original"
-  },
-  {
-    "objectID": "content/why_git.html#branching",
-    "href": "content/why_git.html#branching",
-    "title": "What are Git and GitHub?",
-    "section": "Branching",
-    "text": "Branching\n\nCopies of repos housed within the repo structure\nAllow for working on repo without changing main branch\nCan help for more complex collaboration"
-  },
-  {
     "objectID": "content/intro.html",
     "href": "content/intro.html",
     "title": "Introduction to Git and GitHub",
