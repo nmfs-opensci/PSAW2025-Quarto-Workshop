@@ -2,38 +2,46 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://nmfs-opensci.github.io/GitHub-Clinic/schedule.html</loc>
-    <lastmod>2025-02-25T22:31:41.485Z</lastmod>
+    <lastmod>2025-03-12T19:53:24.167Z</lastmod>
   </url>
   <url>
     <loc>https://nmfs-opensci.github.io/GitHub-Clinic/content/why_git.html</loc>
-    <lastmod>2025-03-05T00:10:00.704Z</lastmod>
+    <lastmod>2025-04-02T21:59:21.658Z</lastmod>
   </url>
   <url>
-    <loc>https://nmfs-opensci.github.io/GitHub-Clinic/content/project_management.html</loc>
-    <lastmod>2025-03-04T22:24:33.795Z</lastmod>
+    <loc>https://nmfs-opensci.github.io/GitHub-Clinic/content/intro.html</loc>
+    <lastmod>2025-04-03T20:02:47.006Z</lastmod>
   </url>
   <url>
     <loc>https://nmfs-opensci.github.io/GitHub-Clinic/content/inperson/cb_genetics.html</loc>
-    <lastmod>2025-03-07T17:04:30.794Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nmfs-opensci.github.io/GitHub-Clinic/coc.html</loc>
-    <lastmod>2025-02-25T18:48:07.653Z</lastmod>
+    <lastmod>2025-03-12T19:53:24.135Z</lastmod>
   </url>
   <url>
     <loc>https://nmfs-opensci.github.io/GitHub-Clinic/content/ghec.html</loc>
-    <lastmod>2025-03-05T00:10:00.704Z</lastmod>
+    <lastmod>2025-03-12T19:53:24.132Z</lastmod>
   </url>
   <url>
-    <loc>https://nmfs-opensci.github.io/GitHub-Clinic/content/inperson/guided_exercise.html</loc>
-    <lastmod>2025-03-05T00:08:49.593Z</lastmod>
+    <loc>https://nmfs-opensci.github.io/GitHub-Clinic/coc.html</loc>
+    <lastmod>2025-03-12T19:53:24.131Z</lastmod>
   </url>
   <url>
     <loc>https://nmfs-opensci.github.io/GitHub-Clinic/content/reuse.html</loc>
-    <lastmod>2025-02-25T18:48:07.655Z</lastmod>
+    <lastmod>2025-03-12T19:53:24.135Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nmfs-opensci.github.io/GitHub-Clinic/content/git_basics.html</loc>
+    <lastmod>2025-04-03T17:04:09.170Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nmfs-opensci.github.io/GitHub-Clinic/content/inperson/guided_exercise.html</loc>
+    <lastmod>2025-03-12T19:53:24.135Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nmfs-opensci.github.io/GitHub-Clinic/content/project_management.html</loc>
+    <lastmod>2025-04-03T20:16:53.882Z</lastmod>
   </url>
   <url>
     <loc>https://nmfs-opensci.github.io/GitHub-Clinic/index.html</loc>
-    <lastmod>2025-02-27T15:58:51.428Z</lastmod>
+    <lastmod>2025-03-31T20:36:42.858Z</lastmod>
   </url>
 </urlset>

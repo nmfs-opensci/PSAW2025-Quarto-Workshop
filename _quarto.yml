@@ -52,8 +52,10 @@ website:
 #            - text: Git-RStudio
 #              href: content/02-git-rstudio.md
           - coc.md
+      - section: "Tutorials"
+        contents:
+          - content/intro.qmd
       - section: "Resources - Coming Soon!"
-      - section: "Tutorials - Coming soon!"
       - section: "In-Person Workshops"
         contents:
           - content/inperson/cb_genetics.qmd

@@ -20,7 +20,13 @@ The GGT has outlined several use cases for why you may want to incorporate Git a
 
 ## Aims and Objectives of the GitHub Clinic
 
-The GitHub Clinic will consist of several components: - An introductory 2-hour introduction to Git and GitHub virtual workshop, repeated twice weekly for three weeks. These sessions will use a mixture of directed, interactive lessons and GitHub Skills to provide NOAA Fisheries staff with the knowledge required for basic repository management using Git commands, collaboration, and project management - A series of 1-hour standalone skills workshops for deeper dives into several GitHub features including advanced branch management, Git workflows, GitHub pages, and forking - Open Science Office Hours for individual help and coaching
+The GitHub Clinic will consist of several components:
+
+-   An introductory 2-hour introduction to Git and GitHub virtual workshop, repeated twice weekly for three weeks. These sessions will use a mixture of directed, interactive lessons and GitHub Skills to provide NOAA Fisheries staff with the knowledge required for basic repository management using Git commands, collaboration, and project management
+
+-   A series of 1-hour standalone skills workshops for deeper dives into several GitHub features including advanced branch management, Git workflows, GitHub pages, and forking
+
+-   Open Science Office Hours for individual help and coaching
 
 ### Schedule
 
