@@ -46,11 +46,7 @@ website:
         href: index.qmd
         contents:
           - schedule.qmd
-          - section: Set-up - Coming soon!
-#            - text: Git-JupyterLab
-#              href: content/02-git-jupyter.md
-#            - text: Git-RStudio
-#              href: content/02-git-rstudio.md
+          - content/setup.qmd
           - coc.md
       - section: "Tutorials"
         contents:
