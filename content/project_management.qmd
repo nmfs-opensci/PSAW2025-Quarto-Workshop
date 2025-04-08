@@ -8,13 +8,16 @@ format:
 ---
 
 ## Why use GitHub for project management?
-
+:::: columns
+::: column
 -   Issues and projects stoke collaboration
 -   Issues act as short-term to-do lists
 -   Projects capture longer-term goals and organize short-term issues
-
+:::
+::: column
 ![https://albertobasalo.medium.com/project-management-with-github-issues-and-projects-cb8eb6da966f](images/paste-54.png)
-
+:::
+::::
 ## Issues
 
 ::::: columns
@@ -31,9 +34,13 @@ format:
 :::::
 
 ## Projects
-
+:::: columns
+:::{.column width="30%"} 
 -   Group issues to view everything together
 -   Work across repositories
 -   Show progress by collaborators
-
+:::
+:::{.column width="70%"}
 ![](images/paste-57.png)
+:::
+::::
