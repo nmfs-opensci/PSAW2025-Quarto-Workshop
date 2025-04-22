@@ -62,7 +62,7 @@ website:
 format:
   html:
     theme:
-      light: cosmo
+      light: brand
       dark: [cosmo, theme-dark.scss]
     code-background: true
     code-copy: true
