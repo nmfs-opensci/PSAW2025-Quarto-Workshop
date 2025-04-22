@@ -47,7 +47,7 @@ format:
 
 ## Users, organizations, and teams
 
-:::: columns
+::::: columns
 ::: {.column width="50%" layout="[[-1], [1], [-1]]"}
 ### Teams
 
@@ -61,11 +61,11 @@ format:
 ::: {.column width="50%"}
 ![](images/paste-29.png)
 :::
-::::
+:::::
 
 ## Repositories - the main unit
 
-:::: columns
+::::: columns
 ::: column
 -   Sets the folder and file structure
 
@@ -79,11 +79,11 @@ format:
 ::: column
 ![](images/paste-30.png)
 :::
-::::
+:::::
 
 ## Commit
 
-:::: columns
+::::: columns
 ::: column
 -   A specific "thing" that you want to save and keep a record for
 
@@ -97,13 +97,13 @@ format:
 ::: column
 ![](images/paste-31.png)
 :::
-::::
+:::::
 
 # Cloning, Forking, Importing, and Branching (oh my!)
 
 ## Cloning
 
-:::: columns
+::::: columns
 ::: column
 -   Making a local copy from GitHub
 
@@ -115,11 +115,11 @@ format:
 ::: column
 ![Image credit: https://jaisriram.hashnode.dev/how-to-clone-a-github-repository-to-local-machine](images/paste-33.png)
 :::
-::::
+:::::
 
 ## Forking
 
-:::: columns
+::::: columns
 ::: column
 -   Adding to or modifying repository hosted on someone else's account
 
@@ -131,11 +131,11 @@ format:
 ::: column
 ![Image credit: https://www.earthdatascience.org/workshops/intro-version-control-git/pull-request/](images/paste-34.png)
 :::
-::::
+:::::
 
 ## Importing
 
-:::: columns
+::::: columns
 ::: column
 -   Use another repo as starting point for your own
 
@@ -149,7 +149,7 @@ format:
 ::: column
 ![](images/paste-35.png)
 :::
-::::
+:::::
 
 ## Branching
 

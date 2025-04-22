@@ -4,7 +4,7 @@ subtitle: "...and how it is and isn't different"
 author: "Eli Holmes"
 format: 
     revealjs:
-        theme: default
+        
         controls: true
 ---
 
