@@ -1,36 +1,116 @@
 color:
   palette:
-    noaa-dk-blue: "#0055A4"
-    noaa-lt-blue: "#0093D0"
-    navy: "#00467F"
-    white: "#ffffff"
-    gray-1: "#E8E8E8"
-    gray-2: "#D0D0D0"
-    gray-3: "#9A9A9A"
-    gray-4: "#7B7B7B"
-    gray-5: "#646464"
-    black: "#000000"
-    oceans-blue-1: "#0093D0"
-    oceans-blue-2: "#0055A4" 
-    oceans-blue-3: "#00467F"
-    waves-teal-1: "#1ECAD3"
-    waves-teal-2: "#008998"
-    waves-teal-3: "#007078"
-    seagrass-green-1: "#93D500"
-    seagrass-green-2: "#4C9C2E"
-    seagrass-green-3: "#007934"
-    urchin-purple-1: "#7F7FFF"
-    urchin-purple-2: "#625BC4"
-    urchin-purple-3: "#575195"
-    crustacean-orange-1: "#FF8300"
-    crustacean-orange-2: "#D65F00"
-    crustacean-orange-3: "#BC4700"
-    coral-red-1: "#FF4438"
-    coral-red-2: "#D02C2F"
-    coral-red-3: "#B2292E"
+    ## NOAA Core (Fisheries)
+    noaa-sky: "#003087"
+    midnight-sky: "#001743"
+    twilight-sky: "#002364"
+    noaa-sea: "#0085CA" 
+    medium-sea-blue: "#056FB7"
+    deep-sea-blue: "#00559B"
+    light-sea-blue: "#5EB6D9"
+    pale-sea-blue: "#C6E6F0"
+    whale-gray: "#323C46"
+    dove-gray: "#A5AAAF"
+    gull-white: "#FFFFFF"
+    
+    ## Fisheries Web Only
+    navy-blend: "#004391"
+    shark-gray: "#44545F"
+    
+    ## Fisheries Complementary
+    # Oceans (National)
+    oceans-midnight-sky: midnight-sky
+    oceans-twilight-sky: twilight-sky
+    oceans-noaa-sky: noaa-sky
+    oceans-noaa-sea: noaa-sea
+    oceans-light-sea-blue: light-sea-blue
+    oceans-pale-sea-blue: pale-sea-blue
+
+    # Waves (West Coast)
+    dark-teal: "#005E5E"
+    fisheries-teal: "#00797F"
+    waves: "#1EBEC7"
+    pale-teal: "#90DFE3"
+    
+    # Seagrass (Southeast)
+    dark-seagrass: "#365E17"
+    seagrass: "#4B8320"
+    vivid-seagrass: "#76BC21"
+    bright-seagrass: "#B1DC6B"
+
+    # Urchin (Mid-Atlantic)
+    dark-urchin: "#3B469A"
+    urchin: "#5761C0"
+    vivid-urchin: "#737BE6"
+    bright-urchin: "#A8B8FF"
+
+    # Crustacean (Alaska)
+    dk-crustacean: "#853B00"
+    crustacean: "#DB6015"
+    vivid-crustacean: "#FF8400"
+    br-crustacean: "#FFAB38"
+
+    # Coral (Pacific Islands)
+    dark-coral: "#B71300"
+    coral: "#B71300"
+    vivid-coral: "#DB2207"
+    bright-coral: "#FF6C57"
+
+    ## Fisheries Background and Tint
+    # Blues
+    bg-midnight-sky: midnight-sky
+    sky-tint-1: "#C2D9E3"
+    sky-tint-2: "#D5E6ED"
+    sky-tint-3: "#E9F3F6"
+
+    # Greens
+    turtle-green: "#283A38"
+    green-tint-1: "#CBDAC5"
+    green-tint-2: "#E7EFD5"
+    green-tint-3: "#F7FAEE"
+
+    # Grays
+    bg-whale-gray: whale-gray
+    dove-gray-tint-1: "#A5AAAF"
+    dove-gray-tint-2: "#CBCFD1"
+    gray-tint-3: "#F1F2F3"
+
+    ## NOAA Alert Colors
+    # Red
+    dark-red: dark-coral
+    red: coral
+    vivid-red: vivid-coral
+    bright-red: bright-coral
+
+    # Orange
+    dark-orange: dk-crustacean
+    orange: crustacean
+    vivid-orange: vivid-crustacean
+    bright-orange: br-crustacean
+
+    # Yellow
+    dk-yellow: "#A8821B"
+    yellow: "#DDBB25"
+    vivid-yellow: "#F0DE02"
+    bright-yellow: "#FFFF65"
+
+    # Green
+    dk-green: dark-seagrass
+    green: seagrass
+    vivid-green: vivid-seagrass
+    bright-green: bright-seagrass
+
+    ## Basic colors
+    blue: noaa-sky
+    dark-navy: midnight-sky
+    navy: navy-blend
+    gray: whale-gray
+    purple: urchin
+    teal: fisheries-teal
+    white: gull-white
   background: white
-  foreground: navy
-  primary: noaa-dk-blue
+  foreground: dark-navy
+  primary: noaa-sea
 
 logo: 
   medium: images/noaa_emblem_logo-2022.png
@@ -38,6 +118,8 @@ logo:
 typography:
   fonts:
     - family: Inter
+      source: google
+    - family: Cambria
       source: google
   base: Inter
   headings: Inter
