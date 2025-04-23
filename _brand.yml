@@ -22,7 +22,7 @@ color:
     oceans-midnight-sky: midnight-sky
     oceans-twilight-sky: twilight-sky
     oceans-noaa-sky: noaa-sky
-    oceans-noaa-sea: noaa-sea
+    # oceans-noaa-sea: noaa-sea
     oceans-light-sea-blue: light-sea-blue
     oceans-pale-sea-blue: pale-sea-blue
 
@@ -117,9 +117,17 @@ logo:
 
 typography:
   fonts:
-    - family: Inter
-      source: google
     - family: Cambria
       source: google
-  base: Inter
-  headings: Inter
+    - family: Arial Narrow
+      source: google
+    - family: Calibri
+      source: google
+    - family: Open Sans
+      source: google
+    - family: Arial Black
+      source: google
+    - family: Impact
+      source: google
+  base: Impact
+  headings: Arial Black
