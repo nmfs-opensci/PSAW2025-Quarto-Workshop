@@ -121,7 +121,7 @@ color:
 logo: 
   images: 
     noaa-emblem:
-      path: /images/noaa_emblem_logo-2022.png
+      path: images/noaa_emblem_logo-2022.png
       # path: https://nmfs-opensci.github.io/nmfs-branding/logos/noaa-emblem-rgb-2022.png
       alt: NOAA emblem
     noaa-emblem-whitespace:
@@ -140,7 +140,7 @@ logo:
       path: https://nmfs-opensci.github.io/nmfs-branding/logos/condensed-NOAA-logo-lockup-verticall-rgb.png
       alt: NOAA emblem with agency name
     noaa-logo:
-      path: /images/noaa-logo-rgb-2022.png
+      path: images/noaa-logo-rgb-2022.png
       # path: https://nmfs-opensci.github.io/nmfs-branding/logos/noaa-logo-rgb-2022.png
       alt: NOAA logo
     noaa-logo-whitespace:
