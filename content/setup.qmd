@@ -34,7 +34,7 @@ title: "Setup"
 
 ### Using GitHub Desktop
 
-![](img/g_desktop_signin.png)
+![](images/g_desktop_signin.png)
 
 **Help! I signed up for GitHub Enterprise and GitHub Desktop will not authenticate!!** Log out of GitHub Desktop under GitHub Desktop \> Settings (or Options) \> Account and log back in.
 
@@ -58,7 +58,7 @@ You have to authenticate to GitHub separately for RStudio even if you are signed
 
 If you see anything like this, you have not authenticated.
 
-![](img/no_token_error.png)
+![](images/no_token_error.png)
 
 ## Authenticating to GHEC: Using RStudio
 
@@ -80,7 +80,7 @@ usethis::use_git_config(user.name = "your username", user.email = "you@noaa.gov"
 usethis::create_github_token(   scopes = c("repo", "workflow"),   description = "DESCRIBE THE TOKEN'S USE CASE",   host = NULL )
 ```
 
-![](img/new_token.png)
+![](images/new_token.png)
 
 ## Authenticating to GHEC: Using RStudio
 
@@ -100,7 +100,7 @@ usethis::create_github_token(   scopes = c("repo", "workflow"),   description = 
 
 2.  Click that and authenticate to your GHEC org
 
-![](img/configure_sso_token.png)
+![](images/configure_sso_token.png)
 
 ## Authenticating to GHEC: Using RStudio
 
