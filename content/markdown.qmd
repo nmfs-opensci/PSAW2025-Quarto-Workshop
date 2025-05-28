@@ -1,0 +1,17 @@
+---
+title: "Introduction to Markdown and README files"
+---
+
+## Aims and Objectives
+
+Markdown is a lightweight markup language that you can use to add formatting elements to plain-text text documents. GitHub uses markdown for a variety of applications across repositories and projects, including for README files, issues, discussions, commit messages, and comments. This Introduction to Markdown skills session will use a a mixture of directed, interactive lessons and GitHub Skills to provide NOAA Fisheries staff with a foundation in markdown language formatting and editing.
+
+## Prerequisites: What do I need before this workshop to follow along on my own?
+
+This stand-alone skills session is meant for those with a basic understanding of Git and GitHub. Check out our [Introduction to Git and GitHub](intro.qmd) lessons if you are new to Git and GitHub or need a refresher.
+
+## What is Markdown?
+
+<iframe class="slide-deck" src="../slides/markdown.html" width="900" height="600">
+
+</iframe>

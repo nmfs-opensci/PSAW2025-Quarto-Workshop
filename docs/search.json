@@ -4,7 +4,7 @@
     "href": "schedule.html",
     "title": "Schedule",
     "section": "",
-    "text": "All times Pacific. Note material marked * is NOAA access restricted.\n\n\n\nTopic\nDescription\nMaterial\nMeeting Links\nRecordings\n\n\n\n\nIntroduction to Git and GitHub\nBasics of git commands, repository management, project management, and collaboration using GitHub\nLink\nMon 4/7\nTues 4/8\nMon 4/14\nTues 4/15\nMon 4/21\nTues 4/22\nMonday 4/7 (not available; issue with recording)\nTuesday 4/8 (Incomplete recording)*\nMonday 4/14*\nTuesday, 4/15*\nMonday, 4/21*\nTuesday, 4/22*\n\n\nMarkdown and README files\nBecome familiar with markdown formatting for README files, issues, Pull Requests, and discussions on GitHub\nTBD\nThurs 5/29\nTues 6/3\n\n\n\nGitHub Pages\nHow to make a website from a GitHub repository using GitHub Pages\nTBD\nThurs 6/12\nTues 6/17\n\n\n\nForks\nForking a repository, how to work with forks, and why we use them\nTBD\nThurs 6/26\nTues 7/1\n\n\n\nBranches and Pull Requests\nCreating a branch, why to use branches, and using pull request to merge changes from branches\nTBD\nThurs 7/10\nTues 7/15\n\n\n\nGit Workflows\nUsing branches to organize and develop workflows in GitHub\nTBD\nThurs 8/7\nTues 8/12\n\n\n\nMerge Conflicts\nWhy merge conflicts occur, how to address them, and best practices to avoid them in the first place\nTBD\nThurs 7/17\nTues 7/29\n\n\n\nIssues\nTypes of issues, assigning issues, and using issue templates\nTBD\nThurs 8/21\nTues 8/26\n\n\n\nProject Management\nUsing GitHub Issues and Projects for project management\nTBD\nThurs 9/4\nTues 9/9\n\n\n\nAdvanced Git\nGit on the command line, advanced features and functions\nTBD\nThurs 9/18\nTues 9/23\n\n\n\nGitHub Actions\nAutomating tasks and workflows using GitHub Actions\nTBD\nThurs 10/1\nTues 10/6",
+    "text": "Introductory workshops will be given Mondays at 10am PT/1pm ET and Tuesdays at 1pm PT/4pm ET for 3 weeks starting April 7th.\nSingle-topic sessions will be given Thursdays at 12:30pm PT/3:30pm ET and Tuesdays at 11:00am PT/2:00pm ET, with topics switching every two weeks.\nSee the Open Science Calendar for meeting links. Note that recordings and calendar links are restricted to NOAA employees and affiliates.\n\n\n\nTopic\nDescription\nMaterial\nDates\nRecordings\n\n\n\n\nIntroduction to Git and GitHub\nBasics of git commands, repository management, project management, and collaboration using GitHub\nLink\nMon 4/7\nTues 4/8\nMon 4/14\nTues 4/15\nMon 4/21\nTues 4/22\nMonday 4/7 (not available; issue with recording)\nTuesday 4/8 (Incomplete recording)\nMonday 4/14\nTuesday, 4/15\nMonday, 4/21\nTuesday, 4/22\n\n\nMarkdown and README files\nBecome familiar with markdown formatting for README files, issues, Pull Requests, and discussions on GitHub\nTBD\nThurs 5/29*\nTues 6/3\n\n\n\nGitHub Pages\nHow to make a website from a GitHub repository using GitHub Pages\nTBD\nThurs 6/12\nTues 6/17\n\n\n\nForks\nForking a repository, how to work with forks, and why we use them\nTBD\nThurs 6/26\nTues 7/1\n\n\n\nBranches and Pull Requests\nCreating a branch, why to use branches, and using pull request to merge changes from branches\nTBD\nThurs 7/10\nTues 7/15\n\n\n\nGit Workflows\nUsing branches to organize and develop workflows in GitHub\nTBD\nThurs 8/7\nTues 8/12\n\n\n\nMerge Conflicts\nWhy merge conflicts occur, how to address them, and best practices to avoid them in the first place\nTBD\nThurs 7/17\nTues 7/29\n\n\n\nIssues\nTypes of issues, assigning issues, and using issue templates\nTBD\nThurs 8/21\nTues 8/26\n\n\n\nProject Management\nUsing GitHub Issues and Projects for project management\nTBD\nThurs 9/4\nTues 9/9\n\n\n\nAdvanced Git\nGit on the command line, advanced features and functions\nTBD\nThurs 9/18\nTues 9/23\n\n\n\nGitHub Actions\nAutomating tasks and workflows using GitHub Actions\nTBD\nThurs 10/1\nTues 10/6\n\n\n\n\nNote: the Thursday 5/29 session has been shifted to 1:00pm PT/4:00pm ET to accommodate the NOAA Fisheries all-hands meeting.",
     "crumbs": [
       "JupyterHub",
       "Welcome",
@@ -12,32 +12,136 @@
     ]
   },
   {
-    "objectID": "content/why_git.html#what-is-git",
-    "href": "content/why_git.html#what-is-git",
-    "title": "What are Git and GitHub?",
-    "section": "What is Git?",
-    "text": "What is Git?\n\n\n\nProgram to track file changes and create a history of those changes\nCreates a ‘container’ for a set of files called a repository"
+    "objectID": "content/setup.html#setting-up-git-and-github",
+    "href": "content/setup.html#setting-up-git-and-github",
+    "title": "Setup",
+    "section": "Setting up Git and GitHub",
+    "text": "Setting up Git and GitHub\n\nCreate a GitHub account\nInstall GitHub Desktop - Note that this will also install Git on your machine\nRequest access to NMFS GitHub Enterprise Cloud (NMFS staff and affiliates only)\n\nDownload the NMFS GitHub Enterprise Cloud user agreement\nUse this Google form to request access to Enterprise\nWait for follow-up email and confirm you’re a member (if you see a 404 page you haven’t been added yet)\n\nLog into GitHub and GitHub Desktop using your GitHub account credentials",
+    "crumbs": [
+      "JupyterHub",
+      "Welcome",
+      "Setup"
+    ]
   },
   {
-    "objectID": "content/why_git.html#what-is-github",
-    "href": "content/why_git.html#what-is-github",
-    "title": "What are Git and GitHub?",
-    "section": "What is GitHub?",
-    "text": "What is GitHub?\n\n\n\nCollaborative software designed to organize files and track changes by different people through time\nBuilt on top of Git\nAllows to sync (clone) Git repositories locally and over the web"
+    "objectID": "content/setup.html#signing-up-for-github-enterprise-cloud-ghec",
+    "href": "content/setup.html#signing-up-for-github-enterprise-cloud-ghec",
+    "title": "Setup",
+    "section": "Signing up for GitHub Enterprise Cloud (GHEC)",
+    "text": "Signing up for GitHub Enterprise Cloud (GHEC)\n\nFollow the instructions on the GGT website to request access.\nWait to be invited to GHEC and accept\nThen you can sign in to an org like https://github.com/noaa-nwfsc with CAC or password+authentication",
+    "crumbs": [
+      "JupyterHub",
+      "Welcome",
+      "Setup"
+    ]
   },
   {
-    "objectID": "content/why_git.html#why-use-git-and-github",
-    "href": "content/why_git.html#why-use-git-and-github",
-    "title": "What are Git and GitHub?",
-    "section": "Why use Git and GitHub?",
-    "text": "Why use Git and GitHub?\n\nVersion control - for you and others\nCollaboration - within your team and among colleagues and peers outside of your team\nProject management - collaborative “to-do” lists\nPublishing platform - README files and GitHub Pages"
+    "objectID": "content/setup.html#authenticating-to-ghec",
+    "href": "content/setup.html#authenticating-to-ghec",
+    "title": "Setup",
+    "section": "Authenticating to GHEC",
+    "text": "Authenticating to GHEC\n\nUsing GitHub Desktop\n\nGo to GitHub Desktop &gt; Settings &gt; Accounts\nSign into GitHub.com. Ignore GitHub Enterprise!!\nDONE!",
+    "crumbs": [
+      "JupyterHub",
+      "Welcome",
+      "Setup"
+    ]
   },
   {
-    "objectID": "content/reuse.html",
-    "href": "content/reuse.html",
-    "title": "Reuse Statement",
-    "section": "",
-    "text": "This content is released under CC0 Creative Commons.\nPermissive Re-Mix and No Attribution Needed: You may reuse the content in this repository—excluding the NMFS Open Science logo and any NOAA logos—in any way you like. You do not need permission. You do not need to give attribution, but if you use large parts of tutorials or content it is polite to give acknowledgement of the source. Please check each NMFS Open Science repository for its reuse statement. Some of the content is from Carl Boettiger and from NASA Openscapes. This will be noted and you should check the original content for its reuse statement."
+    "objectID": "content/setup.html#authenticating-to-ghec-1",
+    "href": "content/setup.html#authenticating-to-ghec-1",
+    "title": "Setup",
+    "section": "Authenticating to GHEC",
+    "text": "Authenticating to GHEC\n\nUsing GitHub Desktop\n\nHelp! I signed up for GitHub Enterprise and GitHub Desktop will not authenticate!! Log out of GitHub Desktop under GitHub Desktop &gt; Settings (or Options) &gt; Account and log back in.",
+    "crumbs": [
+      "JupyterHub",
+      "Welcome",
+      "Setup"
+    ]
+  },
+  {
+    "objectID": "content/setup.html#authenticating-to-ghec-using-rstudio",
+    "href": "content/setup.html#authenticating-to-ghec-using-rstudio",
+    "title": "Setup",
+    "section": "Authenticating to GHEC: Using RStudio",
+    "text": "Authenticating to GHEC: Using RStudio\n\nTell RStudio about Git\n\nIn RStudio, Tools &gt; Terminal &gt; New Terminal\nAt the command line (in the new terminal), type which git if on a Mac and where git if in Windows.\nCopy that path.\nIn RStudio, Tools &gt; Global Options &gt; Git/SVN There is a box at top that asks for the location of the Git binary.\nPaste that path in.",
+    "crumbs": [
+      "JupyterHub",
+      "Welcome",
+      "Setup"
+    ]
+  },
+  {
+    "objectID": "content/setup.html#authenticating-to-ghec-using-rstudio-1",
+    "href": "content/setup.html#authenticating-to-ghec-using-rstudio-1",
+    "title": "Setup",
+    "section": "Authenticating to GHEC: Using RStudio",
+    "text": "Authenticating to GHEC: Using RStudio\nYou have to authenticate to GitHub separately for RStudio even if you are signed in on GitHub Desktop.\nIf you see anything like this, you have not authenticated.",
+    "crumbs": [
+      "JupyterHub",
+      "Welcome",
+      "Setup"
+    ]
+  },
+  {
+    "objectID": "content/setup.html#authenticating-to-ghec-using-rstudio-2",
+    "href": "content/setup.html#authenticating-to-ghec-using-rstudio-2",
+    "title": "Setup",
+    "section": "Authenticating to GHEC: Using RStudio",
+    "text": "Authenticating to GHEC: Using RStudio\n\nSet up\n\nInstall usethis R package\nRun this code:\n\nusethis::use_git_config(user.name = \"your username\", user.email = \"you@noaa.gov\")",
+    "crumbs": [
+      "JupyterHub",
+      "Welcome",
+      "Setup"
+    ]
+  },
+  {
+    "objectID": "content/setup.html#authenticating-to-ghec-using-rstudio-3",
+    "href": "content/setup.html#authenticating-to-ghec-using-rstudio-3",
+    "title": "Setup",
+    "section": "Authenticating to GHEC: Using RStudio",
+    "text": "Authenticating to GHEC: Using RStudio\n\nCreate Token\nusethis::create_github_token(   scopes = c(\"repo\", \"workflow\"),   description = \"DESCRIBE THE TOKEN'S USE CASE\",   host = NULL )",
+    "crumbs": [
+      "JupyterHub",
+      "Welcome",
+      "Setup"
+    ]
+  },
+  {
+    "objectID": "content/setup.html#authenticating-to-ghec-using-rstudio-4",
+    "href": "content/setup.html#authenticating-to-ghec-using-rstudio-4",
+    "title": "Setup",
+    "section": "Authenticating to GHEC: Using RStudio",
+    "text": "Authenticating to GHEC: Using RStudio\n\nCreate Token\n\nSet the date when the token will expire.\nScroll to bottom and click “Generate token”\nCopy the long PAT.",
+    "crumbs": [
+      "JupyterHub",
+      "Welcome",
+      "Setup"
+    ]
+  },
+  {
+    "objectID": "content/setup.html#authenticating-to-ghec-using-rstudio-5",
+    "href": "content/setup.html#authenticating-to-ghec-using-rstudio-5",
+    "title": "Setup",
+    "section": "Authenticating to GHEC: Using RStudio",
+    "text": "Authenticating to GHEC: Using RStudio\n\nConfigure PAT for GHEC\n\nNext to the PAT, you will see “Configure for SSO”.\nClick that and authenticate to your GHEC org",
+    "crumbs": [
+      "JupyterHub",
+      "Welcome",
+      "Setup"
+    ]
+  },
+  {
+    "objectID": "content/setup.html#authenticating-to-ghec-using-rstudio-6",
+    "href": "content/setup.html#authenticating-to-ghec-using-rstudio-6",
+    "title": "Setup",
+    "section": "Authenticating to GHEC: Using RStudio",
+    "text": "Authenticating to GHEC: Using RStudio\n\nTell RSTudio about the PAT\nRun this code.\ncredentials::set_github_pat(\"THE LONG PAT)",
+    "crumbs": [
+      "JupyterHub",
+      "Welcome",
+      "Setup"
+    ]
   },
   {
     "objectID": "content/intro.html",
@@ -256,152 +360,6 @@
     ]
   },
   {
-    "objectID": "content/ghec.html#what-is-github-enterprise",
-    "href": "content/ghec.html#what-is-github-enterprise",
-    "title": "Intro to GitHub Enterprise",
-    "section": "What is GitHub Enterprise?",
-    "text": "What is GitHub Enterprise?\n\nAn account with GitHub organizations (orgs) that has more controls than GitHub Free.\nYour personal GitHub account can have repos in GitHub Free orgs or GitHub Enterprise orgs.\nYour identity (username) does not change – as long as your user account uses your noaa.gov email."
-  },
-  {
-    "objectID": "content/ghec.html#how-is-github-enterprise-different",
-    "href": "content/ghec.html#how-is-github-enterprise-different",
-    "title": "Intro to GitHub Enterprise",
-    "section": "How is GitHub Enterprise different?",
-    "text": "How is GitHub Enterprise different?\n\nIt is controlled by work and has more rules\nIt requires CAC sign-in - more secure\nIt requires a license.\nOutside (non NOAA) collaborators have to be added by an admin to repos. They use a license if the repo is private or internal"
-  },
-  {
-    "objectID": "content/ghec.html#how-is-github-enterprise-different-1",
-    "href": "content/ghec.html#how-is-github-enterprise-different-1",
-    "title": "Intro to GitHub Enterprise",
-    "section": "How is GitHub Enterprise different?",
-    "text": "How is GitHub Enterprise different?\n\nGitHub 3rd party applications require approval\nIt has more features: private and internal GitHub Pages, more GitHub Action minutes, bigger files allowed.\nAllows internal repositories only visible to NMFS GitHub users across GHEC. See code from other science centers (if they made it internal)\nCollaborate on repos with any other NMFS GHEC org. You can be on orgs at other centers"
-  },
-  {
-    "objectID": "content/ghec.html#how-is-github-enterprise-different-2",
-    "href": "content/ghec.html#how-is-github-enterprise-different-2",
-    "title": "Intro to GitHub Enterprise",
-    "section": "How is GitHub Enterprise different?",
-    "text": "How is GitHub Enterprise different?\n\nHas IT managed automatic backups.\nNMFS doesn’t lose code due to repo owner leaving NOAA\nFedRAMP approved unlike GitHub free"
-  },
-  {
-    "objectID": "content/ghec.html#how-is-github-enterprise-not-different",
-    "href": "content/ghec.html#how-is-github-enterprise-not-different",
-    "title": "Intro to GitHub Enterprise",
-    "section": "How is GitHub Enterprise not different?",
-    "text": "How is GitHub Enterprise not different?\n\nYou can create repos just like in GitHub Free\nYou have access to the usual collaboration tools: projects, GitHub Actions, GitHub Pages\nYou are admin on your own repos and can admin them as usual…except re outside collaborators."
-  },
-  {
-    "objectID": "coc.html",
-    "href": "coc.html",
-    "title": "Code of Conduct",
-    "section": "",
-    "text": "We are dedicated to providing a harassment-free learning experience for everyone. We do not tolerate harassment of participants in any form. Sexual language and imagery is not appropriate either in-person or virtual form, including the Discussion boards and Chats. Participants (including event volunteers and organizers) violating these rules may be sanctioned or expelled from the event at the discretion of the organizers.",
-    "crumbs": [
-      "JupyterHub",
-      "Welcome",
-      "Code of Conduct"
-    ]
-  },
-  {
-    "objectID": "coc.html#definition-of-harassment",
-    "href": "coc.html#definition-of-harassment",
-    "title": "Code of Conduct",
-    "section": "Definition of Harassment",
-    "text": "Definition of Harassment\nHarassment includes, but is not limited to:\n\nVerbal comments that harass based on sexual orientation, disability, physical appearance, body size, race, age, religion.\nSexual images in public spaces\nDeliberate intimidation, stalking, or following\nHarassing photography or recording\nSustained disruption of talks or other events\nInappropriate physical contact\nUnwelcome sexual attention\nAdvocating for, or encouraging, any of the above behavior",
-    "crumbs": [
-      "JupyterHub",
-      "Welcome",
-      "Code of Conduct"
-    ]
-  },
-  {
-    "objectID": "coc.html#expectations",
-    "href": "coc.html#expectations",
-    "title": "Code of Conduct",
-    "section": "Expectations",
-    "text": "Expectations\nParticipants asked to stop any harassing behavior are expected to comply immediately. If a participant engages in harassing behavior, the organizers retain the right to take any actions to keep the event a welcoming environment for all participants. This includes warning the offender or expulsion from the event.\nThe organizers may take action to redress anything designed to, or with the clear impact of, disrupting the event or making the environment hostile for any participants. We expect participants to follow these rules at all the event venues and event-related social activities.",
-    "crumbs": [
-      "JupyterHub",
-      "Welcome",
-      "Code of Conduct"
-    ]
-  },
-  {
-    "objectID": "coc.html#reporting-a-violation",
-    "href": "coc.html#reporting-a-violation",
-    "title": "Code of Conduct",
-    "section": "Reporting a violation",
-    "text": "Reporting a violation\nHarassment and other code of conduct violations reduce the value of the event for everyone. If someone makes you or anyone else feel unsafe or unwelcome, please report it as soon as possible.\nIf you feel comfortable contacting someone associated with our event, you may speak with one of the event organizers in person or contact an organizer on a private channel.",
-    "crumbs": [
-      "JupyterHub",
-      "Welcome",
-      "Code of Conduct"
-    ]
-  },
-  {
-    "objectID": "content/git_basics.html#users-organizations-and-teams",
-    "href": "content/git_basics.html#users-organizations-and-teams",
-    "title": "Git and GitHub: The Basics",
-    "section": "Users, organizations, and teams",
-    "text": "Users, organizations, and teams\n\n\n\n\n \n\n\n\n\nUsers\n\nYour account\nConnected to your NOAA email\nCan add secondary email"
-  },
-  {
-    "objectID": "content/git_basics.html#users-organizations-and-teams-1",
-    "href": "content/git_basics.html#users-organizations-and-teams-1",
-    "title": "Git and GitHub: The Basics",
-    "section": "Users, organizations, and teams",
-    "text": "Users, organizations, and teams\n\n\n\n\n \n\n\n\n\nOrganizations\n\nShared account with large number of people\nCan be housed under Enterprise\nCollaboration and controlled access"
-  },
-  {
-    "objectID": "content/git_basics.html#users-organizations-and-teams-2",
-    "href": "content/git_basics.html#users-organizations-and-teams-2",
-    "title": "Git and GitHub: The Basics",
-    "section": "Users, organizations, and teams",
-    "text": "Users, organizations, and teams\n\n\n\n\n \n\n\n\n\nTeams\n\nNested within organization\nSub-groups for collaboration and access\nCan have teams within teams for more fine-scale structure"
-  },
-  {
-    "objectID": "content/git_basics.html#repositories---the-main-unit",
-    "href": "content/git_basics.html#repositories---the-main-unit",
-    "title": "Git and GitHub: The Basics",
-    "section": "Repositories - the main unit",
-    "text": "Repositories - the main unit\n\n\n\nSets the folder and file structure\nContained and permissioned\nPublic, private, or internal (Enterprise)\nCommits and issues - Contributing through GitHub"
-  },
-  {
-    "objectID": "content/git_basics.html#commit",
-    "href": "content/git_basics.html#commit",
-    "title": "Git and GitHub: The Basics",
-    "section": "Commit",
-    "text": "Commit\n\n\n\nA specific “thing” that you want to save and keep a record for\nSnapshot of all the files in the entire project\nCommit messages provide info about the “thing” you’ve done\nCommits give a history of the project"
-  },
-  {
-    "objectID": "content/git_basics.html#cloning",
-    "href": "content/git_basics.html#cloning",
-    "title": "Git and GitHub: The Basics",
-    "section": "Cloning",
-    "text": "Cloning\n\n\n\nMaking a local copy from GitHub\nAllows local sync within and across devices\nPush local changes, fetch remote changes\n\n\n\n\n\nImage credit: https://jaisriram.hashnode.dev/how-to-clone-a-github-repository-to-local-machine"
-  },
-  {
-    "objectID": "content/git_basics.html#forking",
-    "href": "content/git_basics.html#forking",
-    "title": "Git and GitHub: The Basics",
-    "section": "Forking",
-    "text": "Forking\n\n\n\nAdding to or modifying repository hosted on someone else’s account\n“Sees” changes from parent repo - allows syncing with parent\nCan be for personal purposes - doesn’t have to be pushed to original repo!\n\n\n\n\n\nImage credit: https://www.earthdatascience.org/workshops/intro-version-control-git/pull-request/"
-  },
-  {
-    "objectID": "content/git_basics.html#importing",
-    "href": "content/git_basics.html#importing",
-    "title": "Git and GitHub: The Basics",
-    "section": "Importing",
-    "text": "Importing\n\n\n\nUse another repo as starting point for your own\nCopy not connected to original\nUsually meant for importing from a different version control system (e.g., GitLab)\n\nCan be employed to use another GitHub repo as a “pseudo-template”"
-  },
-  {
-    "objectID": "content/git_basics.html#branching",
-    "href": "content/git_basics.html#branching",
-    "title": "Git and GitHub: The Basics",
-    "section": "Branching",
-    "text": "Branching\n\nCopies of repos housed within the repo structure\nAllow for working on repo without changing main branch\nCan help for more complex collaboration"
-  },
-  {
     "objectID": "content/inperson/guided_exercise.html#practice-creating-a-repository-for-your-own-project",
     "href": "content/inperson/guided_exercise.html#practice-creating-a-repository-for-your-own-project",
     "title": "Putting Everything Together",
@@ -416,157 +374,25 @@
     "text": "Practice creating a repository for your own project\n\nOpen the repository in your browser\nAdd your teammates as collaborators\nCreate an issue and tag a teammate\nMake a change to the README and commit in a new branch\nCreate a pull request\nMerge the pull request into your main branch"
   },
   {
-    "objectID": "content/project_management.html#why-use-github-for-project-management",
-    "href": "content/project_management.html#why-use-github-for-project-management",
-    "title": "GitHub for Project Management",
-    "section": "Why use GitHub for project management?",
-    "text": "Why use GitHub for project management?\n\n\n\nIssues and projects stoke collaboration\nIssues act as short-term to-do lists\nProjects capture longer-term goals and organize short-term issues\n\n\n\n\n\nhttps://albertobasalo.medium.com/project-management-with-github-issues-and-projects-cb8eb6da966f"
+    "objectID": "content/markdown.html#aims-and-objectives",
+    "href": "content/markdown.html#aims-and-objectives",
+    "title": "Introduction to Markdown and README files",
+    "section": "Aims and Objectives",
+    "text": "Aims and Objectives\nMarkdown is a lightweight markup language that you can use to add formatting elements to plain-text text documents. GitHub uses markdown for a variety of applications across repositories and projects, including for README files, issues, discussions, commit messages, and comments. This Introduction to Markdown skills session will use a a mixture of directed, interactive lessons and GitHub Skills to provide NOAA Fisheries staff with a foundation in markdown language formatting and editing."
   },
   {
-    "objectID": "content/project_management.html#issues",
-    "href": "content/project_management.html#issues",
-    "title": "GitHub for Project Management",
-    "section": "Issues",
-    "text": "Issues\n\n\n\nTasks for things to do\nPlace to provide detail\nChecklists, labels, tags\nAssign to collaborators"
+    "objectID": "content/markdown.html#prerequisites-what-do-i-need-before-this-workshop-to-follow-along-on-my-own",
+    "href": "content/markdown.html#prerequisites-what-do-i-need-before-this-workshop-to-follow-along-on-my-own",
+    "title": "Introduction to Markdown and README files",
+    "section": "Prerequisites: What do I need before this workshop to follow along on my own?",
+    "text": "Prerequisites: What do I need before this workshop to follow along on my own?\nThis stand-alone skills session is meant for those with a basic understanding of Git and GitHub. Check out our Introduction to Git and GitHub lessons if you are new to Git and GitHub or need a refresher."
   },
   {
-    "objectID": "content/project_management.html#projects",
-    "href": "content/project_management.html#projects",
-    "title": "GitHub for Project Management",
-    "section": "Projects",
-    "text": "Projects\n\n\n\nGroup issues to view everything together\nWork across repositories\nShow progress by collaborators"
-  },
-  {
-    "objectID": "content/setup.html#setting-up-git-and-github",
-    "href": "content/setup.html#setting-up-git-and-github",
-    "title": "Setup",
-    "section": "Setting up Git and GitHub",
-    "text": "Setting up Git and GitHub\n\nCreate a GitHub account\nInstall GitHub Desktop - Note that this will also install Git on your machine\nRequest access to NMFS GitHub Enterprise Cloud (NMFS staff and affiliates only)\n\nDownload the NMFS GitHub Enterprise Cloud user agreement\nUse this Google form to request access to Enterprise\nWait for follow-up email and confirm you’re a member (if you see a 404 page you haven’t been added yet)\n\nLog into GitHub and GitHub Desktop using your GitHub account credentials",
-    "crumbs": [
-      "JupyterHub",
-      "Welcome",
-      "Setup"
-    ]
-  },
-  {
-    "objectID": "content/setup.html#signing-up-for-github-enterprise-cloud-ghec",
-    "href": "content/setup.html#signing-up-for-github-enterprise-cloud-ghec",
-    "title": "Setup",
-    "section": "Signing up for GitHub Enterprise Cloud (GHEC)",
-    "text": "Signing up for GitHub Enterprise Cloud (GHEC)\n\nFollow the instructions on the GGT website to request access.\nWait to be invited to GHEC and accept\nThen you can sign in to an org like https://github.com/noaa-nwfsc with CAC or password+authentication",
-    "crumbs": [
-      "JupyterHub",
-      "Welcome",
-      "Setup"
-    ]
-  },
-  {
-    "objectID": "content/setup.html#authenticating-to-ghec",
-    "href": "content/setup.html#authenticating-to-ghec",
-    "title": "Setup",
-    "section": "Authenticating to GHEC",
-    "text": "Authenticating to GHEC\n\nUsing GitHub Desktop\n\nGo to GitHub Desktop &gt; Settings &gt; Accounts\nSign into GitHub.com. Ignore GitHub Enterprise!!\nDONE!",
-    "crumbs": [
-      "JupyterHub",
-      "Welcome",
-      "Setup"
-    ]
-  },
-  {
-    "objectID": "content/setup.html#authenticating-to-ghec-1",
-    "href": "content/setup.html#authenticating-to-ghec-1",
-    "title": "Setup",
-    "section": "Authenticating to GHEC",
-    "text": "Authenticating to GHEC\n\nUsing GitHub Desktop\n\nHelp! I signed up for GitHub Enterprise and GitHub Desktop will not authenticate!! Log out of GitHub Desktop under GitHub Desktop &gt; Settings (or Options) &gt; Account and log back in.",
-    "crumbs": [
-      "JupyterHub",
-      "Welcome",
-      "Setup"
-    ]
-  },
-  {
-    "objectID": "content/setup.html#authenticating-to-ghec-using-rstudio",
-    "href": "content/setup.html#authenticating-to-ghec-using-rstudio",
-    "title": "Setup",
-    "section": "Authenticating to GHEC: Using RStudio",
-    "text": "Authenticating to GHEC: Using RStudio\n\nTell RStudio about Git\n\nIn RStudio, Tools &gt; Terminal &gt; New Terminal\nAt the command line (in the new terminal), type which git if on a Mac and where git if in Windows.\nCopy that path.\nIn RStudio, Tools &gt; Global Options &gt; Git/SVN There is a box at top that asks for the location of the Git binary.\nPaste that path in.",
-    "crumbs": [
-      "JupyterHub",
-      "Welcome",
-      "Setup"
-    ]
-  },
-  {
-    "objectID": "content/setup.html#authenticating-to-ghec-using-rstudio-1",
-    "href": "content/setup.html#authenticating-to-ghec-using-rstudio-1",
-    "title": "Setup",
-    "section": "Authenticating to GHEC: Using RStudio",
-    "text": "Authenticating to GHEC: Using RStudio\nYou have to authenticate to GitHub separately for RStudio even if you are signed in on GitHub Desktop.\nIf you see anything like this, you have not authenticated.",
-    "crumbs": [
-      "JupyterHub",
-      "Welcome",
-      "Setup"
-    ]
-  },
-  {
-    "objectID": "content/setup.html#authenticating-to-ghec-using-rstudio-2",
-    "href": "content/setup.html#authenticating-to-ghec-using-rstudio-2",
-    "title": "Setup",
-    "section": "Authenticating to GHEC: Using RStudio",
-    "text": "Authenticating to GHEC: Using RStudio\n\nSet up\n\nInstall usethis R package\nRun this code:\n\nusethis::use_git_config(user.name = \"your username\", user.email = \"you@noaa.gov\")",
-    "crumbs": [
-      "JupyterHub",
-      "Welcome",
-      "Setup"
-    ]
-  },
-  {
-    "objectID": "content/setup.html#authenticating-to-ghec-using-rstudio-3",
-    "href": "content/setup.html#authenticating-to-ghec-using-rstudio-3",
-    "title": "Setup",
-    "section": "Authenticating to GHEC: Using RStudio",
-    "text": "Authenticating to GHEC: Using RStudio\n\nCreate Token\nusethis::create_github_token(   scopes = c(\"repo\", \"workflow\"),   description = \"DESCRIBE THE TOKEN'S USE CASE\",   host = NULL )",
-    "crumbs": [
-      "JupyterHub",
-      "Welcome",
-      "Setup"
-    ]
-  },
-  {
-    "objectID": "content/setup.html#authenticating-to-ghec-using-rstudio-4",
-    "href": "content/setup.html#authenticating-to-ghec-using-rstudio-4",
-    "title": "Setup",
-    "section": "Authenticating to GHEC: Using RStudio",
-    "text": "Authenticating to GHEC: Using RStudio\n\nCreate Token\n\nSet the date when the token will expire.\nScroll to bottom and click “Generate token”\nCopy the long PAT.",
-    "crumbs": [
-      "JupyterHub",
-      "Welcome",
-      "Setup"
-    ]
-  },
-  {
-    "objectID": "content/setup.html#authenticating-to-ghec-using-rstudio-5",
-    "href": "content/setup.html#authenticating-to-ghec-using-rstudio-5",
-    "title": "Setup",
-    "section": "Authenticating to GHEC: Using RStudio",
-    "text": "Authenticating to GHEC: Using RStudio\n\nConfigure PAT for GHEC\n\nNext to the PAT, you will see “Configure for SSO”.\nClick that and authenticate to your GHEC org",
-    "crumbs": [
-      "JupyterHub",
-      "Welcome",
-      "Setup"
-    ]
-  },
-  {
-    "objectID": "content/setup.html#authenticating-to-ghec-using-rstudio-6",
-    "href": "content/setup.html#authenticating-to-ghec-using-rstudio-6",
-    "title": "Setup",
-    "section": "Authenticating to GHEC: Using RStudio",
-    "text": "Authenticating to GHEC: Using RStudio\n\nTell RSTudio about the PAT\nRun this code.\ncredentials::set_github_pat(\"THE LONG PAT)",
-    "crumbs": [
-      "JupyterHub",
-      "Welcome",
-      "Setup"
-    ]
+    "objectID": "content/markdown.html#what-is-markdown",
+    "href": "content/markdown.html#what-is-markdown",
+    "title": "Introduction to Markdown and README files",
+    "section": "What is Markdown?",
+    "text": "What is Markdown?"
   },
   {
     "objectID": "index.html",
@@ -584,7 +410,7 @@
     "href": "index.html#aims-and-objectives-of-the-github-clinic",
     "title": "NOAA Fisheries GitHub Clinic",
     "section": "Aims and Objectives of the GitHub Clinic",
-    "text": "Aims and Objectives of the GitHub Clinic\nThe GitHub Clinic will consist of several components:\n\nAn introductory 2-hour introduction to Git and GitHub virtual workshop, repeated twice weekly for three weeks. These sessions will use a mixture of directed, interactive lessons and GitHub Skills to provide NOAA Fisheries staff with the knowledge required for basic repository management using Git commands, collaboration, and project management\nA series of 1-hour standalone skills workshops for deeper dives into several GitHub features including advanced branch management, Git workflows, GitHub pages, and forking\nOpen Science Office Hours for individual help and coaching\n\n\nSchedule\nSee the schedule page.\n\nIntro workshops will be given Mondays at 10am PT/1pm ET and Tuesdays at 1pm PT/4pm ET for 3 weeks starting April 7th\n\nThese are 2 hour introductory sessions to get you started with Git and GitHub\nIntro sessions are identical; attend any that works for your schedule, or repeat sessions if you want to see the material twice\n\nSkills workshops will be given\nSee the NMFS Open Science Training Page for the training calendar or add the NMFS Open Science calendar to your calendar to see all events.",
+    "text": "Aims and Objectives of the GitHub Clinic\nThe GitHub Clinic will consist of several components:\n\nAn introductory 2-hour introduction to Git and GitHub virtual workshop, repeated twice weekly for three weeks. These sessions will use a mixture of directed, interactive lessons and GitHub Skills to provide NOAA Fisheries staff with the knowledge required for basic repository management using Git commands, collaboration, and project management\nA series of 1-hour standalone skills workshops for deeper dives into several GitHub features including advanced branch management, Git workflows, GitHub pages, and forking\nOpen Science Office Hours for individual help and coaching\n\n\nSchedule\nSee the schedule page.\n\nIntro workshops will be given Mondays at 10am PT/1pm ET and Tuesdays at 1pm PT/4pm ET for 3 weeks starting April 7th\n\nThese are 2 hour introductory sessions to get you started with Git and GitHub\nIntro sessions are identical; attend any that works for your schedule, or repeat sessions if you want to see the material twice\n\nSingle-topic skills sessions will be given Thursdays at 12:30pm PT/3:30pm ET and Tuesdays at 11:00am PT/2:00pm ET, with topics switching every two weeks.\nSee the NMFS Open Science Training Page for the training calendar or add the NMFS Open Science calendar to your calendar to see all events.",
     "crumbs": [
       "JupyterHub",
       "Welcome"
