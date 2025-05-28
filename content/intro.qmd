@@ -29,19 +29,19 @@ This introduction to Git and GitHub virtual workshop will be repeated twice week
 
 ## Why Git/GitHub?
 
-<iframe class="slide-deck" src="why_git.html" width="900" height="600">
+<iframe class="slide-deck" src="../slides/why_git.html" width="900" height="600">
 
 </iframe>
 
 ## GitHub Enterprise
 
-<iframe class="slide-deck" src="ghec.html" width="900" height="600">
+<iframe class="slide-deck" src="../slides/ghec.html" width="900" height="600">
 
 </iframe>
 
 ## Git and GitHub: The basics
 
-<iframe class="slide-deck" src="git_basics.html" width="900" height="600">
+<iframe class="slide-deck" src="../slides/git_basics.html" width="900" height="600">
 
 </iframe>
 

@@ -35,5 +35,5 @@ See the [schedule page](schedule.qmd).
 -   Intro workshops will be given Mondays at 10am PT/1pm ET and Tuesdays at 1pm PT/4pm ET for 3 weeks starting April 7th
     -   These are 2 hour introductory sessions to get you started with Git and GitHub
     -   Intro sessions are identical; attend any that works for your schedule, or repeat sessions if you want to see the material twice
--   Skills workshops will be given
+-   Single-topic skills sessions will be given Thursdays at 12:30pm PT/3:30pm ET and Tuesdays at 11:00am PT/2:00pm ET, with topics switching every two weeks.
 -   See the [NMFS Open Science Training Page](https://sites.google.com/noaa.gov/nmfs-hq-st-open-science/trainings) for the training calendar or add the [NMFS Open Science calendar](#0) to your calendar to see all events.

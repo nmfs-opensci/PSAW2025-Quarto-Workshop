@@ -2,7 +2,8 @@ project:
   type: website
   output-dir: docs
   render:     
-    - "*.*"
+    - "*.qmd"
+    - "!slides/"
 
 execute:
   freeze: auto
