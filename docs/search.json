@@ -378,21 +378,60 @@
     "href": "content/markdown.html#aims-and-objectives",
     "title": "Introduction to Markdown and README files",
     "section": "Aims and Objectives",
-    "text": "Aims and Objectives\nMarkdown is a lightweight markup language that you can use to add formatting elements to plain-text text documents. GitHub uses markdown for a variety of applications across repositories and projects, including for README files, issues, discussions, commit messages, and comments. This Introduction to Markdown skills session will use a a mixture of directed, interactive lessons and GitHub Skills to provide NOAA Fisheries staff with a foundation in markdown language formatting and editing."
+    "text": "Aims and Objectives\nMarkdown is a lightweight markup language that you can use to add formatting elements to plain-text text documents. GitHub uses markdown for a variety of applications across repositories and projects, including for README files, issues, discussions, commit messages, and comments. This Introduction to Markdown skills session will use a a mixture of directed, interactive lessons and GitHub Skills to provide NOAA Fisheries staff with a foundation in markdown language formatting and editing.",
+    "crumbs": [
+      "JupyterHub",
+      "Tutorials",
+      "Introduction to Markdown and README files"
+    ]
   },
   {
     "objectID": "content/markdown.html#prerequisites-what-do-i-need-before-this-workshop-to-follow-along-on-my-own",
     "href": "content/markdown.html#prerequisites-what-do-i-need-before-this-workshop-to-follow-along-on-my-own",
     "title": "Introduction to Markdown and README files",
     "section": "Prerequisites: What do I need before this workshop to follow along on my own?",
-    "text": "Prerequisites: What do I need before this workshop to follow along on my own?\nThis stand-alone skills session is meant for those with a basic understanding of Git and GitHub. Check out our Introduction to Git and GitHub lessons if you are new to Git and GitHub or need a refresher."
+    "text": "Prerequisites: What do I need before this workshop to follow along on my own?\nThis stand-alone skills session is meant for those with a basic understanding of Git and GitHub. Check out our Introduction to Git and GitHub lessons if you are new to Git and GitHub or need a refresher.",
+    "crumbs": [
+      "JupyterHub",
+      "Tutorials",
+      "Introduction to Markdown and README files"
+    ]
   },
   {
     "objectID": "content/markdown.html#what-is-markdown",
     "href": "content/markdown.html#what-is-markdown",
     "title": "Introduction to Markdown and README files",
     "section": "What is Markdown?",
-    "text": "What is Markdown?"
+    "text": "What is Markdown?",
+    "crumbs": [
+      "JupyterHub",
+      "Tutorials",
+      "Introduction to Markdown and README files"
+    ]
+  },
+  {
+    "objectID": "content/markdown.html#using-markdown-in-github---tutorial",
+    "href": "content/markdown.html#using-markdown-in-github---tutorial",
+    "title": "Introduction to Markdown and README files",
+    "section": "Using Markdown in GitHub - Tutorial",
+    "text": "Using Markdown in GitHub - Tutorial\nGitHub Skills: Communicate using markdown\nWe’ll be using the Introduction to GitHub Skills Tutorial to get some practice with markdown in GitHub. Follow along with the tutorial using your own GitHub account.\n\nStep 1: Copy the exercise\nOpen the GitHub Skills link, and make sure you are logged into GitHub. Use the “Start Course” button to make a new repository on your account:\nWhen you open up the “Copy Exercise” link, you will be presented with the “Create a new repository” interface. Keep all of the defaults, and click the green “Create repository” button:\n\n\n\n\n\n\n\nGitHub Skills tutorials use GitHub Actions in the background.\n\n\n\nThese actions use “minutes”, which are limited in a private repository, but unlimited in a public one. We suggest keeping your GitHub Skills tutorial repositories public to avoid any minutes limitations.\n\n\n\n\n\n\n\n\nYou’ll notice that most steps in a GitHub Skills tutorial feature a message to wait about 20 seconds for the exercise to update.\n\n\n\nGitHub Actions can take a little bit of time to run, so waiting this requisite time is important! Refresh the instructions after 20 seconds to make sure everything updates properly.\n\n\n\n\nStep 2: Start the exercise\nAfter waiting the suggested 20 seconds, refresh the instructions page. You’ll notice that the README output has changed to show the steps for the tutorial:\n\n\n\n\n\n\n\nI suggest moving the instructions tab into another window so you can work side-by-side with the instructions to limit switching back and forth between tabs. \n\n\n\n\n\n\n\n\nStep 3: Follow the exercise\n\nOpen a pull request\nCreate a new pull request following the instructions in the tutorial: \nOpen a new window and navigate to the Pull Requests tab in GitHub, then click the green New button to open a new Pull Request:\n\nClick the “compare” dropdown and select “start-markdown”\n\nMake sure the green “Able to merge” message shows, and click “Create pull request”, then “Create pull request” again.\n\nNavigate to the “Files changed” tab after the pull request has been created\n\nScroll to the bottom of the page to the index.md file, click the three dots, and select “Edit file”\n\nAdd a first-level header by entering # followed by a space in the Edit textbox. You can play around with adding other levels of headers.\n\nClick the “Preview” button above the dialogue box to see what your headers will look like in your file.\n\nClick the “Commit changes” button at the top of your file (note that this is different from the instructions from GitHub Skills). Add a meaningful message, and click the Commit changes button.\n\n\n\nWait 20 seconds for GitHub Actions to run in the background, then refresh the instructions page.\n\n\n\n\nAdd an image\nWhen you committed the changes, GitHub should have taken you back to the bottom of the “Files changed” page. If not, navigate to this pane and scroll to the bottom, click the three dots, and click the “Edit file” option again.\n\nIn the file, add a markdown image. For this example, we can use our SCUBAtocat.\n\nClick the Preview tab to check your Markdown formatting \nCommit your changes, and wait another 20 seconds for GitHub actions to update to the next step.\n\n\n\nAdd a code example\nEdit the index.md file again.\n\nAdd some code in a code block (you can use either example in the instructions)\n\nPreview your code block.\n\nCommit your changes to the file, and wait another 20 seconds before refreshing the instructions page.\n\n\n\nAdd a task list\nEdit the index.md file again.\n\nMake a markdown task list using the - [] notation\n\nPreview your task list.\n\nCommit your changes to the file, and wait another 20 seconds before refreshing the instructions page.\n\n\n\nMerge the pull request\nClick the Conversation tab in your pull request\n\nScroll to the bottom of the page, click “Merge pull request”, and confirm the merge. Wait 20 more seconds, then refresh the instructions page to finish the course.",
+    "crumbs": [
+      "JupyterHub",
+      "Tutorials",
+      "Introduction to Markdown and README files"
+    ]
+  },
+  {
+    "objectID": "content/markdown.html#what-about-readme-files",
+    "href": "content/markdown.html#what-about-readme-files",
+    "title": "Introduction to Markdown and README files",
+    "section": "What about README files?",
+    "text": "What about README files?\nAll of the things we did in this tutorial can be done in a README file! To illustrate this, we can copy the contents of your index.md file over to your README.md file in your Skills repository:",
+    "crumbs": [
+      "JupyterHub",
+      "Tutorials",
+      "Introduction to Markdown and README files"
+    ]
   },
   {
     "objectID": "index.html",

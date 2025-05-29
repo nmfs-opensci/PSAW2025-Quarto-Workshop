@@ -52,6 +52,7 @@ website:
       - section: "Tutorials"
         contents:
           - content/intro.qmd
+          - content/markdown.qmd
       - section: "Resources - Coming Soon!"
       - section: "In-Person Workshops"
         contents:

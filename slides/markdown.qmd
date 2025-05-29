@@ -1,5 +1,5 @@
 ---
-title: "What is markdown?"
+title: "Intro to Markdown"
 author: "Jonathan Peake"
 brand: slides-light-brand.yml
 output-dir: ../docs/slides/
@@ -67,32 +67,81 @@ format:
 
 -   Code (monospace) - \``code`\`
 
+## Code blocks
+Code blocks are denoted by a series of three back-ticks:
+````
+```
+x = 1 + 1
+print('Hello, world!')
+```
+````
+```
+x = 1 + 1
+print('Hello, world!')
+```
+You can style code chunks based on the language
+````
+``` r
+x = 1 + 1
+print('Hello, world!')
+```
+````
+
+``` r
+x = 1 + 1
+print('Hello, world!')
+```
+
+
 ## Lists
 
-## Images and links
-
-::::: columns
 ::: column
--   Collaborative software designed to organize files and track changes by different people through time
+### Ordered lists
 
--   Built on top of Git
+Number or letter followed by period and two spaces
 
--   Allows to sync (clone) Git repositories locally and over the web
+1.  first
+2.  second
 :::
 
 ::: column
-![](images/paste-60.png)
+### Unordered lists
+
+Dash or asterisk followed by a space
+
+-   Unordered list item
+-   Unordered list item
 :::
-:::::
 
-## Why use Git and GitHub?
+## Checklists
 
--   Version control - for you and others
+Special markdown for GitHub
 
--   Collaboration - within your team and among colleagues and peers outside of your team
+Dash followed by a space, closed brackets (`[]`), and another space
 
--   Project management - collaborative "to-do" lists
+\- \[\] Checklist 1
 
--   Publishing platform - README files and GitHub Pages
+\- \[\] Checklist 2
 
-![](images/paste-62.png)
+![](images/paste-67.png)
+
+## Links and Images
+
+::: column
+### Links
+
+Follow the notation\
+`[text to show](link to content)`
+
+[This is a link to the schedule](https://nmfs-opensci.github.io/GitHub-Clinic/schedule.html)
+:::
+
+::: column
+### Images
+
+Follow the notation\
+`![Caption](path to image "alt text")`
+
+![Look at this scubatocat!](https://octodex.github.com/images/scubatocat.png "Octocat reimagined as a scuba diver"){fig-align="left" height="200"}
+:::
+
