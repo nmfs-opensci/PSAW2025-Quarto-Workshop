@@ -10,7 +10,7 @@
   <meta name="generator" content="quarto-1.7.29">
 
   <meta name="author" content="Jonathan Peake">
-  <title>What is markdown?</title>
+  <title>Intro to Markdown</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -28,6 +28,72 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
+    /* CSS for syntax highlighting */
+    html { -webkit-text-size-adjust: 100%; }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      { color: #003b4f; background-color: #f1f3f5; }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span { color: #003b4f; } /* Normal */
+    code span.al { color: #ad0000; } /* Alert */
+    code span.an { color: #5e5e5e; } /* Annotation */
+    code span.at { color: #657422; } /* Attribute */
+    code span.bn { color: #ad0000; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #003b4f; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #20794d; } /* Char */
+    code span.cn { color: #8f5902; } /* Constant */
+    code span.co { color: #5e5e5e; } /* Comment */
+    code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
+    code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
+    code span.dt { color: #ad0000; } /* DataType */
+    code span.dv { color: #ad0000; } /* DecVal */
+    code span.er { color: #ad0000; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #ad0000; } /* Float */
+    code span.fu { color: #4758ab; } /* Function */
+    code span.im { color: #00769e; } /* Import */
+    code span.in { color: #5e5e5e; } /* Information */
+    code span.kw { color: #003b4f; font-weight: bold; } /* Keyword */
+    code span.op { color: #5e5e5e; } /* Operator */
+    code span.ot { color: #003b4f; } /* Other */
+    code span.pp { color: #ad0000; } /* Preprocessor */
+    code span.sc { color: #5e5e5e; } /* SpecialChar */
+    code span.ss { color: #20794d; } /* SpecialString */
+    code span.st { color: #20794d; } /* String */
+    code span.va { color: #111111; } /* Variable */
+    code span.vs { color: #20794d; } /* VerbatimString */
+    code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
   <link rel="stylesheet" href="markdown_files/libs/revealjs/dist/theme/quarto-8874c67a8ed71f1cdce52b4fab49ac03.css">
   <link href="markdown_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
@@ -128,7 +194,7 @@
     <div class="slides">
 
 <section id="title-slide" data-background-color="#003155" data-background-image="styles/horiz-swoop-1.png" data-background-position="left, center" data-background-size="contain, cover" class="quarto-title-block center">
-  <h1 class="title">What is markdown?</h1>
+  <h1 class="title">Intro to Markdown</h1>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
@@ -186,33 +252,66 @@ Jonathan Peake
 <li><p>Code (monospace) - `<code>code</code>`</p></li>
 </ul>
 </section>
-<section id="lists" class="slide level2">
+<section id="code-blocks" class="slide level2">
+<h2>Code blocks</h2>
+<p>Code blocks are denoted by a series of three back-ticks:</p>
+<pre><code>```
+x = 1 + 1
+print('Hello, world!')
+```</code></pre>
+<pre><code>x = 1 + 1
+print('Hello, world!')</code></pre>
+<p>You can style code chunks based on the language</p>
+<pre><code>``` r
+x = 1 + 1
+print('Hello, world!')
+```</code></pre>
+<div class="sourceCode" id="cb4"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href=""></a>x <span class="ot">=</span> <span class="dv">1</span> <span class="sc">+</span> <span class="dv">1</span></span>
+<span id="cb4-2"><a href=""></a><span class="fu">print</span>(<span class="st">'Hello, world!'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="lists" class="slide level2 scrollable">
 <h2>Lists</h2>
-</section>
-<section id="images-and-links" class="slide level2">
-<h2>Images and links</h2>
-<div class="columns">
 <div class="column">
-<ul>
-<li><p>Collaborative software designed to organize files and track changes by different people through time</p></li>
-<li><p>Built on top of Git</p></li>
-<li><p>Allows to sync (clone) Git repositories locally and over the web</p></li>
-</ul>
+<h3 id="ordered-lists">Ordered lists</h3>
+<p>Number or letter followed by period and two spaces</p>
+<ol type="1">
+<li>first</li>
+<li>second</li>
+</ol>
 </div><div class="column">
-<p><img data-src="images/paste-60.png"></p>
-</div></div>
-</section>
-<section id="why-use-git-and-github" class="slide level2">
-<h2>Why use Git and GitHub?</h2>
+<h3 id="unordered-lists">Unordered lists</h3>
+<p>Dash or asterisk followed by a space</p>
 <ul>
-<li><p>Version control - for you and others</p></li>
-<li><p>Collaboration - within your team and among colleagues and peers outside of your team</p></li>
-<li><p>Project management - collaborative “to-do” lists</p></li>
-<li><p>Publishing platform - README files and GitHub Pages</p></li>
+<li>Unordered list item</li>
+<li>Unordered list item</li>
 </ul>
+</div></section>
+<section id="checklists" class="slide level2">
+<h2>Checklists</h2>
+<p>Special markdown for GitHub</p>
+<p>Dash followed by a space, closed brackets (<code>[]</code>), and another space</p>
+<p>- [] Checklist 1</p>
+<p>- [] Checklist 2</p>
 
-
-<img data-src="images/paste-62.png" class="r-stretch"></section></section>
+<img data-src="images/paste-67.png" class="r-stretch"></section>
+<section id="links-and-images" class="slide level2">
+<h2>Links and Images</h2>
+<div class="column">
+<h3 id="links">Links</h3>
+<p>Follow the notation<br>
+<code>[text to show](link to content)</code></p>
+<p><a href="https://nmfs-opensci.github.io/GitHub-Clinic/schedule.html">This is a link to the schedule</a></p>
+</div><div class="column">
+<h3 id="images">Images</h3>
+<p>Follow the notation<br>
+<code>![Caption](path to image "alt text")</code></p>
+<div class="quarto-figure quarto-figure-left">
+<figure>
+<p><img data-src="https://octodex.github.com/images/scubatocat.png" title="Octocat reimagined as a scuba diver" height="200"></p>
+<figcaption>Look at this scubatocat!</figcaption>
+</figure>
+</div>
+</div></section></section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
 <p><img src="logos\logo.png" class="slide-logo"></p>
