@@ -63,5 +63,6 @@ See the [Open Science Calendar](https://calendar.google.com/calendar/u/0?cid=Y18
 |                                |                                                                    |                              |              |                                                                                                                             |
 |                                |                                                                    |                              | Tues 10/6    |                                                                                                                             |
 +--------------------------------+--------------------------------------------------------------------+------------------------------+--------------+-----------------------------------------------------------------------------------------------------------------------------+
+: {tbl-colwidths="[15,35,10,15,25]"}
 
 Note: the Thursday 5/29 session has been shifted to 1:00pm PT/4:00pm ET to accommodate the NOAA Fisheries all-hands meeting.
