@@ -20,7 +20,7 @@ This stand-alone skills session is meant for those with a basic understanding of
 
 [GitHub Skills: Communicate using markdown](https://github.com/skills/communicate-using-markdown)
 
-We'll be using the Introduction to GitHub Skills Tutorial to get some practice with markdown in GitHub. Follow along with the tutorial using your own GitHub account.
+We'll be using the Communicate Using Markdown Skills Tutorial to get some practice with markdown in GitHub. Follow along with the tutorial using your own GitHub account.
 
 ### Step 1: Copy the exercise
 

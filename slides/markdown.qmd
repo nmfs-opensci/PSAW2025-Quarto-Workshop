@@ -68,19 +68,24 @@ format:
 -   Code (monospace) - \``code`\`
 
 ## Code blocks
+
 Code blocks are denoted by a series of three back-ticks:
-````
+
+````         
 ```
 x = 1 + 1
 print('Hello, world!')
 ```
 ````
-```
+
+```         
 x = 1 + 1
 print('Hello, world!')
 ```
+
 You can style code chunks based on the language
-````
+
+````         
 ``` r
 x = 1 + 1
 print('Hello, world!')
@@ -91,7 +96,6 @@ print('Hello, world!')
 x = 1 + 1
 print('Hello, world!')
 ```
-
 
 ## Lists
 
@@ -144,4 +148,3 @@ Follow the notation\
 
 ![Look at this scubatocat!](https://octodex.github.com/images/scubatocat.png "Octocat reimagined as a scuba diver"){fig-align="left" height="200"}
 :::
-
