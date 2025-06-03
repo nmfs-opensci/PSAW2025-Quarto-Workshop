@@ -247,7 +247,7 @@ Jonathan Peake
 <li><p>Italics - <em>*italicized text*</em></p></li>
 <li><p>Bold italics - <strong><em>***bold and italicized text***</em></strong></p></li>
 <li><p>Superscript - superscript<sup>^2^</sup></p></li>
-<li><p>Subscript - superscript<sub>~2~</sub></p></li>
+<li><p>Subscript - subscript<sub>~2~</sub></p></li>
 <li><p>Strikethrough - ~~<del>strikethrough</del>~~</p></li>
 <li><p>Code (monospace) - `<code>code</code>`</p></li>
 </ul>
@@ -274,6 +274,8 @@ print('Hello, world!')
 <div class="column">
 <h3 id="ordered-lists">Ordered lists</h3>
 <p>Number or letter followed by period and two spaces</p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode numberSource md number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb5-1"><a href=""></a><span class="ss">1. </span>first</span>
+<span id="cb5-2"><a href=""></a><span class="ss">2. </span>second</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <ol type="1">
 <li>first</li>
 <li>second</li>
@@ -281,6 +283,8 @@ print('Hello, world!')
 </div><div class="column">
 <h3 id="unordered-lists">Unordered lists</h3>
 <p>Dash or asterisk followed by a space</p>
+<div class="sourceCode" id="cb6"><pre class="sourceCode numberSource md number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb6-1"><a href=""></a><span class="ss">- </span>Unordered list item</span>
+<span id="cb6-2"><a href=""></a><span class="ss">* </span>Unordered list item</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <ul>
 <li>Unordered list item</li>
 <li>Unordered list item</li>
@@ -288,12 +292,14 @@ print('Hello, world!')
 </div></section>
 <section id="checklists" class="slide level2">
 <h2>Checklists</h2>
-<p>Special markdown for GitHub</p>
-<p>Dash followed by a space, closed brackets (<code>[]</code>), and another space</p>
-<p>- [] Checklist 1</p>
-<p>- [] Checklist 2</p>
-
-<img data-src="images/paste-67.png" class="r-stretch"></section>
+<p>Dash followed by a space, closed brackets with a space between (<code>[ ]</code>), and another space</p>
+<pre><code>- [ ] Checklist item 1
+- [ ] Checklist item 2</code></pre>
+<ul class="task-list">
+<li><p><label><input type="checkbox">Checklist 1</label></p></li>
+<li><p><label><input type="checkbox">Checklist 2</label></p></li>
+</ul>
+</section>
 <section id="links-and-images" class="slide level2">
 <h2>Links and Images</h2>
 <div class="column">
