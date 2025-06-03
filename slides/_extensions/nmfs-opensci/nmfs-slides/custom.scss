@@ -13,10 +13,10 @@ $light-bg-text-color: $brand-dark-navy;
 // Slide numbers to the bottom-left
 .slide-number, .reveal.has-logo .slide-number {
     bottom: 14px !important;
+    font-size: clamp(1rem, 1.5vw, 1.5rem) !important;
     left: 50px !important;
     top: unset !important;
     color: $primary !important;
-    font-size: 0.5em;
 }
 
 .reveal .slide-number > a[href*='/title-slide'] {
@@ -127,9 +127,9 @@ body:has(.present.quarto-title-block)  {
 
 .footer {
     display: var(--footer-display, block) !important;
-    font-size: 1.2vw !important;
+    font-size: clamp(0.5rem, 1.4vw, 1.5rem) !important;
     position: relative;
-    left: 8%;
+    left: 10%;
     max-width: 85%;
     text-align: left !important;
     color: $primary !important;
@@ -139,6 +139,9 @@ body:has(.present.quarto-title-block)  {
     display: var(--slide-menu-display, block) !important;
 }
 
+.reveal .slide-menu-button .fas::before {
+    // background-size: 2.5vw 2.2rem !important;
+}
 
 .reveal h3 {
     color: $brand-h3
