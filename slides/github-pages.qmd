@@ -27,3 +27,15 @@ format:
 -   Takes content from main branch and publishes to a website
 
 ## Why use GitHub Pages?
+
+-   Easy and free way to publish content
+
+-   Can make internal, private web-pages with GHEC
+
+-   In NMFS:
+
+    -   Make a sleek web-hosted lab manual
+
+    -   Share reports in HTML
+
+    -   Make a landing page for a lab or program

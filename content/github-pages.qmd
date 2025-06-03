@@ -16,3 +16,7 @@ GitHub Pages lets you turn your repository into a website. This is a great way t
 <iframe class="slide-deck" src="../slides/markdown.html" width="900" height="600">
 
 </iframe>
+
+## Tutorial: Making a basic webpage with GitHub Pages
+
+## Tutorial: GitHub Pages x Quarto templates for NMFS-branded websites
