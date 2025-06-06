@@ -18,15 +18,19 @@ This stand-alone skills session is meant for those with a basic understanding of
 
 ## Using Markdown in GitHub - Tutorial
 
+::: callout-important
+GitHub Skills are systematically being updated to an issue-based workflow from the legacy README-based workflow. The following tutorial follows the updated issue-based workflow. If you began this exercise before 5-30-2025, your skills repository will look different from the current skills repository template. If this is the case, [click here for the legacy README-based tutorial.](markdown-legacy.qmd)
+:::
+
 [GitHub Skills: Communicate using markdown](https://github.com/skills/communicate-using-markdown)
 
 We'll be using the Communicate Using Markdown Skills Tutorial to get some practice with markdown in GitHub. Follow along with the tutorial using your own GitHub account.
 
 ### Step 1: Copy the exercise
 
-Open the GitHub Skills link, and make sure you are logged into GitHub. Use the "Start Course" button to make a new repository on your account:
+Open the GitHub Skills link, and make sure you are logged into GitHub. Use the "Copy Exercise" button to make a new repository on your account:
 
-![](images/paste-64.png)When you open up the "Copy Exercise" link, you will be presented with the "Create a new repository" interface. Keep all of the defaults, and click the green "Create repository" button:
+![](images/paste-96.png)When you open up the "Copy Exercise" link, you will be presented with the "Create a new repository" interface. Keep all of the defaults, and click the green "Create repository" button:
 
 ![](images/paste-65.png)
 
@@ -44,120 +48,120 @@ GitHub Actions can take a little bit of time to run, so waiting this requisite t
 
 ### Step 2: Start the exercise
 
-After waiting the suggested 20 seconds, refresh the instructions page. You'll notice that the README output has changed to show the steps for the tutorial:
+After waiting the suggested 20 seconds, refresh the repository, and click the "Go to Exercise" button in the README
 
-![](images/paste-66.png)
+![](images/paste-97.png)
 
 ::: callout-tip
-## I suggest moving the instructions tab into another window so you can work side-by-side with the instructions to limit switching back and forth between tabs. ![](images/paste-67.png)
+I suggest moving the instructions tab into another window so you can work side-by-side with the instructions to limit switching back and forth between tabs. ![](images/paste-98.png)
 :::
 
 ### Step 3: Follow the exercise
 
-#### Open a pull request
+#### Create a markdown file in a new branch
 
-Create a new pull request following the instructions in the tutorial: ![](images/paste-68.png)
+In this exercise, we will be using markdown to create an example "blog" page. The content provided in the exercise is just an example; we can give a more personal touch to our own content.
 
-Open a new window and navigate to the Pull Requests tab in GitHub, then click the green New button to open a new Pull Request:
+::: callout-tip
+During this tutorial, GitHub Skills will provide code blocks that you can copy directly to your clipboard to paste into the body of your Markdown document. But this defeats the purpose of getting practice with Markdown and building that muscle memory! Go ahead and type in your own content (don't worry, it doesn't have to match the example content perfectly)
+:::
 
-![](images/paste-69.png)
+1.  On the Code tab of your repository, click the dropdown menu where it says "main"\
+    ![](images/paste-99.png)
+2.  In the "Find or create a branch" box, type `start-blog` and select "Create branch `start-blog` from `main`"\
+    ![](images/paste-100.png)
+3.  Create a new file by clicking the "Add file" button in your new branch (note this may look like a `+` symbol if you're working in a condensed side-by-side view) and click "Create new file"\
+    ![](paste-F9qxqF8HVgve9y3D1YJX4)![](paste-OYVU4KMHhESvUVBUG87KK)
+4.  Along the top of the dialogue box, name your file `day-1.md`\
+    ![](paste-R-uOBw3WiCN0x48RSyTGA)
+5.  In your new file, create a level one heading to give the page a title\
+    ![](paste-DmA3Nu2m4Xn4hUrk_o06Z)
+6.  Add a couple level 2 headings for the names of each of the blog posts\
+    ![](paste-7vtuUN5kT-mPKwbuY7y1e)
+7.  Click the Preview tab in the top left of the dialogue box to view your rendered content\
+    ![](paste-Ay3POtHdrfbzjDTDaDPFn)
+8.  Click the "Commit changes" button in the top right and commit the changes directly to the start-blog branch\
+    ![](paste-afB2ycPdRHjqC_Xws6oyL)
 
-Click the "compare" dropdown and select "start-markdown"
+#### Make a list
 
-![](images/paste-70.png)
+1.  Re-open the `day-1.md` file and click "Edit this file"\
+    ![](paste-huUVLMk3hToBZsj6Mxrrq)
+2.  In the `## Morning Planning` section, add a list of each type: unordered, ordered, and task\
+    ![](paste-de8fiEXOHEhLSkMZrsKam)
 
-Make sure the green "Able to merge" message shows, and click "Create pull request", then "Create pull request" again.
+::: callout-note
+GitHub skills only asks for a task list, but we want you to have practice with all list types; adding the other types will not mess up the GitHub Skills workflow, so go ahead and practice adding all three types!
+:::
 
-![](images/paste-71.png)
+3.  Preview your content in the preview tab\
+    ![](paste-S5Lmm1noiACIqG3GYCaJg)
+4.  Commit your changes directly to the `start-blog` branch\
+    ![](paste-9TGy8kUHxA40G9joMNxDM)
 
-Navigate to the "Files changed" tab after the pull request has been created
+#### Add a code sample
 
-![](images/paste-72.png)
-
-Scroll to the bottom of the page to the `index.md` file, click the three dots, and select "Edit file"
-
-![](images/paste-73.png)
-
-Add a first-level header by entering `#` followed by a space in the Edit textbox. You can play around with adding other levels of headers.
-
-![](images/paste-74.png)
-
-Click the "Preview" button above the dialogue box to see what your headers will look like in your file.
-
-![](images/paste-75.png)
-
-Click the "Commit changes" button at the top of your file (note that this is different from the instructions from GitHub Skills). Add a meaningful message, and click the Commit changes button.
-
-![Wait 20 seconds for GitHub Actions to run in the background, then refresh the instructions page.](images/paste-76.png)
+1.  After this commit, the `day-1.md` file should still be open. Click the "Edit this content" button to go back into editing mode\
+    ![](paste-WbeLmRoMnBzkDFiL96Xiu)
+2.  In the "Review" section, add a code chunk using the three backtick notation (it's okay to use a different example than the one provided by GitHub Skills)\
+    ![](paste-q9IDf7schABAYchlAgp_k)
+3.  Preview your content\
+    ![](paste-yJlML48qzlxGKntQlE8Ju)
+4.  Commit your changes to the `start-blog` branch\
+    ![](paste-nZmxMINGMKIwvHk8FHPIn)
 
 #### Add an image
 
-When you committed the changes, GitHub should have taken you back to the bottom of the "Files changed" page. If not, navigate to this pane and scroll to the bottom, click the three dots, and click the "Edit file" option again.
+1.  Open our `day-1.md` file in edit mode\
+    ![](paste-pvdU8on4Go1GdN6vJY-d4)
+2.  Insert an image below the the "Morning Planning" level 2 heading. To make things a little more interesting, let's use the Scubatocat image located at <https://octodex.github.com/images/scubatocat.png>\
+    ![](paste-4GrmBSuK9KVulSwS_0p1s)
+3.  Preview your Markdown file\
+    ![](paste-XLvW2SkEeoFXzZqATfpFO)
+4.  Go back to the Edit tab and replace the image with an HTML version that changes the size and position\
+    ![](paste-PR18Knz5bGYvr6XAVp_Yz)
+5.  Preview your updated image, and Commit changes to `start-blog`![](paste-yKwc4pDFJtQS6KwX-dUt-)
 
-![](images/paste-77.png)
+#### Add some formatted text (off-script
 
-In the file, add a markdown image. For this example, we can use our [SCUBAtocat](https://octodex.github.com/images/scubatocat.png).
+Before we finish up our tutorial, let's add some formatted text. The GitHub Skills lesson does not mention anything about this, but it's an important part of markdown that you should get some practice with!
 
-![](images/paste-78.png)
+1.  Edit your `day-1.md` file one more time\
+    ![](paste-xJAqXTyyM6E436hBsp6pK)
+2.  Under the Daily Learning heading, add some bolded, italicized, and in-line code text\
+    ![](paste-SmyCXeZXtk51b9JelRpQ8)
+3.  Preview your file, then commit your changes\
+    ![](paste-Izr5EapRKzgkA6J98my3M)
 
-Click the Preview tab to check your Markdown formatting ![](images/paste-79.png)
+#### Finish work: Merge your blog post
 
-Commit your changes, and wait another 20 seconds for GitHub actions to update to the next step.
+This step doesn't have anything to do with markdown, but it's good practice for working with Pull Requests from a branch!
 
-![](images/paste-80.png)
-
-#### Add a code example
-
-Edit the index.md file again.
-
-![](images/paste-81.png)
-
-Add some code in a code block (you can use either example in the instructions)
-
-![](images/paste-82.png)
-
-Preview your code block.
-
-![](images/paste-86.png)
-
-Commit your changes to the file, and wait another 20 seconds before refreshing the instructions page.
-
-![](images/paste-83.png)
-
-#### Add a task list
-
-Edit the index.md file again.
-
-![](images/paste-84.png)
-
-Make a markdown task list using the `- []` notation
-
-![](images/paste-85.png)
-
-Preview your task list.
-
-![](images/paste-87.png)
-
-Commit your changes to the file, and wait another 20 seconds before refreshing the instructions page.
-
-![](images/paste-88.png)
-
-#### Merge the pull request
-
-Click the Conversation tab in your pull request
-
-![](images/paste-89.png)
-
-Scroll to the bottom of the page, click "Merge pull request", and confirm the merge. Wait 20 more seconds, then refresh the instructions page to finish the course. ![](images/paste-90.png)
-
-![](images/paste-91.png)
+1.  Select the "Pull requests" tab in the top navigation bar\
+    ![](paste-CfTzg0BZP2yN077CYn4tv)
+2.  Click the "Compare & pull request" button for `start-blog`\
+    ![](paste-50kn8Ln2gm7hoYyy0e006)
+3.  Click the "Create pull request button"\
+    ![](paste-chYZX1C3veYvz9rr2HLAc)
+4.  Merge your pull request and confirm the merge\
+    ![](paste-iwN2mLZFsBMgB2_v_I1BT)\
+    ![](paste-6lUmKDYbI3Tj0kIHot1DG)
 
 ## What about README files?
 
-All of the things we did in this tutorial can be done in a README file! To illustrate this, we can copy the contents of your index.md file over to your README.md file in your Skills repository:
+All of the things we did in this tutorial can be done in a README file! To illustrate this, we can copy the contents of our `day-1.md` file over to our README.md file in our Skills repository:
 
-![](images/paste-92.png)
-
-![![](images/paste-94.png)](images/paste-93.png)
-
-![](images/paste-95.png)
+1.  Navigate to the Code tab in the top navigation menu\
+    ![](paste-wx6Do3t5PoYRaWJBy7vxS)
+2.  Select `day-1.md` and switch to the Code view\
+    ![](paste-HyP9DDdZvio1rHM3vmcSQ)
+3.  Click the "Copy raw file" button at the top of the dialogue box (looks like two overlapping squares)\
+    ![](paste-VpFJdD1c8QQKowd7sv8EU)
+4.  Navigate back to the Code tab, and edit the README file by clicking the "Edit file" button on the README\
+    ![](paste-bd-0J_HOl-KONGS8-Wkyu)
+5.  Replace the text in the dialogue box with the copied text from the `day-1.md` file\
+    ![](paste-1Htuir1WrkbJW_UjLk6BW)
+6.  Commit your changes\
+    ![](paste-0onpjxLtt0O4Ngm93SLFd)
+7.  Navigate back to the Code tab (this should bring you to the home page of our repository, and scroll down to see your markdown-formatted README file!\
+    ![](paste-I3fhJrKZ6T6nIIWJz5MgI)
