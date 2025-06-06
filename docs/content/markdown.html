@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.29">
+<meta name="generator" content="quarto-1.7.31">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -38,9 +38,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-0815c480559380816a4d1ea211a47e91.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-748b535e376f14d4692bf2b2e5fd6380.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-0815c480559380816a4d1ea211a47e91.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-8ef56b68f8fa1e9d2ba328e99e439f80.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../site_libs/bootstrap/bootstrap-dbcf5a5b6fa9f5d0c705674bedd7b8cb.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
@@ -232,6 +232,7 @@ ul.task-list li input[type="checkbox"] {
       toggleColorMode(toAlternate);
       setStyleSentinel(toAlternate);
       toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
     };
     // Switch to dark mode if need be
     if (hasAlternateSentinel()) {
@@ -461,12 +462,25 @@ function googleTranslateElementInit() {
 </section>
 <section id="using-markdown-in-github---tutorial" class="level2">
 <h2 class="anchored" data-anchor-id="using-markdown-in-github---tutorial">Using Markdown in GitHub - Tutorial</h2>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>GitHub Skills are systematically being updated to an issue-based workflow from the legacy README-based workflow. The following tutorial follows the updated issue-based workflow. If you began this exercise before 5-30-2025, your skills repository will look different from the current skills repository template. If this is the case, <a href="../content/markdown-legacy.html">click here for the legacy README-based tutorial.</a></p>
+</div>
+</div>
 <p><a href="https://github.com/skills/communicate-using-markdown">GitHub Skills: Communicate using markdown</a></p>
 <p>We’ll be using the Communicate Using Markdown Skills Tutorial to get some practice with markdown in GitHub. Follow along with the tutorial using your own GitHub account.</p>
 <section id="step-1-copy-the-exercise" class="level3">
 <h3 class="anchored" data-anchor-id="step-1-copy-the-exercise">Step 1: Copy the exercise</h3>
-<p>Open the GitHub Skills link, and make sure you are logged into GitHub. Use the “Start Course” button to make a new repository on your account:</p>
-<p><img src="images/paste-64.png" class="img-fluid">When you open up the “Copy Exercise” link, you will be presented with the “Create a new repository” interface. Keep all of the defaults, and click the green “Create repository” button:</p>
+<p>Open the GitHub Skills link, and make sure you are logged into GitHub. Use the “Copy Exercise” button to make a new repository on your account:</p>
+<p><img src="images/paste-96.png" class="img-fluid">When you open up the “Copy Exercise” link, you will be presented with the “Create a new repository” interface. Keep all of the defaults, and click the green “Create repository” button:</p>
 <p><img src="images/paste-65.png" class="img-fluid"></p>
 <div class="callout callout-style-default callout-important callout-titled">
 <div class="callout-header d-flex align-content-center">
@@ -497,101 +511,162 @@ You’ll notice that most steps in a GitHub Skills tutorial feature a message to
 </section>
 <section id="step-2-start-the-exercise" class="level3">
 <h3 class="anchored" data-anchor-id="step-2-start-the-exercise">Step 2: Start the exercise</h3>
-<p>After waiting the suggested 20 seconds, refresh the instructions page. You’ll notice that the README output has changed to show the steps for the tutorial:</p>
-<p><img src="images/paste-66.png" class="img-fluid"></p>
+<p>After waiting the suggested 20 seconds, refresh the repository, and click the “Go to Exercise” button in the README</p>
+<p><img src="images/paste-97.png" class="img-fluid"></p>
 <div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-I suggest moving the instructions tab into another window so you can work side-by-side with the instructions to limit switching back and forth between tabs. <img src="images/paste-67.png" class="img-fluid">
+Tip
 </div>
 </div>
 <div class="callout-body-container callout-body">
-
+<p>I suggest moving the instructions tab into another window so you can work side-by-side with the instructions to limit switching back and forth between tabs. <img src="images/paste-98.png" class="img-fluid"></p>
 </div>
 </div>
 </section>
 <section id="step-3-follow-the-exercise" class="level3">
 <h3 class="anchored" data-anchor-id="step-3-follow-the-exercise">Step 3: Follow the exercise</h3>
-<section id="open-a-pull-request" class="level4">
-<h4 class="anchored" data-anchor-id="open-a-pull-request">Open a pull request</h4>
-<p>Create a new pull request following the instructions in the tutorial: <img src="images/paste-68.png" class="img-fluid"></p>
-<p>Open a new window and navigate to the Pull Requests tab in GitHub, then click the green New button to open a new Pull Request:</p>
-<p><img src="images/paste-69.png" class="img-fluid"></p>
-<p>Click the “compare” dropdown and select “start-markdown”</p>
-<p><img src="images/paste-70.png" class="img-fluid"></p>
-<p>Make sure the green “Able to merge” message shows, and click “Create pull request”, then “Create pull request” again.</p>
-<p><img src="images/paste-71.png" class="img-fluid"></p>
-<p>Navigate to the “Files changed” tab after the pull request has been created</p>
-<p><img src="images/paste-72.png" class="img-fluid"></p>
-<p>Scroll to the bottom of the page to the <code>index.md</code> file, click the three dots, and select “Edit file”</p>
-<p><img src="images/paste-73.png" class="img-fluid"></p>
-<p>Add a first-level header by entering <code>#</code> followed by a space in the Edit textbox. You can play around with adding other levels of headers.</p>
-<p><img src="images/paste-74.png" class="img-fluid"></p>
-<p>Click the “Preview” button above the dialogue box to see what your headers will look like in your file.</p>
-<p><img src="images/paste-75.png" class="img-fluid"></p>
-<p>Click the “Commit changes” button at the top of your file (note that this is different from the instructions from GitHub Skills). Add a meaningful message, and click the Commit changes button.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/paste-76.png" class="img-fluid figure-img"></p>
-<figcaption>Wait 20 seconds for GitHub Actions to run in the background, then refresh the instructions page.</figcaption>
-</figure>
+<section id="create-a-markdown-file-in-a-new-branch" class="level4">
+<h4 class="anchored" data-anchor-id="create-a-markdown-file-in-a-new-branch">Create a markdown file in a new branch</h4>
+<p>In this exercise, we will be using markdown to create an example “blog” page. The content provided in the exercise is just an example; we can give a more personal touch to our own content.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
 </div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>During this tutorial, GitHub Skills will provide code blocks that you can copy directly to your clipboard to paste into the body of your Markdown document. But this defeats the purpose of getting practice with Markdown and building that muscle memory! Go ahead and type in your own content (don’t worry, it doesn’t have to match the example content perfectly)</p>
+</div>
+</div>
+<ol type="1">
+<li>On the Code tab of your repository, click the dropdown menu where it says “main”<br>
+<img src="images/paste-99.png" class="img-fluid"></li>
+<li>In the “Find or create a branch” box, type <code>start-blog</code> and select “Create branch <code>start-blog</code> from <code>main</code>”<br>
+<img src="images/paste-100.png" class="img-fluid"></li>
+<li>Create a new file by clicking the “Add file” button in your new branch (note this may look like a <code>+</code> symbol if you’re working in a condensed side-by-side view) and click “Create new file”<br>
+<img src="paste-F9qxqF8HVgve9y3D1YJX4.png" class="img-fluid"><img src="paste-OYVU4KMHhESvUVBUG87KK.png" class="img-fluid"></li>
+<li>Along the top of the dialogue box, name your file <code>day-1.md</code><br>
+<img src="paste-R-uOBw3WiCN0x48RSyTGA.png" class="img-fluid"></li>
+<li>In your new file, create a level one heading to give the page a title<br>
+<img src="paste-DmA3Nu2m4Xn4hUrk_o06Z.png" class="img-fluid"></li>
+<li>Add a couple level 2 headings for the names of each of the blog posts<br>
+<img src="paste-7vtuUN5kT-mPKwbuY7y1e.png" class="img-fluid"></li>
+<li>Click the Preview tab in the top left of the dialogue box to view your rendered content<br>
+<img src="paste-Ay3POtHdrfbzjDTDaDPFn.png" class="img-fluid"></li>
+<li>Click the “Commit changes” button in the top right and commit the changes directly to the start-blog branch<br>
+<img src="paste-afB2ycPdRHjqC_Xws6oyL.png" class="img-fluid"></li>
+</ol>
+</section>
+<section id="make-a-list" class="level4">
+<h4 class="anchored" data-anchor-id="make-a-list">Make a list</h4>
+<ol type="1">
+<li>Re-open the <code>day-1.md</code> file and click “Edit this file”<br>
+<img src="paste-huUVLMk3hToBZsj6Mxrrq.png" class="img-fluid"></li>
+<li>In the <code>## Morning Planning</code> section, add a list of each type: unordered, ordered, and task<br>
+<img src="paste-de8fiEXOHEhLSkMZrsKam.png" class="img-fluid"></li>
+</ol>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>GitHub skills only asks for a task list, but we want you to have practice with all list types; adding the other types will not mess up the GitHub Skills workflow, so go ahead and practice adding all three types!</p>
+</div>
+</div>
+<ol start="3" type="1">
+<li>Preview your content in the preview tab<br>
+<img src="paste-S5Lmm1noiACIqG3GYCaJg.png" class="img-fluid"></li>
+<li>Commit your changes directly to the <code>start-blog</code> branch<br>
+<img src="paste-9TGy8kUHxA40G9joMNxDM.png" class="img-fluid"></li>
+</ol>
+</section>
+<section id="add-a-code-sample" class="level4">
+<h4 class="anchored" data-anchor-id="add-a-code-sample">Add a code sample</h4>
+<ol type="1">
+<li>After this commit, the <code>day-1.md</code> file should still be open. Click the “Edit this content” button to go back into editing mode<br>
+<img src="paste-WbeLmRoMnBzkDFiL96Xiu.png" class="img-fluid"></li>
+<li>In the “Review” section, add a code chunk using the three backtick notation (it’s okay to use a different example than the one provided by GitHub Skills)<br>
+<img src="paste-q9IDf7schABAYchlAgp_k.png" class="img-fluid"></li>
+<li>Preview your content<br>
+<img src="paste-yJlML48qzlxGKntQlE8Ju.png" class="img-fluid"></li>
+<li>Commit your changes to the <code>start-blog</code> branch<br>
+<img src="paste-nZmxMINGMKIwvHk8FHPIn.png" class="img-fluid"></li>
+</ol>
 </section>
 <section id="add-an-image" class="level4">
 <h4 class="anchored" data-anchor-id="add-an-image">Add an image</h4>
-<p>When you committed the changes, GitHub should have taken you back to the bottom of the “Files changed” page. If not, navigate to this pane and scroll to the bottom, click the three dots, and click the “Edit file” option again.</p>
-<p><img src="images/paste-77.png" class="img-fluid"></p>
-<p>In the file, add a markdown image. For this example, we can use our <a href="https://octodex.github.com/images/scubatocat.png">SCUBAtocat</a>.</p>
-<p><img src="images/paste-78.png" class="img-fluid"></p>
-<p>Click the Preview tab to check your Markdown formatting <img src="images/paste-79.png" class="img-fluid"></p>
-<p>Commit your changes, and wait another 20 seconds for GitHub actions to update to the next step.</p>
-<p><img src="images/paste-80.png" class="img-fluid"></p>
+<ol type="1">
+<li>Open our <code>day-1.md</code> file in edit mode<br>
+<img src="paste-pvdU8on4Go1GdN6vJY-d4.png" class="img-fluid"></li>
+<li>Insert an image below the the “Morning Planning” level 2 heading. To make things a little more interesting, let’s use the Scubatocat image located at <a href="https://octodex.github.com/images/scubatocat.png" class="uri">https://octodex.github.com/images/scubatocat.png</a><br>
+<img src="paste-4GrmBSuK9KVulSwS_0p1s.png" class="img-fluid"></li>
+<li>Preview your Markdown file<br>
+<img src="paste-XLvW2SkEeoFXzZqATfpFO.png" class="img-fluid"></li>
+<li>Go back to the Edit tab and replace the image with an HTML version that changes the size and position<br>
+<img src="paste-PR18Knz5bGYvr6XAVp_Yz.png" class="img-fluid"></li>
+<li>Preview your updated image, and Commit changes to <code>start-blog</code><img src="paste-yKwc4pDFJtQS6KwX-dUt-.png" class="img-fluid"></li>
+</ol>
 </section>
-<section id="add-a-code-example" class="level4">
-<h4 class="anchored" data-anchor-id="add-a-code-example">Add a code example</h4>
-<p>Edit the index.md file again.</p>
-<p><img src="images/paste-81.png" class="img-fluid"></p>
-<p>Add some code in a code block (you can use either example in the instructions)</p>
-<p><img src="images/paste-82.png" class="img-fluid"></p>
-<p>Preview your code block.</p>
-<p><img src="images/paste-86.png" class="img-fluid"></p>
-<p>Commit your changes to the file, and wait another 20 seconds before refreshing the instructions page.</p>
-<p><img src="images/paste-83.png" class="img-fluid"></p>
+<section id="add-some-formatted-text-off-script" class="level4">
+<h4 class="anchored" data-anchor-id="add-some-formatted-text-off-script">Add some formatted text (off-script</h4>
+<p>Before we finish up our tutorial, let’s add some formatted text. The GitHub Skills lesson does not mention anything about this, but it’s an important part of markdown that you should get some practice with!</p>
+<ol type="1">
+<li>Edit your <code>day-1.md</code> file one more time<br>
+<img src="paste-xJAqXTyyM6E436hBsp6pK.png" class="img-fluid"></li>
+<li>Under the Daily Learning heading, add some bolded, italicized, and in-line code text<br>
+<img src="paste-SmyCXeZXtk51b9JelRpQ8.png" class="img-fluid"></li>
+<li>Preview your file, then commit your changes<br>
+<img src="paste-Izr5EapRKzgkA6J98my3M.png" class="img-fluid"></li>
+</ol>
 </section>
-<section id="add-a-task-list" class="level4">
-<h4 class="anchored" data-anchor-id="add-a-task-list">Add a task list</h4>
-<p>Edit the index.md file again.</p>
-<p><img src="images/paste-84.png" class="img-fluid"></p>
-<p>Make a markdown task list using the <code>- []</code> notation</p>
-<p><img src="images/paste-85.png" class="img-fluid"></p>
-<p>Preview your task list.</p>
-<p><img src="images/paste-87.png" class="img-fluid"></p>
-<p>Commit your changes to the file, and wait another 20 seconds before refreshing the instructions page.</p>
-<p><img src="images/paste-88.png" class="img-fluid"></p>
-</section>
-<section id="merge-the-pull-request" class="level4">
-<h4 class="anchored" data-anchor-id="merge-the-pull-request">Merge the pull request</h4>
-<p>Click the Conversation tab in your pull request</p>
-<p><img src="images/paste-89.png" class="img-fluid"></p>
-<p>Scroll to the bottom of the page, click “Merge pull request”, and confirm the merge. Wait 20 more seconds, then refresh the instructions page to finish the course. <img src="images/paste-90.png" class="img-fluid"></p>
-<p><img src="images/paste-91.png" class="img-fluid"></p>
+<section id="finish-work-merge-your-blog-post" class="level4">
+<h4 class="anchored" data-anchor-id="finish-work-merge-your-blog-post">Finish work: Merge your blog post</h4>
+<p>This step doesn’t have anything to do with markdown, but it’s good practice for working with Pull Requests from a branch!</p>
+<ol type="1">
+<li>Select the “Pull requests” tab in the top navigation bar<br>
+<img src="paste-CfTzg0BZP2yN077CYn4tv.png" class="img-fluid"></li>
+<li>Click the “Compare &amp; pull request” button for <code>start-blog</code><br>
+<img src="paste-50kn8Ln2gm7hoYyy0e006.png" class="img-fluid"></li>
+<li>Click the “Create pull request button”<br>
+<img src="paste-chYZX1C3veYvz9rr2HLAc.png" class="img-fluid"></li>
+<li>Merge your pull request and confirm the merge<br>
+<img src="paste-iwN2mLZFsBMgB2_v_I1BT.png" class="img-fluid"><br>
+<img src="paste-6lUmKDYbI3Tj0kIHot1DG.png" class="img-fluid"></li>
+</ol>
 </section>
 </section>
 </section>
 <section id="what-about-readme-files" class="level2">
 <h2 class="anchored" data-anchor-id="what-about-readme-files">What about README files?</h2>
-<p>All of the things we did in this tutorial can be done in a README file! To illustrate this, we can copy the contents of your index.md file over to your README.md file in your Skills repository:</p>
-<p><img src="images/paste-92.png" class="img-fluid"></p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/paste-93.png" class="img-fluid figure-img"></p>
-<figcaption><img src="images/paste-94.png" class="img-fluid figure-img"></figcaption>
-</figure>
-</div>
-<p><img src="images/paste-95.png" class="img-fluid"></p>
+<p>All of the things we did in this tutorial can be done in a README file! To illustrate this, we can copy the contents of our <code>day-1.md</code> file over to our README.md file in our Skills repository:</p>
+<ol type="1">
+<li>Navigate to the Code tab in the top navigation menu<br>
+<img src="paste-wx6Do3t5PoYRaWJBy7vxS.png" class="img-fluid"></li>
+<li>Select <code>day-1.md</code> and switch to the Code view<br>
+<img src="paste-HyP9DDdZvio1rHM3vmcSQ.png" class="img-fluid"></li>
+<li>Click the “Copy raw file” button at the top of the dialogue box (looks like two overlapping squares)<br>
+<img src="paste-VpFJdD1c8QQKowd7sv8EU.png" class="img-fluid"></li>
+<li>Navigate back to the Code tab, and edit the README file by clicking the “Edit file” button on the README<br>
+<img src="paste-bd-0J_HOl-KONGS8-Wkyu.png" class="img-fluid"></li>
+<li>Replace the text in the dialogue box with the copied text from the <code>day-1.md</code> file<br>
+<img src="paste-1Htuir1WrkbJW_UjLk6BW.png" class="img-fluid"></li>
+<li>Commit your changes<br>
+<img src="paste-0onpjxLtt0O4Ngm93SLFd.png" class="img-fluid"></li>
+<li>Navigate back to the Code tab (this should bring you to the home page of our repository, and scroll down to see your markdown-formatted README file!<br>
+<img src="paste-I3fhJrKZ6T6nIIWJz5MgI.png" class="img-fluid"></li>
+</ol>
 
 
 </section>

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Introduction to Git and GitHub – NOAA Fisheries GitHub Clinic</title>
+<title>Introduction to Markdown and README files – NOAA Fisheries GitHub Clinic</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -29,8 +29,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../content/markdown.html" rel="next">
-<link href="../coc.md" rel="prev">
 <link href="../images/favicon-16x16.png" rel="icon" type="image/png">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
@@ -292,7 +290,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/intro.html">Tutorials</a></li><li class="breadcrumb-item"><a href="../content/intro.html">Introduction to Git and GitHub</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Introduction to Markdown and README files</li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -334,16 +332,16 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false">
  <span class="menu-text">Tutorials</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/intro.html" class="sidebar-item-text sidebar-link active">
+  <a href="../content/intro.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Introduction to Git and GitHub</span></a>
   </div>
 </li>
@@ -398,16 +396,10 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul class="collapse">
-  <li><a href="#aims-and-objectives" id="toc-aims-and-objectives" class="nav-link active" data-scroll-target="#aims-and-objectives">Aims and Objectives</a></li>
-  <li><a href="#prerequisites-what-do-i-need-before-this-workshop-to-follow-along-on-my-own" id="toc-prerequisites-what-do-i-need-before-this-workshop-to-follow-along-on-my-own" class="nav-link" data-scroll-target="#prerequisites-what-do-i-need-before-this-workshop-to-follow-along-on-my-own">Prerequisites: What do I need before this workshop to follow along on my own?</a></li>
-  <li><a href="#why-gitgithub" id="toc-why-gitgithub" class="nav-link" data-scroll-target="#why-gitgithub">Why Git/GitHub?</a></li>
-  <li><a href="#github-enterprise" id="toc-github-enterprise" class="nav-link" data-scroll-target="#github-enterprise">GitHub Enterprise</a></li>
-  <li><a href="#git-and-github-the-basics" id="toc-git-and-github-the-basics" class="nav-link" data-scroll-target="#git-and-github-the-basics">Git and GitHub: The basics</a></li>
-  <li><a href="#introduction-to-github---tutorial" id="toc-introduction-to-github---tutorial" class="nav-link" data-scroll-target="#introduction-to-github---tutorial">Introduction to GitHub - Tutorial</a></li>
-  <li><a href="#working-in-github-desktop---tutorial" id="toc-working-in-github-desktop---tutorial" class="nav-link" data-scroll-target="#working-in-github-desktop---tutorial">Working in GitHub Desktop - Tutorial</a></li>
-  <li><a href="#project-management" id="toc-project-management" class="nav-link" data-scroll-target="#project-management">Project Management</a></li>
+  <li><a href="#using-markdown-in-github---tutorial" id="toc-using-markdown-in-github---tutorial" class="nav-link active" data-scroll-target="#using-markdown-in-github---tutorial">Using Markdown in GitHub - Tutorial</a></li>
+  <li><a href="#what-about-readme-files" id="toc-what-about-readme-files" class="nav-link" data-scroll-target="#what-about-readme-files">What about README files?</a></li>
   </ul>
-<div class="toc-actions"><ul class="collapse"><li><a href="https://github.com/nmfs-opensci/GitHub-Clinic/edit/main/content/intro.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/nmfs-opensci/GitHub-Clinic/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li><li><a href="https://github.com/nmfs-opensci/GitHub-Clinic/blob/main/content/intro.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+<div class="toc-actions"><ul class="collapse"><li><a href="https://github.com/nmfs-opensci/GitHub-Clinic/edit/main/content/markdown-legacy.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/nmfs-opensci/GitHub-Clinic/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li><li><a href="https://github.com/nmfs-opensci/GitHub-Clinic/blob/main/content/markdown-legacy.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -431,9 +423,9 @@ function googleTranslateElementInit() {
 <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/intro.html">Tutorials</a></li><li class="breadcrumb-item"><a href="../content/intro.html">Introduction to Git and GitHub</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Introduction to Git and GitHub</h1>
+<h1 class="title">Introduction to Markdown and README files</h1>
 </div>
 
 
@@ -450,58 +442,28 @@ function googleTranslateElementInit() {
 </header>
 
 
-<p>GitHub is an important platform for many NOAA Fisheries staff and teams to share and collaborate. In 2023, an Authorization To Use for GitHub Enterprise Cloud was signed, which provides a secure, private, access-controlled and managed platform for staff. In 2024, the GitHub Governance Team (GGT) provided a series of workshops to onboard NOAA Fisheries scientists to GitHub Enterprise and provide training in the use of Git and GitHub for NOAA Fisheries. In 2025, NMFS Open Science will be leading a second iteration of these workshops to provide NOAA Fisheries staff with the necessary skills to effectively incorporate Git and GitHub into existing workflows.</p>
-<p>The GGT has outlined several use cases for why you may want to incorporate Git and GitHub into your workflows:</p>
-<ul>
-<li>Development and distribution of scientific products and fundamental research communications.</li>
-<li>Development of software and statistical packages for data analysis, e.g.&nbsp;stock assessment models.</li>
-<li>Project/team management using GitHub project boards, issue tracking, task tracking.</li>
-<li>Collaborative development of reports that combine data, resource intensive analysis, and text.</li>
-<li>Automated report generation (using connection to online database and continuous integration).</li>
-<li>Educational resources and learning activities.</li>
-</ul>
-<section id="aims-and-objectives" class="level2">
-<h2 class="anchored" data-anchor-id="aims-and-objectives">Aims and Objectives</h2>
-<p>This introduction to Git and GitHub virtual workshop will be repeated twice weekly for three weeks. These sessions will use a mixture of directed, interactive lessons and GitHub Skills to provide NOAA Fisheries staff with the knowledge required for basic repository management using Git commands, collaboration, and project management.</p>
-</section>
-<section id="prerequisites-what-do-i-need-before-this-workshop-to-follow-along-on-my-own" class="level2">
-<h2 class="anchored" data-anchor-id="prerequisites-what-do-i-need-before-this-workshop-to-follow-along-on-my-own">Prerequisites: What do I need before this workshop to follow along on my own?</h2>
-<ol type="1">
-<li><a href="https://nmfs-opensci.github.io/GitHub-Guide/#create-a-github-user-account">Create a GitHub account</a></li>
-<li><a href="https://desktop.github.com/download/">Install GitHub Desktop</a> - Note that this will also install Git on your machine</li>
-<li>Request access to NMFS GitHub Enterprise Cloud (NMFS staff and affiliates only)
-<ol type="a">
-<li><a href="https://drive.google.com/file/d/1yP0mLpD5d5rsgNv5-_Z6OWpwhLROjxMg/view">Download the NMFS GitHub Enterprise Cloud user agreement</a></li>
-<li>Use <a href="https://docs.google.com/forms/d/e/1FAIpQLScvWB-gTtQKlFPdyt3Y_H_oya9EW6Nj-56jsWJsxVdT8RJwHw/viewform">this Google form</a> to request access to Enterprise</li>
-<li>Wait for follow-up email and <a href="https://github.com/enterprises/noaa-nmfs">confirm you’re a member</a> (if you see a 404 page you haven’t been added yet)</li>
-</ol></li>
-<li>Log into GitHub and GitHub Desktop using your GitHub account credentials</li>
-</ol>
-</section>
-<section id="why-gitgithub" class="level2">
-<h2 class="anchored" data-anchor-id="why-gitgithub">Why Git/GitHub?</h2>
-<iframe class="slide-deck" src="../slides/why_git.html" width="900" height="600">
-</iframe>
-</section>
-<section id="github-enterprise" class="level2">
-<h2 class="anchored" data-anchor-id="github-enterprise">GitHub Enterprise</h2>
-<iframe class="slide-deck" src="../slides/ghec.html" width="900" height="600">
-</iframe>
-</section>
-<section id="git-and-github-the-basics" class="level2">
-<h2 class="anchored" data-anchor-id="git-and-github-the-basics">Git and GitHub: The basics</h2>
-<iframe class="slide-deck" src="../slides/git_basics.html" width="900" height="600">
-</iframe>
-</section>
-<section id="introduction-to-github---tutorial" class="level2">
-<h2 class="anchored" data-anchor-id="introduction-to-github---tutorial">Introduction to GitHub - Tutorial</h2>
-<p><a href="https://github.com/skills/introduction-to-github">GitHub Skills - Introduction to GitHub</a></p>
-<p>We’ll be using the Introduction to GitHub Skills Tutorial to get our feet wet with Git and GitHub. Follow along with the tutorial using your personal GitHub account.</p>
+<section id="using-markdown-in-github---tutorial" class="level2">
+<h2 class="anchored" data-anchor-id="using-markdown-in-github---tutorial">Using Markdown in GitHub - Tutorial</h2>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>GitHub Skills are systematically being updated to an issue-based workflow from the legacy README-based workflow. If you began this exercise before 5-30-2025, your skills repository will look different from the current skills repository template. The following tutorial follows the legacy README-based workflow.</p>
+</div>
+</div>
+<p><a href="https://github.com/skills/communicate-using-markdown">GitHub Skills: Communicate using markdown</a></p>
+<p>We’ll be using the Communicate Using Markdown Skills Tutorial to get some practice with markdown in GitHub. Follow along with the tutorial using your own GitHub account.</p>
 <section id="step-1-copy-the-exercise" class="level3">
 <h3 class="anchored" data-anchor-id="step-1-copy-the-exercise">Step 1: Copy the exercise</h3>
-<p>Open the GitHub Skills link, and make sure you are logged into GitHub. Use the “Copy Exercise” button to make a new repository on your account:</p>
-<p><img src="images/paste-2.png" class="img-fluid" width="634"></p>
-<p>When you open up the “Copy Exercise” link, you will be presented with the “Create a new repository” interface. Keep all of the defaults, and click the green “Create repository” button: <img src="images/paste-3.png" class="img-fluid" width="617"></p>
+<p>Open the GitHub Skills link, and make sure you are logged into GitHub. Use the “Start Course” button to make a new repository on your account:</p>
+<p><img src="images/paste-64.png" class="img-fluid">When you open up the “Copy Exercise” link, you will be presented with the “Create a new repository” interface. Keep all of the defaults, and click the green “Create repository” button:</p>
+<p><img src="images/paste-65.png" class="img-fluid"></p>
 <div class="callout callout-style-default callout-important callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -531,16 +493,15 @@ You’ll notice that most steps in a GitHub Skills tutorial feature a message to
 </section>
 <section id="step-2-start-the-exercise" class="level3">
 <h3 class="anchored" data-anchor-id="step-2-start-the-exercise">Step 2: Start the exercise</h3>
-<p>After waiting the suggested 20 seconds, refresh the instructions page. You’ll notice that the “Copy Exercise” button has switched from green to gray, and the “Start Exercise” button has switched from gray to green.</p>
-<p>Right click the “Start Exercise” button and open it in a new tab. This will open an Issue for this repository that will serve as the instructions for the exercise.</p>
-<p><img src="images/paste-5.png" class="img-fluid" width="631"></p>
+<p>After waiting the suggested 20 seconds, refresh the instructions page. You’ll notice that the README output has changed to show the steps for the tutorial:</p>
+<p><img src="images/paste-66.png" class="img-fluid"></p>
 <div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-I suggest moving the instructions tab into another window so you can work side-by-side with the instructions to limit switching back and forth between tabs. <img src="images/paste-4.png" class="img-fluid">
+I suggest moving the instructions tab into another window so you can work side-by-side with the instructions to limit switching back and forth between tabs. <img src="images/paste-67.png" class="img-fluid">
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -550,166 +511,83 @@ I suggest moving the instructions tab into another window so you can work side-b
 </section>
 <section id="step-3-follow-the-exercise" class="level3">
 <h3 class="anchored" data-anchor-id="step-3-follow-the-exercise">Step 3: Follow the exercise</h3>
-<section id="create-a-new-branch" class="level4">
-<h4 class="anchored" data-anchor-id="create-a-new-branch">Create a new branch</h4>
-<p>Create a new branch following the instructions in the tutorial:<br>
-<img src="images/paste-6.png" class="img-fluid" width="491"></p>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-If you have the instructions open in side-by-side mode, you may notice that the github-actions bot will be producing new comments in the instructions.
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Be sure to wait until the bot is finished before starting the next part of the exercise!</p>
-</div>
-</div>
-</section>
-<section id="create-a-commit-with-a-new-file" class="level4">
-<h4 class="anchored" data-anchor-id="create-a-commit-with-a-new-file">Create a commit with a new file</h4>
-<p>Click the “Add file” button to create a new file named <code>PROFILE.md</code></p>
-<p><img src="images/paste-7.png" class="img-fluid" width="277"></p>
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-If you’ve arranged your screen in a side-by-side mode, the “Add file” button may look a bit different!
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>GitHub dynamically shortens certain buttons and tabs based on the size of the window. In this case, the “Add file” button becomes the “+” button:</p>
-<p><img src="images/paste-8.png" class="img-fluid" width="253"></p>
-</div>
-</div>
-<p>Add a line to the new file, and click the “Commit changes” green button:</p>
-<p><img src="images/paste-15.png" class="img-fluid" width="759"></p>
-<p>Change the “Commit message” to “Add PROFILE.md” and click “Commit changes” to confirm the commit</p>
-<p><img src="images/paste-17.png" class="img-fluid" width="669"></p>
-</section>
 <section id="open-a-pull-request" class="level4">
 <h4 class="anchored" data-anchor-id="open-a-pull-request">Open a pull request</h4>
-<p>Refresh the repository and click the “Compare &amp; pull request” button.</p>
-<p><img src="images/paste-18.png" class="img-fluid" width="543"></p>
-<p>Edit the title field to read “Add my first file”, and provide a brief description of your pull request. Click “Create pull request”<br>
-<img src="images/paste-19.png" class="img-fluid" width="596"></p>
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
+<p>Create a new pull request following the instructions in the tutorial: <img src="images/paste-68.png" class="img-fluid"></p>
+<p>Open a new window and navigate to the Pull Requests tab in GitHub, then click the green New button to open a new Pull Request:</p>
+<p><img src="images/paste-69.png" class="img-fluid"></p>
+<p>Click the “compare” dropdown and select “start-markdown”</p>
+<p><img src="images/paste-70.png" class="img-fluid"></p>
+<p>Make sure the green “Able to merge” message shows, and click “Create pull request”, then “Create pull request” again.</p>
+<p><img src="images/paste-71.png" class="img-fluid"></p>
+<p>Navigate to the “Files changed” tab after the pull request has been created</p>
+<p><img src="images/paste-72.png" class="img-fluid"></p>
+<p>Scroll to the bottom of the page to the <code>index.md</code> file, click the three dots, and select “Edit file”</p>
+<p><img src="images/paste-73.png" class="img-fluid"></p>
+<p>Add a first-level header by entering <code>#</code> followed by a space in the Edit textbox. You can play around with adding other levels of headers.</p>
+<p><img src="images/paste-74.png" class="img-fluid"></p>
+<p>Click the “Preview” button above the dialogue box to see what your headers will look like in your file.</p>
+<p><img src="images/paste-75.png" class="img-fluid"></p>
+<p>Click the “Commit changes” button at the top of your file (note that this is different from the instructions from GitHub Skills). Add a meaningful message, and click the Commit changes button.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/paste-76.png" class="img-fluid figure-img"></p>
+<figcaption>Wait 20 seconds for GitHub Actions to run in the background, then refresh the instructions page.</figcaption>
+</figure>
 </div>
-<div class="callout-title-container flex-fill">
-You can follow the progress of the GitHub Actions running in the background after this step!
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p><img src="images/paste-20.png" class="img-fluid" width="447"></p>
-</div>
-</div>
+</section>
+<section id="add-an-image" class="level4">
+<h4 class="anchored" data-anchor-id="add-an-image">Add an image</h4>
+<p>When you committed the changes, GitHub should have taken you back to the bottom of the “Files changed” page. If not, navigate to this pane and scroll to the bottom, click the three dots, and click the “Edit file” option again.</p>
+<p><img src="images/paste-77.png" class="img-fluid"></p>
+<p>In the file, add a markdown image. For this example, we can use our <a href="https://octodex.github.com/images/scubatocat.png">SCUBAtocat</a>.</p>
+<p><img src="images/paste-78.png" class="img-fluid"></p>
+<p>Click the Preview tab to check your Markdown formatting <img src="images/paste-79.png" class="img-fluid"></p>
+<p>Commit your changes, and wait another 20 seconds for GitHub actions to update to the next step.</p>
+<p><img src="images/paste-80.png" class="img-fluid"></p>
+</section>
+<section id="add-a-code-example" class="level4">
+<h4 class="anchored" data-anchor-id="add-a-code-example">Add a code example</h4>
+<p>Edit the index.md file again.</p>
+<p><img src="images/paste-81.png" class="img-fluid"></p>
+<p>Add some code in a code block (you can use either example in the instructions)</p>
+<p><img src="images/paste-82.png" class="img-fluid"></p>
+<p>Preview your code block.</p>
+<p><img src="images/paste-86.png" class="img-fluid"></p>
+<p>Commit your changes to the file, and wait another 20 seconds before refreshing the instructions page.</p>
+<p><img src="images/paste-83.png" class="img-fluid"></p>
+</section>
+<section id="add-a-task-list" class="level4">
+<h4 class="anchored" data-anchor-id="add-a-task-list">Add a task list</h4>
+<p>Edit the index.md file again.</p>
+<p><img src="images/paste-84.png" class="img-fluid"></p>
+<p>Make a markdown task list using the <code>- []</code> notation</p>
+<p><img src="images/paste-85.png" class="img-fluid"></p>
+<p>Preview your task list.</p>
+<p><img src="images/paste-87.png" class="img-fluid"></p>
+<p>Commit your changes to the file, and wait another 20 seconds before refreshing the instructions page.</p>
+<p><img src="images/paste-88.png" class="img-fluid"></p>
 </section>
 <section id="merge-the-pull-request" class="level4">
 <h4 class="anchored" data-anchor-id="merge-the-pull-request">Merge the pull request</h4>
-<p>Click the green “Merge pull request” button, and confirm the merge. Delete the branch after merging (don’t worry, you can always restore a deleted branch)<br>
-<img src="images/paste-21.png" class="img-fluid" width="527"></p>
+<p>Click the Conversation tab in your pull request</p>
+<p><img src="images/paste-89.png" class="img-fluid"></p>
+<p>Scroll to the bottom of the page, click “Merge pull request”, and confirm the merge. Wait 20 more seconds, then refresh the instructions page to finish the course. <img src="images/paste-90.png" class="img-fluid"></p>
+<p><img src="images/paste-91.png" class="img-fluid"></p>
 </section>
 </section>
 </section>
-<section id="working-in-github-desktop---tutorial" class="level2">
-<h2 class="anchored" data-anchor-id="working-in-github-desktop---tutorial">Working in GitHub Desktop - Tutorial</h2>
-<p>To get a bit more experience working with GitHub repositories, we are going to clone our tutorial repository, create a repository in GitHub Desktop, make a commit, and push our changes up to GitHub.</p>
-<section id="step-1-log-into-github" class="level3">
-<h3 class="anchored" data-anchor-id="step-1-log-into-github">Step 1: Log into GitHub</h3>
-<p>If this is your first time using GitHub Desktop, you will need to log in to your GitHub account. Open a browser window to GitHub, and make sure you’re logged in to your GitHub account. If you are on the NMFS GitHub Enterprise Cloud, you will also need to be logged in using SSO.</p>
-</section>
-<section id="step-2-open-github-desktop-and-clone-a-repository" class="level3">
-<h3 class="anchored" data-anchor-id="step-2-open-github-desktop-and-clone-a-repository">Step 2: Open GitHub Desktop and clone a repository</h3>
-<p>On your local computer, open GitHub Desktop. Click “Clone a repository from the Internet…”</p>
-<p><img src="images/paste-39.png" class="img-fluid"></p>
-<p>Click “Sign in” and “Continue with browser” to open a browser window and sign into GitHub Desktop.</p>
-<div class="callout callout-style-default callout-important callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
+<section id="what-about-readme-files" class="level2">
+<h2 class="anchored" data-anchor-id="what-about-readme-files">What about README files?</h2>
+<p>All of the things we did in this tutorial can be done in a README file! To illustrate this, we can copy the contents of your index.md file over to your README.md file in your Skills repository:</p>
+<p><img src="images/paste-92.png" class="img-fluid"></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/paste-93.png" class="img-fluid figure-img"></p>
+<figcaption><img src="images/paste-94.png" class="img-fluid figure-img"></figcaption>
+</figure>
 </div>
-<div class="callout-title-container flex-fill">
-When logging into GitHub Desktop for the first time, you will be presented with a tabbed window as shown below. To access GitHub Enterprise, do not use the Enterprise tab on the login window! This is for a locally-hosted GitHub Enterprise server. The NMFS GitHub Enterprise is cloud-hosted, so to access enterprise repositories from GitHub Desktop, you will need to be logged into the enterprise (via SSO) through your browser.
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p><img src="images/paste-38.png" class="img-fluid"></p>
-</div>
-</div>
-<p>Enter the name of the GitHub Skills repository we just finished (skills-introduction-to-github) into the search box. Select the repository, choose where to clone the repository to on your local machine, and click “Clone”.</p>
-<p><img src="images/paste-40.png" class="img-fluid"></p>
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Where should you clone your repository to?
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>For transient repositories (i.e., repositories that you only plan to work on briefly or occasionally), I suggest creating a folder on your local file system just for these GitHub repositories. If you’re working on a project and already have a file folder structure for that project, you can clone and/or create your repository inside the existing folder structure.</p>
-</div>
-</div>
-</section>
-<section id="step-3-create-a-new-repository" class="level3">
-<h3 class="anchored" data-anchor-id="step-3-create-a-new-repository">Step 3: Create a new repository</h3>
-<p>Click the dropdown where it says “Current repository” in the upper left corner of GitHub Desktop. This will bring up a list of your repositories available on your local machine. For those who are new to GitHub Desktop, this should only include our GitHub Skills repository. Click the “Add” dropdown menu, and click “Create new repository…”</p>
-<p><img src="images/paste-41.png" class="img-fluid"></p>
-<p>There are several aspects of a repository you will need to keep in mind when creating a new one from scratch:</p>
-<ul>
-<li><p><strong>Name</strong>: Make your name distinct and descriptive, but not too long. Don’t use spaces (remember, this will be included as part of the URL). Git and GitHub repositories often use <a href="https://developer.mozilla.org/en-US/docs/Glossary/Kebab_case">kebab case</a>.</p></li>
-<li><p><strong>Description</strong>:Add a brief description to your repository that describes its purpose</p></li>
-<li><p><strong>Local path</strong>: Similarly to when you clone a repository into a folder, you need to tell GitHub Desktop where to start a new repository. This will autofill to the directory you specified when installing GitHub Desktop for the first time, but you are welcome to change it to wherever you want your repository stored on your local computer. You can always move a repository after creation.</p></li>
-<li><p><strong>README file</strong>: It is always a good idea to initialize the repository with a README file. This file will serve as the “front page” of your repository on GitHub. You can add a more detailed description of the repository, what it will be used for, instructions for how it should be used by others, etc. If your repository contains datasets, you can also use the README to add metadata. <a href="https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes">See this link for more information on README files</a>.</p></li>
-<li><p><strong>Git ignore</strong>: A .gitignore file tells Git what files and folders to <em>not</em> track. These files will still reside on your local repository, but will not be included in a Commit action or accessible on GitHub. Typically, these files are system files for the coding language or IDE you’re using, but can also include files that you don’t want to be shown on GitHub. This may include things like data files that are too big or too sensitive to be hosted on GitHub, code files that include sensitive material, and scratch or intermediate files. When creating a new repository, you can choose to pre-populate the .gitignore file based on the primary coding language you expect to use most in the repository.</p></li>
-<li><p><strong>License</strong>: Any public-hosted GitHub repository should contain a license for open source use. The latest NOAA recommendation is to use <strong>Apache License 2.0</strong></p></li>
-</ul>
-<p>Go ahead and fill in the fields and Create your repository.</p>
-<p><img src="images/paste-42.png" class="img-fluid"></p>
-</section>
-<section id="step-4-publish-your-repository-to-github" class="level3">
-<h3 class="anchored" data-anchor-id="step-4-publish-your-repository-to-github">Step 4: Publish your repository to GitHub</h3>
-<p>After creating your repository, GitHub Desktop will open it automatically. However, at this point your repository is only available on your local machine. Go ahead and click the button to publish your repository to GitHub.<br>
-<img src="images/paste-43.png" class="img-fluid"></p>
-<p>You can choose whether to keep your repository private or let it be viewed by the public. You can also choose to publish the repo to your personal account, or to an organization (e.g., your center’s Enterprise account). In general, for the sake of open science we normally suggest keeping a repository public unless it contains sensitive or proprietary data. For now, we’ll keep this practice repo public.</p>
-<p><img src="images/paste-44.png" class="img-fluid"></p>
-</section>
-<section id="step-5-modify-the-readme-file-in-your-repository" class="level3">
-<h3 class="anchored" data-anchor-id="step-5-modify-the-readme-file-in-your-repository">Step 5: Modify the README file in your repository</h3>
-<p>You can now open your repository in an editor or IDE (e.g., RStudio), show the files in a file explorer window, or view the repository on GitHub. We will take advantage of the ability to open the repo in the editor to make a change to our repository’s README file.</p>
-<p>Open your repository in whatever editor you choose (I have mine configured to use RStudio) by clicking the button in GitHub Desktop.</p>
-<p><img src="images/paste-46.png" class="img-fluid"></p>
-<p>In your editor, open the README.md file. You will notice that the README file is prepopulated with the title of your repository as a first-level header and your brief description. Make a change to your README file (maybe change the title and add a bit more context to the description), and save your changes. Close your editing program.</p>
-<p><img src="images/paste-47.png" class="img-fluid"></p>
-</section>
-<section id="step-5-commit-your-changes" class="level3">
-<h3 class="anchored" data-anchor-id="step-5-commit-your-changes">Step 5: Commit your changes</h3>
-<p>In GitHub Desktop, you will notice that the README.md file has now been added to the “Changed files” list on the left-hand side, and the changes are shown in the main pane as a series of deletions and additions. The check-marks indicate that those changes are staged and should be included in the commit. If you change your mind and don’t want a change to be committed, you can click the check mark and it will change to an “unstaged” state. For now, leave all changes staged.</p>
-<p><img src="images/paste-48.png" class="img-fluid"></p>
-<p>In the bottom left, you will see a box for your commit message and a description. These allow you to describe the changes made in a particular commit. A more descriptive message can help others (and future you) to understand why you made a particular change. GitHub Desktop will prepopulate the message field if you’re only modifying one file, but it’s often a good idea to change this to something more descriptive. You can go into more details in the description field if necessary, but this is optional.</p>
-<p>Change your commit file, and commit to the “main” branch.<br>
-<img src="images/paste-50.png" class="img-fluid"></p>
-</section>
-<section id="step-6-push-your-commit-to-github" class="level3">
-<h3 class="anchored" data-anchor-id="step-6-push-your-commit-to-github">Step 6: Push your commit to GitHub</h3>
-<p>After you commit your changes, GitHub Desktop will prompt you to “Push commits to the origin remote”. This is how we will get our local changes up on GitHub. Click the “Push origin” button.</p>
-<p><img src="images/paste-52.png" class="img-fluid"></p>
-<p>Open the repository in GitHub in your browser to see what the changes we made to our README look like on GitHub.</p>
-<p><img src="images/paste-53.png" class="img-fluid"></p>
-</section>
-</section>
-<section id="project-management" class="level2">
-<h2 class="anchored" data-anchor-id="project-management">Project Management</h2>
-<iframe class="slide-deck" src="project_management.html" width="900" height="600">
-</iframe>
+<p><img src="images/paste-95.png" class="img-fluid"></p>
 
 
 </section>
@@ -1127,18 +1005,6 @@ Where should you clone your repository to?
     }
   });
   </script>
-<nav class="page-navigation">
-  <div class="nav-page nav-page-previous">
-      <a href="../coc.md" class="pagination-link" aria-label="">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"></span>
-      </a>          
-  </div>
-  <div class="nav-page nav-page-next">
-      <a href="../content/markdown.html" class="pagination-link" aria-label="Introduction to Markdown and README files">
-        <span class="nav-page-text">Introduction to Markdown and README files</span> <i class="bi bi-arrow-right-short"></i>
-      </a>
-  </div>
-</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
@@ -1147,7 +1013,7 @@ Where should you clone your repository to?
     </div>   
     <div class="nav-footer-center">
 <p><img src="https://github.com/nmfs-opensci/assets/blob/main/logo/nmfs-opensci-logo2.png?raw=true" alt="NMFS Open Science logo" style="width:150px"><br>NMFS Open Science (2023)</p>
-<div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/nmfs-opensci/GitHub-Clinic/edit/main/content/intro.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/nmfs-opensci/GitHub-Clinic/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li><li><a href="https://github.com/nmfs-opensci/GitHub-Clinic/blob/main/content/intro.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div>
+<div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/nmfs-opensci/GitHub-Clinic/edit/main/content/markdown-legacy.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/nmfs-opensci/GitHub-Clinic/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li><li><a href="https://github.com/nmfs-opensci/GitHub-Clinic/blob/main/content/markdown-legacy.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div>
     <div class="nav-footer-right">
       &nbsp;
     </div>
