@@ -47,12 +47,12 @@ website:
         href: index.qmd
         contents:
           - schedule.qmd
-          - content/setup.qmd
+          - content/setup/setup.qmd
           - coc.md
       - section: "Tutorials"
         contents:
-          - content/intro.qmd
-          - content/markdown.qmd
+          - content/intro/intro.qmd
+          - content/markdown/markdown.qmd
       - section: "Resources - Coming Soon!"
       - section: "In-Person Workshops"
         contents:
