@@ -1,0 +1,93 @@
+---
+title: "GitHub Pages"
+subtitle: "Hosting your repository content on the web"
+author: "Jonathan Peake"
+brand: slides-light-brand.yml
+output-dir: ../docs/slides/
+format: 
+    nmfs-slides-revealjs: 
+        title-slide-attributes:
+          data-background-image: "styles/horiz-swoop-1.png"
+          data-background-color: '{{< brand color dark-blue >}}'
+        footer: "U.S. Department of Commerce | National Oceanic and Atmospheric Administration | National Marine Fisheries Service"
+        controls: true
+        navigation-mode: linear
+        transition: slide
+        transition-speed: default
+        background-transition: none
+        scrollable: true
+---
+
+## What is GitHub Pages?
+
+-   Turn your repository into a website
+
+-   Share your project, resume, portfolio, documentation, or even a blog with the world
+
+-   Takes content from main branch and publishes to a website
+
+## Why use GitHub Pages?
+
+-   Easy and free way to publish content
+
+-   Can make internal, private web-pages with GHEC
+
+-   In NMFS:
+
+    -   [Make a sleek web-hosted lab manual](https://nmfs-ost.github.io/PAM_National_Network/)
+
+    -   [Share reports in HTML](https://ideal-train-vr8e335.pages.github.io/ak-harbor-seals/ak-harbor-seals.html)
+
+    -   [Make a landing page for a lab or program](https://noaa-nwfsc.github.io/CB_Genetics_Landing_Page/00_homepage.html)
+
+## How to turn on GitHub Pages {auto-animate="true"}
+
+Access GitHub Pages in the **Settings** menu under **Code and automation**
+
+![](images/paste-68.png)
+
+## How to turn on GitHub Pages {auto-animate="true"}
+
+Make sure **Source** is set to "Deploy from a branch"
+
+Select the branch to deploy from (usually this is `main`)
+
+![](images/paste-73.png){fig-align="center"}
+
+## How to turn on GitHub Pages {auto-animate="true"}
+
+Select the folder to deploy from (`/(root)` is the main directory of the repository)
+
+**Save** your changes
+
+![](images/paste-72.png){fig-align="center"}
+
+## How GitHub Pages recognizes content
+
+-   A GitHub Pages "action" runs after every commit
+
+-   Any HTML file in the source directory is indexed and can be linked to
+
+-   Any Markdown file will be rendered and indexed
+
+-   But not Quarto...
+
+    -   Need to render to HTML first
+
+    -   GitHub Actions can help us with this
+
+## Theming a basic page {auto-animate="true"}
+
+Add a file called `_config.yml` to your repository
+
+Add the line `theme: jekyll-theme-slate` to your file
+
+![](images/paste-74.png)
+
+## Theming a basic page {auto-animate="true"}
+
+Add a file called `_config.yml` to your repository
+
+Add the line `theme: jekyll-theme-slate` to your file
+
+![](images/paste-75.png)
