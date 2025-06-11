@@ -6,8 +6,8 @@
 <script src="github-pages_files/libs/quarto-html/tippy.umd.min.js"></script>
 <link href="github-pages_files/libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="github-pages_files/libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="github-pages_files/libs/quarto-html/quarto-syntax-highlighting-0815c480559380816a4d1ea211a47e91.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.7.29">
+<link href="github-pages_files/libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.7.31">
 
   <meta name="author" content="Jonathan Peake">
   <title>GitHub Pages</title>
@@ -151,13 +151,59 @@ Jonathan Peake
 <section id="why-use-github-pages" class="slide level2">
 <h2>Why use GitHub Pages?</h2>
 <ul>
-<li></li>
-<li><p>Portable - makes it easy to share formatted documents across platforms</p></li>
-<li><p>Adaptable - Quarto, Jupyter Notebooks, RMarkdown</p></li>
-<li><p>Ubiquitous - Used across a number of websites and applications</p></li>
+<li><p>Easy and free way to publish content</p></li>
+<li><p>Can make internal, private web-pages with GHEC</p></li>
+<li><p>In NMFS:</p>
+<ul>
+<li><p><a href="https://nmfs-ost.github.io/PAM_National_Network/">Make a sleek web-hosted lab manual</a></p></li>
+<li><p><a href="https://ideal-train-vr8e335.pages.github.io/ak-harbor-seals/ak-harbor-seals.html">Share reports in HTML</a></p></li>
+<li><p><a href="https://noaa-nwfsc.github.io/CB_Genetics_Landing_Page/00_homepage.html">Make a landing page for a lab or program</a></p></li>
+</ul></li>
 </ul>
-
 </section>
+<section id="how-to-turn-on-github-pages" class="slide level2" data-auto-animate="true">
+<h2 data-id="quarto-animate-title">How to turn on GitHub Pages</h2>
+<p>Access GitHub Pages in the <strong>Settings</strong> menu under <strong>Code and automation</strong></p>
+
+<img data-src="images/paste-68.png" class="r-stretch"></section>
+<section id="how-to-turn-on-github-pages-1" class="slide level2" data-auto-animate="true">
+<h2 data-id="quarto-animate-title">How to turn on GitHub Pages</h2>
+<p>Make sure <strong>Source</strong> is set to “Deploy from a branch”</p>
+<p>Select the branch to deploy from (usually this is <code>main</code>)</p>
+
+<img data-src="images/paste-73.png" class="quarto-figure quarto-figure-center r-stretch"></section>
+<section id="how-to-turn-on-github-pages-2" class="slide level2" data-auto-animate="true">
+<h2 data-id="quarto-animate-title">How to turn on GitHub Pages</h2>
+<p>Select the folder to deploy from (<code>/(root)</code> is the main directory of the repository)</p>
+<p><strong>Save</strong> your changes</p>
+
+<img data-src="images/paste-72.png" class="quarto-figure quarto-figure-center r-stretch"></section>
+<section id="how-github-pages-recognizes-content" class="slide level2">
+<h2>How GitHub Pages recognizes content</h2>
+<ul>
+<li><p>A GitHub Pages “action” runs after every commit</p></li>
+<li><p>Any HTML file in the source directory is indexed and can be linked to</p></li>
+<li><p>Any Markdown file will be rendered and indexed</p></li>
+<li><p>But not Quarto…</p>
+<ul>
+<li><p>Need to render to HTML first</p></li>
+<li><p>GitHub Actions can help us with this</p></li>
+</ul></li>
+</ul>
+</section>
+<section id="theming-a-basic-page" class="slide level2" data-auto-animate="true">
+<h2 data-id="quarto-animate-title">Theming a basic page</h2>
+<p>Add a file called <code>_config.yml</code> to your repository</p>
+<p>Add the line <code>theme: jekyll-theme-slate</code> to your file</p>
+
+<img data-src="images/paste-74.png" class="r-stretch"></section>
+<section id="theming-a-basic-page-1" class="slide level2" data-auto-animate="true">
+<h2 data-id="quarto-animate-title">Theming a basic page</h2>
+<p>Add a file called <code>_config.yml</code> to your repository</p>
+<p>Add the line <code>theme: jekyll-theme-slate</code> to your file</p>
+
+
+<img data-src="images/paste-75.png" class="r-stretch"></section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
 <p><img src="logos\logo.png" class="slide-logo"></p>
