@@ -54,6 +54,7 @@ website:
           - content/intro/intro.qmd
           - content/markdown/markdown.qmd
           - content/github-pages/github-pages.qmd
+          - content/forking/forking.qmd
       - section: "Resources - Coming Soon!"
       - section: "In-Person Workshops"
         contents:
