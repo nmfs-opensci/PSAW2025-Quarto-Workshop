@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://nmfs-opensci.github.io/GitHub-Clinic/schedule.html</loc>
-    <lastmod>2025-06-11T22:38:17.598Z</lastmod>
+    <lastmod>2025-06-13T21:54:41.678Z</lastmod>
   </url>
   <url>
     <loc>https://nmfs-opensci.github.io/GitHub-Clinic/content/setup/setup.html</loc>
@@ -18,7 +18,11 @@
   </url>
   <url>
     <loc>https://nmfs-opensci.github.io/GitHub-Clinic/content/github-pages/github-pages.html</loc>
-    <lastmod>2025-06-11T22:38:16.179Z</lastmod>
+    <lastmod>2025-06-13T21:52:31.074Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nmfs-opensci.github.io/GitHub-Clinic/content/forking/forking.html</loc>
+    <lastmod>2025-06-13T21:52:32.695Z</lastmod>
   </url>
   <url>
     <loc>https://nmfs-opensci.github.io/GitHub-Clinic/content/inperson/cb_genetics.html</loc>
