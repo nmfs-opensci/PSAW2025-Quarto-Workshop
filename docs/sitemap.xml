@@ -1,43 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://nmfs-opensci.github.io/GitHub-Clinic/schedule.html</loc>
-    <lastmod>2025-06-13T21:54:41.678Z</lastmod>
+    <loc>https://nmfs-opensci.github.io/GitHub-Clinic/index.html</loc>
+    <lastmod>2025-06-16T18:09:43.406Z</lastmod>
   </url>
   <url>
-    <loc>https://nmfs-opensci.github.io/GitHub-Clinic/content/setup/setup.html</loc>
-    <lastmod>2025-06-09T16:53:07.149Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nmfs-opensci.github.io/GitHub-Clinic/content/markdown/markdown-legacy.html</loc>
-    <lastmod>2025-06-09T16:53:07.053Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nmfs-opensci.github.io/GitHub-Clinic/content/inperson/guided_exercise.html</loc>
-    <lastmod>2025-06-09T16:36:44.217Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nmfs-opensci.github.io/GitHub-Clinic/content/github-pages/github-pages.html</loc>
-    <lastmod>2025-06-13T21:52:31.074Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nmfs-opensci.github.io/GitHub-Clinic/content/forking/forking.html</loc>
-    <lastmod>2025-06-13T21:52:32.695Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nmfs-opensci.github.io/GitHub-Clinic/content/inperson/cb_genetics.html</loc>
-    <lastmod>2025-06-09T16:36:42.332Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nmfs-opensci.github.io/GitHub-Clinic/content/intro/intro.html</loc>
-    <lastmod>2025-06-09T16:53:06.956Z</lastmod>
+    <loc>https://nmfs-opensci.github.io/GitHub-Clinic/content/schedule.html</loc>
+    <lastmod>2025-06-16T18:09:20.945Z</lastmod>
   </url>
   <url>
     <loc>https://nmfs-opensci.github.io/GitHub-Clinic/content/markdown/markdown.html</loc>
     <lastmod>2025-06-09T16:53:07.053Z</lastmod>
   </url>
   <url>
-    <loc>https://nmfs-opensci.github.io/GitHub-Clinic/index.html</loc>
-    <lastmod>2025-05-30T15:03:47.828Z</lastmod>
+    <loc>https://nmfs-opensci.github.io/GitHub-Clinic/content/intro/intro.html</loc>
+    <lastmod>2025-06-09T16:53:06.956Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nmfs-opensci.github.io/GitHub-Clinic/content/inperson/cb_genetics.html</loc>
+    <lastmod>2025-06-09T16:36:42.332Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nmfs-opensci.github.io/GitHub-Clinic/content/forking/forking.html</loc>
+    <lastmod>2025-06-16T16:56:28.360Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nmfs-opensci.github.io/GitHub-Clinic/content/github-pages/github-pages.html</loc>
+    <lastmod>2025-06-16T16:56:28.385Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nmfs-opensci.github.io/GitHub-Clinic/content/inperson/guided_exercise.html</loc>
+    <lastmod>2025-06-09T16:36:44.217Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nmfs-opensci.github.io/GitHub-Clinic/content/markdown/markdown-legacy.html</loc>
+    <lastmod>2025-06-09T16:53:07.053Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nmfs-opensci.github.io/GitHub-Clinic/content/resources.html</loc>
+    <lastmod>2025-06-16T18:05:48.064Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nmfs-opensci.github.io/GitHub-Clinic/content/setup/setup.html</loc>
+    <lastmod>2025-06-09T16:53:07.149Z</lastmod>
   </url>
 </urlset>

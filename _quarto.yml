@@ -46,16 +46,17 @@ website:
       - section: "Welcome"
         href: index.qmd
         contents:
-          - schedule.qmd
+          - content/schedule.qmd
           - content/setup/setup.qmd
-          - coc.md
+          - content/coc.md
       - section: "Tutorials"
         contents:
           - content/intro/intro.qmd
           - content/markdown/markdown.qmd
           - content/github-pages/github-pages.qmd
           - content/forking/forking.qmd
-      - section: "Resources - Coming Soon!"
+      - href: content/resources.qmd
+        text: "Resources"
       - section: "In-Person Workshops"
         contents:
           - content/inperson/cb_genetics.qmd

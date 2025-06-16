@@ -30,7 +30,7 @@ The GitHub Clinic will consist of several components:
 
 ### Schedule
 
-See the [schedule page](schedule.qmd).
+See the [schedule page](content/schedule.qmd).
 
 -   Intro workshops will be given Mondays at 10am PT/1pm ET and Tuesdays at 1pm PT/4pm ET for 3 weeks starting April 7th
     -   These are 2 hour introductory sessions to get you started with Git and GitHub
