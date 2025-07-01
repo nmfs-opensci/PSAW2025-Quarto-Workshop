@@ -1,0 +1,64 @@
+---
+title: "Branches and Pull Requests in Git and GitHub"
+author: "Jonathan Peake"
+brand: slides-light-brand.yml
+output-dir: ../docs/slides/
+format: 
+    nmfs-slides-revealjs: 
+        title-slide-attributes:
+          data-background-image: "styles/horiz-swoop-1.png"
+          data-background-color: '{{< brand color dark-blue >}}'
+        footer: "U.S. Department of Commerce | National Oceanic and Atmospheric Administration | National Marine Fisheries Service"
+        controls: true
+        navigation-mode: linear
+        transition: slide
+        transition-speed: default
+        background-transition: none
+        scrollable: true
+---
+
+## What is a Branch? {.center}
+
+-   Separate workspace where you can make changes and try new ideas without affecting main project
+
+-   Isolated, contained development area
+
+-   Add content to a repository without affecting other code
+
+-   Can be created from any other branch
+
+![](images/paste-78.png)
+
+## Why use branches?
+
+-   Allows multiple users to contribute to project without interfering with each other
+
+-   Fix a bug or add a feature without breaking the main project
+
+-   Experiment with new ideas without affecting the main project
+
+## How are branches different from forks?
+
+-   Housed within the repository, rather than across copies of the repository
+
+-   Collaborating and project management within a team, rather than outside the team
+
+-   Switching between branches changes the repository structure, rather than switching to a different repository
+
+## The process of branching {auto-animate="true"}
+
+::: incremental
+1.  Create a branch on a repository you have write access to
+2.  Make and commit your changes, making commits along the way if necessary
+3.  If necessary/desired, sync any changes made from the main branch to your branch
+4.  Create a pull request to contribute your changes back to the parent repository
+5.  Resolve merge conflicts, if necessary
+:::
+
+## Things to keep in mind when branching
+
+-   Branches can be ephemeral or permanent
+
+-   Branches can have separate read/write access from each other
+
+-   Pull requests can be iterative conversations within the team

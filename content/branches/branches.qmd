@@ -1,0 +1,18 @@
+---
+title: "Branches and Pull Requests"
+---
+
+## Aims and Objectives
+
+Branches allow you to develop features, fix bugs, or safely experiment with new ideas in a contained area of your repository. They can be particularly useful when collaborating within a team, allowing for independent development of different areas of the repository that do not interfere with each other. This skills session will use directed, interactive lessons to provide NOAA Fisheries staff with a foundation in using branches in concert with pull requests for collaborative development.
+
+## Prerequisites: What do I need before this workshop to follow along on my own?
+
+1.  This stand-alone skills session is meant for those with a basic understanding of Git and GitHub. Check out our [Introduction to Git and GitHub](../intro/intro.qmd) lessons if you are new to Git and GitHub or need a refresher.
+2.  We will also be using a bit of Markdown, so you may want to refresh yourself on Markdown language with our [Introduction to Markdown](../markdown/markdown.qmd) lesson.
+
+## What is a Branch?
+
+<iframe class="slide-deck" src="../../slides/branches.html" width="900" height="600">
+
+</iframe>
