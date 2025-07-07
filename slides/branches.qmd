@@ -61,4 +61,12 @@ format:
 
 -   Branches can have separate read/write access from each other
 
--   Pull requests can be iterative conversations within the team
+## Pull requests
+
+-   Proposal to merge changes from a branch (or fork) into another
+
+-   Slight misnomer; "pull" is more like "push" or "merge" in this respect
+
+-   Initiates a conversation between the requester and collaborators
+
+-   Review and discuss changes prior to merging

@@ -55,6 +55,7 @@ website:
           - content/markdown/markdown.qmd
           - content/github-pages/github-pages.qmd
           - content/forking/forking.qmd
+          - content/branches/branches.qmd
       - href: content/resources.qmd
         text: "Resources"
       - section: "In-Person Workshops"
