@@ -17,7 +17,7 @@ format:
         scrollable: true
 ---
 
-## What is a Branch? {.center}
+## What is a Branch? {auto-animate="true"}
 
 -   Separate workspace where you can make changes and try new ideas without affecting main project
 
@@ -26,6 +26,8 @@ format:
 -   Add content to a repository without affecting other code
 
 -   Can be created from any other branch
+
+## What is a Branch? {auto-animate="true"}
 
 ![](images/paste-78.png)
 
