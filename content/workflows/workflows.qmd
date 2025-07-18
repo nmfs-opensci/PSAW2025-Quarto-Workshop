@@ -1,0 +1,18 @@
+---
+title: "Workflows in Git and GitHub"
+---
+
+## Aims and Objectives
+
+Developing a project in Git and GitHub can be messy, especially when collaborating within a team. Overlapping commits can lead to merge conflicts and a convoluted commit history. Establishing a consistent branch-based workflow can help alleviate these concerns. This skills session will use directed, interactive lessons to provide NOAA Fisheries staff with a foundation in using branching strategies to streamline project development and tailor it to your team's size and needs.
+
+## Prerequisites: What do I need before this workshop to follow along on my own?
+
+1.  This stand-alone skills session is meant for those with a basic understanding of Git and GitHub. Check out our [Introduction to Git and GitHub](../intro/intro.qmd) lessons if you are new to Git and GitHub or need a refresher.
+2.  Git workflows are based around the concept of branching. If you are not familiar with branches, be sure to take a look at our [Branches and Pull Requests](../branches/branches.qmd) lesson.
+
+## Git Workflows for Development and Collaboration
+
+<iframe class="slide-deck" src="../../slides/workflows.html" width="900" height="600">
+
+</iframe>
