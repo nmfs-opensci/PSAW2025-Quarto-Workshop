@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Schedule – NOAA Fisheries GitHub Clinic</title>
+<title>Workflows in Git and GitHub – NOAA Fisheries GitHub Clinic</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,29 +23,27 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<link href="../content/setup/setup.html" rel="next">
-<link href="../index.html" rel="prev">
-<link href="../images/favicon-16x16.png" rel="icon" type="image/png">
-<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-2fef5ea3f8957b3e4ecc936fc74692ca.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-dbcf5a5b6fa9f5d0c705674bedd7b8cb.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-23ac0b3105b76f6d02608a753eaa6c4a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-dbcf5a5b6fa9f5d0c705674bedd7b8cb.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../images/favicon-16x16.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-2fef5ea3f8957b3e4ecc936fc74692ca.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-dbcf5a5b6fa9f5d0c705674bedd7b8cb.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-23ac0b3105b76f6d02608a753eaa6c4a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap-dbcf5a5b6fa9f5d0c705674bedd7b8cb.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -75,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="../styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-sidebar docked nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
@@ -247,10 +245,10 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../images\noaa-logo-rgb-2022.png" alt="NOAA logo" class="navbar-logo">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../images\noaa-logo-rgb-2022.png" alt="NOAA logo" class="navbar-logo">
     </a>
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">NOAA Fisheries GitHub Clinic</span>
     </a>
   </div>
@@ -292,7 +290,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../index.html">Welcome</a></li><li class="breadcrumb-item"><a href="../content/schedule.html">Schedule</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Workflows in Git and GitHub</li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -303,7 +301,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-center sidebar-header">
-      <a href="../index.html" class="sidebar-logo-link">
+      <a href="../../index.html" class="sidebar-logo-link">
       <img src="https://github.com/nmfs-opensci/assets/blob/main/logo/nmfs-opensci-logo2.png?raw=true" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
       </a>
       </div>
@@ -311,22 +309,22 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../index.html" class="sidebar-item-text sidebar-link">
+            <a href="../../index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Welcome</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/schedule.html" class="sidebar-item-text sidebar-link active">
+  <a href="../../content/schedule.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Schedule</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/setup/setup.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/setup/setup.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Setup</span></a>
   </div>
 </li>
@@ -343,31 +341,31 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/intro/intro.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/intro/intro.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Introduction to Git and GitHub</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/markdown/markdown.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/markdown/markdown.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Introduction to Markdown and README files</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/github-pages/github-pages.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/github-pages/github-pages.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Hosting a repository as a website with GitHub Pages</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/forking/forking.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/forking/forking.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Forking Repositories in GitHub (and beyond)</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/branches/branches.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/branches/branches.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Branches and Pull Requests</span></a>
   </div>
 </li>
@@ -375,7 +373,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/resources.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/resources.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Resources</span></a>
   </div>
 </li>
@@ -390,7 +388,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/inperson/cb_genetics.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/inperson/cb_genetics.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">GitHub Workshop for CB Genetics and Evolution Program</span></a>
   </div>
 </li>
@@ -405,7 +403,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="https://fisheries.noaa.gov" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><img src="../images/noaa_emblem_logo-2022.png" width="100px"></span></a>
+ <span class="menu-text"><img src="../../images/noaa_emblem_logo-2022.png" width="100px"></span></a>
   </div>
 </li>
     </ul>
@@ -413,8 +411,17 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul class="collapse">
+  <li><a href="#aims-and-objectives" id="toc-aims-and-objectives" class="nav-link active" data-scroll-target="#aims-and-objectives">Aims and Objectives</a></li>
+  <li><a href="#prerequisites-what-do-i-need-before-this-workshop-to-follow-along-on-my-own" id="toc-prerequisites-what-do-i-need-before-this-workshop-to-follow-along-on-my-own" class="nav-link" data-scroll-target="#prerequisites-what-do-i-need-before-this-workshop-to-follow-along-on-my-own">Prerequisites: What do I need before this workshop to follow along on my own?</a></li>
+  <li><a href="#git-workflows-for-development-and-collaboration" id="toc-git-workflows-for-development-and-collaboration" class="nav-link" data-scroll-target="#git-workflows-for-development-and-collaboration">Git Workflows for Development and Collaboration</a></li>
+  <li><a href="#tutorial-practice-with" id="toc-tutorial-practice-with" class="nav-link" data-scroll-target="#tutorial-practice-with">Tutorial: Practice with</a></li>
+  </ul>
+<div class="toc-actions"><ul class="collapse"><li><a href="https://github.com/nmfs-opensci/GitHub-Clinic/edit/main/content/workflows/workflows.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/nmfs-opensci/GitHub-Clinic/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li><li><a href="https://github.com/nmfs-opensci/GitHub-Clinic/blob/main/content/workflows/workflows.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -438,9 +445,9 @@ function googleTranslateElementInit() {
 <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../index.html">Welcome</a></li><li class="breadcrumb-item"><a href="../content/schedule.html">Schedule</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Schedule</h1>
+<h1 class="title">Workflows in Git and GitHub</h1>
 </div>
 
 
@@ -457,133 +464,212 @@ function googleTranslateElementInit() {
 </header>
 
 
-<p>Introductory workshops were held Mondays at 10am PT/1pm ET and Tuesdays at 1pm PT/4pm ET for 3 weeks starting April 7th.</p>
-<p>Single-topic sessions are being held Thursdays at 12:30pm PT/3:30pm ET and Tuesdays at 11:00am PT/2:00pm ET, with topics switching every two weeks starting May 29th.</p>
-<p>See the <a href="https://calendar.google.com/calendar/u/0?cid=Y185MTZiNjk0OGVmMmVlOGI3ZDQ5YzI4NjYxZWZjMDc5ODMwM2MyNzQyYmUzOTljOTI5MGZhMDJkOTMyMGM3NjllQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20">Open Science Calendar</a> for meeting links. Note that recordings and calendar links are restricted to NOAA employees and affiliates.</p>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 15%">
-<col style="width: 35%">
-<col style="width: 10%">
-<col style="width: 15%">
-<col style="width: 25%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Topic</th>
-<th>Description</th>
-<th>Material</th>
-<th>Dates</th>
-<th>Recordings</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Introduction to Git and GitHub</td>
-<td>Basics of git commands, repository management, project management, and collaboration using GitHub</td>
-<td><a href="../content/intro/intro.html">Link</a></td>
-<td><p>Mon 4/7</p>
-<p>Tues 4/8</p>
-<p>Mon 4/14</p>
-<p>Tues 4/15</p>
-<p>Mon 4/21</p>
-<p>Tues 4/22</p></td>
-<td><p>Monday 4/7 (not available; issue with recording)</p>
-<p><a href="https://drive.google.com/file/d/1rjvIRgexOe2D2l5fFf9GhXsQncWX6UYK/view?usp=drive_link">Tuesday 4/8 (Incomplete recording)</a></p>
-<p><a href="https://drive.google.com/file/d/1QZc8ixRZyUKyZoTyb_ERk7PeHWbi85aF/view?usp=sharing">Monday 4/14</a></p>
-<p><a href="https://drive.google.com/file/d/1goH2jSuRZ17U1kCRe79M_LaQpWNDMtE4/view?usp=sharing">Tuesday, 4/15</a></p>
-<p><a href="https://drive.google.com/file/d/1-JuvFqiaDgLKB6sY_6AAgZC29dzwxI94/view?usp=drive_link">Monday, 4/21</a></p>
-<p><a href="https://drive.google.com/file/d/18iDAN_KNsGyS5YJH2std6uh3-5poRCGF/view?usp=sharing">Tuesday, 4/22</a></p></td>
-</tr>
-<tr class="even">
-<td>Markdown and README files</td>
-<td>Become familiar with markdown formatting for README files, issues, Pull Requests, and discussions on GitHub</td>
-<td><a href="../content/markdown/markdown.html">Link</a></td>
-<td><p>Thurs 5/29*</p>
-<p>Tues 6/3</p></td>
-<td><p><a href="https://drive.google.com/file/d/1OC1kFU4mzVgWsBLFY5Ft6rWW6518zlax/view?usp=sharing">Thurs 5/29</a></p>
-<p><a href="https://drive.google.com/file/d/1hy-ztB-uujfK1-9_JQDJ7-qt-pbtBpK0/view?usp=sharing">Tues 6/3 (audio degradation issues)</a></p></td>
-</tr>
-<tr class="odd">
-<td>GitHub Pages</td>
-<td>How to make a website from a GitHub repository using GitHub Pages</td>
-<td><a href="../content/github-pages/github-pages.html">Link</a></td>
-<td><p>Thurs 6/12</p>
-<p>Tues 6/17</p></td>
-<td><p>Thurs 6/12 (not available; canceled session)</p>
-<p><a href="https://drive.google.com/file/d/1hDRPGPLQb9lSEDB8ORs44HzZBIl3XcGQ/view?usp=sharing">Tues 6/17</a></p></td>
-</tr>
-<tr class="even">
-<td>Forks</td>
-<td>Forking a repository, how to work with forks, and why we use them</td>
-<td><a href="../content/forking/forking.html">Link</a></td>
-<td><p>Thurs 6/26</p>
-<p>Tues 7/1</p></td>
-<td><p><a href="https://drive.google.com/file/d/1KgOj8W6XwZ8Y9LyPjMkgLFmGcSTXtMC9/view?usp=sharing">Thurs 6/26</a></p>
-<p><a href="https://drive.google.com/file/d/1HgGkgK-M-LVv9NPqzCdzkrhhZwXlhGFz/view?usp=sharing">Tues 7/1</a></p></td>
-</tr>
-<tr class="odd">
-<td>Branches and Pull Requests</td>
-<td>Creating a branch, why to use branches, and using pull request to merge changes from branches</td>
-<td><a href="../content/branches/branches.html">Link</a></td>
-<td><p>Thurs 7/10</p>
-<p>Tues 7/15</p></td>
-<td><p><a href="https://drive.google.com/file/d/1F7h77D3Ay2caiiZfoXRnLuDeJOlmoqos/view?usp=sharing">Thurs 7/10</a></p>
-<p>Tues 7/15 (not available; technical difficulties)</p></td>
-</tr>
-<tr class="even">
-<td>Git Workflows</td>
-<td>Using branches to organize and develop workflows in GitHub</td>
-<td><a href="../content/workflows/workflows.html">Link</a></td>
-<td><p>Thurs 7/17</p>
-<p>Tues 7/29</p></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>Merge Conflicts</td>
-<td>Why merge conflicts occur, how to address them, and best practices to avoid them in the first place</td>
-<td>TBD</td>
-<td><p>Thurs 8/7</p>
-<p>Tues 8/12</p></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>Issues</td>
-<td>Types of issues, assigning issues, and using issue templates</td>
-<td>TBD</td>
-<td><p>Thurs 8/21</p>
-<p>Tues 8/26</p></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>Project Management</td>
-<td>Using GitHub Issues and Projects for project management</td>
-<td>TBD</td>
-<td><p>Thurs 9/4</p>
-<p>Tues 9/9</p></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>Advanced Git</td>
-<td>Git on the command line, advanced features and functions</td>
-<td>TBD</td>
-<td><p>Thurs 9/18</p>
-<p>Tues 9/23</p></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>GitHub Actions</td>
-<td>Automating tasks and workflows using GitHub Actions</td>
-<td>TBD</td>
-<td><p>Thurs 10/1</p>
-<p>Tues 10/6</p></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<p>Note: the Thursday 5/29 session has been shifted to 1:00pm PT/4:00pm ET to accommodate the NOAA Fisheries all-hands meeting.</p>
+<section id="aims-and-objectives" class="level2">
+<h2 class="anchored" data-anchor-id="aims-and-objectives">Aims and Objectives</h2>
+<p>Developing a project in Git and GitHub can be messy, especially when collaborating within a team. Overlapping commits can lead to merge conflicts and a convoluted commit history. Establishing a consistent branch-based workflow can help alleviate these concerns. This skills session will use directed, interactive lessons to provide NOAA Fisheries staff with a foundation in using branching strategies to streamline project development and tailor it to your team’s size and needs.</p>
+</section>
+<section id="prerequisites-what-do-i-need-before-this-workshop-to-follow-along-on-my-own" class="level2">
+<h2 class="anchored" data-anchor-id="prerequisites-what-do-i-need-before-this-workshop-to-follow-along-on-my-own">Prerequisites: What do I need before this workshop to follow along on my own?</h2>
+<ol type="1">
+<li>This stand-alone skills session is meant for those with a basic understanding of Git and GitHub. Check out our <a href="../../content/intro/intro.html">Introduction to Git and GitHub</a> lessons if you are new to Git and GitHub or need a refresher.</li>
+<li>Git workflows are based around the concept of branching. If you are not familiar with branches, be sure to take a look at our <a href="../../content/branches/branches.html">Branches and Pull Requests</a> lesson.</li>
+</ol>
+</section>
+<section id="git-workflows-for-development-and-collaboration" class="level2">
+<h2 class="anchored" data-anchor-id="git-workflows-for-development-and-collaboration">Git Workflows for Development and Collaboration</h2>
+<iframe class="slide-deck" src="../../slides/workflows.html" width="900" height="600">
+</iframe>
+</section>
+<section id="tutorial-practice-with" class="level2">
+<h2 class="anchored" data-anchor-id="tutorial-practice-with">Tutorial: Practice with</h2>
+<p><a href="https://github.com/skills/release-based-workflow">GitHub Skills: Create a release-based workflow</a></p>
+<p>We’ll be using the Create a Release-based Workflow Skills Tutorial to practice using a GitHub Flow-style workflow with releases. Follow along with the tutorial using your own GitHub account.</p>
+<section id="step-1-start-the-course" class="level3">
+<h3 class="anchored" data-anchor-id="step-1-start-the-course">Step 1: Start the course</h3>
+<p>Open the GitHub Skills link, and make sure you are logged into GitHub. Use the “Start course” button to make a new repository on your account:</p>
+<p><img src="images/paste-1.png" class="img-fluid"></p>
+<p>When you open up the “Copy Exercise” link, you will be presented with the “Create a new repository” interface. Keep all of the defaults, and click the green “Create repository” button:</p>
+<p><img src="images/paste-2.png" class="img-fluid"></p>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+GitHub Skills tutorials use GitHub Actions in the background.
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>These actions use “minutes”, which are limited in a private repository, but unlimited in a public one. We suggest keeping your GitHub Skills tutorial repositories public to avoid any minutes limitations.</p>
+</div>
+</div>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+You’ll notice that most steps in a GitHub Skills tutorial feature a message to wait about 20 seconds for the exercise to update.
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>GitHub Actions can take a little bit of time to run, so waiting this requisite time is important! Refresh the instructions after 20 seconds to make sure everything updates properly.</p>
+</div>
+</div>
+</section>
+<section id="step-2-start-the-exercise" class="level3">
+<h3 class="anchored" data-anchor-id="step-2-start-the-exercise">Step 2: Start the exercise</h3>
+<p>After waiting the suggested 20 seconds, refresh the repository, and click the “Go to Exercise” button in the README</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>I suggest moving the instructions tab into another window so you can work side-by-side with the instructions to limit switching back and forth between tabs.</p>
+<p><img src="images/paste-3.png" class="img-fluid"></p>
+</div>
+</div>
+</section>
+<section id="step-3-follow-the-exercise" class="level3">
+<h3 class="anchored" data-anchor-id="step-3-follow-the-exercise">Step 3: Follow the exercise</h3>
+<section id="create-a-beta-release" class="level4">
+<h4 class="anchored" data-anchor-id="create-a-beta-release">Create a beta release</h4>
+<p>In this exercise, we will be creating a release-based workflow that is built on the foundations of GitHub flow.</p>
+<ol type="1">
+<li>Go to the <strong>Releases</strong> page for the repository. If you are in a condensed view mode, this link will be at the bottom of the Code page. If you’re viewing in a full-sized window, this page will be in the sidebar on the right-hand side of the repository window on the Code page.<br>
+<img src="images/paste-4.png" class="img-fluid"></li>
+<li>Click the green <strong>Create a new release</strong> button to start a new new release<br>
+<img src="images/paste-5.png" class="img-fluid"></li>
+<li>Click the <strong>Tag: Select tag</strong> dropdown, and specify a release number. Use <strong>v0.9</strong> for this example. Click <strong>Create new tag: v0.9 on publish</strong>.<br>
+<img src="images/paste-6.png" class="img-fluid"></li>
+<li>Give the release a title, and an optional short description. Check the box next to <strong>Set as a pre-release</strong>.<br>
+<img src="images/paste-7.png" class="img-fluid"></li>
+<li>Click the green <strong>Publish release</strong> button to finalize your pre-release.<br>
+<img src="images/paste-8.png" class="img-fluid"></li>
+</ol>
+</section>
+<section id="introduce-a-bug-to-be-fixed-later" class="level4">
+<h4 class="anchored" data-anchor-id="introduce-a-bug-to-be-fixed-later">Introduce a bug to be fixed later</h4>
+<p>Next, we’ll add a bug to our code that will be fixed later in this tutorial.</p>
+<ol type="1">
+<li>At the top of the repository, click on the <strong>Pull requests</strong> tab and click the green <strong>New</strong> button (if you’re in the full window view, this will say <strong>New pull request</strong>).<br>
+<img src="images/paste-9.png" class="img-fluid"></li>
+<li>Set the <strong>base:</strong> dropdown menu to <code>release-v1.0</code> and the <strong>compare:</strong> dropdown menu to <code>update-text-colors</code>, and click the green <strong>Create pull request</strong> button.<img src="images/paste-11.png" class="img-fluid"></li>
+<li>Update the pull request title to “Updated game text style”. Optionally add a more detailed description to your pull request. Click the green <strong>Create pull request</strong> button.<br>
+<img src="images/paste-12.png" class="img-fluid"></li>
+<li>Merge the pull request, wait about 20 seconds for the instructions to refresh, and refresh the instructions README page.<br>
+<img src="images/paste-13.png" class="img-fluid"><br>
+<img src="images/paste-14.png" class="img-fluid"></li>
+</ol>
+</section>
+<section id="add-a-new-feature-to-the-release-branch" class="level4">
+<h4 class="anchored" data-anchor-id="add-a-new-feature-to-the-release-branch">Add a new feature to the release branch</h4>
+<p>We’ll be using the <code>release-v1.0</code> branch to add features to our repository. We can treat this branch as a long-lived but ephemeral branch in the spirit of GitHub Flow.</p>
+<ol type="1">
+<li>In the <strong>Code</strong> tab, create a new branch off of the <code>main</code> branch. This will be our “feature” branch. Name your branch <code>feature-background</code>.<br>
+<img src="images/paste-15.png" class="img-fluid"></li>
+<li>Open the <code>base.css</code> file, and click the “edit this file” button (it should look like a pen in the upper right hand corner of the code chunk. Scroll down to line 109. In the <code>body</code> declaration, add a line that changes the background color to black using the <code>background-color: black;</code> line as shown in the tutorial.<br>
+<img src="images/paste-17.png" class="img-fluid"></li>
+<li>Commit your changes, updating the commit message to be more descriptive.<br>
+<img src="images/paste-18.png" class="img-fluid"></li>
+<li>Navigate to the <strong>Pull requests</strong> tab, and create a new pull request. Set the base branch to <code>release-v1.0</code> and the compare branch to <code>feature-background</code>. Click the green <strong>Create pull request</strong> button, and fill in the pull request template. Click the <strong>Create pull request</strong> button to finalize the pull request.<br>
+<img src="images/paste-19.png" class="img-fluid"></li>
+<li>Merge the pull request and delete your feature branch.<br>
+<img src="images/paste-20.png" class="img-fluid"></li>
+<li>Wait about 20 seconds for GitHub Actions to update, then refresh the instructions README page.</li>
+</ol>
+</section>
+<section id="open-a-release-pull-request" class="level4">
+<h4 class="anchored" data-anchor-id="open-a-release-pull-request">Open a release pull request</h4>
+<p>Opening a pull request early in the release can help facilitate discussion about the release. Any commits added to the <code>compare</code> branch after opening the pull request will be associated with that pull request until it’s closed.</p>
+<ol type="1">
+<li>In the <strong>Pull requests</strong> tab, open a new pull request with <code>base: main</code> and <code>compare: release-v1.0</code>. You can do this from the “release-v1.0 had recent pushes” banner to save time.<br>
+<img src="images/paste-21.png" class="img-fluid"></li>
+<li>Add some detail to your pull request body description, and click the green <strong>Create pull request</strong> button. <strong>Don’t merge your pull request yet!</strong><br>
+<img src="images/paste-22.png" class="img-fluid"></li>
+<li>Wait 20 seconds for GitHub Actions to update, then refresh the instructions README page.</li>
+</ol>
+</section>
+<section id="generate-release-notes-and-merge" class="level4">
+<h4 class="anchored" data-anchor-id="generate-release-notes-and-merge">Generate release notes and merge</h4>
+<p>You can generate release notes automatically based on the content of your pull request. Let’s practice this with our “Release v1.0” pull request.</p>
+<ol type="1">
+<li>Navigate to the <strong>Releases</strong> page from the <strong>Code</strong> tab of your repository (see above if you need a reminder of how to get there).</li>
+<li>Click the <strong>Draft a new release</strong> button in the top right corner.<br>
+<img src="images/paste-24.png" class="img-fluid"></li>
+<li>In the <strong>Tag:</strong> dropdown menu, type v1.0.0, and create a tag with that name. Change the <strong>Target:</strong> dropdown to select the <code>release-v1.0</code> branch.<br>
+<img src="images/paste-26.png" class="img-fluid"></li>
+<li>Click the <strong>Generate release notes</strong> button at the top of the description box.<br>
+<img src="images/paste-27.png" class="img-fluid"></li>
+<li>Review your release notes and make any changes if necessary.<br>
+<img src="images/paste-29.png" class="img-fluid"></li>
+<li>Set the <strong>Target:</strong> branch back to <code>main</code> (we only needed the release branch to generate our release notes).<br>
+<img src="images/paste-28.png" class="img-fluid"></li>
+<li>Click the <strong>Save draft</strong> button (not the <strong>Publish release</strong> button; we’ll publish in the next step).<br>
+<img src="images/paste-30.png" class="img-fluid"></li>
+<li>Open your <strong>Release v1.0</strong> pull request on the <strong>Pull requests</strong> tab.<br>
+<img src="images/paste-31.png" class="img-fluid"></li>
+<li>Merge your pull request.<br>
+<img src="images/paste-32.png" class="img-fluid"></li>
+<li>Wait 20 seconds for the GitHub Actions to update, then refresh the instructions page.</li>
+</ol>
+</section>
+<section id="an-aside-on-semantic-versioning" class="level4">
+<h4 class="anchored" data-anchor-id="an-aside-on-semantic-versioning">An aside on semantic versioning</h4>
+<p>This release workflow uses a system called semantic versioning, which is a convention for specifying compatibility. It uses a three-part version number: <strong>major version, minor version, and patch</strong>.</p>
+<p><img src="images/paste-33.png" class="img-fluid"></p>
+</section>
+<section id="finalize-the-release" class="level4">
+<h4 class="anchored" data-anchor-id="finalize-the-release">Finalize the release</h4>
+<ol type="1">
+<li>From the <strong>Code</strong> page, navigate to the <strong>Releases</strong> page. Click the edit button next to your <strong>v1.0.0</strong> release.<br>
+<img src="images/paste-34.png" class="img-fluid"></li>
+<li>Ensure the <strong>Target</strong> branch is set to <strong>main<br>
+</strong><img src="images/paste-36.png" class="img-fluid"></li>
+<li>Scroll to the bottom of the page, and click <strong>Publish release</strong>.<br>
+<img src="images/paste-37.png" class="img-fluid"></li>
+<li>Wait 20 seconds for the GitHub actions to update, then refresh the instructions README page.</li>
+</ol>
+</section>
+<section id="commit-a-hotfix-to-the-release" class="level4">
+<h4 class="anchored" data-anchor-id="commit-a-hotfix-to-the-release">Commit a hotfix to the release</h4>
+<p>We can make a short-lived, ephemeral branch to fix a bug. The tutorial has already introduced a bug (we did this in the first part of the tutorial), and created a feature branch (<code>fix-game-background</code>) and a hotfix release branch (<code>hotfix-v1.0.1</code>) for us that fixes the bug. Let’s make a pull request to introduce this bug fix into our repo.</p>
+<ol type="1">
+<li>In the <strong>Pull requests</strong> tab, open a pull request setting <code>hotfix-v1.0.1</code> as the <code>base</code> branch and <code>fix-game-background</code> as the <code>compare</code> branch.<br>
+<img src="images/paste-38.png" class="img-fluid"></li>
+<li>Add a description to the pull request body, and change the title of the pull request to “Hotfix for broken game style”. Create your pull request and merge it into our <code>hotfix-v1.0.1</code> release branch.<br>
+<img src="images/paste-39.png" class="img-fluid"></li>
+<li>Open a new pull request with <code>main</code> as the <code>base</code> branch and <code>hotfix-v1.0.1</code> as the <code>compare</code> branch.<br>
+<img src="images/paste-40.png" class="img-fluid"></li>
+<li>Add a detailed description to the pull request body.<br>
+<img src="images/paste-41.png" class="img-fluid"></li>
+<li>Create and merge your pull request into the <code>main</code> branch.<br>
+<img src="images/paste-42.png" class="img-fluid"></li>
+<li>Wait 20 seconds for GitHub Actions to update, then refresh the README.</li>
+</ol>
+</section>
+<section id="create-release-v1.0.1" class="level4">
+<h4 class="anchored" data-anchor-id="create-release-v1.0.1">Create release v1.0.1</h4>
+<p>The final step is incorporating our hotfix changes into a new release to distribute to the necessary channels.</p>
+<ol type="1">
+<li>Navigate to the <strong>Releases</strong> page from the <strong>Code</strong> tab, and click the <strong>Draft a new release</strong> button.<br>
+<img src="images/paste-43.png" class="img-fluid"></li>
+<li>Set the <strong>Target</strong> branch to <code>main</code> and add a <code>v1.0.1</code> tag to follow semantic versioning. Click <strong>Generate release notes</strong> to auto-populate the release title and notes. Review the release notes, and customize if desired.<br>
+<img src="images/paste-44.png" class="img-fluid"></li>
+<li>Click <strong>Publish release</strong> at the bottom of the page. Wait 20 more seconds for the tutorial README to update, then refresh the instructions.<br>
+<img src="images/paste-45.png" class="img-fluid"></li>
+<li>You’re finished with the tutorial! Now that you have practiced with a release-based workflow, feel free to experiment with other workflows and select the one that works best for your project and team.</li>
+</ol>
 
 
+</section>
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -998,18 +1084,6 @@ function googleTranslateElementInit() {
     }
   });
   </script>
-<nav class="page-navigation">
-  <div class="nav-page nav-page-previous">
-      <a href="../index.html" class="pagination-link" aria-label="Welcome">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Welcome</span>
-      </a>          
-  </div>
-  <div class="nav-page nav-page-next">
-      <a href="../content/setup/setup.html" class="pagination-link" aria-label="Setup">
-        <span class="nav-page-text">Setup</span> <i class="bi bi-arrow-right-short"></i>
-      </a>
-  </div>
-</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
@@ -1018,7 +1092,7 @@ function googleTranslateElementInit() {
     </div>   
     <div class="nav-footer-center">
 <p><img src="https://github.com/nmfs-opensci/assets/blob/main/logo/nmfs-opensci-logo2.png?raw=true" alt="NMFS Open Science logo" style="width:150px"><br>NMFS Open Science (2023)</p>
-<div class="toc-actions"><ul><li><a href="https://github.com/nmfs-opensci/GitHub-Clinic/edit/main/content/schedule.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/nmfs-opensci/GitHub-Clinic/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li><li><a href="https://github.com/nmfs-opensci/GitHub-Clinic/blob/main/content/schedule.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div>
+<div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/nmfs-opensci/GitHub-Clinic/edit/main/content/workflows/workflows.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/nmfs-opensci/GitHub-Clinic/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li><li><a href="https://github.com/nmfs-opensci/GitHub-Clinic/blob/main/content/workflows/workflows.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div>
     <div class="nav-footer-right">
       &nbsp;
     </div>
