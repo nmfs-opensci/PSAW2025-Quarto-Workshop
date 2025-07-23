@@ -56,6 +56,7 @@ website:
           - content/github-pages/github-pages.qmd
           - content/forking/forking.qmd
           - content/branches/branches.qmd
+          - content/workflows/workflows.qmd
       - href: content/resources.qmd
         text: "Resources"
       - section: "In-Person Workshops"
