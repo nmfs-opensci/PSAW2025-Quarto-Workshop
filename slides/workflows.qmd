@@ -1,0 +1,121 @@
+---
+title: "Development Workflows in Git and GitHub"
+subtitle: "Three flavors for teams of all sizes"
+author: "Jonathan Peake"
+brand: slides-light-brand.yml
+output-dir: ../docs/slides/
+format: 
+    nmfs-slides-revealjs: 
+        title-slide-attributes:
+          data-background-image: "styles/horiz-swoop-1.png"
+          data-background-color: '{{< brand color dark-blue >}}'
+        footer: "U.S. Department of Commerce | National Oceanic and Atmospheric Administration | National Marine Fisheries Service"
+        controls: true
+        navigation-mode: linear
+        transition: slide
+        transition-speed: default
+        background-transition: none
+        scrollable: true
+---
+
+## What is a Git workflow?
+
+-   Using branches to control where, when, and by whom a project is developed
+
+-   Also called a "branching strategy"
+
+-   Different strategies work best for teams of differing sizes and goals
+
+## Why use Git workflows?
+
+-   Consistent strategy for project development
+
+-   Better collaboration with team members
+
+-   Parallel development
+
+-   Organize releases
+
+-   Fix issues and add features without disrupting development
+
+# Branch Types in Git Workflows
+
+## Main branch
+
+-   Also called the "default" or "trunk" branch
+
+-   Finalized, production-ready code and files
+
+-   Permanent
+
+![](images/paste-87.png)
+
+## Feature branch
+
+-   Catered to feature development
+
+-   Short-lived
+
+![](images/paste-88.png)
+
+## Release branch
+
+-   Prepare specific version of project for release
+
+-   Longer-lived but ephemeral
+
+![](images/paste-85.png)
+
+## Develop branch
+
+-   Staging branch for ongoing development
+
+-   Changes are tested and integrated into project before merged into main
+
+-   Permanent
+
+![](images/paste-86.png)
+
+# Three "flavors" of Git workflows
+
+## Trunk-based workflow
+
+Release focused development
+
+Continuous integration into main branch
+
+With or without separate ephemeral branches
+
+![](images/paste-81.png)
+
+## GitHub flow
+
+Feature focused development optimized for web-based projects
+
+Periodic integration into main branch
+
+Each "feature" gets a new ephemeral branch
+
+![](images/paste-89.png)
+
+## Git flow
+
+Complex development using release, develop, and feature branches
+
+![](images/paste-90.png)
+
+# Choosing the right workflow structure
+
+## Balance project complexity and team size
+
+-   Trunk-based workflow - New projects, small teams and individuals
+
+-   GitHub flow - Established projects, small and medium teams
+
+-   Git flow - Mature or complex projects, large teams
+
+## Set expectations early, evolve with your project
+
+Experiment with workflows and find one that works for your project and team
+
+As your project evolves, you may need to change your workflow to accommodate your needs
