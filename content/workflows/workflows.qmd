@@ -17,7 +17,7 @@ Developing a project in Git and GitHub can be messy, especially when collaborati
 
 </iframe>
 
-## Tutorial: Practice with
+## Tutorial: Practice with Workflows
 
 [GitHub Skills: Create a release-based workflow](https://github.com/skills/release-based-workflow)
 
