@@ -29,7 +29,7 @@ Open the GitHub Skills link, and make sure you are logged into GitHub. Use the "
 
 ![](images/paste-1.png)
 
-When you open up the "Copy Exercise" link, you will be presented with the "Create a new repository" interface. Keep all of the defaults, and click the green "Create repository" button:
+When you open up the "Star" link, you will be presented with the "Create a new repository" interface. Keep all of the defaults, and click the green "Create repository" button:
 
 ![](images/paste-2.png)
 
