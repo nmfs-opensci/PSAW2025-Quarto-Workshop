@@ -57,6 +57,7 @@ website:
           - content/forking/forking.qmd
           - content/branches/branches.qmd
           - content/workflows/workflows.qmd
+          - content/merge-conflicts/merge-conflicts.qmd
       - href: content/resources.qmd
         text: "Resources"
       - section: "In-Person Workshops"
