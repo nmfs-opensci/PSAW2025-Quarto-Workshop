@@ -1,0 +1,93 @@
+---
+title: "Merge Conflicts in Git and GitHub"
+subtitle: "Why they occur, what to do when they occur, and how to avoid them"
+author: "Jonathan Peake"
+brand: slides-light-brand.yml
+output-dir: ../docs/slides/
+format: 
+    nmfs-slides-revealjs: 
+        title-slide-attributes:
+          data-background-image: "styles/horiz-swoop-1.png"
+          data-background-color: '{{< brand color dark-blue >}}'
+        footer: "U.S. Department of Commerce | National Oceanic and Atmospheric Administration | National Marine Fisheries Service"
+        controls: true
+        navigation-mode: linear
+        transition: slide
+        transition-speed: default
+        background-transition: none
+        scrollable: true
+---
+
+## What is a merge conflict?
+
+-   Git normally can resolve differences between branches automatically
+
+-   Changes on different branches that compete with each other are more difficult to resolve
+
+-   Requires manually choosing which changes to keep
+
+## When do merge conflicts occur?
+
+1.  Changes to the same line of the same file on different branches
+2.  Deletion of a file edited in another branch
+3.  Deletion of a line edited in another branch
+
+(more advanced scenarios)
+
+4.  Cherry-picking commits
+5.  Rebasing a branch
+
+## What does a merge conflict look like? {auto-animate="true"}
+
+-   Merge conflicts are denoted by conflict markers: `<<<<<<<`, `=======`, `>>>>>>>`
+
+-   Anything between `<<<<<<<` and `=======` is from the base branch
+
+-   Anything between `=======` and `>>>>>>>` is from the compare branch
+
+-   The name of the base and compare branches are denoted in line with `<<<<<<<` and `>>>>>>>`
+
+## What does a merge conflict look like? {auto-animate="true"}
+
+``` md
+In this example, we have  
+<<<<<<< HEAD 
+a change made in the base branch.
+======= 
+a change made to the same line of the compare branch.
+>>>>>>> branch-a
+```
+
+## Resolving a merge conflict {auto-animate="true"}
+
+1.  Open the file where the conflict occurred
+2.  Find any instances of `<<<<<<<`
+3.  Decide what to keep and what to replace
+4.  Delete the lines containing `<<<<<<<`, `=======`, and `>>>>>>>`
+5.  Commit your changes and complete the merge
+
+## Resolving a merge conflict {auto-animate="true"}
+
+``` md
+In this example, we have:  
+<<<<<<< HEAD 
+- a change made in the base branch.
+======= 
+- a change made to the same line of the compare branch.
+>>>>>>> branch-a
+```
+
+## Resolving a merge conflict {auto-animate="true"}
+
+``` md
+In this example, we have:
+- a change made to the same line of the compare branch.
+```
+
+## How to avoid merge conflicts
+
+-   Communicate
+
+-   Make small, frequent commits and pull requests
+
+-   Review others' pull requests
