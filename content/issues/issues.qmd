@@ -1,0 +1,18 @@
+---
+title: "Communicating in GitHub with Issues and Discussions"
+---
+
+## Aims and Objectives
+
+Communication among developers and between developers and end users is a key aspect of GitHub that promotes collaboration and open source development. GitHub provides a number of tools and features to facilitate communication. Two of these features, GitHub Issues and GitHub Discussions, allow collaborators to create, discuss, and track work in a repository. This skills session will use directed, interactive lessons to provide NOAA Fisheries staff with a foundation in using Issues and Discussions to promote open source development in GitHub.
+
+## Prerequisites: What do I need before this workshop to follow along on my own?
+
+1.  This stand-alone skills session is meant for those with a basic understanding of Git and GitHub. Check out our [Introduction to Git and GitHub](../intro/intro.qmd) lessons if you are new to Git and GitHub or need a refresher.
+2.  We will also be using a bit of Markdown, so you may want to refresh yourself on Markdown language with our [Introduction to Markdown](../markdown/markdown.qmd) lesson.
+
+## GitHub Issues and Discussions for Project Development
+
+<iframe class="slide-deck" src="../../slides/issues.html" width="900" height="600">
+
+</iframe>
