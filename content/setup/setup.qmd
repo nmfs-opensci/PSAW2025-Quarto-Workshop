@@ -30,12 +30,6 @@ title: "Setup"
 
 3.  DONE!
 
-## Authenticating to GHEC
-
-### Using GitHub Desktop
-
-![](images/g_desktop_signin.png)
-
 **Help! I signed up for GitHub Enterprise and GitHub Desktop will not authenticate!!** Log out of GitHub Desktop under GitHub Desktop \> Settings (or Options) \> Account and log back in.
 
 ## Authenticating to GHEC: Using RStudio
@@ -52,15 +46,11 @@ title: "Setup"
 
 5.  Paste that path in.
 
-## Authenticating to GHEC: Using RStudio
-
 You have to authenticate to GitHub separately for RStudio even if you are signed in on GitHub Desktop.
 
 If you see anything like this, you have not authenticated.
 
 ![](images/no_token_error.png)
-
-## Authenticating to GHEC: Using RStudio
 
 ### Set up
 
@@ -72,8 +62,6 @@ If you see anything like this, you have not authenticated.
 usethis::use_git_config(user.name = "your username", user.email = "you@noaa.gov")
 ```
 
-## Authenticating to GHEC: Using RStudio
-
 ### Create Token
 
 ```         
@@ -81,8 +69,6 @@ usethis::create_github_token(   scopes = c("repo", "workflow"),   description = 
 ```
 
 ![](images/new_token.png)
-
-## Authenticating to GHEC: Using RStudio
 
 ### Create Token
 
@@ -92,8 +78,6 @@ usethis::create_github_token(   scopes = c("repo", "workflow"),   description = 
 
 3.  **Copy the long PAT.**
 
-## Authenticating to GHEC: Using RStudio
-
 ### Configure PAT for GHEC
 
 1.  Next to the PAT, you will see "Configure for SSO".
@@ -101,8 +85,6 @@ usethis::create_github_token(   scopes = c("repo", "workflow"),   description = 
 2.  Click that and authenticate to your GHEC org
 
 ![](images/configure_sso_token.png)
-
-## Authenticating to GHEC: Using RStudio
 
 ### Tell RSTudio about the PAT
 

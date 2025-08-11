@@ -383,6 +383,12 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Merge Conflits in Git and GitHub</span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../content/issues/issues.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Communicating in GitHub with Issues and Discussions</span></a>
+  </div>
+</li>
       </ul>
   </li>
         <li class="sidebar-item">
@@ -433,14 +439,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#setting-up-git-and-github" id="toc-setting-up-git-and-github" class="nav-link active" data-scroll-target="#setting-up-git-and-github">Setting up Git and GitHub</a></li>
   <li><a href="#signing-up-for-github-enterprise-cloud-ghec" id="toc-signing-up-for-github-enterprise-cloud-ghec" class="nav-link" data-scroll-target="#signing-up-for-github-enterprise-cloud-ghec">Signing up for GitHub Enterprise Cloud (GHEC)</a></li>
   <li><a href="#authenticating-to-ghec" id="toc-authenticating-to-ghec" class="nav-link" data-scroll-target="#authenticating-to-ghec">Authenticating to GHEC</a></li>
-  <li><a href="#authenticating-to-ghec-1" id="toc-authenticating-to-ghec-1" class="nav-link" data-scroll-target="#authenticating-to-ghec-1">Authenticating to GHEC</a></li>
   <li><a href="#authenticating-to-ghec-using-rstudio" id="toc-authenticating-to-ghec-using-rstudio" class="nav-link" data-scroll-target="#authenticating-to-ghec-using-rstudio">Authenticating to GHEC: Using RStudio</a></li>
-  <li><a href="#authenticating-to-ghec-using-rstudio-1" id="toc-authenticating-to-ghec-using-rstudio-1" class="nav-link" data-scroll-target="#authenticating-to-ghec-using-rstudio-1">Authenticating to GHEC: Using RStudio</a></li>
-  <li><a href="#authenticating-to-ghec-using-rstudio-2" id="toc-authenticating-to-ghec-using-rstudio-2" class="nav-link" data-scroll-target="#authenticating-to-ghec-using-rstudio-2">Authenticating to GHEC: Using RStudio</a></li>
-  <li><a href="#authenticating-to-ghec-using-rstudio-3" id="toc-authenticating-to-ghec-using-rstudio-3" class="nav-link" data-scroll-target="#authenticating-to-ghec-using-rstudio-3">Authenticating to GHEC: Using RStudio</a></li>
-  <li><a href="#authenticating-to-ghec-using-rstudio-4" id="toc-authenticating-to-ghec-using-rstudio-4" class="nav-link" data-scroll-target="#authenticating-to-ghec-using-rstudio-4">Authenticating to GHEC: Using RStudio</a></li>
-  <li><a href="#authenticating-to-ghec-using-rstudio-5" id="toc-authenticating-to-ghec-using-rstudio-5" class="nav-link" data-scroll-target="#authenticating-to-ghec-using-rstudio-5">Authenticating to GHEC: Using RStudio</a></li>
-  <li><a href="#authenticating-to-ghec-using-rstudio-6" id="toc-authenticating-to-ghec-using-rstudio-6" class="nav-link" data-scroll-target="#authenticating-to-ghec-using-rstudio-6">Authenticating to GHEC: Using RStudio</a></li>
   </ul>
 <div class="toc-actions"><ul class="collapse"><li><a href="https://github.com/nmfs-opensci/GitHub-Clinic/edit/main/content/setup/setup.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/nmfs-opensci/GitHub-Clinic/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li><li><a href="https://github.com/nmfs-opensci/GitHub-Clinic/blob/main/content/setup/setup.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
     </div>
@@ -516,13 +515,6 @@ function googleTranslateElementInit() {
 <li><p>Sign into GitHub.com. <strong>Ignore GitHub Enterprise!!</strong></p></li>
 <li><p>DONE!</p></li>
 </ol>
-</section>
-</section>
-<section id="authenticating-to-ghec-1" class="level2">
-<h2 class="anchored" data-anchor-id="authenticating-to-ghec-1">Authenticating to GHEC</h2>
-<section id="using-github-desktop-1" class="level3">
-<h3 class="anchored" data-anchor-id="using-github-desktop-1">Using GitHub Desktop</h3>
-<p><img src="images/g_desktop_signin.png" class="img-fluid"></p>
 <p><strong>Help! I signed up for GitHub Enterprise and GitHub Desktop will not authenticate!!</strong> Log out of GitHub Desktop under GitHub Desktop &gt; Settings (or Options) &gt; Account and log back in.</p>
 </section>
 </section>
@@ -537,16 +529,10 @@ function googleTranslateElementInit() {
 <li><p>In RStudio, Tools &gt; Global Options &gt; Git/SVN There is a box at top that asks for the location of the Git binary.</p></li>
 <li><p>Paste that path in.</p></li>
 </ol>
-</section>
-</section>
-<section id="authenticating-to-ghec-using-rstudio-1" class="level2">
-<h2 class="anchored" data-anchor-id="authenticating-to-ghec-using-rstudio-1">Authenticating to GHEC: Using RStudio</h2>
 <p>You have to authenticate to GitHub separately for RStudio even if you are signed in on GitHub Desktop.</p>
 <p>If you see anything like this, you have not authenticated.</p>
 <p><img src="images/no_token_error.png" class="img-fluid"></p>
 </section>
-<section id="authenticating-to-ghec-using-rstudio-2" class="level2">
-<h2 class="anchored" data-anchor-id="authenticating-to-ghec-using-rstudio-2">Authenticating to GHEC: Using RStudio</h2>
 <section id="set-up" class="level3">
 <h3 class="anchored" data-anchor-id="set-up">Set up</h3>
 <ol type="1">
@@ -555,17 +541,11 @@ function googleTranslateElementInit() {
 </ol>
 <pre><code>usethis::use_git_config(user.name = "your username", user.email = "you@noaa.gov")</code></pre>
 </section>
-</section>
-<section id="authenticating-to-ghec-using-rstudio-3" class="level2">
-<h2 class="anchored" data-anchor-id="authenticating-to-ghec-using-rstudio-3">Authenticating to GHEC: Using RStudio</h2>
 <section id="create-token" class="level3">
 <h3 class="anchored" data-anchor-id="create-token">Create Token</h3>
 <pre><code>usethis::create_github_token(   scopes = c("repo", "workflow"),   description = "DESCRIBE THE TOKEN'S USE CASE",   host = NULL )</code></pre>
 <p><img src="images/new_token.png" class="img-fluid"></p>
 </section>
-</section>
-<section id="authenticating-to-ghec-using-rstudio-4" class="level2">
-<h2 class="anchored" data-anchor-id="authenticating-to-ghec-using-rstudio-4">Authenticating to GHEC: Using RStudio</h2>
 <section id="create-token-1" class="level3">
 <h3 class="anchored" data-anchor-id="create-token-1">Create Token</h3>
 <ol type="1">
@@ -574,9 +554,6 @@ function googleTranslateElementInit() {
 <li><p><strong>Copy the long PAT.</strong></p></li>
 </ol>
 </section>
-</section>
-<section id="authenticating-to-ghec-using-rstudio-5" class="level2">
-<h2 class="anchored" data-anchor-id="authenticating-to-ghec-using-rstudio-5">Authenticating to GHEC: Using RStudio</h2>
 <section id="configure-pat-for-ghec" class="level3">
 <h3 class="anchored" data-anchor-id="configure-pat-for-ghec">Configure PAT for GHEC</h3>
 <ol type="1">
@@ -585,9 +562,6 @@ function googleTranslateElementInit() {
 </ol>
 <p><img src="images/configure_sso_token.png" class="img-fluid"></p>
 </section>
-</section>
-<section id="authenticating-to-ghec-using-rstudio-6" class="level2">
-<h2 class="anchored" data-anchor-id="authenticating-to-ghec-using-rstudio-6">Authenticating to GHEC: Using RStudio</h2>
 <section id="tell-rstudio-about-the-pat" class="level3">
 <h3 class="anchored" data-anchor-id="tell-rstudio-about-the-pat">Tell RSTudio about the PAT</h3>
 <p>Run this code.</p>
