@@ -16,3 +16,75 @@ Communication among developers and between developers and end users is a key asp
 <iframe class="slide-deck" src="../../slides/issues.html" width="900" height="600">
 
 </iframe>
+
+## Tutorial: Working with issues and discussions
+
+For this tutorial, we're going to be forking a demo repository (<https://github.com/nmfs-opensci/GitHub-Clinic-demos>), enabling Issues and Discussion on our repository, and adding an issue and a discussion to the repository. Follow along on your own account.
+
+### Step 1: Fork the repository
+
+::: callout-tip
+## If you have already forked this repository for a previous session, you can skip this step.
+
+We have used this demo repository for previous GitHub Clinic demonstrations and tutorials, so you may already have a forked copy of this repository on your account. If you are unsure, you can search for **`[your-username]/GitHub-Clinic-demos`** in the GitHub search bar.
+:::
+
+1.  Open [the demo repository](https://github.com/nmfs-opensci/GitHub-Clinic-demos) in GitHub.\
+    ![](images/paste-1.png)
+2.  At the top of the repository, click the **Fork** button.\
+    ![](images/paste-2.png)
+3.  Keep everything default (your account should be listed under **Owner**, and the **Repository name** should be pre-filled for you). Click the green **Create Fork** button.\
+    ![](images/paste-3.png)
+
+### Step 2: Enable Issues and Discussions
+
+When you create your new fork, you may notice that the **Issues** and **Discussions** tabs that you normally see at the top of the repository are not there. We have to enable these in the repository settings.
+
+1.  Navigate to the **Settings** tab in your forked repository.\
+    ![](images/paste-4.png)
+2.  On the main settings page, scroll down to the **Features** section, and select the checkboxes next to **Issues** and **Discussions**.\
+    ![](images/paste-5.png)
+3.  Note that the top menu bar for your repository now has the **Issues** and **Discussions** tabs added.\
+    ![](images/paste-6.png)
+
+### Step 3: Set up a template issue
+
+1.  Refresh the settings page, and in the same **Features** section, click the green **Set up templates** button under **Issues.**\
+    ![](images/paste-7.png)
+2.  Under the dropdown menu for **Add template**, select **Bug report** to add a Bug report template to your available templates.\
+    ![](images/paste-9.png)
+3.  Click the **Preview and edit** button to see what your issue template looks like in Markdown\
+    ![](images/paste-10.png)
+4.  Let's go ahead and edit the template to take out the part about smartphone specifications. Click the edit button at the top next to **"Issue: Bug report"** (it looks like a little pencil).\
+    ![](images/paste-11.png)
+5.  In the **Template content** section, scroll down to the "Smartphone" section, and delete everything from that section.\
+    ![](images/paste-12.png)
+6.  Click the "x" at the top of the editing pane to save your changes, then click the **Close preview** button. Click the green **Propose changes** button to create a commit that will add your new template to your repository.\
+    ![](images/paste-13.png)
+7.  Note that you now have a new subfolder in your repository under the `.github` folder called `ISSUE_TEMPLATE`. If you navigate to that folder in your repository, you can see our newly created `bug_report.md` template. If we ever want to make more edits to our template, we can either use the template editor interface in the **Settings** menu, or we can directly edit these files in our repository.\
+    ![](images/paste-14.png)
+
+### Step 4: Create an issue
+
+1.  Navigate to the **Issues** tab in your repository, and click the green **New issue** button.\
+    ![](images/paste-15.png)
+2.  Let's use the new template that we created. Click the **Bug report** option in the menu.\
+    ![](images/paste-16.png)
+3.  Give your issue a title and fill in the template with a fake "bug". Note that you can directly paste in an image from your clipboard (GitHub converts it to a permalink when you paste it into Markdown). Click the green **Create** button to submit your issue.\
+    ![](images/paste-17.png)
+4.  Let's add a label to our Issue to show that it's a bug report. On the left-hand side of the issue, click the "Labels" section and select "bug".\
+    ![](images/paste-18.png)
+
+### Step 5: Start a discussion
+
+Our bug report has spawned some discussion among the developers! Let's document this discussion in our repository.
+
+1.  Navigate to the **Discussions** tab in your repository, and click **New Discussion**.\
+    ![](images/paste-19.png)
+2.  Let's make this a general discussion. Click the green **Get started** button in the area next to **General**.\
+    ![](images/paste-20.png)
+3.  Add a title and a body to your discussion thread. We can reference the issue that we created earlier using the `#` key.\
+    ![](images/paste-21.png)
+4.  Click the green **Start discussion** button to save your discussion thread.\
+    ![](images/paste-22.png)
+5.  Congratulations! You have now added both an Issue and a Discussion topic to your repository. Feel free to play around with other Issues templates and Discussion types on your own.
