@@ -50,19 +50,7 @@
     "href": "content/setup/setup.html#authenticating-to-ghec",
     "title": "Setup",
     "section": "Authenticating to GHEC",
-    "text": "Authenticating to GHEC\n\nUsing GitHub Desktop\n\nGo to GitHub Desktop &gt; Settings &gt; Accounts\nSign into GitHub.com. Ignore GitHub Enterprise!!\nDONE!",
-    "crumbs": [
-      "JupyterHub",
-      "Welcome",
-      "Setup"
-    ]
-  },
-  {
-    "objectID": "content/setup/setup.html#authenticating-to-ghec-1",
-    "href": "content/setup/setup.html#authenticating-to-ghec-1",
-    "title": "Setup",
-    "section": "Authenticating to GHEC",
-    "text": "Authenticating to GHEC\n\nUsing GitHub Desktop\n\nHelp! I signed up for GitHub Enterprise and GitHub Desktop will not authenticate!! Log out of GitHub Desktop under GitHub Desktop &gt; Settings (or Options) &gt; Account and log back in.",
+    "text": "Authenticating to GHEC\n\nUsing GitHub Desktop\n\nGo to GitHub Desktop &gt; Settings &gt; Accounts\nSign into GitHub.com. Ignore GitHub Enterprise!!\nDONE!\n\nHelp! I signed up for GitHub Enterprise and GitHub Desktop will not authenticate!! Log out of GitHub Desktop under GitHub Desktop &gt; Settings (or Options) &gt; Account and log back in.",
     "crumbs": [
       "JupyterHub",
       "Welcome",
@@ -74,79 +62,7 @@
     "href": "content/setup/setup.html#authenticating-to-ghec-using-rstudio",
     "title": "Setup",
     "section": "Authenticating to GHEC: Using RStudio",
-    "text": "Authenticating to GHEC: Using RStudio\n\nTell RStudio about Git\n\nIn RStudio, Tools &gt; Terminal &gt; New Terminal\nAt the command line (in the new terminal), type which git if on a Mac and where git if in Windows.\nCopy that path.\nIn RStudio, Tools &gt; Global Options &gt; Git/SVN There is a box at top that asks for the location of the Git binary.\nPaste that path in.",
-    "crumbs": [
-      "JupyterHub",
-      "Welcome",
-      "Setup"
-    ]
-  },
-  {
-    "objectID": "content/setup/setup.html#authenticating-to-ghec-using-rstudio-1",
-    "href": "content/setup/setup.html#authenticating-to-ghec-using-rstudio-1",
-    "title": "Setup",
-    "section": "Authenticating to GHEC: Using RStudio",
-    "text": "Authenticating to GHEC: Using RStudio\nYou have to authenticate to GitHub separately for RStudio even if you are signed in on GitHub Desktop.\nIf you see anything like this, you have not authenticated.",
-    "crumbs": [
-      "JupyterHub",
-      "Welcome",
-      "Setup"
-    ]
-  },
-  {
-    "objectID": "content/setup/setup.html#authenticating-to-ghec-using-rstudio-2",
-    "href": "content/setup/setup.html#authenticating-to-ghec-using-rstudio-2",
-    "title": "Setup",
-    "section": "Authenticating to GHEC: Using RStudio",
-    "text": "Authenticating to GHEC: Using RStudio\n\nSet up\n\nInstall usethis R package\nRun this code:\n\nusethis::use_git_config(user.name = \"your username\", user.email = \"you@noaa.gov\")",
-    "crumbs": [
-      "JupyterHub",
-      "Welcome",
-      "Setup"
-    ]
-  },
-  {
-    "objectID": "content/setup/setup.html#authenticating-to-ghec-using-rstudio-3",
-    "href": "content/setup/setup.html#authenticating-to-ghec-using-rstudio-3",
-    "title": "Setup",
-    "section": "Authenticating to GHEC: Using RStudio",
-    "text": "Authenticating to GHEC: Using RStudio\n\nCreate Token\nusethis::create_github_token(   scopes = c(\"repo\", \"workflow\"),   description = \"DESCRIBE THE TOKEN'S USE CASE\",   host = NULL )",
-    "crumbs": [
-      "JupyterHub",
-      "Welcome",
-      "Setup"
-    ]
-  },
-  {
-    "objectID": "content/setup/setup.html#authenticating-to-ghec-using-rstudio-4",
-    "href": "content/setup/setup.html#authenticating-to-ghec-using-rstudio-4",
-    "title": "Setup",
-    "section": "Authenticating to GHEC: Using RStudio",
-    "text": "Authenticating to GHEC: Using RStudio\n\nCreate Token\n\nSet the date when the token will expire.\nScroll to bottom and click “Generate token”\nCopy the long PAT.",
-    "crumbs": [
-      "JupyterHub",
-      "Welcome",
-      "Setup"
-    ]
-  },
-  {
-    "objectID": "content/setup/setup.html#authenticating-to-ghec-using-rstudio-5",
-    "href": "content/setup/setup.html#authenticating-to-ghec-using-rstudio-5",
-    "title": "Setup",
-    "section": "Authenticating to GHEC: Using RStudio",
-    "text": "Authenticating to GHEC: Using RStudio\n\nConfigure PAT for GHEC\n\nNext to the PAT, you will see “Configure for SSO”.\nClick that and authenticate to your GHEC org",
-    "crumbs": [
-      "JupyterHub",
-      "Welcome",
-      "Setup"
-    ]
-  },
-  {
-    "objectID": "content/setup/setup.html#authenticating-to-ghec-using-rstudio-6",
-    "href": "content/setup/setup.html#authenticating-to-ghec-using-rstudio-6",
-    "title": "Setup",
-    "section": "Authenticating to GHEC: Using RStudio",
-    "text": "Authenticating to GHEC: Using RStudio\n\nTell RSTudio about the PAT\nRun this code.\ncredentials::set_github_pat(\"THE LONG PAT)",
+    "text": "Authenticating to GHEC: Using RStudio\n\nTell RStudio about Git\n\nIn RStudio, Tools &gt; Terminal &gt; New Terminal\nAt the command line (in the new terminal), type which git if on a Mac and where git if in Windows.\nCopy that path.\nIn RStudio, Tools &gt; Global Options &gt; Git/SVN There is a box at top that asks for the location of the Git binary.\nPaste that path in.\n\nYou have to authenticate to GitHub separately for RStudio even if you are signed in on GitHub Desktop.\nIf you see anything like this, you have not authenticated.\n\n\n\nSet up\n\nInstall usethis R package\nRun this code:\n\nusethis::use_git_config(user.name = \"your username\", user.email = \"you@noaa.gov\")\n\n\nCreate Token\nusethis::create_github_token(   scopes = c(\"repo\", \"workflow\"),   description = \"DESCRIBE THE TOKEN'S USE CASE\",   host = NULL )\n\n\n\nCreate Token\n\nSet the date when the token will expire.\nScroll to bottom and click “Generate token”\nCopy the long PAT.\n\n\n\nConfigure PAT for GHEC\n\nNext to the PAT, you will see “Configure for SSO”.\nClick that and authenticate to your GHEC org\n\n\n\n\nTell RSTudio about the PAT\nRun this code.\ncredentials::set_github_pat(\"THE LONG PAT)",
     "crumbs": [
       "JupyterHub",
       "Welcome",
@@ -247,111 +163,221 @@
     ]
   },
   {
-    "objectID": "content/intro/intro.html",
-    "href": "content/intro/intro.html",
-    "title": "Introduction to Git and GitHub",
-    "section": "",
-    "text": "GitHub is an important platform for many NOAA Fisheries staff and teams to share and collaborate. In 2023, an Authorization To Use for GitHub Enterprise Cloud was signed, which provides a secure, private, access-controlled and managed platform for staff. In 2024, the GitHub Governance Team (GGT) provided a series of workshops to onboard NOAA Fisheries scientists to GitHub Enterprise and provide training in the use of Git and GitHub for NOAA Fisheries. In 2025, NMFS Open Science will be leading a second iteration of these workshops to provide NOAA Fisheries staff with the necessary skills to effectively incorporate Git and GitHub into existing workflows.\nThe GGT has outlined several use cases for why you may want to incorporate Git and GitHub into your workflows:",
-    "crumbs": [
-      "JupyterHub",
-      "Tutorials",
-      "Introduction to Git and GitHub"
-    ]
-  },
-  {
-    "objectID": "content/intro/intro.html#aims-and-objectives",
-    "href": "content/intro/intro.html#aims-and-objectives",
-    "title": "Introduction to Git and GitHub",
+    "objectID": "content/issues/issues.html#aims-and-objectives",
+    "href": "content/issues/issues.html#aims-and-objectives",
+    "title": "Communicating in GitHub with Issues and Discussions",
     "section": "Aims and Objectives",
-    "text": "Aims and Objectives\nThis introduction to Git and GitHub virtual workshop will be repeated twice weekly for three weeks. These sessions will use a mixture of directed, interactive lessons and GitHub Skills to provide NOAA Fisheries staff with the knowledge required for basic repository management using Git commands, collaboration, and project management.",
+    "text": "Aims and Objectives\nCommunication among developers and between developers and end users is a key aspect of GitHub that promotes collaboration and open source development. GitHub provides a number of tools and features to facilitate communication. Two of these features, GitHub Issues and GitHub Discussions, allow collaborators to create, discuss, and track work in a repository. This skills session will use directed, interactive lessons to provide NOAA Fisheries staff with a foundation in using Issues and Discussions to promote open source development in GitHub.",
     "crumbs": [
       "JupyterHub",
       "Tutorials",
-      "Introduction to Git and GitHub"
+      "Communicating in GitHub with Issues and Discussions"
     ]
   },
   {
-    "objectID": "content/intro/intro.html#prerequisites-what-do-i-need-before-this-workshop-to-follow-along-on-my-own",
-    "href": "content/intro/intro.html#prerequisites-what-do-i-need-before-this-workshop-to-follow-along-on-my-own",
-    "title": "Introduction to Git and GitHub",
+    "objectID": "content/issues/issues.html#prerequisites-what-do-i-need-before-this-workshop-to-follow-along-on-my-own",
+    "href": "content/issues/issues.html#prerequisites-what-do-i-need-before-this-workshop-to-follow-along-on-my-own",
+    "title": "Communicating in GitHub with Issues and Discussions",
     "section": "Prerequisites: What do I need before this workshop to follow along on my own?",
-    "text": "Prerequisites: What do I need before this workshop to follow along on my own?\n\nCreate a GitHub account\nInstall GitHub Desktop - Note that this will also install Git on your machine\nRequest access to NMFS GitHub Enterprise Cloud (NMFS staff and affiliates only)\n\nDownload the NMFS GitHub Enterprise Cloud user agreement\nUse this Google form to request access to Enterprise\nWait for follow-up email and confirm you’re a member (if you see a 404 page you haven’t been added yet)\n\nLog into GitHub and GitHub Desktop using your GitHub account credentials",
+    "text": "Prerequisites: What do I need before this workshop to follow along on my own?\n\nThis stand-alone skills session is meant for those with a basic understanding of Git and GitHub. Check out our Introduction to Git and GitHub lessons if you are new to Git and GitHub or need a refresher.\nWe will also be using a bit of Markdown, so you may want to refresh yourself on Markdown language with our Introduction to Markdown lesson.",
     "crumbs": [
       "JupyterHub",
       "Tutorials",
-      "Introduction to Git and GitHub"
+      "Communicating in GitHub with Issues and Discussions"
     ]
   },
   {
-    "objectID": "content/intro/intro.html#why-gitgithub",
-    "href": "content/intro/intro.html#why-gitgithub",
-    "title": "Introduction to Git and GitHub",
-    "section": "Why Git/GitHub?",
-    "text": "Why Git/GitHub?",
+    "objectID": "content/issues/issues.html#github-issues-and-discussions-for-project-development",
+    "href": "content/issues/issues.html#github-issues-and-discussions-for-project-development",
+    "title": "Communicating in GitHub with Issues and Discussions",
+    "section": "GitHub Issues and Discussions for Project Development",
+    "text": "GitHub Issues and Discussions for Project Development",
     "crumbs": [
       "JupyterHub",
       "Tutorials",
-      "Introduction to Git and GitHub"
+      "Communicating in GitHub with Issues and Discussions"
     ]
   },
   {
-    "objectID": "content/intro/intro.html#github-enterprise",
-    "href": "content/intro/intro.html#github-enterprise",
-    "title": "Introduction to Git and GitHub",
-    "section": "GitHub Enterprise",
-    "text": "GitHub Enterprise",
+    "objectID": "content/issues/issues.html#tutorial-working-with-issues-and-discussions",
+    "href": "content/issues/issues.html#tutorial-working-with-issues-and-discussions",
+    "title": "Communicating in GitHub with Issues and Discussions",
+    "section": "Tutorial: Working with issues and discussions",
+    "text": "Tutorial: Working with issues and discussions\nFor this tutorial, we’re going to be forking a demo repository (https://github.com/nmfs-opensci/GitHub-Clinic-demos), enabling Issues and Discussion on our repository, and adding an issue and a discussion to the repository. Follow along on your own account.\n\nStep 1: Fork the repository\n\n\n\n\n\n\nIf you have already forked this repository for a previous session, you can skip this step.\n\n\n\nWe have used this demo repository for previous GitHub Clinic demonstrations and tutorials, so you may already have a forked copy of this repository on your account. If you are unsure, you can search for [your-username]/GitHub-Clinic-demos in the GitHub search bar.\n\n\n\nOpen the demo repository in GitHub.\n\nAt the top of the repository, click the Fork button.\n\nKeep everything default (your account should be listed under Owner, and the Repository name should be pre-filled for you). Click the green Create Fork button.\n\n\n\n\nStep 2: Enable Issues and Discussions\nWhen you create your new fork, you may notice that the Issues and Discussions tabs that you normally see at the top of the repository are not there. We have to enable these in the repository settings.\n\nNavigate to the Settings tab in your forked repository.\n\nOn the main settings page, scroll down to the Features section, and select the checkboxes next to Issues and Discussions.\n\nNote that the top menu bar for your repository now has the Issues and Discussions tabs added.\n\n\n\n\nStep 3: Set up a template issue\n\nRefresh the settings page, and in the same Features section, click the green Set up templates button under Issues.\n\nUnder the dropdown menu for Add template, select Bug report to add a Bug report template to your available templates.\n\nClick the Preview and edit button to see what your issue template looks like in Markdown\n\nLet’s go ahead and edit the template to take out the part about smartphone specifications. Click the edit button at the top next to “Issue: Bug report” (it looks like a little pencil).\n\nIn the Template content section, scroll down to the “Smartphone” section, and delete everything from that section.\n\nClick the “x” at the top of the editing pane to save your changes, then click the Close preview button. Click the green Propose changes button to create a commit that will add your new template to your repository.\n\nNote that you now have a new subfolder in your repository under the .github folder called ISSUE_TEMPLATE. If you navigate to that folder in your repository, you can see our newly created bug_report.md template. If we ever want to make more edits to our template, we can either use the template editor interface in the Settings menu, or we can directly edit these files in our repository.\n\n\n\n\nStep 4: Create an issue\n\nNavigate to the Issues tab in your repository, and click the green New issue button.\n\nLet’s use the new template that we created. Click the Bug report option in the menu.\n\nGive your issue a title and fill in the template with a fake “bug”. Note that you can directly paste in an image from your clipboard (GitHub converts it to a permalink when you paste it into Markdown). Click the green Create button to submit your issue.\n\nLet’s add a label to our Issue to show that it’s a bug report. On the left-hand side of the issue, click the “Labels” section and select “bug”.\n\n\n\n\nStep 5: Start a discussion\nOur bug report has spawned some discussion among the developers! Let’s document this discussion in our repository.\n\nNavigate to the Discussions tab in your repository, and click New Discussion.\n\nLet’s make this a general discussion. Click the green Get started button in the area next to General.\n\nAdd a title and a body to your discussion thread. We can reference the issue that we created earlier using the # key.\n\nClick the green Start discussion button to save your discussion thread.\n\nCongratulations! You have now added both an Issue and a Discussion topic to your repository. Feel free to play around with other Issues templates and Discussion types on your own.",
     "crumbs": [
       "JupyterHub",
       "Tutorials",
-      "Introduction to Git and GitHub"
+      "Communicating in GitHub with Issues and Discussions"
     ]
   },
   {
-    "objectID": "content/intro/intro.html#git-and-github-the-basics",
-    "href": "content/intro/intro.html#git-and-github-the-basics",
-    "title": "Introduction to Git and GitHub",
-    "section": "Git and GitHub: The basics",
-    "text": "Git and GitHub: The basics",
+    "objectID": "content/inperson/guided_exercise.html#practice-creating-a-repository-for-your-own-project",
+    "href": "content/inperson/guided_exercise.html#practice-creating-a-repository-for-your-own-project",
+    "title": "Putting Everything Together",
+    "section": "Practice creating a repository for your own project",
+    "text": "Practice creating a repository for your own project\n\nOpen GitHub Desktop\nLogin with your GitHub account (if you have not already done so)\nCreate a new repository\nMove your code and other project files into your new repository\nMake a commit with your initial files\nPush your commit up to GitHub"
+  },
+  {
+    "objectID": "content/inperson/guided_exercise.html#practice-creating-a-repository-for-your-own-project-1",
+    "href": "content/inperson/guided_exercise.html#practice-creating-a-repository-for-your-own-project-1",
+    "title": "Putting Everything Together",
+    "section": "Practice creating a repository for your own project",
+    "text": "Practice creating a repository for your own project\n\nOpen the repository in your browser\nAdd your teammates as collaborators\nCreate an issue and tag a teammate\nMake a change to the README and commit in a new branch\nCreate a pull request\nMerge the pull request into your main branch"
+  },
+  {
+    "objectID": "content/github-pages/github-pages.html#aims-and-objectives",
+    "href": "content/github-pages/github-pages.html#aims-and-objectives",
+    "title": "Hosting a repository as a website with GitHub Pages",
+    "section": "Aims and Objectives",
+    "text": "Aims and Objectives\nGitHub Pages lets you turn your repository into a website. This is a great way to share your project, resume, portfolio, documentation, or even a blog with the world. When you enable GitHub Pages on a repository, GitHub takes the content that’s on the main branch (or you can specify a different branch) and publishes a website based on its contents. This GitHub Pages skills session will use directed, interactive lessons to provide NOAA Fisheries staff with a foundation in hosting web content through GitHub Pages.",
     "crumbs": [
       "JupyterHub",
       "Tutorials",
-      "Introduction to Git and GitHub"
+      "Hosting a repository as a website with GitHub Pages"
     ]
   },
   {
-    "objectID": "content/intro/intro.html#introduction-to-github---tutorial",
-    "href": "content/intro/intro.html#introduction-to-github---tutorial",
-    "title": "Introduction to Git and GitHub",
-    "section": "Introduction to GitHub - Tutorial",
-    "text": "Introduction to GitHub - Tutorial\nGitHub Skills - Introduction to GitHub\nWe’ll be using the Introduction to GitHub Skills Tutorial to get our feet wet with Git and GitHub. Follow along with the tutorial using your personal GitHub account.\n\nStep 1: Copy the exercise\nOpen the GitHub Skills link, and make sure you are logged into GitHub. Use the “Copy Exercise” button to make a new repository on your account:\n\nWhen you open up the “Copy Exercise” link, you will be presented with the “Create a new repository” interface. Keep all of the defaults, and click the green “Create repository” button: \n\n\n\n\n\n\nGitHub Skills tutorials use GitHub Actions in the background.\n\n\n\nThese actions use “minutes”, which are limited in a private repository, but unlimited in a public one. We suggest keeping your GitHub Skills tutorial repositories public to avoid any minutes limitations.\n\n\n\n\n\n\n\n\nYou’ll notice that most steps in a GitHub Skills tutorial feature a message to wait about 20 seconds for the exercise to update.\n\n\n\nGitHub Actions can take a little bit of time to run, so waiting this requisite time is important! Refresh the instructions after 20 seconds to make sure everything updates properly.\n\n\n\n\nStep 2: Start the exercise\nAfter waiting the suggested 20 seconds, refresh the instructions page. You’ll notice that the “Copy Exercise” button has switched from green to gray, and the “Start Exercise” button has switched from gray to green.\nRight click the “Start Exercise” button and open it in a new tab. This will open an Issue for this repository that will serve as the instructions for the exercise.\n\n\n\n\n\n\n\nI suggest moving the instructions tab into another window so you can work side-by-side with the instructions to limit switching back and forth between tabs. \n\n\n\n\n\n\n\n\nStep 3: Follow the exercise\n\nCreate a new branch\nCreate a new branch following the instructions in the tutorial:\n\n\n\n\n\n\n\nIf you have the instructions open in side-by-side mode, you may notice that the github-actions bot will be producing new comments in the instructions.\n\n\n\nBe sure to wait until the bot is finished before starting the next part of the exercise!\n\n\n\n\nCreate a commit with a new file\nClick the “Add file” button to create a new file named PROFILE.md\n\n\n\n\n\n\n\nIf you’ve arranged your screen in a side-by-side mode, the “Add file” button may look a bit different!\n\n\n\nGitHub dynamically shortens certain buttons and tabs based on the size of the window. In this case, the “Add file” button becomes the “+” button:\n\n\n\nAdd a line to the new file, and click the “Commit changes” green button:\n\nChange the “Commit message” to “Add PROFILE.md” and click “Commit changes” to confirm the commit\n\n\n\nOpen a pull request\nRefresh the repository and click the “Compare & pull request” button.\n\nEdit the title field to read “Add my first file”, and provide a brief description of your pull request. Click “Create pull request”\n\n\n\n\n\n\n\nYou can follow the progress of the GitHub Actions running in the background after this step!\n\n\n\n\n\n\n\n\nMerge the pull request\nClick the green “Merge pull request” button, and confirm the merge. Delete the branch after merging (don’t worry, you can always restore a deleted branch)",
+    "objectID": "content/github-pages/github-pages.html#prerequisites-what-do-i-need-before-this-workshop-to-follow-along-on-my-own",
+    "href": "content/github-pages/github-pages.html#prerequisites-what-do-i-need-before-this-workshop-to-follow-along-on-my-own",
+    "title": "Hosting a repository as a website with GitHub Pages",
+    "section": "Prerequisites: What do I need before this workshop to follow along on my own?",
+    "text": "Prerequisites: What do I need before this workshop to follow along on my own?\n\nThis stand-alone skills session is meant for those with a basic understanding of Git and GitHub. Check out our Introduction to Git and GitHub lessons if you are new to Git and GitHub or need a refresher.\nWe will also be using a bit of Markdown and discussing README files, so you may want to refresh yourself on Markdown language with our Introduction to Markdown lesson.",
     "crumbs": [
       "JupyterHub",
       "Tutorials",
-      "Introduction to Git and GitHub"
+      "Hosting a repository as a website with GitHub Pages"
     ]
   },
   {
-    "objectID": "content/intro/intro.html#working-in-github-desktop---tutorial",
-    "href": "content/intro/intro.html#working-in-github-desktop---tutorial",
-    "title": "Introduction to Git and GitHub",
-    "section": "Working in GitHub Desktop - Tutorial",
-    "text": "Working in GitHub Desktop - Tutorial\nTo get a bit more experience working with GitHub repositories, we are going to clone our tutorial repository, create a repository in GitHub Desktop, make a commit, and push our changes up to GitHub.\n\nStep 1: Log into GitHub\nIf this is your first time using GitHub Desktop, you will need to log in to your GitHub account. Open a browser window to GitHub, and make sure you’re logged in to your GitHub account. If you are on the NMFS GitHub Enterprise Cloud, you will also need to be logged in using SSO.\n\n\nStep 2: Open GitHub Desktop and clone a repository\nOn your local computer, open GitHub Desktop. Click “Clone a repository from the Internet…”\n\nClick “Sign in” and “Continue with browser” to open a browser window and sign into GitHub Desktop.\n\n\n\n\n\n\nWhen logging into GitHub Desktop for the first time, you will be presented with a tabbed window as shown below. To access GitHub Enterprise, do not use the Enterprise tab on the login window! This is for a locally-hosted GitHub Enterprise server. The NMFS GitHub Enterprise is cloud-hosted, so to access enterprise repositories from GitHub Desktop, you will need to be logged into the enterprise (via SSO) through your browser.\n\n\n\n\n\n\nEnter the name of the GitHub Skills repository we just finished (skills-introduction-to-github) into the search box. Select the repository, choose where to clone the repository to on your local machine, and click “Clone”.\n\n\n\n\n\n\n\nWhere should you clone your repository to?\n\n\n\nFor transient repositories (i.e., repositories that you only plan to work on briefly or occasionally), I suggest creating a folder on your local file system just for these GitHub repositories. If you’re working on a project and already have a file folder structure for that project, you can clone and/or create your repository inside the existing folder structure.\n\n\n\n\nStep 3: Create a new repository\nClick the dropdown where it says “Current repository” in the upper left corner of GitHub Desktop. This will bring up a list of your repositories available on your local machine. For those who are new to GitHub Desktop, this should only include our GitHub Skills repository. Click the “Add” dropdown menu, and click “Create new repository…”\n\nThere are several aspects of a repository you will need to keep in mind when creating a new one from scratch:\n\nName: Make your name distinct and descriptive, but not too long. Don’t use spaces (remember, this will be included as part of the URL). Git and GitHub repositories often use kebab case.\nDescription:Add a brief description to your repository that describes its purpose\nLocal path: Similarly to when you clone a repository into a folder, you need to tell GitHub Desktop where to start a new repository. This will autofill to the directory you specified when installing GitHub Desktop for the first time, but you are welcome to change it to wherever you want your repository stored on your local computer. You can always move a repository after creation.\nREADME file: It is always a good idea to initialize the repository with a README file. This file will serve as the “front page” of your repository on GitHub. You can add a more detailed description of the repository, what it will be used for, instructions for how it should be used by others, etc. If your repository contains datasets, you can also use the README to add metadata. See this link for more information on README files.\nGit ignore: A .gitignore file tells Git what files and folders to not track. These files will still reside on your local repository, but will not be included in a Commit action or accessible on GitHub. Typically, these files are system files for the coding language or IDE you’re using, but can also include files that you don’t want to be shown on GitHub. This may include things like data files that are too big or too sensitive to be hosted on GitHub, code files that include sensitive material, and scratch or intermediate files. When creating a new repository, you can choose to pre-populate the .gitignore file based on the primary coding language you expect to use most in the repository.\nLicense: Any public-hosted GitHub repository should contain a license for open source use. The latest NOAA recommendation is to use Apache License 2.0\n\nGo ahead and fill in the fields and Create your repository.\n\n\n\nStep 4: Publish your repository to GitHub\nAfter creating your repository, GitHub Desktop will open it automatically. However, at this point your repository is only available on your local machine. Go ahead and click the button to publish your repository to GitHub.\n\nYou can choose whether to keep your repository private or let it be viewed by the public. You can also choose to publish the repo to your personal account, or to an organization (e.g., your center’s Enterprise account). In general, for the sake of open science we normally suggest keeping a repository public unless it contains sensitive or proprietary data. For now, we’ll keep this practice repo public.\n\n\n\nStep 5: Modify the README file in your repository\nYou can now open your repository in an editor or IDE (e.g., RStudio), show the files in a file explorer window, or view the repository on GitHub. We will take advantage of the ability to open the repo in the editor to make a change to our repository’s README file.\nOpen your repository in whatever editor you choose (I have mine configured to use RStudio) by clicking the button in GitHub Desktop.\n\nIn your editor, open the README.md file. You will notice that the README file is prepopulated with the title of your repository as a first-level header and your brief description. Make a change to your README file (maybe change the title and add a bit more context to the description), and save your changes. Close your editing program.\n\n\n\nStep 5: Commit your changes\nIn GitHub Desktop, you will notice that the README.md file has now been added to the “Changed files” list on the left-hand side, and the changes are shown in the main pane as a series of deletions and additions. The check-marks indicate that those changes are staged and should be included in the commit. If you change your mind and don’t want a change to be committed, you can click the check mark and it will change to an “unstaged” state. For now, leave all changes staged.\n\nIn the bottom left, you will see a box for your commit message and a description. These allow you to describe the changes made in a particular commit. A more descriptive message can help others (and future you) to understand why you made a particular change. GitHub Desktop will prepopulate the message field if you’re only modifying one file, but it’s often a good idea to change this to something more descriptive. You can go into more details in the description field if necessary, but this is optional.\nChange your commit file, and commit to the “main” branch.\n\n\n\nStep 6: Push your commit to GitHub\nAfter you commit your changes, GitHub Desktop will prompt you to “Push commits to the origin remote”. This is how we will get our local changes up on GitHub. Click the “Push origin” button.\n\nOpen the repository in GitHub in your browser to see what the changes we made to our README look like on GitHub.",
+    "objectID": "content/github-pages/github-pages.html#github-pages-a-primer",
+    "href": "content/github-pages/github-pages.html#github-pages-a-primer",
+    "title": "Hosting a repository as a website with GitHub Pages",
+    "section": "GitHub Pages: A primer",
+    "text": "GitHub Pages: A primer",
     "crumbs": [
       "JupyterHub",
       "Tutorials",
-      "Introduction to Git and GitHub"
+      "Hosting a repository as a website with GitHub Pages"
     ]
   },
   {
-    "objectID": "content/intro/intro.html#project-management",
-    "href": "content/intro/intro.html#project-management",
-    "title": "Introduction to Git and GitHub",
-    "section": "Project Management",
-    "text": "Project Management",
+    "objectID": "content/github-pages/github-pages.html#tutorial-making-a-basic-landing-page-from-a-readme-file-with-github-pages",
+    "href": "content/github-pages/github-pages.html#tutorial-making-a-basic-landing-page-from-a-readme-file-with-github-pages",
+    "title": "Hosting a repository as a website with GitHub Pages",
+    "section": "Tutorial: Making a basic landing page from a README file with GitHub Pages",
+    "text": "Tutorial: Making a basic landing page from a README file with GitHub Pages\nFor this tutorial, we’re going to be taking a step away from GitHub Skills and creating a basic landing page for a repository using GitHub Pages. Our example is going to be a little boring, but a basic README-based landing page can be formatted to look great! Here’s an example from NMFS Open Science of a formatted README-based landing page:\n\n\nStep 1: Create a new repository\n\nOn the GitHub home page, click the + in the upper right corner of, and select New repository.\n\nName your repository “github-pages”, and make sure to check the Add a README file box. Make your repository public (you’ll need to do this to enable GitHub Pages), and create your repository.\n\n\n\n\nStep 2: Enable GitHub Pages\n\nNavigate to the Settings tab of your new repository.\n\nOn the left-hand side, select the Pages section under Code and automation\n\nUnder Source, make sure “Deploy from a branch” is selected (it should be the default). Under Branch, click the drop-down where it says “None” and select “main”.\n\nThis will add an additional drop-down to select the directory that GitHub will look for your content. For more complex websites, we can change this to point to a different directory where all of our HTML content will be rendered. For a simple README-based landing page, we can leave this as it’s default / (root). This points to the root, or home, directory of your repository where your README file resides.\n\nSave your changes. At this point, a special GitHub Action will spin up in the background to build your GitHub Pages website.\n\n\n\n\n\n\nTip\n\n\n\nYou can track the progress of your build by navigating to the Actions tab at the top of your repository. Click the “pages build and development” workflow to see what GitHub Actions is doing to build your website.\n\n\n\nOnce your website is built, you can view it by clicking the link in the Actions tab, or you should see a banner at the top of your GitHub Pages settings page with the link to your new website. Click the link and check out your new website!\n\n\n\n\n\nStep 3: Customize our website\nOur website as it currently stands is a little dull. Let’s add a theme and some content to make it a little nicer!\n\nAdd a file to your repository in the root (base) directory called _config.yml.\n\n\n\nIn the file contents, add the following lines:\n\ntitle: GitHub Pages Demo Website\ntheme: jekyll-theme-slate\n\n\nCommit your changes, then edit your README.md file (you can click the edit button on the main page)\n\nChange your first-level heading to a suitable front page title, and add some content\n\nCommit your changes, wait about 30 seconds, and navigate to your website to see what our changes look like when rendered",
     "crumbs": [
       "JupyterHub",
       "Tutorials",
-      "Introduction to Git and GitHub"
+      "Hosting a repository as a website with GitHub Pages"
+    ]
+  },
+  {
+    "objectID": "content/github-pages/github-pages.html#tutorial-github-pages-x-quarto-templates-for-nmfs-branded-websites",
+    "href": "content/github-pages/github-pages.html#tutorial-github-pages-x-quarto-templates-for-nmfs-branded-websites",
+    "title": "Hosting a repository as a website with GitHub Pages",
+    "section": "Tutorial: GitHub Pages x Quarto templates for NMFS-branded websites",
+    "text": "Tutorial: GitHub Pages x Quarto templates for NMFS-branded websites\nREADME-based webpages can be useful for one-off landing pages, but in general we’ll want to use something a little more complex to build a webpage. There are many open-source webpage applications to create a website using GitHub Pages. Quarto, which is a Markdown-based publishing software, is a particularly powerful tool for creating a website. However, building a Quarto website from scratch can be tedious.\nThankfully, Quarto and GitHub make it easy to create and share templates for GitHub Pages sites, many of which are plug-and-play; simply add your own content (or replace the current content with your own), and you’re up and running with a clean, themed, feature-rich website! NMFS Open Science provides several templates to create a NOAA Fisheries-themed website. Let’s use one of these to create a more complex website.\n\nStep 1: Copy a Quarto website template to your GitHub\nWe’re going to use the NOAA-quarto-simple template to create our website. Navigate to the repository on GitHub and click the green Use this template button. Select “Create a new repository”.\n\nOn the Create a new repository page, make sure the check-box next to “Include all branches” is selected (GitHub Pages is set up to deploy from the gh-pages branch, so we need all branches to be copied over to our version of the repository). Give your repository a name (make sure your account is selected as the Owner), and make sure the repository is set to public. Click the green Create repository button to copy the template to your GitHub.\n\n\n\nStep 2: Configure GitHub Actions\nIf you’ll recall from the slides, Quarto files need to be rendered to HTML for GitHub Pages to properly display them as a webpage. The NMFS Open Science Quarto website templates use GitHub Actions, an automation tool provided by GitHub, to automatically render these files to HTML (and push them to the gh-pages branch from where GitHub Pages is set to deploy). We need to make sure that these actions have the proper permissions to write to our repository.\nIn the Settings tab of your repository, click the dropdown under the Actions section on the left-hand side and select the General category.\n\nScroll to the bottom of this section, and under the Workflow permissions heading, select the option for Read and write permissions. Save your changes.\n\n\n\n\n\n\nNote\n\n\n\nA GitHub Actions workflow began when we initially made our repository. You may receive a notification that the Action failed when it finishes running. That’s okay. As long as we have this Workflow permissions option configured, the GitHub Action workflow should succeed the next time we commit to our repository.\n\n\n\n\n\nStep 3: Verify that GitHub Pages is building your site\nNavigate to the Pages section of the Settings tab on your newly-created repository. Previously, we built our website from the main branch. In this case, we’re building from a separate, dedicated gh-pages branch (still at the root of that branch).\n\nVerify that your site is live by clicking the link in GitHub Pages.\n\nTo broadcast that your website is up and running (and provide a more convenient location to access the site URL), we can add a link to the website to our repository home page. On your repository home page, click the gear icon for the About section, click the checkbox next to “Use your GitHub Pages website” under the Website header, and save your changes.\n\n\n\nStep 4: Edit your new website\nTo make changes to your new website, navigate to the Code tab of the repository, and select the content folder of the main branch. Here, you’ll have several markdown files that you can edit to your heart’s content!\n\n\n\n\n\n\nImportant\n\n\n\nIf you make changes to the file names, you’ll need to make corresponding changes to the _quarto.yml file. This is more advanced, and a bit outside of the scope of our tutorial, but I encourage you to check out the Websites and books section of the R for Data Science ebook to learn more.",
+    "crumbs": [
+      "JupyterHub",
+      "Tutorials",
+      "Hosting a repository as a website with GitHub Pages"
+    ]
+  },
+  {
+    "objectID": "content/branches/branches.html#aims-and-objectives",
+    "href": "content/branches/branches.html#aims-and-objectives",
+    "title": "Branches and Pull Requests",
+    "section": "Aims and Objectives",
+    "text": "Aims and Objectives\nBranches allow you to develop features, fix bugs, or safely experiment with new ideas in a contained area of your repository. They can be particularly useful when collaborating within a team, allowing for independent development of different areas of the repository that do not interfere with each other. This skills session will use directed, interactive lessons to provide NOAA Fisheries staff with a foundation in using branches in concert with pull requests for collaborative development.",
+    "crumbs": [
+      "JupyterHub",
+      "Tutorials",
+      "Branches and Pull Requests"
+    ]
+  },
+  {
+    "objectID": "content/branches/branches.html#prerequisites-what-do-i-need-before-this-workshop-to-follow-along-on-my-own",
+    "href": "content/branches/branches.html#prerequisites-what-do-i-need-before-this-workshop-to-follow-along-on-my-own",
+    "title": "Branches and Pull Requests",
+    "section": "Prerequisites: What do I need before this workshop to follow along on my own?",
+    "text": "Prerequisites: What do I need before this workshop to follow along on my own?\n\nThis stand-alone skills session is meant for those with a basic understanding of Git and GitHub. Check out our Introduction to Git and GitHub lessons if you are new to Git and GitHub or need a refresher.\nWe will also be using a bit of Markdown, so you may want to refresh yourself on Markdown language with our Introduction to Markdown lesson.",
+    "crumbs": [
+      "JupyterHub",
+      "Tutorials",
+      "Branches and Pull Requests"
+    ]
+  },
+  {
+    "objectID": "content/branches/branches.html#what-is-a-branch",
+    "href": "content/branches/branches.html#what-is-a-branch",
+    "title": "Branches and Pull Requests",
+    "section": "What is a Branch?",
+    "text": "What is a Branch?",
+    "crumbs": [
+      "JupyterHub",
+      "Tutorials",
+      "Branches and Pull Requests"
+    ]
+  },
+  {
+    "objectID": "content/branches/branches.html#tutorial-making-and-merging-a-branch",
+    "href": "content/branches/branches.html#tutorial-making-and-merging-a-branch",
+    "title": "Branches and Pull Requests",
+    "section": "Tutorial: Making and merging a branch",
+    "text": "Tutorial: Making and merging a branch\nFor this tutorial, we’re going to be forking a demo repository (https://github.com/nmfs-opensci/GitHub-Clinic-demos), making a branch on our forked copies, editing our forked copies, and creating a pull request to contribute back to the main branch. Follow along on your own account.\n\nStep 1: Fork the repository\n\nOpen the demo repository in GitHub.\n\nAt the top of the repository, click the Fork button\n\nKeep everything default (your account should be listed under Owner, and the Repository name should be pre-filled for you). Click the green Create Fork button.\n\n\n\n\nStep 2: Create a new branch\n\nOn the Code tab of your forked repository, click the dropdown menu where it says main\nIn the text box where it says “Find or create a branch”, type the name of your branch. Let’s call it tutorial. Click the Create branch tutorial from main button to create your branch.\n\n\n\n\nStep 2: Add content to your new branch\n\nLet’s add a new file to our repository. Click the Add file (+) drop-down menu, and click Create new file.\n\nName your file intro.md and add some content to your file. If you’d like, you can copy the following markdown chunk and paste it into your file.\n\n\n# Introduction\n\nThis repository serves as a sandbox demo for the NOAA Fisheries GitHub Clinic. Feel free to fork this repository and use it to practice Git and GitHub tools and methods.\n\nCommit your changes to the tutorial branch.\n\n\n\n\nStep 3: Create a pull request\n\nClick the Pull requests tab at the top of the repository. GitHub should recognize that you made a push to your tutorial branch. Click the green Compare & pull request button to start a pull request to merge the pushes from tutorial into main.\n\nNotice that because we’re working from a forked repository, GitHub will automatically fill in the parent repository (nmfs-opensci/GitHub-Clinic-demos) as the repository to merge into. For this tutorial, we instead will merge into the main branch of our forked copy of the repository. Click the drop-down menu where it says “base repository:” and select your forked copy.\n\nGitHub will pre-populate the title of our pull request based on the commit message. If we have multiple commits, we would need to make our own pull request title. Make sure the title is clear and concise, and add a detailed blurb to the description section. For our example, this can be as simple as describing the intent of the pull request. For more complex pull requests that involve adding to or modifying code and text in multiple files, we want to guide the reviewer through your changes as much as possible. Be as detailed as you need to be to convey the changes that were made and why they were made. You can even add images, screenshots, videos, and links to showcase how the changes you made are reflected for the end user.\n\nClick the green Create pull request button to finalize our pull request.\n\n\n\n\nStep 4: Review and merge your pull request\nReviewing a pull request is an important step of the collaborative process on GitHub. Pull request reviews allow the owner of a repository or another collaborator to read through changes line-by-line, adding comments and proposing edits along the way. Think of a pull request review as being similar to a manuscript or report review using track changes.\nBefore we merge our changes into our main branch, let’s get some practice with reviewing pull requests. This step is not as important when you’re the only one working on a repository (like in our tutorial), but it’s good practice for future collaborations.\n\nAssign yourself as a reviewer to the pull request using the Assignees dropdown on the right-hand side of your pull request. In a collaborative setting, you can assign up to 10 of your collaborators.\n\nNavigate to the Files changed pane in the pull request. This is where we’ll conduct our review.\n\nJust like in a manuscript peer review, we can leave a narrative review with general comments and recommendations, and we can also add comments and propose edits to specific lines. Let’s add a comment to change the first-level heading of our markdown file. Hover your mouse in the space between the line numbers and the content. You’ll see a highlighted + icon appear next to each line. Click the + icon next to line 1.\n\nThis will open up a dialog box where we can add a comment or suggest a change to this specific line. Lets suggest a change to the heading name. Click the icon next to the Preview tab. This icon is the Add a suggestion icon. Notice that when you click this icon, it inserts a code snippet into our dialog box with the label suggestion. Inside this code snippet, suggest a change to the # Introduction header to read # Purpose of this repository.\n\nFrom here, we can either add our suggestion as a single comment to the pull request conversation, or start a review based on this suggestion. Let’s go ahead and click the green Start a review button.\nFrom here, we can add more line-by-line comments and suggestions, or we can finish our review with our general impressions. Let’s click the green Finish your review button (notice there is a ticker that tracks the number of line-by-line comments/suggestions).\n\nAdd a comment to your review summarizing your comments and changes and giving overall impressions. Click the green Submit review button to finalize your review.\n\nAs the original creator of the pull request, you can now commit the proposed change directly to the pull request, continue the conversation to refine the suggestion, or decline the suggestion and Resolve the conversation. Let’s commit the proposed change from the pull request review.\n\nOnce your change has been committed, we’re ready to merge the pull request! Click the green Merge pull request button, and confirm your merge with a merge commit.\n\n\nCongratulations! You have merged a pull request from a branch. You can now optionally delete the branch (don’t worry, you can always restore it from the pull request). During the next GitHub Clinic session on Git Workflows, we’ll discuss reasons and scenarios where you may want to keep a permanent branch versus creating and deleting ephemeral branches for development. For now, let’s go ahead and delete our branch to close out this tutorial.",
+    "crumbs": [
+      "JupyterHub",
+      "Tutorials",
+      "Branches and Pull Requests"
+    ]
+  },
+  {
+    "objectID": "content/forking/forking.html#aims-and-objectives",
+    "href": "content/forking/forking.html#aims-and-objectives",
+    "title": "Forking Repositories in GitHub (and beyond)",
+    "section": "Aims and Objectives",
+    "text": "Aims and Objectives\nForking is one of the main collaborative tools available that make GitHub such a powerful platform for open source development. Forks allow developers across all of GitHub to iterate on ideas and changes before they are proposed back to the parent repository. This skills session will use directed, interactive lessons to provide NOAA Fisheries staff with a foundation in using forks for open source development in GitHub.",
+    "crumbs": [
+      "JupyterHub",
+      "Tutorials",
+      "Forking Repositories in GitHub (and beyond)"
+    ]
+  },
+  {
+    "objectID": "content/forking/forking.html#prerequisites-what-do-i-need-before-this-workshop-to-follow-along-on-my-own",
+    "href": "content/forking/forking.html#prerequisites-what-do-i-need-before-this-workshop-to-follow-along-on-my-own",
+    "title": "Forking Repositories in GitHub (and beyond)",
+    "section": "Prerequisites: What do I need before this workshop to follow along on my own?",
+    "text": "Prerequisites: What do I need before this workshop to follow along on my own?\n\nThis stand-alone skills session is meant for those with a basic understanding of Git and GitHub. Check out our Introduction to Git and GitHub lessons if you are new to Git and GitHub or need a refresher.\nWe will also be using a bit of Markdown, so you may want to refresh yourself on Markdown language with our Introduction to Markdown lesson.",
+    "crumbs": [
+      "JupyterHub",
+      "Tutorials",
+      "Forking Repositories in GitHub (and beyond)"
+    ]
+  },
+  {
+    "objectID": "content/forking/forking.html#what-is-a-fork",
+    "href": "content/forking/forking.html#what-is-a-fork",
+    "title": "Forking Repositories in GitHub (and beyond)",
+    "section": "What is a Fork?",
+    "text": "What is a Fork?",
+    "crumbs": [
+      "JupyterHub",
+      "Tutorials",
+      "Forking Repositories in GitHub (and beyond)"
+    ]
+  },
+  {
+    "objectID": "content/forking/forking.html#tutorial-forking-a-repository",
+    "href": "content/forking/forking.html#tutorial-forking-a-repository",
+    "title": "Forking Repositories in GitHub (and beyond)",
+    "section": "Tutorial: Forking a repository",
+    "text": "Tutorial: Forking a repository\nFor this tutorial, we’re going to be forking a demo repository (https://github.com/nmfs-opensci/GitHub-Clinic-demos), editing our forked copies, and creating a pull request to contribute back to the main repository. Follow along on your own account.\n\nStep 1: Fork the repository\n\nOpen the demo repository in GitHub.\n\nAt the top of the repository, click the Fork button\n\nKeep everything default (your account should be listed under Owner, and the Repository name should be pre-filled for you). Click the green Create Fork button.\n\nYou now have a copy of the original repository in your account. Note that the fork is still connected to the parent repository, so when a change is made to the parent, you can sync it to your fork\n\n\n\n\nStep 2: Add content to your forked repository\nWe’re going to add a recipe to our forked repository. You can add whatever recipe you’d like, with as many details as you’d like; for this demonstration, we’ll keep it simple (we’ve provided a more detailed chocolate chip recipe as an example to start out).\n\nClick on the recipes folder in the file tree of your forked repository, click the Add file dropdown, and click “Create new file”\n\nName your recipe file, and make sure it ends in .md. We’re making a markdown file here, so we need the .md file extension.\n\nEnter your recipe into the file contents. Remember that we can use markdown formatting here; let’s take advantage of that by adding a title and a couple headings for ## Ingredients and ## Instructions.\nCommit your changes to the main branch of your repository.\n\n\n\n\nStep 3: Contribute your recipe to the parent repository\n\nOpen the Contribute drop-down on the repository, and click the green Open pull request button to contribute this recipe back to the parent repository.\n\nYour Pull Request (PR) will auto-populate the title with your commit message. You can edit this if you want, or add an extended description. Generally the more descriptive the better, especially if you’re fixing a bug or adding a feature to another repository. For now, we can be brief. Add a description, and click Create pull request\n\nOnce you create the PR, you’ll be brought to the PR on the parent repository. Note that if you do not have write permission on the parent repository, you will not have the option to merge the pull request. But if you do, you can review the pull request and merge it in if everything looks good!\n\n\n\n\nStep 4: Sync changes from parent to your fork\nIf a change was made to the parent repository, you can sync that change to your forked repository. For this demo, I added the number of cookies that are made to the chocolate chip cookie recipe (on the main nfms-opensci repository). Let’s see how we can integrate that change to our fork.\n\n\nNavigate to your forked repository.\n\nNotice that the repository notifies you of the number of commits ahead of the parent and behind the parent your fork is. In that same message box, click the Sync fork dropdown, and click Update branch. Note that if you have commits that have not been merged into the parent, you can either discard your commit before the merge (so your fork matches the parent) or keep it and merge the changes from the parent into your fork.\n\nTo verify that your merge worked, click the Sync fork dropdown again. If everything worked, you should have a message that your branch is not behind the upstream (parent) repository",
+    "crumbs": [
+      "JupyterHub",
+      "Tutorials",
+      "Forking Repositories in GitHub (and beyond)"
     ]
   },
   {
@@ -463,174 +489,112 @@
     ]
   },
   {
-    "objectID": "content/forking/forking.html#aims-and-objectives",
-    "href": "content/forking/forking.html#aims-and-objectives",
-    "title": "Forking Repositories in GitHub (and beyond)",
+    "objectID": "content/intro/intro.html",
+    "href": "content/intro/intro.html",
+    "title": "Introduction to Git and GitHub",
+    "section": "",
+    "text": "GitHub is an important platform for many NOAA Fisheries staff and teams to share and collaborate. In 2023, an Authorization To Use for GitHub Enterprise Cloud was signed, which provides a secure, private, access-controlled and managed platform for staff. In 2024, the GitHub Governance Team (GGT) provided a series of workshops to onboard NOAA Fisheries scientists to GitHub Enterprise and provide training in the use of Git and GitHub for NOAA Fisheries. In 2025, NMFS Open Science will be leading a second iteration of these workshops to provide NOAA Fisheries staff with the necessary skills to effectively incorporate Git and GitHub into existing workflows.\nThe GGT has outlined several use cases for why you may want to incorporate Git and GitHub into your workflows:",
+    "crumbs": [
+      "JupyterHub",
+      "Tutorials",
+      "Introduction to Git and GitHub"
+    ]
+  },
+  {
+    "objectID": "content/intro/intro.html#aims-and-objectives",
+    "href": "content/intro/intro.html#aims-and-objectives",
+    "title": "Introduction to Git and GitHub",
     "section": "Aims and Objectives",
-    "text": "Aims and Objectives\nForking is one of the main collaborative tools available that make GitHub such a powerful platform for open source development. Forks allow developers across all of GitHub to iterate on ideas and changes before they are proposed back to the parent repository. This skills session will use directed, interactive lessons to provide NOAA Fisheries staff with a foundation in using forks for open source development in GitHub.",
+    "text": "Aims and Objectives\nThis introduction to Git and GitHub virtual workshop will be repeated twice weekly for three weeks. These sessions will use a mixture of directed, interactive lessons and GitHub Skills to provide NOAA Fisheries staff with the knowledge required for basic repository management using Git commands, collaboration, and project management.",
     "crumbs": [
       "JupyterHub",
       "Tutorials",
-      "Forking Repositories in GitHub (and beyond)"
+      "Introduction to Git and GitHub"
     ]
   },
   {
-    "objectID": "content/forking/forking.html#prerequisites-what-do-i-need-before-this-workshop-to-follow-along-on-my-own",
-    "href": "content/forking/forking.html#prerequisites-what-do-i-need-before-this-workshop-to-follow-along-on-my-own",
-    "title": "Forking Repositories in GitHub (and beyond)",
+    "objectID": "content/intro/intro.html#prerequisites-what-do-i-need-before-this-workshop-to-follow-along-on-my-own",
+    "href": "content/intro/intro.html#prerequisites-what-do-i-need-before-this-workshop-to-follow-along-on-my-own",
+    "title": "Introduction to Git and GitHub",
     "section": "Prerequisites: What do I need before this workshop to follow along on my own?",
-    "text": "Prerequisites: What do I need before this workshop to follow along on my own?\n\nThis stand-alone skills session is meant for those with a basic understanding of Git and GitHub. Check out our Introduction to Git and GitHub lessons if you are new to Git and GitHub or need a refresher.\nWe will also be using a bit of Markdown, so you may want to refresh yourself on Markdown language with our Introduction to Markdown lesson.",
+    "text": "Prerequisites: What do I need before this workshop to follow along on my own?\n\nCreate a GitHub account\nInstall GitHub Desktop - Note that this will also install Git on your machine\nRequest access to NMFS GitHub Enterprise Cloud (NMFS staff and affiliates only)\n\nDownload the NMFS GitHub Enterprise Cloud user agreement\nUse this Google form to request access to Enterprise\nWait for follow-up email and confirm you’re a member (if you see a 404 page you haven’t been added yet)\n\nLog into GitHub and GitHub Desktop using your GitHub account credentials",
     "crumbs": [
       "JupyterHub",
       "Tutorials",
-      "Forking Repositories in GitHub (and beyond)"
+      "Introduction to Git and GitHub"
     ]
   },
   {
-    "objectID": "content/forking/forking.html#what-is-a-fork",
-    "href": "content/forking/forking.html#what-is-a-fork",
-    "title": "Forking Repositories in GitHub (and beyond)",
-    "section": "What is a Fork?",
-    "text": "What is a Fork?",
+    "objectID": "content/intro/intro.html#why-gitgithub",
+    "href": "content/intro/intro.html#why-gitgithub",
+    "title": "Introduction to Git and GitHub",
+    "section": "Why Git/GitHub?",
+    "text": "Why Git/GitHub?",
     "crumbs": [
       "JupyterHub",
       "Tutorials",
-      "Forking Repositories in GitHub (and beyond)"
+      "Introduction to Git and GitHub"
     ]
   },
   {
-    "objectID": "content/forking/forking.html#tutorial-forking-a-repository",
-    "href": "content/forking/forking.html#tutorial-forking-a-repository",
-    "title": "Forking Repositories in GitHub (and beyond)",
-    "section": "Tutorial: Forking a repository",
-    "text": "Tutorial: Forking a repository\nFor this tutorial, we’re going to be forking a demo repository (https://github.com/nmfs-opensci/GitHub-Clinic-demos), editing our forked copies, and creating a pull request to contribute back to the main repository. Follow along on your own account.\n\nStep 1: Fork the repository\n\nOpen the demo repository in GitHub.\n\nAt the top of the repository, click the Fork button\n\nKeep everything default (your account should be listed under Owner, and the Repository name should be pre-filled for you). Click the green Create Fork button.\n\nYou now have a copy of the original repository in your account. Note that the fork is still connected to the parent repository, so when a change is made to the parent, you can sync it to your fork\n\n\n\n\nStep 2: Add content to your forked repository\nWe’re going to add a recipe to our forked repository. You can add whatever recipe you’d like, with as many details as you’d like; for this demonstration, we’ll keep it simple (we’ve provided a more detailed chocolate chip recipe as an example to start out).\n\nClick on the recipes folder in the file tree of your forked repository, click the Add file dropdown, and click “Create new file”\n\nName your recipe file, and make sure it ends in .md. We’re making a markdown file here, so we need the .md file extension.\n\nEnter your recipe into the file contents. Remember that we can use markdown formatting here; let’s take advantage of that by adding a title and a couple headings for ## Ingredients and ## Instructions.\nCommit your changes to the main branch of your repository.\n\n\n\n\nStep 3: Contribute your recipe to the parent repository\n\nOpen the Contribute drop-down on the repository, and click the green Open pull request button to contribute this recipe back to the parent repository.\n\nYour Pull Request (PR) will auto-populate the title with your commit message. You can edit this if you want, or add an extended description. Generally the more descriptive the better, especially if you’re fixing a bug or adding a feature to another repository. For now, we can be brief. Add a description, and click Create pull request\n\nOnce you create the PR, you’ll be brought to the PR on the parent repository. Note that if you do not have write permission on the parent repository, you will not have the option to merge the pull request. But if you do, you can review the pull request and merge it in if everything looks good!\n\n\n\n\nStep 4: Sync changes from parent to your fork\nIf a change was made to the parent repository, you can sync that change to your forked repository. For this demo, I added the number of cookies that are made to the chocolate chip cookie recipe (on the main nfms-opensci repository). Let’s see how we can integrate that change to our fork.\n\n\nNavigate to your forked repository.\n\nNotice that the repository notifies you of the number of commits ahead of the parent and behind the parent your fork is. In that same message box, click the Sync fork dropdown, and click Update branch. Note that if you have commits that have not been merged into the parent, you can either discard your commit before the merge (so your fork matches the parent) or keep it and merge the changes from the parent into your fork.\n\nTo verify that your merge worked, click the Sync fork dropdown again. If everything worked, you should have a message that your branch is not behind the upstream (parent) repository",
+    "objectID": "content/intro/intro.html#github-enterprise",
+    "href": "content/intro/intro.html#github-enterprise",
+    "title": "Introduction to Git and GitHub",
+    "section": "GitHub Enterprise",
+    "text": "GitHub Enterprise",
     "crumbs": [
       "JupyterHub",
       "Tutorials",
-      "Forking Repositories in GitHub (and beyond)"
+      "Introduction to Git and GitHub"
     ]
   },
   {
-    "objectID": "content/branches/branches.html#aims-and-objectives",
-    "href": "content/branches/branches.html#aims-and-objectives",
-    "title": "Branches and Pull Requests",
-    "section": "Aims and Objectives",
-    "text": "Aims and Objectives\nBranches allow you to develop features, fix bugs, or safely experiment with new ideas in a contained area of your repository. They can be particularly useful when collaborating within a team, allowing for independent development of different areas of the repository that do not interfere with each other. This skills session will use directed, interactive lessons to provide NOAA Fisheries staff with a foundation in using branches in concert with pull requests for collaborative development.",
+    "objectID": "content/intro/intro.html#git-and-github-the-basics",
+    "href": "content/intro/intro.html#git-and-github-the-basics",
+    "title": "Introduction to Git and GitHub",
+    "section": "Git and GitHub: The basics",
+    "text": "Git and GitHub: The basics",
     "crumbs": [
       "JupyterHub",
       "Tutorials",
-      "Branches and Pull Requests"
+      "Introduction to Git and GitHub"
     ]
   },
   {
-    "objectID": "content/branches/branches.html#prerequisites-what-do-i-need-before-this-workshop-to-follow-along-on-my-own",
-    "href": "content/branches/branches.html#prerequisites-what-do-i-need-before-this-workshop-to-follow-along-on-my-own",
-    "title": "Branches and Pull Requests",
-    "section": "Prerequisites: What do I need before this workshop to follow along on my own?",
-    "text": "Prerequisites: What do I need before this workshop to follow along on my own?\n\nThis stand-alone skills session is meant for those with a basic understanding of Git and GitHub. Check out our Introduction to Git and GitHub lessons if you are new to Git and GitHub or need a refresher.\nWe will also be using a bit of Markdown, so you may want to refresh yourself on Markdown language with our Introduction to Markdown lesson.",
+    "objectID": "content/intro/intro.html#introduction-to-github---tutorial",
+    "href": "content/intro/intro.html#introduction-to-github---tutorial",
+    "title": "Introduction to Git and GitHub",
+    "section": "Introduction to GitHub - Tutorial",
+    "text": "Introduction to GitHub - Tutorial\nGitHub Skills - Introduction to GitHub\nWe’ll be using the Introduction to GitHub Skills Tutorial to get our feet wet with Git and GitHub. Follow along with the tutorial using your personal GitHub account.\n\nStep 1: Copy the exercise\nOpen the GitHub Skills link, and make sure you are logged into GitHub. Use the “Copy Exercise” button to make a new repository on your account:\n\nWhen you open up the “Copy Exercise” link, you will be presented with the “Create a new repository” interface. Keep all of the defaults, and click the green “Create repository” button: \n\n\n\n\n\n\nGitHub Skills tutorials use GitHub Actions in the background.\n\n\n\nThese actions use “minutes”, which are limited in a private repository, but unlimited in a public one. We suggest keeping your GitHub Skills tutorial repositories public to avoid any minutes limitations.\n\n\n\n\n\n\n\n\nYou’ll notice that most steps in a GitHub Skills tutorial feature a message to wait about 20 seconds for the exercise to update.\n\n\n\nGitHub Actions can take a little bit of time to run, so waiting this requisite time is important! Refresh the instructions after 20 seconds to make sure everything updates properly.\n\n\n\n\nStep 2: Start the exercise\nAfter waiting the suggested 20 seconds, refresh the instructions page. You’ll notice that the “Copy Exercise” button has switched from green to gray, and the “Start Exercise” button has switched from gray to green.\nRight click the “Start Exercise” button and open it in a new tab. This will open an Issue for this repository that will serve as the instructions for the exercise.\n\n\n\n\n\n\n\nI suggest moving the instructions tab into another window so you can work side-by-side with the instructions to limit switching back and forth between tabs. \n\n\n\n\n\n\n\n\nStep 3: Follow the exercise\n\nCreate a new branch\nCreate a new branch following the instructions in the tutorial:\n\n\n\n\n\n\n\nIf you have the instructions open in side-by-side mode, you may notice that the github-actions bot will be producing new comments in the instructions.\n\n\n\nBe sure to wait until the bot is finished before starting the next part of the exercise!\n\n\n\n\nCreate a commit with a new file\nClick the “Add file” button to create a new file named PROFILE.md\n\n\n\n\n\n\n\nIf you’ve arranged your screen in a side-by-side mode, the “Add file” button may look a bit different!\n\n\n\nGitHub dynamically shortens certain buttons and tabs based on the size of the window. In this case, the “Add file” button becomes the “+” button:\n\n\n\nAdd a line to the new file, and click the “Commit changes” green button:\n\nChange the “Commit message” to “Add PROFILE.md” and click “Commit changes” to confirm the commit\n\n\n\nOpen a pull request\nRefresh the repository and click the “Compare & pull request” button.\n\nEdit the title field to read “Add my first file”, and provide a brief description of your pull request. Click “Create pull request”\n\n\n\n\n\n\n\nYou can follow the progress of the GitHub Actions running in the background after this step!\n\n\n\n\n\n\n\n\nMerge the pull request\nClick the green “Merge pull request” button, and confirm the merge. Delete the branch after merging (don’t worry, you can always restore a deleted branch)",
     "crumbs": [
       "JupyterHub",
       "Tutorials",
-      "Branches and Pull Requests"
+      "Introduction to Git and GitHub"
     ]
   },
   {
-    "objectID": "content/branches/branches.html#what-is-a-branch",
-    "href": "content/branches/branches.html#what-is-a-branch",
-    "title": "Branches and Pull Requests",
-    "section": "What is a Branch?",
-    "text": "What is a Branch?",
+    "objectID": "content/intro/intro.html#working-in-github-desktop---tutorial",
+    "href": "content/intro/intro.html#working-in-github-desktop---tutorial",
+    "title": "Introduction to Git and GitHub",
+    "section": "Working in GitHub Desktop - Tutorial",
+    "text": "Working in GitHub Desktop - Tutorial\nTo get a bit more experience working with GitHub repositories, we are going to clone our tutorial repository, create a repository in GitHub Desktop, make a commit, and push our changes up to GitHub.\n\nStep 1: Log into GitHub\nIf this is your first time using GitHub Desktop, you will need to log in to your GitHub account. Open a browser window to GitHub, and make sure you’re logged in to your GitHub account. If you are on the NMFS GitHub Enterprise Cloud, you will also need to be logged in using SSO.\n\n\nStep 2: Open GitHub Desktop and clone a repository\nOn your local computer, open GitHub Desktop. Click “Clone a repository from the Internet…”\n\nClick “Sign in” and “Continue with browser” to open a browser window and sign into GitHub Desktop.\n\n\n\n\n\n\nWhen logging into GitHub Desktop for the first time, you will be presented with a tabbed window as shown below. To access GitHub Enterprise, do not use the Enterprise tab on the login window! This is for a locally-hosted GitHub Enterprise server. The NMFS GitHub Enterprise is cloud-hosted, so to access enterprise repositories from GitHub Desktop, you will need to be logged into the enterprise (via SSO) through your browser.\n\n\n\n\n\n\nEnter the name of the GitHub Skills repository we just finished (skills-introduction-to-github) into the search box. Select the repository, choose where to clone the repository to on your local machine, and click “Clone”.\n\n\n\n\n\n\n\nWhere should you clone your repository to?\n\n\n\nFor transient repositories (i.e., repositories that you only plan to work on briefly or occasionally), I suggest creating a folder on your local file system just for these GitHub repositories. If you’re working on a project and already have a file folder structure for that project, you can clone and/or create your repository inside the existing folder structure.\n\n\n\n\nStep 3: Create a new repository\nClick the dropdown where it says “Current repository” in the upper left corner of GitHub Desktop. This will bring up a list of your repositories available on your local machine. For those who are new to GitHub Desktop, this should only include our GitHub Skills repository. Click the “Add” dropdown menu, and click “Create new repository…”\n\nThere are several aspects of a repository you will need to keep in mind when creating a new one from scratch:\n\nName: Make your name distinct and descriptive, but not too long. Don’t use spaces (remember, this will be included as part of the URL). Git and GitHub repositories often use kebab case.\nDescription:Add a brief description to your repository that describes its purpose\nLocal path: Similarly to when you clone a repository into a folder, you need to tell GitHub Desktop where to start a new repository. This will autofill to the directory you specified when installing GitHub Desktop for the first time, but you are welcome to change it to wherever you want your repository stored on your local computer. You can always move a repository after creation.\nREADME file: It is always a good idea to initialize the repository with a README file. This file will serve as the “front page” of your repository on GitHub. You can add a more detailed description of the repository, what it will be used for, instructions for how it should be used by others, etc. If your repository contains datasets, you can also use the README to add metadata. See this link for more information on README files.\nGit ignore: A .gitignore file tells Git what files and folders to not track. These files will still reside on your local repository, but will not be included in a Commit action or accessible on GitHub. Typically, these files are system files for the coding language or IDE you’re using, but can also include files that you don’t want to be shown on GitHub. This may include things like data files that are too big or too sensitive to be hosted on GitHub, code files that include sensitive material, and scratch or intermediate files. When creating a new repository, you can choose to pre-populate the .gitignore file based on the primary coding language you expect to use most in the repository.\nLicense: Any public-hosted GitHub repository should contain a license for open source use. The latest NOAA recommendation is to use Apache License 2.0\n\nGo ahead and fill in the fields and Create your repository.\n\n\n\nStep 4: Publish your repository to GitHub\nAfter creating your repository, GitHub Desktop will open it automatically. However, at this point your repository is only available on your local machine. Go ahead and click the button to publish your repository to GitHub.\n\nYou can choose whether to keep your repository private or let it be viewed by the public. You can also choose to publish the repo to your personal account, or to an organization (e.g., your center’s Enterprise account). In general, for the sake of open science we normally suggest keeping a repository public unless it contains sensitive or proprietary data. For now, we’ll keep this practice repo public.\n\n\n\nStep 5: Modify the README file in your repository\nYou can now open your repository in an editor or IDE (e.g., RStudio), show the files in a file explorer window, or view the repository on GitHub. We will take advantage of the ability to open the repo in the editor to make a change to our repository’s README file.\nOpen your repository in whatever editor you choose (I have mine configured to use RStudio) by clicking the button in GitHub Desktop.\n\nIn your editor, open the README.md file. You will notice that the README file is prepopulated with the title of your repository as a first-level header and your brief description. Make a change to your README file (maybe change the title and add a bit more context to the description), and save your changes. Close your editing program.\n\n\n\nStep 5: Commit your changes\nIn GitHub Desktop, you will notice that the README.md file has now been added to the “Changed files” list on the left-hand side, and the changes are shown in the main pane as a series of deletions and additions. The check-marks indicate that those changes are staged and should be included in the commit. If you change your mind and don’t want a change to be committed, you can click the check mark and it will change to an “unstaged” state. For now, leave all changes staged.\n\nIn the bottom left, you will see a box for your commit message and a description. These allow you to describe the changes made in a particular commit. A more descriptive message can help others (and future you) to understand why you made a particular change. GitHub Desktop will prepopulate the message field if you’re only modifying one file, but it’s often a good idea to change this to something more descriptive. You can go into more details in the description field if necessary, but this is optional.\nChange your commit file, and commit to the “main” branch.\n\n\n\nStep 6: Push your commit to GitHub\nAfter you commit your changes, GitHub Desktop will prompt you to “Push commits to the origin remote”. This is how we will get our local changes up on GitHub. Click the “Push origin” button.\n\nOpen the repository in GitHub in your browser to see what the changes we made to our README look like on GitHub.",
     "crumbs": [
       "JupyterHub",
       "Tutorials",
-      "Branches and Pull Requests"
+      "Introduction to Git and GitHub"
     ]
   },
   {
-    "objectID": "content/branches/branches.html#tutorial-making-and-merging-a-branch",
-    "href": "content/branches/branches.html#tutorial-making-and-merging-a-branch",
-    "title": "Branches and Pull Requests",
-    "section": "Tutorial: Making and merging a branch",
-    "text": "Tutorial: Making and merging a branch\nFor this tutorial, we’re going to be forking a demo repository (https://github.com/nmfs-opensci/GitHub-Clinic-demos), making a branch on our forked copies, editing our forked copies, and creating a pull request to contribute back to the main branch. Follow along on your own account.\n\nStep 1: Fork the repository\n\nOpen the demo repository in GitHub.\n\nAt the top of the repository, click the Fork button\n\nKeep everything default (your account should be listed under Owner, and the Repository name should be pre-filled for you). Click the green Create Fork button.\n\n\n\n\nStep 2: Create a new branch\n\nOn the Code tab of your forked repository, click the dropdown menu where it says main\nIn the text box where it says “Find or create a branch”, type the name of your branch. Let’s call it tutorial. Click the Create branch tutorial from main button to create your branch.\n\n\n\n\nStep 2: Add content to your new branch\n\nLet’s add a new file to our repository. Click the Add file (+) drop-down menu, and click Create new file.\n\nName your file intro.md and add some content to your file. If you’d like, you can copy the following markdown chunk and paste it into your file.\n\n\n# Introduction\n\nThis repository serves as a sandbox demo for the NOAA Fisheries GitHub Clinic. Feel free to fork this repository and use it to practice Git and GitHub tools and methods.\n\nCommit your changes to the tutorial branch.\n\n\n\n\nStep 3: Create a pull request\n\nClick the Pull requests tab at the top of the repository. GitHub should recognize that you made a push to your tutorial branch. Click the green Compare & pull request button to start a pull request to merge the pushes from tutorial into main.\n\nNotice that because we’re working from a forked repository, GitHub will automatically fill in the parent repository (nmfs-opensci/GitHub-Clinic-demos) as the repository to merge into. For this tutorial, we instead will merge into the main branch of our forked copy of the repository. Click the drop-down menu where it says “base repository:” and select your forked copy.\n\nGitHub will pre-populate the title of our pull request based on the commit message. If we have multiple commits, we would need to make our own pull request title. Make sure the title is clear and concise, and add a detailed blurb to the description section. For our example, this can be as simple as describing the intent of the pull request. For more complex pull requests that involve adding to or modifying code and text in multiple files, we want to guide the reviewer through your changes as much as possible. Be as detailed as you need to be to convey the changes that were made and why they were made. You can even add images, screenshots, videos, and links to showcase how the changes you made are reflected for the end user.\n\nClick the green Create pull request button to finalize our pull request.\n\n\n\n\nStep 4: Review and merge your pull request\nReviewing a pull request is an important step of the collaborative process on GitHub. Pull request reviews allow the owner of a repository or another collaborator to read through changes line-by-line, adding comments and proposing edits along the way. Think of a pull request review as being similar to a manuscript or report review using track changes.\nBefore we merge our changes into our main branch, let’s get some practice with reviewing pull requests. This step is not as important when you’re the only one working on a repository (like in our tutorial), but it’s good practice for future collaborations.\n\nAssign yourself as a reviewer to the pull request using the Assignees dropdown on the right-hand side of your pull request. In a collaborative setting, you can assign up to 10 of your collaborators.\n\nNavigate to the Files changed pane in the pull request. This is where we’ll conduct our review.\n\nJust like in a manuscript peer review, we can leave a narrative review with general comments and recommendations, and we can also add comments and propose edits to specific lines. Let’s add a comment to change the first-level heading of our markdown file. Hover your mouse in the space between the line numbers and the content. You’ll see a highlighted + icon appear next to each line. Click the + icon next to line 1.\n\nThis will open up a dialog box where we can add a comment or suggest a change to this specific line. Lets suggest a change to the heading name. Click the icon next to the Preview tab. This icon is the Add a suggestion icon. Notice that when you click this icon, it inserts a code snippet into our dialog box with the label suggestion. Inside this code snippet, suggest a change to the # Introduction header to read # Purpose of this repository.\n\nFrom here, we can either add our suggestion as a single comment to the pull request conversation, or start a review based on this suggestion. Let’s go ahead and click the green Start a review button.\nFrom here, we can add more line-by-line comments and suggestions, or we can finish our review with our general impressions. Let’s click the green Finish your review button (notice there is a ticker that tracks the number of line-by-line comments/suggestions).\n\nAdd a comment to your review summarizing your comments and changes and giving overall impressions. Click the green Submit review button to finalize your review.\n\nAs the original creator of the pull request, you can now commit the proposed change directly to the pull request, continue the conversation to refine the suggestion, or decline the suggestion and Resolve the conversation. Let’s commit the proposed change from the pull request review.\n\nOnce your change has been committed, we’re ready to merge the pull request! Click the green Merge pull request button, and confirm your merge with a merge commit.\n\n\nCongratulations! You have merged a pull request from a branch. You can now optionally delete the branch (don’t worry, you can always restore it from the pull request). During the next GitHub Clinic session on Git Workflows, we’ll discuss reasons and scenarios where you may want to keep a permanent branch versus creating and deleting ephemeral branches for development. For now, let’s go ahead and delete our branch to close out this tutorial.",
+    "objectID": "content/intro/intro.html#project-management",
+    "href": "content/intro/intro.html#project-management",
+    "title": "Introduction to Git and GitHub",
+    "section": "Project Management",
+    "text": "Project Management",
     "crumbs": [
       "JupyterHub",
       "Tutorials",
-      "Branches and Pull Requests"
+      "Introduction to Git and GitHub"
     ]
-  },
-  {
-    "objectID": "content/github-pages/github-pages.html#aims-and-objectives",
-    "href": "content/github-pages/github-pages.html#aims-and-objectives",
-    "title": "Hosting a repository as a website with GitHub Pages",
-    "section": "Aims and Objectives",
-    "text": "Aims and Objectives\nGitHub Pages lets you turn your repository into a website. This is a great way to share your project, resume, portfolio, documentation, or even a blog with the world. When you enable GitHub Pages on a repository, GitHub takes the content that’s on the main branch (or you can specify a different branch) and publishes a website based on its contents. This GitHub Pages skills session will use directed, interactive lessons to provide NOAA Fisheries staff with a foundation in hosting web content through GitHub Pages.",
-    "crumbs": [
-      "JupyterHub",
-      "Tutorials",
-      "Hosting a repository as a website with GitHub Pages"
-    ]
-  },
-  {
-    "objectID": "content/github-pages/github-pages.html#prerequisites-what-do-i-need-before-this-workshop-to-follow-along-on-my-own",
-    "href": "content/github-pages/github-pages.html#prerequisites-what-do-i-need-before-this-workshop-to-follow-along-on-my-own",
-    "title": "Hosting a repository as a website with GitHub Pages",
-    "section": "Prerequisites: What do I need before this workshop to follow along on my own?",
-    "text": "Prerequisites: What do I need before this workshop to follow along on my own?\n\nThis stand-alone skills session is meant for those with a basic understanding of Git and GitHub. Check out our Introduction to Git and GitHub lessons if you are new to Git and GitHub or need a refresher.\nWe will also be using a bit of Markdown and discussing README files, so you may want to refresh yourself on Markdown language with our Introduction to Markdown lesson.",
-    "crumbs": [
-      "JupyterHub",
-      "Tutorials",
-      "Hosting a repository as a website with GitHub Pages"
-    ]
-  },
-  {
-    "objectID": "content/github-pages/github-pages.html#github-pages-a-primer",
-    "href": "content/github-pages/github-pages.html#github-pages-a-primer",
-    "title": "Hosting a repository as a website with GitHub Pages",
-    "section": "GitHub Pages: A primer",
-    "text": "GitHub Pages: A primer",
-    "crumbs": [
-      "JupyterHub",
-      "Tutorials",
-      "Hosting a repository as a website with GitHub Pages"
-    ]
-  },
-  {
-    "objectID": "content/github-pages/github-pages.html#tutorial-making-a-basic-landing-page-from-a-readme-file-with-github-pages",
-    "href": "content/github-pages/github-pages.html#tutorial-making-a-basic-landing-page-from-a-readme-file-with-github-pages",
-    "title": "Hosting a repository as a website with GitHub Pages",
-    "section": "Tutorial: Making a basic landing page from a README file with GitHub Pages",
-    "text": "Tutorial: Making a basic landing page from a README file with GitHub Pages\nFor this tutorial, we’re going to be taking a step away from GitHub Skills and creating a basic landing page for a repository using GitHub Pages. Our example is going to be a little boring, but a basic README-based landing page can be formatted to look great! Here’s an example from NMFS Open Science of a formatted README-based landing page:\n\n\nStep 1: Create a new repository\n\nOn the GitHub home page, click the + in the upper right corner of, and select New repository.\n\nName your repository “github-pages”, and make sure to check the Add a README file box. Make your repository public (you’ll need to do this to enable GitHub Pages), and create your repository.\n\n\n\n\nStep 2: Enable GitHub Pages\n\nNavigate to the Settings tab of your new repository.\n\nOn the left-hand side, select the Pages section under Code and automation\n\nUnder Source, make sure “Deploy from a branch” is selected (it should be the default). Under Branch, click the drop-down where it says “None” and select “main”.\n\nThis will add an additional drop-down to select the directory that GitHub will look for your content. For more complex websites, we can change this to point to a different directory where all of our HTML content will be rendered. For a simple README-based landing page, we can leave this as it’s default / (root). This points to the root, or home, directory of your repository where your README file resides.\n\nSave your changes. At this point, a special GitHub Action will spin up in the background to build your GitHub Pages website.\n\n\n\n\n\n\nTip\n\n\n\nYou can track the progress of your build by navigating to the Actions tab at the top of your repository. Click the “pages build and development” workflow to see what GitHub Actions is doing to build your website.\n\n\n\nOnce your website is built, you can view it by clicking the link in the Actions tab, or you should see a banner at the top of your GitHub Pages settings page with the link to your new website. Click the link and check out your new website!\n\n\n\n\n\nStep 3: Customize our website\nOur website as it currently stands is a little dull. Let’s add a theme and some content to make it a little nicer!\n\nAdd a file to your repository in the root (base) directory called _config.yml.\n\n\n\nIn the file contents, add the following lines:\n\ntitle: GitHub Pages Demo Website\ntheme: jekyll-theme-slate\n\n\nCommit your changes, then edit your README.md file (you can click the edit button on the main page)\n\nChange your first-level heading to a suitable front page title, and add some content\n\nCommit your changes, wait about 30 seconds, and navigate to your website to see what our changes look like when rendered",
-    "crumbs": [
-      "JupyterHub",
-      "Tutorials",
-      "Hosting a repository as a website with GitHub Pages"
-    ]
-  },
-  {
-    "objectID": "content/github-pages/github-pages.html#tutorial-github-pages-x-quarto-templates-for-nmfs-branded-websites",
-    "href": "content/github-pages/github-pages.html#tutorial-github-pages-x-quarto-templates-for-nmfs-branded-websites",
-    "title": "Hosting a repository as a website with GitHub Pages",
-    "section": "Tutorial: GitHub Pages x Quarto templates for NMFS-branded websites",
-    "text": "Tutorial: GitHub Pages x Quarto templates for NMFS-branded websites\nREADME-based webpages can be useful for one-off landing pages, but in general we’ll want to use something a little more complex to build a webpage. There are many open-source webpage applications to create a website using GitHub Pages. Quarto, which is a Markdown-based publishing software, is a particularly powerful tool for creating a website. However, building a Quarto website from scratch can be tedious.\nThankfully, Quarto and GitHub make it easy to create and share templates for GitHub Pages sites, many of which are plug-and-play; simply add your own content (or replace the current content with your own), and you’re up and running with a clean, themed, feature-rich website! NMFS Open Science provides several templates to create a NOAA Fisheries-themed website. Let’s use one of these to create a more complex website.\n\nStep 1: Copy a Quarto website template to your GitHub\nWe’re going to use the NOAA-quarto-simple template to create our website. Navigate to the repository on GitHub and click the green Use this template button. Select “Create a new repository”.\n\nOn the Create a new repository page, make sure the check-box next to “Include all branches” is selected (GitHub Pages is set up to deploy from the gh-pages branch, so we need all branches to be copied over to our version of the repository). Give your repository a name (make sure your account is selected as the Owner), and make sure the repository is set to public. Click the green Create repository button to copy the template to your GitHub.\n\n\n\nStep 2: Configure GitHub Actions\nIf you’ll recall from the slides, Quarto files need to be rendered to HTML for GitHub Pages to properly display them as a webpage. The NMFS Open Science Quarto website templates use GitHub Actions, an automation tool provided by GitHub, to automatically render these files to HTML (and push them to the gh-pages branch from where GitHub Pages is set to deploy). We need to make sure that these actions have the proper permissions to write to our repository.\nIn the Settings tab of your repository, click the dropdown under the Actions section on the left-hand side and select the General category.\n\nScroll to the bottom of this section, and under the Workflow permissions heading, select the option for Read and write permissions. Save your changes.\n\n\n\n\n\n\nNote\n\n\n\nA GitHub Actions workflow began when we initially made our repository. You may receive a notification that the Action failed when it finishes running. That’s okay. As long as we have this Workflow permissions option configured, the GitHub Action workflow should succeed the next time we commit to our repository.\n\n\n\n\n\nStep 3: Verify that GitHub Pages is building your site\nNavigate to the Pages section of the Settings tab on your newly-created repository. Previously, we built our website from the main branch. In this case, we’re building from a separate, dedicated gh-pages branch (still at the root of that branch).\n\nVerify that your site is live by clicking the link in GitHub Pages.\n\nTo broadcast that your website is up and running (and provide a more convenient location to access the site URL), we can add a link to the website to our repository home page. On your repository home page, click the gear icon for the About section, click the checkbox next to “Use your GitHub Pages website” under the Website header, and save your changes.\n\n\n\nStep 4: Edit your new website\nTo make changes to your new website, navigate to the Code tab of the repository, and select the content folder of the main branch. Here, you’ll have several markdown files that you can edit to your heart’s content!\n\n\n\n\n\n\nImportant\n\n\n\nIf you make changes to the file names, you’ll need to make corresponding changes to the _quarto.yml file. This is more advanced, and a bit outside of the scope of our tutorial, but I encourage you to check out the Websites and books section of the R for Data Science ebook to learn more.",
-    "crumbs": [
-      "JupyterHub",
-      "Tutorials",
-      "Hosting a repository as a website with GitHub Pages"
-    ]
-  },
-  {
-    "objectID": "content/inperson/guided_exercise.html#practice-creating-a-repository-for-your-own-project",
-    "href": "content/inperson/guided_exercise.html#practice-creating-a-repository-for-your-own-project",
-    "title": "Putting Everything Together",
-    "section": "Practice creating a repository for your own project",
-    "text": "Practice creating a repository for your own project\n\nOpen GitHub Desktop\nLogin with your GitHub account (if you have not already done so)\nCreate a new repository\nMove your code and other project files into your new repository\nMake a commit with your initial files\nPush your commit up to GitHub"
-  },
-  {
-    "objectID": "content/inperson/guided_exercise.html#practice-creating-a-repository-for-your-own-project-1",
-    "href": "content/inperson/guided_exercise.html#practice-creating-a-repository-for-your-own-project-1",
-    "title": "Putting Everything Together",
-    "section": "Practice creating a repository for your own project",
-    "text": "Practice creating a repository for your own project\n\nOpen the repository in your browser\nAdd your teammates as collaborators\nCreate an issue and tag a teammate\nMake a change to the README and commit in a new branch\nCreate a pull request\nMerge the pull request into your main branch"
   },
   {
     "objectID": "content/markdown/markdown-legacy.html#using-markdown-in-github---tutorial",
@@ -752,54 +716,6 @@
       "JupyterHub",
       "Tutorials",
       "Workflows in Git and GitHub"
-    ]
-  },
-  {
-    "objectID": "content/issues/issues.html#aims-and-objectives",
-    "href": "content/issues/issues.html#aims-and-objectives",
-    "title": "Communicating in GitHub with Issues and Discussions",
-    "section": "Aims and Objectives",
-    "text": "Aims and Objectives\nCommunication among developers and between developers and end users is a key aspect of GitHub that promotes collaboration and open source development. GitHub provides a number of tools and features to facilitate communication. Two of these features, GitHub Issues and GitHub Discussions, allow collaborators to create, discuss, and track work in a repository. This skills session will use directed, interactive lessons to provide NOAA Fisheries staff with a foundation in using Issues and Discussions to promote open source development in GitHub.",
-    "crumbs": [
-      "JupyterHub",
-      "Tutorials",
-      "Communicating in GitHub with Issues and Discussions"
-    ]
-  },
-  {
-    "objectID": "content/issues/issues.html#prerequisites-what-do-i-need-before-this-workshop-to-follow-along-on-my-own",
-    "href": "content/issues/issues.html#prerequisites-what-do-i-need-before-this-workshop-to-follow-along-on-my-own",
-    "title": "Communicating in GitHub with Issues and Discussions",
-    "section": "Prerequisites: What do I need before this workshop to follow along on my own?",
-    "text": "Prerequisites: What do I need before this workshop to follow along on my own?\n\nThis stand-alone skills session is meant for those with a basic understanding of Git and GitHub. Check out our Introduction to Git and GitHub lessons if you are new to Git and GitHub or need a refresher.\nWe will also be using a bit of Markdown, so you may want to refresh yourself on Markdown language with our Introduction to Markdown lesson.",
-    "crumbs": [
-      "JupyterHub",
-      "Tutorials",
-      "Communicating in GitHub with Issues and Discussions"
-    ]
-  },
-  {
-    "objectID": "content/issues/issues.html#github-issues-and-discussions-for-project-development",
-    "href": "content/issues/issues.html#github-issues-and-discussions-for-project-development",
-    "title": "Communicating in GitHub with Issues and Discussions",
-    "section": "GitHub Issues and Discussions for Project Development",
-    "text": "GitHub Issues and Discussions for Project Development",
-    "crumbs": [
-      "JupyterHub",
-      "Tutorials",
-      "Communicating in GitHub with Issues and Discussions"
-    ]
-  },
-  {
-    "objectID": "content/issues/issues.html#tutorial-working-with-issues-and-discussions",
-    "href": "content/issues/issues.html#tutorial-working-with-issues-and-discussions",
-    "title": "Communicating in GitHub with Issues and Discussions",
-    "section": "Tutorial: Working with issues and discussions",
-    "text": "Tutorial: Working with issues and discussions\nFor this tutorial, we’re going to be forking a demo repository (https://github.com/nmfs-opensci/GitHub-Clinic-demos), enabling Issues and Discussion on our repository, and adding an issue and a discussion to the repository. Follow along on your own account.\n\nStep 1: Fork the repository\n\n\n\n\n\n\nIf you have already forked this repository for a previous session, you can skip this step.\n\n\n\nWe have used this demo repository for previous GitHub Clinic demonstrations and tutorials, so you may already have a forked copy of this repository on your account. If you are unsure, you can search for [your-username]/GitHub-Clinic-demos in the GitHub search bar.\n\n\n\nOpen the demo repository in GitHub.\n\nAt the top of the repository, click the Fork button.\n\nKeep everything default (your account should be listed under Owner, and the Repository name should be pre-filled for you). Click the green Create Fork button.\n\n\n\n\nStep 2: Enable Issues and Discussions\nWhen you create your new fork, you may notice that the Issues and Discussions tabs that you normally see at the top of the repository are not there. We have to enable these in the repository settings.\n\nNavigate to the Settings tab in your forked repository.\n\nOn the main settings page, scroll down to the Features section, and select the checkboxes next to Issues and Discussions.\n\nNote that the top menu bar for your repository now has the Issues and Discussions tabs added.\n\n\n\n\nStep 3: Set up a template issue\n\nRefresh the settings page, and in the same Features section, click the green Set up templates button under Issues.\n\nUnder the dropdown menu for Add template, select Bug report to add a Bug report template to your available templates.\n\nClick the Preview and edit button to see what your issue template looks like in Markdown\n\nLet’s go ahead and edit the template to take out the part about smartphone specifications. Click the edit button at the top next to “Issue: Bug report” (it looks like a little pencil).\n\nIn the Template content section, scroll down to the “Smartphone” section, and delete everything from that section.\n\nClick the “x” at the top of the editing pane to save your changes, then click the Close preview button. Click the green Propose changes button to create a commit that will add your new template to your repository.\n\nNote that you now have a new subfolder in your repository under the .github folder called ISSUE_TEMPLATE. If you navigate to that folder in your repository, you can see our newly created bug_report.md template. If we ever want to make more edits to our template, we can either use the template editor interface in the Settings menu, or we can directly edit these files in our repository.\n\n\n\n\nStep 4: Create an issue\n\nNavigate to the Issues tab in your repository, and click the green New issue button.\n\nLet’s use the new template that we created. Click the Bug report option in the menu.\n\nGive your issue a title and fill in the template with a fake “bug”. Note that you can directly paste in an image from your clipboard (GitHub converts it to a permalink when you paste it into Markdown). Click the green Create button to submit your issue.\n\nLet’s add a label to our Issue to show that it’s a bug report. On the left-hand side of the issue, click the “Labels” section and select “bug”.\n\n\n\n\nStep 5: Start a discussion\nOur bug report has spawned some discussion among the developers! Let’s document this discussion in our repository.\n\nNavigate to the Discussions tab in your repository, and click New Discussion.\n\nLet’s make this a general discussion. Click the green Get started button in the area next to General.\n\nAdd a title and a body to your discussion thread. We can reference the issue that we created earlier using the # key.\n\nClick the green Start discussion button to save your discussion thread.\n\nCongratulations! You have now added both an Issue and a Discussion topic to your repository. Feel free to play around with other Issues templates and Discussion types on your own.",
-    "crumbs": [
-      "JupyterHub",
-      "Tutorials",
-      "Communicating in GitHub with Issues and Discussions"
     ]
   }
 ]
