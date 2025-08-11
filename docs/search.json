@@ -699,7 +699,7 @@
     "href": "content/schedule.html",
     "title": "Schedule",
     "section": "",
-    "text": "Introductory workshops were held Mondays at 10am PT/1pm ET and Tuesdays at 1pm PT/4pm ET for 3 weeks starting April 7th.\nSingle-topic sessions are being held Thursdays at 12:30pm PT/3:30pm ET and Tuesdays at 11:00am PT/2:00pm ET, with topics switching every two weeks starting May 29th.\nSee the Open Science Calendar for meeting links. Note that recordings and calendar links are restricted to NOAA employees and affiliates.\n\n\n\n\n\n\n\n\n\n\n\nTopic\nIntroduction to Git and GitHub\nDescription\nBasics of git commands, repository management, project management, and collaboration using GitHub\nMaterial\nLink\nDates\nMon 4/7\nTues 4/8\nMon 4/14\nTues 4/15\nMon 4/21\nTues 4/22\nRecordings\nMonday 4/7 (not available; issue with recording)\nTuesday 4/8 (Incomplete recording)\nMonday 4/14\nTuesday, 4/15\nMonday, 4/21\nTuesday, 4/22\n\n\n\n\n\n\n\n\n\n\n\nMarkdown and README files\nBecome familiar with markdown formatting for README files, issues, Pull Requests, and discussions on GitHub\nLink\nThurs 5/29\nTues 6/3\nThurs 5/29\nTues 6/3 (audio degradation issues)\n\n\n\nGitHub Pages\nHow to make a website from a GitHub repository using GitHub Pages\nLink\nThurs 6/12\nTues 6/17\nThurs 6/12 (not available; canceled session)\nTues 6/17\n\n\n\nForks\nForking a repository, how to work with forks, and why we use them\nLink\nThurs 6/26\nTues 7/1\nThurs 6/26\nTues 7/1\n\n\n\nBranches and Pull Requests\nCreating a branch, why to use branches, and using pull request to merge changes from branches\nLink\nThurs 7/10\nTues 7/15\nThurs 7/10\nTues 7/15 (not available; technical difficulties)\n\n\n\nGit Workflows\nUsing branches to organize and develop workflows in GitHub\nLink\nThurs 7/24\nTues 7/29\nThurs 7/24\nTues 7/29\n\n\n\nMerge Conflicts\nWhy merge conflicts occur, how to address them, and best practices to avoid them in the first place\nLink\nThurs 8/7\nTues 8/12\nThurs 8/7\n\n\n\nCommunicating in GitHub with Issues and Discussions\nWhen to use issues and discussions, types of issues, assigning issues, and using issue and discussion templates\nLink\nThurs 8/21\nTues 8/26\n\n\n\n\nProject Management\nUsing GitHub Issues and Projects for project management\nTBD\nThurs 9/4\nTues 9/9*\n\n\n\n\nAdvanced Git\nGit on the command line, advanced features and functions\nTBD\nThurs 9/18\nTues 9/23\n\n\n\n\nGitHub Actions\nAutomating tasks and workflows using GitHub Actions\nTBD\nThurs 10/1\nTues 10/6\n\n\n\n\n\n*Note: the Tuesday 9/9 session on Project Management has been moved to 9am PT/12pm ET",
+    "text": "Introductory workshops were held Mondays at 10am PT/1pm ET and Tuesdays at 1pm PT/4pm ET for 3 weeks starting April 7th.\nSingle-topic sessions are being held Thursdays at 12:30pm PT/3:30pm ET and Tuesdays at 11:00am PT/2:00pm ET, with topics switching every two weeks starting May 29th.\nSee the Open Science Calendar for meeting links. Note that recordings and calendar links are restricted to NOAA employees and affiliates.\n\n\n\n\n\n\n\n\n\n\nTopic\nDescription\nMaterial\nDates\nRecordings\n\n\n\n\nIntroduction to Git and GitHub\nBasics of git commands, repository management, project management, and collaboration using GitHub\nLink\nMon 4/7\nTues 4/8\nMon 4/14\nTues 4/15\nMon 4/21\nTues 4/22\nMonday 4/7 (not available; issue with recording)\nTuesday 4/8 (Incomplete recording)\nMonday 4/14\nTuesday, 4/15\nMonday, 4/21\nTuesday, 4/22\n\n\nMarkdown and README files\nBecome familiar with markdown formatting for README files, issues, Pull Requests, and discussions on GitHub\nLink\nThurs 5/29\nTues 6/3\nThurs 5/29\nTues 6/3 (audio degradation issues)\n\n\nGitHub Pages\nHow to make a website from a GitHub repository using GitHub Pages\nLink\nThurs 6/12\nTues 6/17\nThurs 6/12 (not available; canceled session)\nTues 6/17\n\n\nForks\nForking a repository, how to work with forks, and why we use them\nLink\nThurs 6/26\nTues 7/1\nThurs 6/26\nTues 7/1\n\n\nBranches and Pull Requests\nCreating a branch, why to use branches, and using pull request to merge changes from branches\nLink\nThurs 7/10\nTues 7/15\nThurs 7/10\nTues 7/15 (not available; technical difficulties)\n\n\nGit Workflows\nUsing branches to organize and develop workflows in GitHub\nLink\nThurs 7/24\nTues 7/29\nThurs 7/24\nTues 7/29\n\n\nMerge Conflicts\nWhy merge conflicts occur, how to address them, and best practices to avoid them in the first place\nLink\nThurs 8/7\nTues 8/12\nThurs 8/7\n\n\nCommunicating in GitHub with Issues and Discussions\nWhen to use issues and discussions, types of issues, assigning issues, and using issue and discussion templates\nLink\nThurs 8/21\nTues 8/26\n\n\n\nProject Management\nUsing GitHub Issues and Projects for project management\nTBD\nThurs 9/4\nTues 9/9*\n\n\n\nAdvanced Git\nGit on the command line, advanced features and functions\nTBD\nThurs 9/18\nTues 9/23\n\n\n\nGitHub Actions\nAutomating tasks and workflows using GitHub Actions\nTBD\nThurs 10/1\nTues 10/6\n\n\n\n\n*Note: the Tuesday 9/9 session on Project Management has been moved to 9am PT/12pm ET",
     "crumbs": [
       "JupyterHub",
       "Welcome",
@@ -752,6 +752,54 @@
       "JupyterHub",
       "Tutorials",
       "Workflows in Git and GitHub"
+    ]
+  },
+  {
+    "objectID": "content/issues/issues.html#aims-and-objectives",
+    "href": "content/issues/issues.html#aims-and-objectives",
+    "title": "Communicating in GitHub with Issues and Discussions",
+    "section": "Aims and Objectives",
+    "text": "Aims and Objectives\nCommunication among developers and between developers and end users is a key aspect of GitHub that promotes collaboration and open source development. GitHub provides a number of tools and features to facilitate communication. Two of these features, GitHub Issues and GitHub Discussions, allow collaborators to create, discuss, and track work in a repository. This skills session will use directed, interactive lessons to provide NOAA Fisheries staff with a foundation in using Issues and Discussions to promote open source development in GitHub.",
+    "crumbs": [
+      "JupyterHub",
+      "Tutorials",
+      "Communicating in GitHub with Issues and Discussions"
+    ]
+  },
+  {
+    "objectID": "content/issues/issues.html#prerequisites-what-do-i-need-before-this-workshop-to-follow-along-on-my-own",
+    "href": "content/issues/issues.html#prerequisites-what-do-i-need-before-this-workshop-to-follow-along-on-my-own",
+    "title": "Communicating in GitHub with Issues and Discussions",
+    "section": "Prerequisites: What do I need before this workshop to follow along on my own?",
+    "text": "Prerequisites: What do I need before this workshop to follow along on my own?\n\nThis stand-alone skills session is meant for those with a basic understanding of Git and GitHub. Check out our Introduction to Git and GitHub lessons if you are new to Git and GitHub or need a refresher.\nWe will also be using a bit of Markdown, so you may want to refresh yourself on Markdown language with our Introduction to Markdown lesson.",
+    "crumbs": [
+      "JupyterHub",
+      "Tutorials",
+      "Communicating in GitHub with Issues and Discussions"
+    ]
+  },
+  {
+    "objectID": "content/issues/issues.html#github-issues-and-discussions-for-project-development",
+    "href": "content/issues/issues.html#github-issues-and-discussions-for-project-development",
+    "title": "Communicating in GitHub with Issues and Discussions",
+    "section": "GitHub Issues and Discussions for Project Development",
+    "text": "GitHub Issues and Discussions for Project Development",
+    "crumbs": [
+      "JupyterHub",
+      "Tutorials",
+      "Communicating in GitHub with Issues and Discussions"
+    ]
+  },
+  {
+    "objectID": "content/issues/issues.html#tutorial-working-with-issues-and-discussions",
+    "href": "content/issues/issues.html#tutorial-working-with-issues-and-discussions",
+    "title": "Communicating in GitHub with Issues and Discussions",
+    "section": "Tutorial: Working with issues and discussions",
+    "text": "Tutorial: Working with issues and discussions\nFor this tutorial, we’re going to be forking a demo repository (https://github.com/nmfs-opensci/GitHub-Clinic-demos), enabling Issues and Discussion on our repository, and adding an issue and a discussion to the repository. Follow along on your own account.\n\nStep 1: Fork the repository\n\n\n\n\n\n\nIf you have already forked this repository for a previous session, you can skip this step.\n\n\n\nWe have used this demo repository for previous GitHub Clinic demonstrations and tutorials, so you may already have a forked copy of this repository on your account. If you are unsure, you can search for [your-username]/GitHub-Clinic-demos in the GitHub search bar.\n\n\n\nOpen the demo repository in GitHub.\n\nAt the top of the repository, click the Fork button.\n\nKeep everything default (your account should be listed under Owner, and the Repository name should be pre-filled for you). Click the green Create Fork button.\n\n\n\n\nStep 2: Enable Issues and Discussions\nWhen you create your new fork, you may notice that the Issues and Discussions tabs that you normally see at the top of the repository are not there. We have to enable these in the repository settings.\n\nNavigate to the Settings tab in your forked repository.\n\nOn the main settings page, scroll down to the Features section, and select the checkboxes next to Issues and Discussions.\n\nNote that the top menu bar for your repository now has the Issues and Discussions tabs added.\n\n\n\n\nStep 3: Set up a template issue\n\nRefresh the settings page, and in the same Features section, click the green Set up templates button under Issues.\n\nUnder the dropdown menu for Add template, select Bug report to add a Bug report template to your available templates.\n\nClick the Preview and edit button to see what your issue template looks like in Markdown\n\nLet’s go ahead and edit the template to take out the part about smartphone specifications. Click the edit button at the top next to “Issue: Bug report” (it looks like a little pencil).\n\nIn the Template content section, scroll down to the “Smartphone” section, and delete everything from that section.\n\nClick the “x” at the top of the editing pane to save your changes, then click the Close preview button. Click the green Propose changes button to create a commit that will add your new template to your repository.\n\nNote that you now have a new subfolder in your repository under the .github folder called ISSUE_TEMPLATE. If you navigate to that folder in your repository, you can see our newly created bug_report.md template. If we ever want to make more edits to our template, we can either use the template editor interface in the Settings menu, or we can directly edit these files in our repository.\n\n\n\n\nStep 4: Create an issue\n\nNavigate to the Issues tab in your repository, and click the green New issue button.\n\nLet’s use the new template that we created. Click the Bug report option in the menu.\n\nGive your issue a title and fill in the template with a fake “bug”. Note that you can directly paste in an image from your clipboard (GitHub converts it to a permalink when you paste it into Markdown). Click the green Create button to submit your issue.\n\nLet’s add a label to our Issue to show that it’s a bug report. On the left-hand side of the issue, click the “Labels” section and select “bug”.\n\n\n\n\nStep 5: Start a discussion\nOur bug report has spawned some discussion among the developers! Let’s document this discussion in our repository.\n\nNavigate to the Discussions tab in your repository, and click New Discussion.\n\nLet’s make this a general discussion. Click the green Get started button in the area next to General.\n\nAdd a title and a body to your discussion thread. We can reference the issue that we created earlier using the # key.\n\nClick the green Start discussion button to save your discussion thread.\n\nCongratulations! You have now added both an Issue and a Discussion topic to your repository. Feel free to play around with other Issues templates and Discussion types on your own.",
+    "crumbs": [
+      "JupyterHub",
+      "Tutorials",
+      "Communicating in GitHub with Issues and Discussions"
     ]
   }
 ]
