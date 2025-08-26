@@ -4,7 +4,7 @@ title: "GitHub for Project Management"
 
 ## Aims and Objectives
 
-Communication among developers and between developers and end users is a key aspect of GitHub that promotes collaboration and open source development. GitHub provides a number of tools and features to facilitate communication. Two of these features, GitHub Issues and GitHub Discussions, allow collaborators to create, discuss, and track work in a repository. This skills session will use directed, interactive lessons to provide NOAA Fisheries staff with a foundation in using Issues and Discussions to promote open source development in GitHub.
+Project management is a key aspect to making workflows efficient and transparent on GitHub. GitHub Projects allow teams to plan and track work in a repository and across repositories. This skills session will use directed, interactive lessons to provide NOAA Fisheries staff with a foundation in using GitHub Projects to track, plan, and manage work on GitHub.
 
 ## Prerequisites: What do I need before this workshop to follow along on my own?
 
