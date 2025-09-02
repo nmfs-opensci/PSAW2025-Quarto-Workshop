@@ -59,6 +59,7 @@ website:
           - content/workflows/workflows.qmd
           - content/merge-conflicts/merge-conflicts.qmd
           - content/issues/issues.qmd
+          - content/projects/projects.qmd
       - href: content/resources.qmd
         text: "Resources"
       - section: "In-Person Workshops"
