@@ -10,10 +10,10 @@ execute:
 
 website:
   page-navigation: true  
-  title: "NOAA Fisheries GitHub Clinic"
+  title: "PSAW 2025 Quarto Workshop"
   favicon: "images/favicon-16x16.png"
-  site-url: https://nmfs-opensci.github.io/GitHub-Clinic
-  repo-url: https://github.com/nmfs-opensci/GitHub-Clinic
+  site-url: https://nmfs-opensci.github.io/PSAW2025-Quarto-Workshop/
+  repo-url: https://github.com/nmfs-opensci/PSAW2025-Quarto-Workshop
   repo-actions: [edit, issue, source]
   
   page-footer: <img src="https://github.com/nmfs-opensci/assets/blob/main/logo/nmfs-opensci-logo2.png?raw=true" alt="NMFS Open Science logo" style="width:150px"><br />NMFS Open Science (2023)
@@ -23,13 +23,10 @@ website:
     search: true
     right: 
       - icon: server
-        href: https://nmfs-openscapes.2i2c.cloud/
+        href: https://workshop.nmfs-openscapes.2i2c.cloud/
         text: "JupyterHub"
-      - icon: wechat
-        href: https://chat.google.com/room/AAAAJ6cl1_4?cls=7
-        text: "Discussions"
       - icon: github
-        href: https://github.com/nmfs-opensci/GitHub-Clinic
+        href: https://github.com/nmfs-opensci/PSAW-2025-Quarto-Workshop
         text: "repo"
       - icon: globe
         href: https://github.com/nmfs-opensci
@@ -46,25 +43,12 @@ website:
       - section: "Welcome"
         href: index.qmd
         contents:
-          - content/schedule.qmd
-          - content/setup/setup.qmd
           - content/coc.md
       - section: "Tutorials"
         contents:
           - content/intro/intro.qmd
-          - content/markdown/markdown.qmd
-          - content/github-pages/github-pages.qmd
-          - content/forking/forking.qmd
-          - content/branches/branches.qmd
-          - content/workflows/workflows.qmd
-          - content/merge-conflicts/merge-conflicts.qmd
-          - content/issues/issues.qmd
-          - content/projects/projects.qmd
-      - href: content/resources.qmd
-        text: "Resources"
-      - section: "In-Person Workshops"
-        contents:
-          - content/inperson/cb_genetics.qmd
+      # - href: content/resources.qmd
+      - text: "Resources: Coming soon!"
       - text: <img width=100px>
       - text: <img width=100px>
       - text: <img src="/images/noaa_emblem_logo-2022.png" width=100px>
