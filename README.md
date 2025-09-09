@@ -1,23 +1,24 @@
-# 2025 NMFS GitHub Clinic - Git and GitHub for Fisheries Scientists
+# **PSAW 2025 Quarto Workshop - Reproducible Science Using Quarto**
 
-Instructor: Jon Peake 
+**Instructor**: Jon Peake (NWFSC, NMFS Open Science)
 
-## Overview
-GitHub is an important platform for many NOAA Fisheries staff and teams to share and collaborate. In 2023, an Authorization To Use for GitHub Enterprise Cloud was signed, which provides a secure, private, access-controlled and managed platform for staff. In 2024, the GitHub Governance Team (GGT) provided a series of workshops to onboard NOAA Fisheries scientists to GitHub Enterprise and provide training in the use of Git and GitHub for NOAA Fisheries. In 2025, NMFS Open Science will be leading a second iteration of these workshops to provide NOAA Fisheries staff with the necessary skills to effectively incorporate Git and GitHub into existing workflows.
+**Date**: September 9th, 2025
 
-The GGT has outlined several use cases for why you may want to incorporate Git and GitHub into your workflows:
-- Development and distribution of scientific products and fundamental research communications.
-- Development of software and statistical packages for data analysis, e.g. stock assessment models.
-- Project/team management using GitHub project boards, issue tracking, task tracking.
-- Collaborative development of reports that combine data, resource intensive analysis, and text.
-- Automated report generation (using connection to online database and continuous integration).
-- Educational resources and learning activities.
+## **Overview**
 
-## Aims and Objectives of the GitHub Clinic
-The GitHub Clinic will consist of several components:
-- An introductory 2-hour introduction to Git and GitHub virtual workshop, repeated twice weekly for three weeks. These sessions will use a mixture of directed, interactive lessons and GitHub Skills to provide NOAA Fisheries staff with the knowledge required for basic repository management using Git commands, collaboration, and project management
-- A series of 1-hour standalone skills workshops for deeper dives into several GitHub features including advanced branch management, Git workflows, GitHub pages, and forking
-- Open Science Office Hours for individual help and coaching
+Reproducible reports are documents that combine analysis code, outputs (like plots or tables), and narratives to ensure that results can be easily replicated and verified by others. They are commonly used in scientific research, data science, and analytics to maintain transparency and reliability. By incorporating both the code and results into one document (or a collection of documents), anyone can run the same analysis on the same data (or updated data) and obtain the same results. Quarto is a software that combines Markdown language and scientific code to produce high-quality, reproducible reports.
+
+## **Aims and Objectives of this Quarto workshop**
+
+We will discuss the basics of Quarto and how to leverage this tool to take reproducible science to the next level. During this workshop, participants will:
+
+-   Understand what Quarto is and why we use it for reproducible science
+
+-   Learn about Markdown language and how Quarto uses it
+
+-   Integrate dynamic output from code into Quarto documents
+
+-   Explore the different formats that Quarto can produce
 
 <hr>
 
