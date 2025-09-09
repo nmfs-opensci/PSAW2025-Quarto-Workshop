@@ -1,0 +1,197 @@
+---
+title: "Introduction to Quarto"
+---
+
+[Quarto](https://quarto.org/) is a multi-language, next-generation version of R Markdown from Posit. It includes new features and capabilities while being able to render most existing Rmd files without any modification. With Quarto, you can:
+
+-   Create dynamic content with Rstudio/R, Python, Julia, and Observable.
+
+-   Author documents as plain text markdown or Jupyter notebooks.
+
+-   Publish high-quality articles, reports, presentations, websites, blogs, and books in HTML, PDF, MS Word, ePub, and more.
+
+-   Author with scientific markdown, including equations, citations, crossrefs, figure panels, callouts, advanced layout, and more.
+
+## Quarto and Reproducibility: A primer
+
+<iframe class="slide-deck" src="../slides/why_quarto.html" width="900" height="600">
+
+</iframe>
+
+## RStudio and JupyterHub
+
+Although we can use Quarto in a number of software editors, the most common is RStudio. For the remainder of this workshop, we'll be using RStudio through the [NMFS Openscapes JupyterHub](https://workshop.nmfs-openscapes.2i2c.cloud/hub/spawn). JupyterHub is a shared resource that gives users access to computational environments and resources without burdening the users with installation and maintenance tasks. Users can get their work done in their own workspaces on shared resources which can be managed efficiently by system administrators.
+
+### Log into the JupyterHub
+
+Go to <https://workshop.nmfs-openscapes.2i2c.cloud/>. In the **Sign in** box, enter your email address as your username. See the workshop chat for the password. Click "Sign in".
+
+### Image type: Python, R, or both
+
+Next you select your image type. For this workshop, we will be using a custom image.
+
+1.  Under **Image**, select "Other...".
+2.  In the box where it says **Custom image**, paste in the following link: [ghcr.io/nmfs-opensci/container-images/psaw-workshop:latest](ghcr.io/nmfs-opensci/container-images/psaw-workshop:latest)
+3.  JupyterHub instances let you choose your resource allocation. Generally, we want to choose the smallest size we need for our particular task. For our purposes, we will need a little bit more RAM than the default. In the **Resource Allocation** dropdown, select "3.7 GB RAM, upto 3.7 CPUs".
+
+Your page should look like this:\
+![](images/paste-1.png)
+
+4.  Click **Start** to start your JupyterHub instance. It can take a while for your instance to spin up initially, so you might need to be a little patient.
+
+### File System
+
+In both Jupyter Lab and RStudio you will see your home directory of files.
+
+-   home directory is yours and no one else can see it.
+-   To share files, you can connect to a GitHub repository or use the `shared` directory. Everyone can read and write to this directory. Please don't delete content that is not your own.
+
+### Open RStudio
+
+When you are in the Jupyter Lab tab (note the Jupyter Logo), you will see a Launcher page. If you don't see this, go to File \> New Launcher.
+
+Open RStudio by clicking on the "RStudio" box in the Launcher tab.
+
+### End your session
+
+When you are finished working for the day it is important to log out of the Jupyter Hub. When you keep a session active it uses up cloud resources (costs money) and keeps a series of virtual machines deployed.
+
+::: callout-caution
+You log out from the Jupyter Lab tab not the RStudio tab.
+:::
+
+**From the Jupyter Lab tab**, do one of two things to stop the server:
+
+-   Log out File -\> Log Out and click "Log Out"!
+-   or File -\> Hub Control Panel -\> Stop My Server
+
+::: callout-tip
+Can't find the Jupyter Lab tab? Go to <https://workshop.nmfs-openscapes.2i2c.cloud/hub/home>
+:::
+
+### Restart your server
+
+Sometimes the server will crash/stop. This can happen if too many people use a lot of memory all at once. If that happens, go to the Jupyter Lab tab and then File -\> Hub Control Panel -\> Stop My Server and then Start My Server. You shouldn't lose your work unless you were uploading a file.
+
+### Your files
+
+When you start your server, you will have access to your own virtual drive space. No other users will be able to see or access your files. You can upload files to your virtual drive space and save files here. You can create folders to organize your files. You personal directory is `home/jovyan`. Everyone has the same home directory but your files are separate and cannot be seen by others.
+
+There are a number of different ways to create new files. We will practice this in the RStudio lecture.
+
+### Will I lose all of my work?
+
+Logging out will **NOT** cause any of your work to be lost or deleted. It simply shuts down some resources. It would be equivalent to turning off your desktop computer at the end of the day.
+
+### Shared files
+
+In the file panel, you will see a folder called `shared`. These are read-only shared files.
+
+You will also see `shared-public`. This is a read-write folder for you to put files for everyone to see and use. You can create a team folder here for shared data and files. Note, everyone can see and change these so be careful to communicate with your team so multiple people don't work on the same file at the same time. You can also create folders for each team member and agree not to change other team members files.
+
+### FAQ
+
+**Why do we have the same home directory as /home/jovyan?** /home/jovyan is the default home directory for 'jupyter' based images/dockers. It is the historic home directory for Jupyter deployments.
+
+**Can other users see the files in my /home/jovyan folder?** No, other users can not see your credentials.
+
+## Basic Navigation
+
+![](images/paste-2.png)
+
+## Create an RStudio project
+
+1.  Open RStudio
+2.  **In the file panel**, click on the Home icon to make sure you are in your home directory
+3.  **From the file panel**, click "New Project" to create a new project
+4.  In the pop up, select New Directory and then New Project
+5.  Name it `sandbox`
+6.  Click on the dropdown in the upper right corner to select your `sandbox` project
+7.  Click on Tools \> Project Options \> General and change the first 2 options about saving and restoring the workspace to "No"
+
+## Installing packages
+
+In the bottom right panel, select the Packages tab, click install and then start typing the name of the package. Then click Install.
+
+The JupyterHub comes with many packages already installed so you shouldn't have to install many packages.
+
+When you want to use a package, you first need to load it with
+
+```         
+library(hello)
+```
+
+You will see this in the tutorials. You might also see something like
+
+```         
+hello::thefunction()
+```
+
+This is using `thefunction()` from the `hello` package.
+
+::: callout-note
+Python users. In R, you will always call a function like `funtion(object)` and **never** like `object.function()`. The exception is something called 'piping' in R, which I have never seen in Python. In this case you pass objects left to right. Like `object %>% function()`. Piping is very common in modern R but you won't see it much in R from 10 years ago.
+:::
+
+## Uploading and downloading files
+
+*Note, Upload and download is only for the JupyterHub not on RStudio on your computer.*
+
+### Uploading is easy.
+
+Look for the Upload button in the Files tab of the bottom right panel.
+
+### Download is less intuitive.
+
+1.  Click the checkbox next to the file you want to download. One only.
+2.  Click the "cog" icon in the Files tab of the bottom right panel. Then click Export.
+
+## Creating files
+
+When you start your server, you will have access to your own virtual drive space. No other users will be able to see or access your files. You can upload files to your virtual drive space and save files here. You can create folders to organize your files. Your personal directory is `home/rstudio` or `home/jovyan`. Everyone has the same home directory but your files are separate and cannot be seen by others.
+
+There are a number of different ways to create new files. Let's practice making new files in RStudio.
+
+### R Script
+
+1.  Open RStudio
+2.  **In the upper right**, make sure you are in your `sandbox` project.
+3.  **From the file panel**, click on "New Blank File" and create a new R script.
+4.  Paste
+
+```         
+print("Hello World")
+1+1
+```
+
+in the script. 7. Click the Source button (upper left of your new script file) to run this code. 8. Try putting your cursor on one line and running that line of code by clicking "Run" 9. Try selecting lines of code and running that by clicking "Run"
+
+### csv file
+
+1.  **From the file panel**, click on "New Blank File" and create a Text File.
+2.  The file will open in the top left corner. Paste in the following:
+
+```         
+name, place, value
+A, 1, 2
+B, 10, 20
+C, 100, 200
+```
+
+3.  Click the save icon (above your new file) to save your csv file
+
+### A Quarto document
+
+Now let's create some more complicated files using the RStudio template feature.
+
+1.  From the upper left, click File -\> New File -\> Quarto
+2.  Click "Ok" at the bottom.
+3.  When the file opens, click Render (icon at top of file).
+4.  It will ask for a name. Give it one and save.
+5.  You file will render into html.
+
+[Quarto Cheatsheet](https://rstudio.github.io/cheatsheets/html/quarto.html)
+
+### And many more
+
+Play around with creating other types of documents using templates. Especially if you already use RStudio.

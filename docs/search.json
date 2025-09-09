@@ -1,0 +1,203 @@
+[
+  {
+    "objectID": "index.html#psaw-2025-quarto-workshop---reproducible-science-using-quarto",
+    "href": "index.html#psaw-2025-quarto-workshop---reproducible-science-using-quarto",
+    "title": "NOAA Fisheries GitHub Clinic",
+    "section": "PSAW 2025 Quarto Workshop - Reproducible Science Using Quarto",
+    "text": "PSAW 2025 Quarto Workshop - Reproducible Science Using Quarto\nInstructor: Jon Peake (NWFSC, NMFS Open Science)\nDate: September 9th, 2025\n\nOverview\nReproducible reports are documents that combine analysis code, outputs (like plots or tables), and narratives to ensure that results can be easily replicated and verified by others. They are commonly used in scientific research, data science, and analytics to maintain transparency and reliability. By incorporating both the code and results into one document (or a collection of documents), anyone can run the same analysis on the same data (or updated data) and obtain the same results. Quarto is a software that combines Markdown language and scientific code to produce high-quality, reproducible reports.\n\n\nAims and Objectives of this Quarto workshop\nWe will discuss the basics of Quarto and how to leverage this tool to take reproducible science to the next level. During this workshop, participants will:\n\nUnderstand what Quarto is and why we use it for reproducible science\nLearn about Markdown language and how Quarto uses it\nIntegrate dynamic output from code into Quarto documents\nExplore the different formats that Quarto can produce",
+    "crumbs": [
+      "JupyterHub",
+      "Welcome"
+    ]
+  },
+  {
+    "objectID": "index.html#prerequisites",
+    "href": "index.html#prerequisites",
+    "title": "NOAA Fisheries GitHub Clinic",
+    "section": "Prerequisites",
+    "text": "Prerequisites\nThis training session is targeted at staff interested in learning how to use Quarto for reproducible science. No prior experience with Quarto is required, although a general understanding of either R or Python is suggested. Attendees will follow along with interactive tutorials on the NMFS JupyterHub, which is a shared developing environment accessed through the internet browser. No additional software is required for this workshop.",
+    "crumbs": [
+      "JupyterHub",
+      "Welcome"
+    ]
+  },
+  {
+    "objectID": "index.html#agenda-all-times-are-pacific-daylight-time",
+    "href": "index.html#agenda-all-times-are-pacific-daylight-time",
+    "title": "NOAA Fisheries GitHub Clinic",
+    "section": "Agenda (all times are Pacific Daylight Time)",
+    "text": "Agenda (all times are Pacific Daylight Time)\n\n10:30-10:40 What is Quarto?\n10:40-11:00 Introduction to JupyterHub and RStudio\n11:00-12:00 Working with Quarto files and Markdown\n12:00-12:15 Break\n12:15-13:15 Dynamic content in Quarto\n13:15-14:00 Quarto Projects and other formats",
+    "crumbs": [
+      "JupyterHub",
+      "Welcome"
+    ]
+  },
+  {
+    "objectID": "content/projects_formats.html",
+    "href": "content/projects_formats.html",
+    "title": "Introduction to Quarto Projects",
+    "section": "",
+    "text": "Learning Objectives\n\n\n\n\nCreate a Quarto project\nLearn about the different formats available for a Quarto project\nLearn about using global options for project-level settings\n\n\n\nFor this session, we will be covering the following topic:\n\nhttps://carpentries-incubator.github.io/reproducible-publications-quarto/09-advanced-chunk.html\n\nYou may notice that the title of today’s Carpentries tutorial is “Advanced Code Chunk Options”; this tutorial covers some of the options that we can use for controlling output of a Quarto project. Some of the material we will cover in this session is explained a bit more here (https://r4ds.hadley.nz/quarto-formats#websites-and-books) and here (https://quarto-tdg.org/projects).",
+    "crumbs": [
+      "JupyterHub",
+      "Tutorials",
+      "Introduction to Quarto Projects"
+    ]
+  },
+  {
+    "objectID": "content/dynamic_content.html",
+    "href": "content/dynamic_content.html",
+    "title": "Dynamic output in Quarto files: Code, Tables, and Figures",
+    "section": "",
+    "text": "For this session, we will be covering the following topics:",
+    "crumbs": [
+      "JupyterHub",
+      "Tutorials",
+      "Dynamic output in Quarto files: Code, Tables, and Figures"
+    ]
+  },
+  {
+    "objectID": "content/dynamic_content.html#more-practice-with-code-chunks",
+    "href": "content/dynamic_content.html#more-practice-with-code-chunks",
+    "title": "Dynamic output in Quarto files: Code, Tables, and Figures",
+    "section": "More practice with Code Chunks",
+    "text": "More practice with Code Chunks\nThe Carpentries tutorials provide a good introduction to code chunks, but you may want some more practice. The Quarto workshop from posit::conf(2024) slide deck includes some extra examples for integrating dynamic code into Quarto documents: https://posit-conf-2024.github.io/quarto-intro/materials/1-single-docs/1-welcome-to-quarto/slides.html#/code-cells\nWe will walk through some of the features discussed in this slide deck, but feel free to click through on your own for some additional practice.\nCode chunk options let you control the output of a code chunk in a YAML-like header at the beginning of the chunk. We will go over a few of these options in this week’s sessions, but there are many more options available than what we will cover. Use this reference guide for the options available in an R code chunk.",
+    "crumbs": [
+      "JupyterHub",
+      "Tutorials",
+      "Dynamic output in Quarto files: Code, Tables, and Figures"
+    ]
+  },
+  {
+    "objectID": "content/intro.html",
+    "href": "content/intro.html",
+    "title": "Introduction to Quarto",
+    "section": "",
+    "text": "Quarto is a multi-language, next-generation version of R Markdown from Posit. It includes new features and capabilities while being able to render most existing Rmd files without any modification. With Quarto, you can:",
+    "crumbs": [
+      "JupyterHub",
+      "Tutorials",
+      "Introduction to Quarto"
+    ]
+  },
+  {
+    "objectID": "content/intro.html#quarto-and-reproducibility-a-primer",
+    "href": "content/intro.html#quarto-and-reproducibility-a-primer",
+    "title": "Introduction to Quarto",
+    "section": "Quarto and Reproducibility: A primer",
+    "text": "Quarto and Reproducibility: A primer",
+    "crumbs": [
+      "JupyterHub",
+      "Tutorials",
+      "Introduction to Quarto"
+    ]
+  },
+  {
+    "objectID": "content/intro.html#rstudio-and-jupyterhub",
+    "href": "content/intro.html#rstudio-and-jupyterhub",
+    "title": "Introduction to Quarto",
+    "section": "RStudio and JupyterHub",
+    "text": "RStudio and JupyterHub\nAlthough we can use Quarto in a number of software editors, the most common is RStudio. For the remainder of this workshop, we’ll be using RStudio through the NMFS Openscapes JupyterHub. JupyterHub is a shared resource that gives users access to computational environments and resources without burdening the users with installation and maintenance tasks. Users can get their work done in their own workspaces on shared resources which can be managed efficiently by system administrators.\n\nLog into the JupyterHub\nGo to https://workshop.nmfs-openscapes.2i2c.cloud/. In the Sign in box, enter your email address as your username. See the workshop chat for the password. Click “Sign in”.\n\n\nImage type: Python, R, or both\nNext you select your image type. For this workshop, we will be using a custom image.\n\nUnder Image, select “Other…”.\nIn the box where it says Custom image, paste in the following link: ghcr.io/nmfs-opensci/container-images/psaw-workshop:latest\nJupyterHub instances let you choose your resource allocation. Generally, we want to choose the smallest size we need for our particular task. For our purposes, we will need a little bit more RAM than the default. In the Resource Allocation dropdown, select “3.7 GB RAM, upto 3.7 CPUs”.\n\nYour page should look like this:\n\n\nClick Start to start your JupyterHub instance. It can take a while for your instance to spin up initially, so you might need to be a little patient.\n\n\n\nFile System\nIn both Jupyter Lab and RStudio you will see your home directory of files.\n\nhome directory is yours and no one else can see it.\nTo share files, you can connect to a GitHub repository or use the shared directory. Everyone can read and write to this directory. Please don’t delete content that is not your own.\n\n\n\nOpen RStudio\nWhen you are in the Jupyter Lab tab (note the Jupyter Logo), you will see a Launcher page. If you don’t see this, go to File &gt; New Launcher.\nOpen RStudio by clicking on the “RStudio” box in the Launcher tab.\n\n\nEnd your session\nWhen you are finished working for the day it is important to log out of the Jupyter Hub. When you keep a session active it uses up cloud resources (costs money) and keeps a series of virtual machines deployed.\n\n\n\n\n\n\nCaution\n\n\n\nYou log out from the Jupyter Lab tab not the RStudio tab.\n\n\nFrom the Jupyter Lab tab, do one of two things to stop the server:\n\nLog out File -&gt; Log Out and click “Log Out”!\nor File -&gt; Hub Control Panel -&gt; Stop My Server\n\n\n\n\n\n\n\nTip\n\n\n\nCan’t find the Jupyter Lab tab? Go to https://workshop.nmfs-openscapes.2i2c.cloud/hub/home\n\n\n\n\nRestart your server\nSometimes the server will crash/stop. This can happen if too many people use a lot of memory all at once. If that happens, go to the Jupyter Lab tab and then File -&gt; Hub Control Panel -&gt; Stop My Server and then Start My Server. You shouldn’t lose your work unless you were uploading a file.\n\n\nYour files\nWhen you start your server, you will have access to your own virtual drive space. No other users will be able to see or access your files. You can upload files to your virtual drive space and save files here. You can create folders to organize your files. You personal directory is home/jovyan. Everyone has the same home directory but your files are separate and cannot be seen by others.\nThere are a number of different ways to create new files. We will practice this in the RStudio lecture.\n\n\nWill I lose all of my work?\nLogging out will NOT cause any of your work to be lost or deleted. It simply shuts down some resources. It would be equivalent to turning off your desktop computer at the end of the day.\n\n\nShared files\nIn the file panel, you will see a folder called shared. These are read-only shared files.\nYou will also see shared-public. This is a read-write folder for you to put files for everyone to see and use. You can create a team folder here for shared data and files. Note, everyone can see and change these so be careful to communicate with your team so multiple people don’t work on the same file at the same time. You can also create folders for each team member and agree not to change other team members files.\n\n\nFAQ\nWhy do we have the same home directory as /home/jovyan? /home/jovyan is the default home directory for ‘jupyter’ based images/dockers. It is the historic home directory for Jupyter deployments.\nCan other users see the files in my /home/jovyan folder? No, other users can not see your credentials.",
+    "crumbs": [
+      "JupyterHub",
+      "Tutorials",
+      "Introduction to Quarto"
+    ]
+  },
+  {
+    "objectID": "content/intro.html#basic-navigation",
+    "href": "content/intro.html#basic-navigation",
+    "title": "Introduction to Quarto",
+    "section": "Basic Navigation",
+    "text": "Basic Navigation",
+    "crumbs": [
+      "JupyterHub",
+      "Tutorials",
+      "Introduction to Quarto"
+    ]
+  },
+  {
+    "objectID": "content/intro.html#create-an-rstudio-project",
+    "href": "content/intro.html#create-an-rstudio-project",
+    "title": "Introduction to Quarto",
+    "section": "Create an RStudio project",
+    "text": "Create an RStudio project\n\nOpen RStudio\nIn the file panel, click on the Home icon to make sure you are in your home directory\nFrom the file panel, click “New Project” to create a new project\nIn the pop up, select New Directory and then New Project\nName it sandbox\nClick on the dropdown in the upper right corner to select your sandbox project\nClick on Tools &gt; Project Options &gt; General and change the first 2 options about saving and restoring the workspace to “No”",
+    "crumbs": [
+      "JupyterHub",
+      "Tutorials",
+      "Introduction to Quarto"
+    ]
+  },
+  {
+    "objectID": "content/intro.html#installing-packages",
+    "href": "content/intro.html#installing-packages",
+    "title": "Introduction to Quarto",
+    "section": "Installing packages",
+    "text": "Installing packages\nIn the bottom right panel, select the Packages tab, click install and then start typing the name of the package. Then click Install.\nThe JupyterHub comes with many packages already installed so you shouldn’t have to install many packages.\nWhen you want to use a package, you first need to load it with\nlibrary(hello)\nYou will see this in the tutorials. You might also see something like\nhello::thefunction()\nThis is using thefunction() from the hello package.\n\n\n\n\n\n\nNote\n\n\n\nPython users. In R, you will always call a function like funtion(object) and never like object.function(). The exception is something called ‘piping’ in R, which I have never seen in Python. In this case you pass objects left to right. Like object %&gt;% function(). Piping is very common in modern R but you won’t see it much in R from 10 years ago.",
+    "crumbs": [
+      "JupyterHub",
+      "Tutorials",
+      "Introduction to Quarto"
+    ]
+  },
+  {
+    "objectID": "content/intro.html#uploading-and-downloading-files",
+    "href": "content/intro.html#uploading-and-downloading-files",
+    "title": "Introduction to Quarto",
+    "section": "Uploading and downloading files",
+    "text": "Uploading and downloading files\nNote, Upload and download is only for the JupyterHub not on RStudio on your computer.\n\nUploading is easy.\nLook for the Upload button in the Files tab of the bottom right panel.\n\n\nDownload is less intuitive.\n\nClick the checkbox next to the file you want to download. One only.\nClick the “cog” icon in the Files tab of the bottom right panel. Then click Export.",
+    "crumbs": [
+      "JupyterHub",
+      "Tutorials",
+      "Introduction to Quarto"
+    ]
+  },
+  {
+    "objectID": "content/intro.html#creating-files",
+    "href": "content/intro.html#creating-files",
+    "title": "Introduction to Quarto",
+    "section": "Creating files",
+    "text": "Creating files\nWhen you start your server, you will have access to your own virtual drive space. No other users will be able to see or access your files. You can upload files to your virtual drive space and save files here. You can create folders to organize your files. Your personal directory is home/rstudio or home/jovyan. Everyone has the same home directory but your files are separate and cannot be seen by others.\nThere are a number of different ways to create new files. Let’s practice making new files in RStudio.\n\nR Script\n\nOpen RStudio\nIn the upper right, make sure you are in your sandbox project.\nFrom the file panel, click on “New Blank File” and create a new R script.\nPaste\n\nprint(\"Hello World\")\n1+1\nin the script. 7. Click the Source button (upper left of your new script file) to run this code. 8. Try putting your cursor on one line and running that line of code by clicking “Run” 9. Try selecting lines of code and running that by clicking “Run”\n\n\ncsv file\n\nFrom the file panel, click on “New Blank File” and create a Text File.\nThe file will open in the top left corner. Paste in the following:\n\nname, place, value\nA, 1, 2\nB, 10, 20\nC, 100, 200\n\nClick the save icon (above your new file) to save your csv file\n\n\n\nA Quarto document\nNow let’s create some more complicated files using the RStudio template feature.\n\nFrom the upper left, click File -&gt; New File -&gt; Quarto\nClick “Ok” at the bottom.\nWhen the file opens, click Render (icon at top of file).\nIt will ask for a name. Give it one and save.\nYou file will render into html.\n\nQuarto Cheatsheet\n\n\nAnd many more\nPlay around with creating other types of documents using templates. Especially if you already use RStudio.",
+    "crumbs": [
+      "JupyterHub",
+      "Tutorials",
+      "Introduction to Quarto"
+    ]
+  },
+  {
+    "objectID": "content/quarto_markdown.html#instructions-for-cloning-the-carpentries-example-repository",
+    "href": "content/quarto_markdown.html#instructions-for-cloning-the-carpentries-example-repository",
+    "title": "Working with Quarto Files and the Markdown Language",
+    "section": "Instructions for Cloning the Carpentries Example Repository",
+    "text": "Instructions for Cloning the Carpentries Example Repository\nThe Carpentries tutorials we are using will require you to “clone” the GitHub repository that contains the course material for future sessions. We won’t be digging into GitHub in this workshop, and we don’t expect you to have a GitHub account. Cloning the repository will allow you to work with the content of the repository, but you will not be able to commit your changes to the repository.\n\nIn RStudio (either in JupyterHub or desktop), go to the File menu and click New Project.\nIn the dialogue box that pops up, click Version Control, then Git.\nPaste the following URL from GitHub into the URL box: https://github.com/UCSBCarpentry/Quarto-Project-Example (the Project directory name will auto-populate). RStudio will create a folder as a subdirectory that includes all of the files from the cloned repository.\nClick Create Project, and RStudio will download the repository and create the project for you.",
+    "crumbs": [
+      "JupyterHub",
+      "Tutorials",
+      "Working with Quarto Files and the Markdown Language"
+    ]
+  },
+  {
+    "objectID": "content/quarto_markdown.html#todays-carpentries-tutorials",
+    "href": "content/quarto_markdown.html#todays-carpentries-tutorials",
+    "title": "Working with Quarto Files and the Markdown Language",
+    "section": "Today’s Carpentries Tutorials",
+    "text": "Today’s Carpentries Tutorials\nDuring these workshops, we will be using the Carpentries Incubator Reproducible Publications with RStudio set of tutorials from UCSB (https://carpentries-incubator.github.io/reproducible-publications-quarto/) for most of our content. While we will be walking everyone through the tutorials, it may be helpful for you to look through the tutorials prior to attending. This will give you a feel for what we will be covering during each session, and will highlight some areas where you may need some additional work or assistance.\nFor this session, we will be covering the following topics:\n\nhttps://carpentries-incubator.github.io/reproducible-publications-quarto/05-quarto-documents.html\nhttps://carpentries-incubator.github.io/reproducible-publications-quarto/06-writing-styling.html",
+    "crumbs": [
+      "JupyterHub",
+      "Tutorials",
+      "Working with Quarto Files and the Markdown Language"
+    ]
+  },
+  {
+    "objectID": "content/quarto_markdown.html#more-practice-with-yaml-and-markdown",
+    "href": "content/quarto_markdown.html#more-practice-with-yaml-and-markdown",
+    "title": "Working with Quarto Files and the Markdown Language",
+    "section": "More practice with YAML and Markdown",
+    "text": "More practice with YAML and Markdown\nThe Carpentries tutorials provide a good introduction to YAML and editing in the Visual Editor, but you may want some more practice with YAML and editing in markdown. The Quarto workshop from posit::conf(2024) provides a slide deck for playing around with YAML and markdown languages: https://posit-conf-2024.github.io/quarto-intro/materials/1-single-docs/1-welcome-to-quarto/slides.html#/anatomy-of-a-document\nWe will walk through some of the features discussed in this slide deck, but feel free to click through on your own for some additional practice.",
+    "crumbs": [
+      "JupyterHub",
+      "Tutorials",
+      "Working with Quarto Files and the Markdown Language"
+    ]
+  }
+]

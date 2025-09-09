@@ -1,0 +1,15 @@
+---
+title: Introduction to Quarto Projects
+---
+
+::: {.callout-note title="Learning Objectives"}
+1.  Create a Quarto project
+2.  Learn about the different formats available for a Quarto project
+3.  Learn about using global options for project-level settings
+:::
+
+For this session, we will be covering the following topic:
+
+1.  <https://carpentries-incubator.github.io/reproducible-publications-quarto/09-advanced-chunk.html>
+
+You may notice that the title of today's Carpentries tutorial is "Advanced Code Chunk Options"; this tutorial covers some of the options that we can use for controlling output of a Quarto project. Some of the material we will cover in this session is explained a bit more here (<https://r4ds.hadley.nz/quarto-formats#websites-and-books>) and here (<https://quarto-tdg.org/projects>).

@@ -1,0 +1,39 @@
+---
+title: Working with Quarto Files and the Markdown Language
+---
+
+::: {.callout-note title="Learning Objectives"}
+1.  Understand what Quarto is and its applications.
+2.  Learn about the structure of a quarto document.
+3.  Learn how a quarto document works.
+4.  Learn how to render a .qmd file into an output format.
+5.  Apply formatting and styling using the visual editor and markdown
+6.  Learn how to add inline code to your .qmd document.
+:::
+
+## Instructions for Cloning the Carpentries Example Repository
+
+The Carpentries tutorials we are using will require you to "clone" the [GitHub repository](https://github.com/UCSBCarpentry/Quarto-Project-Example) that contains the course material for future sessions. We won't be digging into GitHub in this workshop, and we don't expect you to have a GitHub account. Cloning the repository will allow you to work with the content of the repository, but you will not be able to commit your changes to the repository.
+
+1.  In RStudio (either in JupyterHub or desktop), go to the File menu and click New Project.
+
+2.  In the dialogue box that pops up, click Version Control, then Git.
+
+3.  Paste the following URL from GitHub into the URL box: <https://github.com/UCSBCarpentry/Quarto-Project-Example> (the Project directory name will auto-populate). RStudio will create a folder as a subdirectory that includes all of the files from the cloned repository.
+
+4.  Click Create Project, and RStudio will download the repository and create the project for you.
+
+## Today's Carpentries Tutorials
+
+During these workshops, we will be using the Carpentries Incubator Reproducible Publications with RStudio set of tutorials from UCSB (<https://carpentries-incubator.github.io/reproducible-publications-quarto/>) for most of our content. While we will be walking everyone through the tutorials, it may be helpful for you to look through the tutorials prior to attending. This will give you a feel for what we will be covering during each session, and will highlight some areas where you may need some additional work or assistance.
+
+For this session, we will be covering the following topics:
+
+1.  <https://carpentries-incubator.github.io/reproducible-publications-quarto/05-quarto-documents.html>
+2.  <https://carpentries-incubator.github.io/reproducible-publications-quarto/06-writing-styling.html>
+
+## More practice with YAML and Markdown
+
+The Carpentries tutorials provide a good introduction to YAML and editing in the Visual Editor, but you may want some more practice with YAML and editing in markdown. The [Quarto workshop](https://posit-conf-2024.github.io/quarto-intro/) from [posit::conf(2024)](https://posit.co/conference/) provides a slide deck for playing around with YAML and markdown languages: <https://posit-conf-2024.github.io/quarto-intro/materials/1-single-docs/1-welcome-to-quarto/slides.html#/anatomy-of-a-document>
+
+We will walk through some of the features discussed in this slide deck, but feel free to click through on your own for some additional practice.

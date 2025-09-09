@@ -1,0 +1,23 @@
+---
+title: 'Dynamic output in Quarto files: Code, Tables, and Figures'
+---
+
+::: {.callout-note title="Learning Objectives"}
+1.  Learn about rendering engines and how they work
+2.  Understand the structure and format of a code chunk
+3.  Learn how to insert dynamic variables into a Quarto document
+4.  Create formatted tables and figures using Quarto code chunks
+:::
+
+For this session, we will be covering the following topics:
+
+1.  <https://carpentries-incubator.github.io/reproducible-publications-quarto/07-code-qmd.html>
+2.  <https://carpentries-incubator.github.io/reproducible-publications-quarto/08-rendering-code-yaml.html>
+
+## More practice with Code Chunks
+
+The Carpentries tutorials provide a good introduction to code chunks, but you may want some more practice. The [Quarto workshop](https://posit-conf-2024.github.io/quarto-intro/) from [posit::conf(2024)](https://posit.co/conference/) slide deck includes some extra examples for integrating dynamic code into Quarto documents: <https://posit-conf-2024.github.io/quarto-intro/materials/1-single-docs/1-welcome-to-quarto/slides.html#/code-cells>
+
+We will walk through some of the features discussed in this slide deck, but feel free to click through on your own for some additional practice.
+
+Code chunk options let you control the output of a code chunk in a YAML-like header at the beginning of the chunk. We will go over a few of these options in this week's sessions, but there are many more options available than what we will cover. Use [this reference guide](https://quarto.org/docs/reference/cells/cells-knitr.html) for the options available in an R code chunk.

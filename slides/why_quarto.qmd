@@ -18,4 +18,34 @@ format:
         scrollable: true
 ---
 
-##
+## What is a reproducible report?
+
+-   Documents that combine analysis code, outputs and narratives
+
+-   Ensure that results can be easily replicated and verified by others
+
+-   Commonly used in scientific research, data science, and analytics to maintain transparency and reliability
+
+-   Anyone can run same analysis on same (or similar) data and obtain same (or similar) results
+
+## Why make science reproducible?
+
+-   Avoid data loss and disaster
+
+-   Easier to write papers and reports
+
+-   Help reviewers see it your way
+
+-   Enable continuity of your work
+
+-   Build your reputation
+
+## Quarto for reproducibility
+
+-   Open-source scientific and technical publishing system
+
+-   Natural successor to RMarkdown
+
+-   Polyglot (multiple languages)
+
+-   Can produce documents in multiple formats

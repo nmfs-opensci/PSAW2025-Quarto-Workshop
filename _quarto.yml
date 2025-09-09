@@ -42,11 +42,13 @@ website:
     contents:
       - section: "Welcome"
         href: index.qmd
-        contents:
-          - content/coc.md
+      - section: "Getting Started"
       - section: "Tutorials"
         contents:
-          - content/intro/intro.qmd
+          - content/intro.qmd
+          - content/quarto_markdown.qmd
+          - content/dynamic_content.qmd
+          - content/projects_formats.qmd
       # - href: content/resources.qmd
       - text: "Resources: Coming soon!"
       - text: <img width=100px>
